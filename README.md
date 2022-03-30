@@ -1,5 +1,5 @@
-# Learning C# Microservices - Step by Step
+# Learning HTML & CSS - Modern From The Beginning
 
-Based on [.NET Microservices – Full Course](https://youtu.be/DgVjEo3OGBI).
+Based on this course [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/).
 
-Original code is available [here](https://github.com/binarythistle/S04E03---.NET-Microservices-Course-).
+Original course materials can be found [here](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass).
