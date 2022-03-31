@@ -4,7 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Divs &amp; Spans &mp; IDs</title>
+    <title>Divs &amp; Spans &amp; IDs</title>
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: yellow;
+        background-color: black;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="card" id="main-header">
+      <h1>My Website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+    <div class="card" id="about">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span class="enhance"
+          >Temporibus quisquam non id delectus sint nam eum fugit dolor sit quia
+          numquam cupiditate dicta totam deserunt nihil illo possimus, facilis
+          modi!</span
+        >
+      </p>
+    </div>
+    <div class="card" id="contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Address: Street X, City, ST</li>
+        <li>Phone: XXX-XXX-XXX</li>
+        <li>Email: jdoe@unknown.com</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <p>Copyright &copy; 2022</p>
+    </div>
+  </body>
 </html>
