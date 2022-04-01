@@ -4,7 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Selectors</title>
+    <style>
+      /* Element selector */
+      body {
+        background-color: #333;
+      }
+
+      /* Class selector */
+      .primary-heading {
+        color: green;
+      }
+
+      /* ID selector */
+      #welcome {
+        background-color: #f4f4f4;
+      }
+
+      /* Multiple selectors */
+      #welcome,
+      #about {
+        border: 1px solid;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+
+      /* Nested element selector */
+      #welcome p {
+        font-size: 30px;
+      }
+
+      #about {
+        color: white;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        fugit?
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum amet a,
+        excepturi saepe corporis obcaecati nam blanditiis, maiores, architecto
+        omnis illo. Minima temporibus mollitia delectus id accusamus adipisci
+        obcaecati perferendis!
+      </p>
+    </div>
+  </body>
 </html>
