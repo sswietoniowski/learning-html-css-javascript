@@ -4,7 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Positioning</title>
+    <style>
+      body {
+        height: 4000px;
+      }
+      .container {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background-color: lightgrey;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+      #box-1 {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        background: red;
+        z-index: 1;
+      }
+      #box-2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background: green;
+      }
+      #box-3 {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        background: blue;
+      }
+      #box-4 {
+        position: fixed;
+        background: yellow;
+      }
+      #box-5 {
+        position: sticky;
+        top: 0;
+        background: orange;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="box" id="box-1"></div>
+    <div class="container">
+      <div class="box" id="box-2"></div>
+      <div class="box" id="box-3"></div>
+    </div>
+    <div class="box" id="box-4"></div>
+    <div class="box" id="box-5"></div>
+  </body>
 </html>
