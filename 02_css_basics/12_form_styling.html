@@ -4,7 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form styling</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: rgb(0, 60, 139);
+      }
+      .container {
+        max-width: 300px;
+        padding: 15px 20px;
+        margin: 30px auto;
+        background: white;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form action="">
+        <h1>Sign Up</h1>
+        <h2>It's free and only takes a minute</h2>
+        <label for="first-name">First Name</label>
+        <br />
+        <input type="text" id="first-name" name="first-name" />
+        <br />
+        <label for="last-name">Last Name</label>
+        <br />
+        <input type="text" id="last-name" name="last-name" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" name="email" />
+        <br />
+        <label for="password">Password</label>
+        <br />
+        <input type="password" id="password" name="password" />
+        <br />
+        <label for="confirm-password">Confirm Password</label>
+        <br />
+        <input type="password" id="confirm-password" name="confirm-password" />
+        <br />
+        <input type="submit" value="Sign Up" />
+        <p>
+          By clicking the Sign Up button, you agree to our
+          <a href="">Terms & Conditions and Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+  </body>
 </html>
