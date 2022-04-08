@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Basics</title>
+    <style>
+      #container {
+        display: flex;
+        flex-direction: row;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+      }
+      .item {
+        background: #f4f4f4;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        text-align: center;
+        flex: 1;
+        margin: 0.75rem;
+      }
+      .item:first-child {
+        flex: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item"><h3>Item 1</h3></div>
+      <div class="item"><h3>Item 2</h3></div>
+      <!-- <div class="item"><h3>Item 3</h3></div> -->
+    </div>
+  </body>
+</html>
