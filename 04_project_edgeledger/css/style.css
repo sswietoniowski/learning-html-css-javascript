@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* Reset & General Stuff */
-
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
 }
 
 a {
@@ -23,6 +23,35 @@ p {
 /* Utility Classes */
 .text-primary {
   color: #93cb52;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #93cb52;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #7ab436;
+}
+
+.btn-dark {
+  color: #fff;
+  background: #333;
 }
 
 /* Navbar */
@@ -52,4 +81,26 @@ p {
 #navbar ul li a:hover {
   background: #93cb52;
   border-radius: 5px;
+}
+
+/* Header: Showcase */
+#showcase {
+  background: #333 url('../img/showcase.jpg') no-repeat center center / cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
