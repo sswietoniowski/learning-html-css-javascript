@@ -1,6 +1,6 @@
 # Learning HTML & CSS & JavaScript - Modern From The Beginning
 
-Based on this courses:
+Based on these courses:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/),
 - [Modern JavaScript From The Beginning
