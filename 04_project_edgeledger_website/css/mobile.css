@@ -15,3 +15,63 @@
   margin-bottom: 0;
   align-self: center;
 }
+
+@media screen and (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 110px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #clients .items img {
+    width: 80%;
+  }
+
+  #clients .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  #showcase .showcase-content {
+    top: 140px;
+    margin-top: -2rem;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
