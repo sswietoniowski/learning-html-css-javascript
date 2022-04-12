@@ -28,8 +28,8 @@
     <!-- Navbar -->
     <nav id="navbar">
       <h1 class="logo">
-        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>
-        Ledger
+        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
+        >Ledger
       </h1>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -116,7 +116,7 @@
 
     <!-- Section: Clients -->
     <section id="clients" class="p-1">
-      <div id="container">
+      <div class="container">
         <h2 class="m-heading text-center">
           <span class="text-primary">Our</span> Clients
         </h2>
@@ -172,17 +172,27 @@
       <div class="map"></div>
     </section>
 
-    <script src="js/main.js"></script>
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRfnAjTk4ln7yo73JJ3WzznvjVVuUOz0A&callback=initMap"
-    ></script>
-
     <!-- Footer -->
-    <footer id="main-footer" class="bg-dark text-centered py-1">
+    <footer id="main-footer" class="bg-dark text-center py-1">
       <div class="container">
         <p>Copyright &copy; 2022, EdgeLedger, All Rights Reserved</p>
       </div>
     </footer>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRfnAjTk4ln7yo73JJ3WzznvjVVuUOz0A&callback=initMap"
+    ></script>
   </body>
 </html>
