@@ -7,3 +7,7 @@ Based on these courses:
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/).
 
 Original course materials can be found [here](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) and [here](https://github.com/packtpublishing/modern-javascript-from-the-beginning).
+
+This is (sort of) continuation of these project(-s):
+
+- [Learning JavaScript & ES6 - Accelerated Training](https://github.com/sswietoniowski/learning-javascript-and-es6-accelerated-training)
