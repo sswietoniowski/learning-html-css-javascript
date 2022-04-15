@@ -34,8 +34,8 @@ const myFunction = () => {
 };
 // dates
 let birthDate = new Date();
-// anything else
 
+// Print different types
 console.log(typeof name);
 console.log(typeof age);
 console.log(typeof hasKids);
@@ -48,3 +48,45 @@ console.log(typeof myFunction);
 console.log(typeof birthDate);
 
 // Type Conversion
+let val;
+
+// Number to string
+val = 5;
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
+val = String(val);
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
+// Boolean to string
+val = String(true);
+// val = val.toString();
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
+// Same for other data types
+// Date to string
+// Array to string
+// Object to string
+
+// String to number
+val = Number('5');
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+console.log((3.141592654).toFixed(2)); // works only with numbers
+// some other examples
+val = Number(true); // 1 (true), 0 (false), null (0), 'hello' (NaN), [1, 2, 3] (NaN), {name: 'John'} (NaN)
+val = parseInt('100'); // parseFloat()
+console.log(val);
+
+// Type Coersion
+const val1 = 5;
+const val2 = '6';
+const sum = val1 + val2; // string + number => string, number + string => string
+console.log(sum);
+console.log(typeof sum);
