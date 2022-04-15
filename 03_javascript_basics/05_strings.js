@@ -44,7 +44,7 @@ Input: new string[] {"10", "2", "2", "#", "1", "1", "#"}
 Output: true
 */
 const isSymmetric = (strArr, start, end) => {
-  let length = end - start + 1;
+  const length = end - start + 1;
   for (let i = 0; i < Math.floor(length / 2); i++) {
     if (strArr[start + i] !== strArr[end - i]) {
       return false;
@@ -54,7 +54,7 @@ const isSymmetric = (strArr, start, end) => {
 };
 
 const symmetricTree = (strArr) => {
-  let lastIndex = strArr.length - 1;
+  const lastIndex = strArr.length - 1;
   let power = 1;
   let start = 1;
   let length = Math.pow(2, power);
