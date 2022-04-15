@@ -23,3 +23,40 @@ console.log(val.includes('John')); // tests whether a string contains another st
 
 // String interpolation
 console.log(`${firstName} ${lastName}`); // ES6, but compatible with all modern browsers
+
+const isSymmetric = (strArr, start, end) => {
+  let length = end - start + 1;
+  for (let i = 0; i < Math.floor(length / 2); i++) {
+    if (strArr[start + i] !== strArr[end - i]) {
+      return false;
+    }
+  }
+  return true;
+};
+
+const symmetricTree = (strArr) => {
+  let lastIndex = strArr.length - 1;
+  let power = 1;
+  let start = 1;
+  let length = Math.pow(2, power);
+  let end = start + length - 1;
+  while (end <= lastIndex) {
+    if (!isSymmetric(strArr, start, end)) {
+      return false;
+    }
+    power++;
+    start = end + 1;
+    length = Math.pow(2, power);
+    end = start + length - 1;
+  }
+  return true;
+};
+
+strArr = ['1', '2', '2', '3', '#', '#', '3'];
+console.log(symmetricTree(strArr));
+
+strArr = ['4', '3', '4'];
+console.log(symmetricTree(strArr));
+
+strArr = ['10', '2', '2', '#', '1', '1', '#'];
+console.log(symmetricTree(strArr));
