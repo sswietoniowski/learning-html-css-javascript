@@ -42,3 +42,5 @@ console.log(numbers);
 numbers.push(11);
 console.log(numbers);
 // Const is preferred this days
+
+// Block scope with let & const
