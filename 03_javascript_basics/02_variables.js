@@ -44,3 +44,34 @@ console.log(numbers);
 // Const is preferred this days
 
 // Block scope with let & const
+
+// Global Scope
+var a = 1;
+let b = 2;
+const c = 3;
+
+console.log('Global scope: ', a, b, c);
+
+function test() {
+  var a = 4;
+  let b = 5;
+  const c = 6;
+
+  console.log('Local scope: ', a, b, c);
+}
+
+test();
+
+if (true) {
+  // Block scope
+  var a = 7; // a would be redefined in the global scope (var is "weird" and not block scope, so these days it is not recommended)
+  let b = 8;
+  const c = 9;
+
+  console.log('If block scope: ', a, b, c);
+}
+
+console.log('Global scope: ', a, b, c);
+
+// var has function scope
+// let and const have block scope (as it should be in most cases)
