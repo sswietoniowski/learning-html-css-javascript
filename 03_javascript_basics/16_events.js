@@ -15,3 +15,7 @@ function onClick(event) {
   console.log(event.offsetY);
 }
 document.querySelector('#btn').addEventListener('click', onClick);
+
+// There are many different types of events:
+// 'click', 'dblclick', 'mouseenter', 'mouseleave', 'mousedown', 'mouseup', 'mouseover', 'mouseout', 'mousemove', 'contextmenu'
+// 'submit', 'keydown', 'keyup', 'keypress', 'focus', 'blur', 'change', 'input', 'cut', 'copy', 'paste', 'reset', 'select'
