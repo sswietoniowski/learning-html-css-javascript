@@ -138,12 +138,17 @@ function clearTasks() {
   // taskList.innerHTML = '';
   // 2nd method
   while (taskList.firstChild) {
-    // Remove from LS
-    removeTaskFromLocalStorage(taskList.firstChild);
-
     taskList.removeChild(taskList.firstChild);
   }
   // 2nd method is much faster: https://coderwall.com/p/nygghw/don-t-use-innerhtml-to-empty-dom-elements
+
+  // Clear from LS
+  clearTasksFromLocalStorage();
+}
+
+// Clear tasks from LS
+function clearTasksFromLocalStorage() {
+  localStorage.clear();
 }
 
 function filterTasks(e) {
