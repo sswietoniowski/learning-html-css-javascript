@@ -53,6 +53,12 @@ function calculateResults(e) {
 
 // Show error
 function showError(error) {
+  // Hide results
+  document.getElementById('results').style.display = 'none';
+
+  // Hide loader
+  document.getElementById('loading').style.display = 'none';
+
   // Create a div
   const errorDiv = document.createElement('div');
 
