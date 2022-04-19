@@ -10,8 +10,13 @@ GAME FUNCTION:
 // Game values
 let min = 1,
   max = 10;
-let winningNum = 2;
+let winningNum = getWinningNum(min, max);
 let guessesLeft = 3;
+
+// Get winning number
+function getWinningNum(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
 
 // UI Elements
 const game = document.querySelector('#game'),
