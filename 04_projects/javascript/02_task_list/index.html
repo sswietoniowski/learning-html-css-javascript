@@ -5,9 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task List</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div id="main" class="card">
+            <div class="card-content">
+              <span class="card-title">Task List</span>
+              <div class="row">
+                <form id="task-form">
+                  <div class="input-field col s12">
+                    <input type="text" name="task" id="task" />
+                    <label for="task">New Task</label>
+                  </div>
+                  <input type="submit" value="Add Task" class="btn" />
+                </form>
+              </div>
+            </div>
+            <div class="card-action">
+              <h5 id="task-title">Tasks</h5>
+              <div class="input-field col s12">
+                <input type="text" name="filter" id="filter" />
+                <label for="filter">Filter Tasks</label>
+              </div>
+              <ul class="collection"></ul>
+              <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
