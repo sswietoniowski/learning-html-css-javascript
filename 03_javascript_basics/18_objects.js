@@ -91,3 +91,83 @@ john.presentation();
 marry.presentation();
 
 // Prototypal inheritance
+function Student(name, age, job) {
+  Person.call(this, name, age, job);
+  this.school = 'Udacity';
+} // Student inherits from Person
+
+Student.prototype = Object.create(Person.prototype);
+Student.prototype.constructor = Student;
+
+Student.prototype.getGoal = function () {
+  console.log('My goal is: Be a junior software developer.');
+};
+
+const student = new Student('John Doe', 30, 'teacher');
+console.log(student);
+student.presentation();
+student.getGoal();
+
+// Object.create
+const personPrototypes = {
+  greeting: function () {
+    console.log(`Hi, my name is ${this.name}`);
+  },
+
+  getsMarried: function (newLastName) {
+    this.lastName = newLastName;
+  },
+};
+
+const mary = Object.create(personPrototypes);
+mary.name = 'Mary';
+mary.age = 30;
+mary.job = 'designer';
+mary.getsMarried('Smith');
+mary.greeting();
+
+const brad3 = Object.create(personPrototypes, {
+  name: { value: 'Brad' },
+  age: { value: 36 },
+  job: { value: 'programmer' },
+});
+
+// ES6 Classes (syntax)
+class PersonClass {
+  constructor(name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+  }
+
+  presentation() {
+    console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
+  }
+
+  static greeting() {
+    console.log('Hey there!');
+  }
+}
+
+const johnClass = new PersonClass('John', 32, 'teacher');
+console.log(johnClass);
+johnClass.presentation();
+PersonClass.greeting();
+
+// Subclasses
+class Customer extends PersonClass {
+  constructor(name, age, job, balance) {
+    super(name, age, job);
+    this.balance = balance;
+  }
+
+  greeting() {
+    console.log(
+      `Hello, my name is ${this.name} and I have a balance of ${this.balance}`
+    );
+  }
+}
+
+const customerClass = new Customer('John Doe', 30, 'teacher', 300);
+console.log(customerClass);
+customerClass.greeting();
