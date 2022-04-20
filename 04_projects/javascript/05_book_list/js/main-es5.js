@@ -70,3 +70,16 @@ document.getElementById('book-form').addEventListener('submit', function (e) {
 
   e.preventDefault();
 });
+
+document.getElementById('book-list').addEventListener('click', function (e) {
+  // Delete book
+  if (e.target.classList.contains('delete')) {
+    e.target.parentElement.parentElement.remove();
+
+    // Instantiate UI
+    const ui = new UI();
+
+    // Show success alert
+    ui.showAlert('Book removed', 'success');
+  }
+});
