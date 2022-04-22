@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nth-child Pseudo Selector</title>
+    <style>
+      li {
+        padding: 0.25rem;
+        margin: 0.25rem;
+        list-style: none;
+      }
+
+      /* first-child */
+      li:first-child {
+        background: #f0f0f0 !important;
+      }
+
+      /* last-child */
+      li:last-child {
+        color: #fff;
+        background: #0f0f0f !important;
+      }
+
+      /* nth-child(even) */
+      li:nth-child(even) {
+        background: #808080;
+      }
+
+      /* nth-child(odd) */
+      li:nth-child(odd) {
+        background: #404040;
+      }
+
+      /* nth-child(3n) */
+      li:nth-child(3n) {
+        background: #c0c0c0;
+      }
+
+      /* nth-child(3n+1) */
+      li:nth-child(3n + 1) {
+        background: green;
+      }
+
+      li:nth-child(3) {
+        background: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+      <li>Item 11</li>
+      <li>Item 12</li>
+      <li>Item 13</li>
+      <li>Item 14</li>
+      <li>Item 15</li>
+      <li>Item 16</li>
+      <li>Item 17</li>
+      <li>Item 18</li>
+      <li>Item 19</li>
+      <li>Item 20</li>
+    </ul>
+  </body>
+</html>
