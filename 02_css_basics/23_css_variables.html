@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables (Custom Properties)</title>
+    <style>
+      :root {
+        --max-width: 1100px;
+        --primary-color: steelblue;
+        --secondary-color: skyblue;
+        --light-color: #f4f4f4;
+      }
+
+      .box {
+        --box-1-width: 1;
+        --box-1-width: 2;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.4;
+        background-attachment: var(--light-color);
+      }
+
+      header {
+        background-color: var(--primary-color);
+        border-bottom: 5px var(--secondary-color) solid;
+        color: #fff;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        margin: auto;
+        max-width: var(--max-width);
+      }
+
+      .box {
+        background-color: var(--primary-color);
+        border-bottom: 5px var(--secondary-color) solid;
+        color: #fff;
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      .box-1 {
+        flex: var(--box-1-width);
+      }
+
+      .box-2 {
+        flex: var(--box-2-width);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS Variables</h1>
+    </header>
+
+    <div class="container">
+      <div class="box box-1">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+          esse, necessitatibus optio quia culpa vero.
+        </p>
+      </div>
+      <div class="box box-2">
+        <h3>Heading</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          animi quam dolorum natus, reprehenderit nemo!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
