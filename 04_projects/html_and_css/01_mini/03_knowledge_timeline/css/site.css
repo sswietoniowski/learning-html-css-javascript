@@ -107,6 +107,8 @@ h1 {
   border-color: transparent var(--secondary-color) transparent;
 }
 
+/* Responsive Design */
+
 @media (max-width: 900px) {
   #timeline ul li div {
     width: 250px;
