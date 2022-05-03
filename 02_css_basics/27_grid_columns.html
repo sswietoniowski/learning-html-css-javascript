@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Basics & Columns</title>
+    <style>
+      .grid {
+        display: grid;
+        /* grid-template-columns: 200px 200px 200px; */
+        /* grid-template-columns: 200px auto 200px; */
+        /* grid-template-columns: auto auto auto; */
+        /* grid-template-columns: repeat(3, auto); */
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 1rem;
+      }
+
+      .item {
+        padding: 3rem;
+        border: 1px #ccc solid;
+        background: #f4f4f4;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+      <div class="item">Item 4</div>
+    </div>
+    <main>
+      <section>
+        <h3>Welcome To My Site</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa
+          repellat odit laudantium quas. Tenetur sed quas commodi corporis aut!
+        </p>
+      </section>
+      <aside>
+        <h3>Hello</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+          vitae?
+        </p>
+      </aside>
+    </main>
+  </body>
+</html>
