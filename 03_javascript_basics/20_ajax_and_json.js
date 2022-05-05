@@ -11,9 +11,12 @@ function loadCustomerData() {
       // console.log(customer.age);
 
       var customer = JSON.parse(this.responseText);
-      document.getElementById(
-        'customer'
-      ).innerHTML = `<p>${customer.name}</p><p>${customer.age}</p>`;
+      const output = `
+        <ul>
+            <li>${customer.name}</li>
+            <li>${customer.age}</li>
+        </ul>`;
+      document.getElementById('customer').innerHTML = output;
     }
   };
   xhr.send();
@@ -32,7 +35,7 @@ function loadCustomersData() {
       for (const customer of customers) {
         const customerDiv = document.createElement('div');
         customerDiv.classList.add('customer');
-        customerDiv.innerHTML = `<p>${customer.name}</p><p>${customer.age}</p>`;
+        customerDiv.innerHTML = `<h2>${customer.name}</h2><h2>${customer.age}</h2>`;
         customersDiv.appendChild(customerDiv);
       }
     }
