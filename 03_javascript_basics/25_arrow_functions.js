@@ -38,3 +38,23 @@ function getExternal() {
       console.log(err);
     });
 }
+
+// const sayHello = function() {
+//   console.log('Hello');
+// }
+
+// One liners don't need curly braces and return
+// const sayHello = () => console.log('Hello');
+
+// sayHello();
+
+// Return object
+// const sayHello = () => ({msg: 'Hello'});
+
+// Using parameters
+// const sayHello = (name) => `Hello ${name}`;
+
+// Arrow functions can be used as callbacks
+const users = ['John', 'Mark', 'Jane'];
+
+const nameLengths = users.map((name) => name.length);
