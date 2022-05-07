@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <py-env> 
+        - numpy 
+        - matplotlib 
+        - paths: 
+            - /data.py 
+    </py-env> -->
+    <title>PyScript Demo</title>
+  </head>
+  <body>
+    <h1>PyScript Demo</h1>
+    <p>
+      <a href="https://pyscript.net/" target="_blank">PyScript</a> is the new
+      framework, allowing us use of Python inside our browser. More info
+      <a href="https://youtu.be/du8vQC44PC4" target="_blank">here</a>.
+    </p>
+    <p>
+      <py-script> print("Hello World from Python");</py-script>
+    </p>
+    <!-- <div id="plot"></div>
+    <pre>
+      <py-script output="plot">
+import matplotlib.pyplot as plt 
+from data import make_x_and_y 
+x, y = make_x_and_y(n = 1000) 
+fig, ax = plt.subplots() 
+ax.scatter(x, y)
+fig
+      </py-script>
+    </pre> -->
+  </body>
+</html>
