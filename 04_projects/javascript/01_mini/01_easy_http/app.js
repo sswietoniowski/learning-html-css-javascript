@@ -1,14 +1,14 @@
-const http = new easyHttpWithXhrAndCallbacks();
+// const http = new easyHttpWithXhrAndCallbacks();
 
 // Get Posts
-http.get('https://jsonplaceholder.typicode.com/posts', function (err, posts) {
-  console.log('Get Posts');
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(posts);
-  }
-});
+// http.get('https://jsonplaceholder.typicode.com/posts', function (err, posts) {
+//   console.log('Get Posts');
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(posts);
+//   }
+// });
 
 // Get Post
 // http.get('https://jsonplaceholder.typicode.com/posts/1', function (err, posts) {
@@ -68,3 +68,29 @@ http.get('https://jsonplaceholder.typicode.com/posts', function (err, posts) {
 //     }
 //   }
 // );
+
+const http = new EasyHttpWithFetchAndPromises();
+
+// Get Posts
+// const posts = http.get('https://jsonplaceholder.typicode.com/posts');
+// posts.then((data) => console.log(data));
+
+// Get Post
+// http.get('https://jsonplaceholder.typicode.com/posts/1');
+
+// Create Post
+// http.post('https://jsonplaceholder.typicode.com/posts', {
+//   title: 'Post Title',
+//   body: 'Post Body',
+//   userId: 1,
+// });
+
+// Update Post
+// http.put('https://jsonplaceholder.typicode.com/posts/1', {
+//   title: 'Post Title',
+//   body: 'Post Body',
+//   userId: 1,
+// });
+
+// Delete Post
+// http.delete('https://jsonplaceholder.typicode.com/posts/1');
