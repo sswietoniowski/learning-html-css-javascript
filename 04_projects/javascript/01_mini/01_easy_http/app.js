@@ -107,42 +107,42 @@
 //   .then((data) => console.log(data))
 //   .catch((err) => console.log(err));
 
-const http = new EasyHttpWithFetchAndAsyncAndAwait();
+// const http = new EasyHttpWithFetchAndAsyncAndAwait();
 
 // Get Posts
-http
-  .get('https://jsonplaceholder.typicode.com/posts')
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// http
+//   .get('https://jsonplaceholder.typicode.com/posts')
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Get Post
-http
-  .get('https://jsonplaceholder.typicode.com/posts/1')
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// http
+//   .get('https://jsonplaceholder.typicode.com/posts/1')
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Create Post
-http
-  .post('https://jsonplaceholder.typicode.com/posts', {
-    title: 'Post Title',
-    body: 'Post Body',
-    userId: 1,
-  })
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// http
+//   .post('https://jsonplaceholder.typicode.com/posts', {
+//     title: 'Post Title',
+//     body: 'Post Body',
+//     userId: 1,
+//   })
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Update Post
-http
-  .put('https://jsonplaceholder.typicode.com/posts/1', {
-    title: 'Post Title',
-    body: 'Post Body',
-    userId: 1,
-  })
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// http
+//   .put('https://jsonplaceholder.typicode.com/posts/1', {
+//     title: 'Post Title',
+//     body: 'Post Body',
+//     userId: 1,
+//   })
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Delete Post
-http
-  .delete('https://jsonplaceholder.typicode.com/posts/1')
-  .then((data) => console.log(data))
-  .catch((err) => console.log(err));
+// http
+//   .delete('https://jsonplaceholder.typicode.com/posts/1')
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
