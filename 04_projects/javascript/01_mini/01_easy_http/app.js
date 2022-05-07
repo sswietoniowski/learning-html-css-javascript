@@ -76,21 +76,33 @@ const http = new EasyHttpWithFetchAndPromises();
 // posts.then((data) => console.log(data));
 
 // Get Post
-// http.get('https://jsonplaceholder.typicode.com/posts/1');
+// http
+//   .get('https://jsonplaceholder.typicode.com/posts/1')
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Create Post
-// http.post('https://jsonplaceholder.typicode.com/posts', {
-//   title: 'Post Title',
-//   body: 'Post Body',
-//   userId: 1,
-// });
+// http
+//   .post('https://jsonplaceholder.typicode.com/posts', {
+//     title: 'Post Title',
+//     body: 'Post Body',
+//     userId: 1,
+//   })
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Update Post
-// http.put('https://jsonplaceholder.typicode.com/posts/1', {
-//   title: 'Post Title',
-//   body: 'Post Body',
-//   userId: 1,
-// });
+// http
+//   .put('https://jsonplaceholder.typicode.com/posts/1', {
+//     title: 'Post Title',
+//     body: 'Post Body',
+//     userId: 1,
+//   })
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
 
 // Delete Post
-// http.delete('https://jsonplaceholder.typicode.com/posts/1');
+// http
+//   .delete('https://jsonplaceholder.typicode.com/posts/1')
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));
