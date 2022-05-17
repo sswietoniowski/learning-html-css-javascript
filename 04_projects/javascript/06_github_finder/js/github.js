@@ -1,7 +1,8 @@
 class GitHub {
   constructor() {
-    this.client_id = '4e2c106b37d0574d8f5d';
-    this.client_secret = 'e2625bbb1922b1a5ad56cc6b9f759d1b3329706a';
+    // define these properties to overcome GitHub API rate limit
+    this.client_id = 'PUT_REAL_CLIENT_ID';
+    this.client_secret = 'PUT_REAL_CLIENT_SECRET';
   }
 
   async getUser(user) {
