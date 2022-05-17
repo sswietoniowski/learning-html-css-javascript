@@ -9,8 +9,15 @@ class GitHub {
       `https://api.github.com/users/${user}?client_id=${this.client_id}&client_secret=${this.client_secret}`
     );
     const profile = await profileResponse.json();
+
+    const reposResponse = await fetch(
+      `https://api.github.com/users/${user}/repos?per_page=100&client_id=${this.client_id}&client_secret=${this.client_secret}`
+    );
+    const repos = await reposResponse.json();
+
     return {
       profile,
+      repos,
     };
   }
 }
