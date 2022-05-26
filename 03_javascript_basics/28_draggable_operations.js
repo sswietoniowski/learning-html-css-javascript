@@ -1,4 +1,9 @@
 const onDragStart = (event) => {
+  const element = event.target;
+  if (element.innerText === '') {
+    return;
+  }
+
   const dt = event.dataTransfer;
 
   const canvas = document.createElement('canvas');
@@ -19,8 +24,14 @@ const onDragStart = (event) => {
   dt.effectAllowed = 'copy';
 };
 
+const onDragEnd = (event) => {
+  const element = event.target;
+  element.innerText = '';
+};
+
 dragMe = document.querySelector('#drag-me');
 dragMe.addEventListener('dragstart', onDragStart);
+dragMe.addEventListener('dragend', onDragEnd);
 
 const onDragEnter = (event) => {
   //   console.log('Drag enter');
@@ -56,6 +67,7 @@ const dragDrop = (event) => {
     });
     element.appendChild(list);
   }
+  event.preventDefault();
 };
 
 const dropAreas = document.querySelectorAll('.drop-area');
