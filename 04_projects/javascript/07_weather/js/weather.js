@@ -1,19 +1,49 @@
 class Weather {
   constructor(city, state) {
-    this.apiKey = 'c4f6ebe364c24ca0b6ebe364c2fca04c';
+    this.apiKey = '5bec2222e7a166b42e6753cb3b5b59bf';
     this.city = city;
     this.state = state;
+    this.units = 'metric';
+  }
+
+  // Fetch city location
+  async getLocation() {
+    // docs: https://openweathermap.org/api/geocoding-api
+    const response = await fetch(
+      `http://api.openweathermap.org/geo/1.0/direct?q=${this.city},${this.state}&limit=1&appid=${this.apiKey}`
+    );
+    const data = await response.json();
+
+    if (response.status !== 200) {
+      throw new Error(data.message);
+    }
+
+    const latitude = data[0].lat;
+    const longitude = data[0].lon;
+
+    return { latitude, longitude };
   }
 
   // Fetch weather from API
   async getWeather() {
+    const { latitude, longitude } = await this.getLocation();
+
+    // docs: https://openweathermap.org/current
     const response = await fetch(
-      `https://api.weather.com/v3/location/search?query=${this.city}&locationType=locid&language=en-US&format=json&apiKey=${this.apiKey}`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=${this.units}&appid=${this.apiKey}`
     );
+    const data = await response.json();
 
-    const responseData = await response.json();
+    if (response.status !== 200) {
+      throw new Error(data.message);
+    }
 
-    return responseData;
+    const name = data.name;
+    const humidity = data.main.humidity; // %
+    const feelsLike = data.main.feels_like; // Celsius
+    const wind = data.wind.speed; // meter/sec
+
+    return { name, humidity, feelsLike, wind };
   }
 
   // Change weather location
