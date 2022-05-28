@@ -18,7 +18,10 @@ document.getElementById('w-change-btn').addEventListener('click', () => {
   const city = document.getElementById('city').value;
   const state = document.getElementById('state').value;
 
+  // Change location
   weather.changeLocation(city, state);
+
+  // Set new location in LS
   storage.setLocationData(city, state);
 
   // Get and display weather
