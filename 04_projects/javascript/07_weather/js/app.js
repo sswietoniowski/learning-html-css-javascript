@@ -1,20 +1,20 @@
 // Init weather object
 const weather = new Weather('San Francisco', 'CA');
 
+// Init ui object
+const ui = new UI();
+
 // Get weather on DOM load
 document.addEventListener('DOMContentLoaded', getWeather);
 
 function getWeather() {
   weather
     .getWeather()
-    .then((data) => {
-      console.log(data);
+    .then((results) => {
+      console.log(results);
+      ui.paint(results);
     })
-    .catch((err) => {
-      console.log(err);
+    .catch((error) => {
+      console.log(error);
     });
 }
-
-// const humidity = `${data.main.humidity}%`; // %
-// const feelsLike = `${data.main.feels_like} &#8451;`; // Celsius
-// const wind = `${data.wind.speed} m/s`; // meter/sec

@@ -39,11 +39,14 @@ class Weather {
     }
 
     const name = data.name;
+    const description = data.weather[0].description;
+    const icon = data.weather[0].icon;
+    const temperature = data.main.temp;
     const humidity = data.main.humidity; // %
     const feelsLike = data.main.feels_like; // Celsius
     const wind = data.wind.speed; // meter/sec
 
-    return { name, humidity, feelsLike, wind };
+    return { name, description, icon, temperature, humidity, feelsLike, wind };
   }
 
   // Change weather location
