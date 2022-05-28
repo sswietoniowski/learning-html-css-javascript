@@ -13,7 +13,7 @@ class UI {
     const { name, description, icon, temperature, humidity, feelsLike, wind } =
       weather;
     this.location.textContent = name;
-    this.desc.textContent = weather.description;
+    this.desc.textContent = description;
     this.temperature.textContent = `${temperature} °C`;
     this.icon.setAttribute(
       'src',
