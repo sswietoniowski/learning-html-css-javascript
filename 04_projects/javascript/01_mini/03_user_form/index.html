@@ -17,11 +17,12 @@
         <div class="col-md-6 mx-auto">
           <h1>User Form</h1>
           <form>
-            <div class="form-group">
-              <label for="">Name</label>
+            <div class="form-group mt-0">
+              <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
+                name="name"
                 class="form-control"
                 placeholder="Name"
               />
@@ -29,6 +30,44 @@
                 Name must be between 2 and 10 characters
               </div>
             </div>
+            <div class="form-group">
+              <label for="zipcode">Zipcode</label>
+              <input
+                type="text"
+                id="zipcode"
+                name="zipcode"
+                class="form-control"
+                placeholder="Zipcode"
+              />
+              <div class="invalid-feedback">Enter a valid zipcode</div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="Email"
+              />
+              <div class="invalid-feedback">Enter a valid email</div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                class="form-control"
+                placeholder="Phone"
+              />
+              <div class="invalid-feedback">Enter a valid phone</div>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-primary col-12"
+            />
           </form>
         </div>
       </div>
