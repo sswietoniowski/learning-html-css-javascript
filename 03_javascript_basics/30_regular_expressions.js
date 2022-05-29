@@ -92,6 +92,9 @@ str = 'The quick brown fox jumps over the lazy dog';
 re = /[a-z]/; // '[' and ']' define a character class
 reTest(re, str);
 
+re = /[^a-z]/; // '^' inverts the character class
+reTest(re, str);
+
 re = /T[a-z]{2,7}/; // '{' and '}' define a range
 reTest(re, str);
 
@@ -112,5 +115,16 @@ reTest(re, str);
 re = /\s+/; // \s = [ \t\n\r\f]
 reTest(re, str);
 
+re = /\S+/; // \S = [^ \t\n\r\f]
+reTest(re, str);
+
 re = /\bquick/; // \b = word boundary
+reTest(re, str);
+
+re = /x(?=y)/; // positive lookahead, match x only if followed by y
+str = 'abcxyz';
+reTest(re, str);
+
+re = /x(?!y)/; // negative lookahead, match x only if not followed by y
+str = 'abcxz';
 reTest(re, str);
