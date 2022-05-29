@@ -87,3 +87,30 @@ reTest(re, str);
 
 re = /gray\?/i; // '\' escapes the '?'
 reTest(re, str);
+
+str = 'The quick brown fox jumps over the lazy dog';
+re = /[a-z]/; // '[' and ']' define a character class
+reTest(re, str);
+
+re = /T[a-z]{2,7}/; // '{' and '}' define a range
+reTest(re, str);
+
+// other quantifiers - +, *, ?, {n,m}
+
+re = /\w+/; // \w = [a-zA-Z0-9_]
+reTest(re, str);
+
+re = /\W+/; // \W = [^a-zA-Z0-9_]
+reTest(re, str);
+
+re = /\d+/; // \d = [0-9]
+reTest(re, str);
+
+re = /\D+/; // \D = [^0-9]
+reTest(re, str);
+
+re = /\s+/; // \s = [ \t\n\r\f]
+reTest(re, str);
+
+re = /\bquick/; // \b = word boundary
+reTest(re, str);
