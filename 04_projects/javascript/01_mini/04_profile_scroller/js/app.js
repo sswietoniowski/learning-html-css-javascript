@@ -75,23 +75,23 @@ const profiles = profilesGenerator(profilesData);
 
 // Next profile display
 function nextProfile() {
-  const profile = profiles.next().value;
+  const currentProfile = profiles.next().value;
 
-  if (profile !== undefined) {
+  if (currentProfile !== undefined) {
     document.getElementById('profile-display').innerHTML = `
           <ul class="list-group">
-              <li class="list-group-item">Name: ${profile.name}</li>
-              <li class="list-group-item">Age: ${profile.age}</li>
+              <li class="list-group-item">Name: ${currentProfile.name}</li>
+              <li class="list-group-item">Age: ${currentProfile.age}</li>
               <li class="list-group-item">
-                  Location: ${profile.location}
+                  Location: ${currentProfile.location}
               </li>
               <li class="list-group-item">
-                  Looking for: ${profile.lookingFor}
+                  Looking for: ${currentProfile.lookingFor}
               </li>
           </ul>
           `;
     document.getElementById('image-display').innerHTML = `
-          <img src="${profile.image}">
+          <img src="${currentProfile.image}">
           `;
   } else {
     // No more profiles
