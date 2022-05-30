@@ -1,3 +1,8 @@
+// "DOM ready": https://flaviocopes.com/dom-ready/
+// document.addEventListener('DOMContentLoaded', () => {
+//   // do something ...
+// });
+
 const fill = document.querySelector('.fill');
 const empties = document.querySelectorAll('.empty');
 
