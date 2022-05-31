@@ -48,15 +48,15 @@ document.querySelector('.fire').addEventListener('click', () => {
 // Click handlers
 const getCurrentMilliseconds = () => {
   const date = new Date();
-  console.log(date.getMilliseconds());
+  console.log(`Current milliseconds: ${date.getMilliseconds()}`);
 };
 
 const getCurrentSeconds = () => {
   const date = new Date();
-  console.log(date.getSeconds());
+  console.log(`Current seconds: ${date.getSeconds()}`);
 };
 
 const getCurrentMinutes = () => {
   const date = new Date();
-  console.log(date.getMinutes());
+  console.log(`Current minutes: ${date.getMinutes()}`);
 };
