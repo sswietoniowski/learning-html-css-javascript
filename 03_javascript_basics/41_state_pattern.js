@@ -50,13 +50,10 @@ const home = document.querySelector('#home');
 const about = document.querySelector('#about');
 const contact = document.querySelector('#contact');
 
-home.addEventListener(
-  'click',
-  function () {
-    page.change(new HomeState(page));
-  },
-  false
-);
+home.addEventListener('click', (e) => {
+  page.change(new HomeState(page));
+  e.preventDefault();
+});
 about.addEventListener(
   'click',
   function () {
