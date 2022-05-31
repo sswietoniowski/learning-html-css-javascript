@@ -1,24 +1,46 @@
 // OBSERVER PATTERN
 
-function EventObserver() {
-  this.observers = [];
-}
+// ES5 syntax
+// function EventObserver() {
+//   this.observers = [];
+// }
 
-EventObserver.prototype = {
-  subscribe: function (observer) {
+// EventObserver.prototype = {
+//   subscribe: function (observer) {
+//     this.observers.push(observer);
+//     console.log(`Subscribed ${observer.name}`);
+//   },
+
+//   unsubscribe: function (observer) {
+//     this.observers = this.observers.filter((obs) => obs !== observer);
+//     console.log(`Unsubscribed ${observer.name}`);
+//   },
+
+//   fire: function () {
+//     this.observers.forEach((observer) => observer.call());
+//   },
+// };
+
+// ES6 syntax
+class EventObserver {
+  constructor() {
+    this.observers = [];
+  }
+
+  subscribe(observer) {
     this.observers.push(observer);
     console.log(`Subscribed ${observer.name}`);
-  },
+  }
 
-  unsubscribe: function (observer) {
+  unsubscribe(observer) {
     this.observers = this.observers.filter((obs) => obs !== observer);
     console.log(`Unsubscribed ${observer.name}`);
-  },
+  }
 
-  fire: function () {
+  fire() {
     this.observers.forEach((observer) => observer.call());
-  },
-};
+  }
+}
 
 const click = new EventObserver();
 
