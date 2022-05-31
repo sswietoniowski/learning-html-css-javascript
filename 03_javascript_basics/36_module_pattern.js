@@ -56,3 +56,6 @@ ItemController.add({ id: 2, name: 'Peter' });
 ItemController.add({ id: 3, name: 'Mike' });
 
 console.log(ItemController.get(2));
+
+// These days (ES6) this pattern can be replaced by the class with (private) static methods.
+// More on that here: https://dev.to/nas5w/the-revealing-module-pattern-in-javascript-15a8
