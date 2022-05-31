@@ -45,6 +45,6 @@ chatroom.register(john);
 chatroom.register(jane);
 chatroom.register(mark);
 
-john.send('Hello everyone!', mark);
-jane.send('Hi Mark!');
+john.send('Hi Mark!', mark);
+jane.send('Hello everyone!');
 mark.send('Hi John!', john);
