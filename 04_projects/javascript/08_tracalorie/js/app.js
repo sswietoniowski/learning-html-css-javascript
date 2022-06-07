@@ -83,10 +83,10 @@ const ItemController = (function () {
   // Data Structure / State
   const data = {
     items: [
-      { id: 0, name: 'Steak Dinner', calories: 1200 },
-      { id: 1, name: 'Cookie', calories: 400 },
-      { id: 2, name: 'Eggs', calories: 300 },
-      { id: 3, name: 'Milk', calories: 900 },
+      // { id: 0, name: 'Steak Dinner', calories: 1200 },
+      // { id: 1, name: 'Cookie', calories: 400 },
+      // { id: 2, name: 'Eggs', calories: 300 },
+      // { id: 3, name: 'Milk', calories: 900 },
     ],
     currentItem: null,
     totalCalories: 0,
@@ -523,8 +523,13 @@ const App = (function (ItemController, UIController, StorageController) {
       // Fetches items from data structure
       const items = ItemController.getItems();
 
-      // Populates list with items
-      UIController.populateItemList(items);
+      // Check if any items
+      if (items.length === 0) {
+        UIController.hideList();
+      } else {
+        // Populate list with items
+        UIController.populateItemList(items);
+      }
 
       // Load event listeners
       loadEventListeners();
