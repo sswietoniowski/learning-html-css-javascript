@@ -314,8 +314,9 @@ const UIController = (function () {
     },
 
     // Show total calories
-    showTotalCalories: function () {
-      document.querySelector(UISelectors.totalCalories).style.display = 'block';
+    showTotalCalories: function (totalCalories) {
+      document.querySelector(UISelectors.totalCalories).textContent =
+        totalCalories;
     },
 
     // Clear edit state
@@ -368,7 +369,6 @@ const App = (function (ItemController, UIController, StorageController) {
 
     // Edit icon click event
     document
-
       .querySelector(UISelectors.itemList)
       .addEventListener('click', itemEditClick);
 
@@ -530,6 +530,12 @@ const App = (function (ItemController, UIController, StorageController) {
         // Populate list with items
         UIController.populateItemList(items);
       }
+
+      // Get total calories
+      const totalCalories = ItemController.getTotalCalories();
+
+      // Add total calories to UI
+      UIController.showTotalCalories(totalCalories);
 
       // Load event listeners
       loadEventListeners();
