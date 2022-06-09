@@ -520,6 +520,9 @@ const App = (function (ItemController, UIController, StorageController) {
   // Public methods
   return {
     init: function () {
+      // Clear edit state / set initial set
+      UIController.clearEditState();
+
       // Fetches items from data structure
       const items = ItemController.getItems();
 
