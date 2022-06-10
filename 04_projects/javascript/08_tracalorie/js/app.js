@@ -361,7 +361,9 @@ const App = (function (ItemController, UIController, StorageController) {
 
     // Disable submit on enter
     document.addEventListener('keypress', function (e) {
-      if (e.keyCode === 13 || e.which === 13) {
+      // Modern replacement to detect that enter was pressed:
+      // https://techglimpse.com/keyboardevent-keycode-deprecated-alternate-key-property/
+      if (e.key === 'Enter') {
         e.preventDefault();
         return false;
       }
