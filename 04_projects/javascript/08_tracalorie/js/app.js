@@ -387,7 +387,7 @@ const App = (function (ItemController, UIController, StorageController) {
     // Back button event
     document
       .querySelector(UISelectors.backBtn)
-      .addEventListener('click', UIController.clearEditState);
+      .addEventListener('click', clearEditState);
 
     // Clear items event
     document
@@ -494,6 +494,13 @@ const App = (function (ItemController, UIController, StorageController) {
     // Delete from local storage
     StorageController.deleteItemFromStorage(currentItem.id);
 
+    UIController.clearEditState();
+
+    e.preventDefault();
+  };
+
+  // Clear edit state
+  const clearEditState = function (e) {
     UIController.clearEditState();
 
     e.preventDefault();
