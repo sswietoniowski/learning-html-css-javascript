@@ -82,12 +82,7 @@ const ItemController = (function () {
 
   // Data Structure / State
   const data = {
-    items: [
-      // { id: 0, name: 'Steak Dinner', calories: 1200 },
-      // { id: 1, name: 'Cookie', calories: 400 },
-      // { id: 2, name: 'Eggs', calories: 300 },
-      // { id: 3, name: 'Milk', calories: 900 },
-    ],
+    items: StorageController.getItemsFromStorage(),
     currentItem: null,
     totalCalories: 0,
   };
@@ -507,7 +502,7 @@ const App = (function (ItemController, UIController, StorageController) {
   };
 
   // Clear items event
-  const clearAllItemsClick = function () {
+  const clearAllItemsClick = function (e) {
     // Delete all items from data structure
     ItemController.clearAllItems();
 
@@ -518,12 +513,14 @@ const App = (function (ItemController, UIController, StorageController) {
     UIController.showTotalCalories(totalCalories);
 
     // Remove from UI
-    UIController.removeItems();
+    UIController.clearItems();
 
     // Clear from local storage
     StorageController.clearItemsFromStorage();
 
     UIController.clearEditState();
+
+    e.preventDefault();
   };
 
   // Public methods
