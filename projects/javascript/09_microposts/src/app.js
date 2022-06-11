@@ -7,52 +7,58 @@ import { ui } from './ui';
 document.addEventListener('DOMContentLoaded', getPosts);
 
 // Listen for add post
-document.querySelector('.post-submit').addEventListener('click', addPost);
+document.querySelector('.post-submit').addEventListener('click', submitPost);
 
-// Listen for delete post
+// Listen for delete
 document.querySelector('#posts').addEventListener('click', deletePost);
 
-// Listen for edit post
-document.querySelector('#posts').addEventListener('click', editPost);
+// Listen for edit state
+document.querySelector('#posts').addEventListener('click', enableEdit);
 
+// Listen for cancel
+document.querySelector('.card-form').addEventListener('click', cancelEdit);
+
+// Get Posts
 function getPosts() {
   http
     .get('http://localhost:3000/posts')
-    .then((data) => {
-      ui.showPosts(data);
-    })
+    .then((data) => ui.showPosts(data))
     .catch((err) => console.log(err));
 }
 
-function addPost(e) {
-  e.preventDefault();
-
+// Submit Post
+function submitPost() {
   const title = document.querySelector('#title').value;
   const body = document.querySelector('#body').value;
+  const id = document.querySelector('#id').value;
 
-  const post = {
+  const data = {
     title,
     body,
   };
 
+  // Validate input
   if (title === '' || body === '') {
-    ui.showAlert('Please fill in all fields', 'error');
+    ui.showAlert('Please fill in all fields', 'alert alert-danger');
   } else {
-    if (ui.forState === 'add') {
+    // Check for ID
+    if (id === '') {
+      // Create Post
       http
-        .post('http://localhost:3000/posts', post)
+        .post('http://localhost:3000/posts', data)
         .then((data) => {
-          ui.showAlert('Post added', 'success');
+          ui.showAlert('Post added', 'alert alert-success');
           ui.clearFields();
           getPosts();
         })
         .catch((err) => console.log(err));
     } else {
+      // Update Post
       http
-        .put(`http://localhost:3000/posts/${ui.id.value}`, post)
+        .put(`http://localhost:3000/posts/${id}`, data)
         .then((data) => {
-          ui.showAlert('Post updated', 'success');
-          ui.clearFields();
+          ui.showAlert('Post updated', 'alert alert-success');
+          ui.changeFormState('add');
           getPosts();
         })
         .catch((err) => console.log(err));
@@ -60,51 +66,50 @@ function addPost(e) {
   }
 }
 
+// Delete Post
 function deletePost(e) {
-  e.preventDefault();
-
-  if (e.target.parentElement.classList.contains('delete-post')) {
+  if (e.target.parentElement.classList.contains('delete')) {
     const id = e.target.parentElement.dataset.id;
-    http
-      .delete(`http://localhost:3000/posts/${id}`)
-      .then(() => {
-        ui.showAlert('Post deleted', 'success');
-        getPosts();
-      })
-      .catch((err) => console.log(err));
+    if (confirm('Are you sure?')) {
+      http
+        .delete(`http://localhost:3000/posts/${id}`)
+        .then((data) => {
+          ui.showAlert('Post removed', 'alert alert-success');
+          getPosts();
+        })
+        .catch((err) => console.log(err));
+    }
   }
+  e.preventDefault();
 }
 
-function editPost(e) {
-  e.preventDefault();
+// Enable Edit State
+function enableEdit(e) {
+  if (e.target.parentElement.classList.contains('edit')) {
+    const id = e.target.parentElement.dataset.id;
+    const title =
+      e.target.parentElement.previousElementSibling.previousElementSibling
+        .textContent;
+    const body = e.target.parentElement.previousElementSibling.textContent;
 
-  if (e.target.parentElement.classList.contains('edit-post')) {
-    ui.forState = 'edit';
-    const id = e.target.parentElement.dataset.id;
-    http
-      .get(`http://localhost:3000/posts/${id}`)
-      .then((data) => {
-        ui.showEditState(data);
-      })
-      .catch((err) => console.log(err));
-  } else if (e.target.parentElement.classList.contains('update-post')) {
-    const id = e.target.parentElement.dataset.id;
-    const title = document.querySelector('#title').value;
-    const body = document.querySelector('#body').value;
-    const post = {
+    const data = {
+      id,
       title,
       body,
     };
-    http
-      .put(`http://localhost:3000/posts/${id}`, post)
-      .then((data) => {
-        ui.showAlert('Post updated', 'success');
-        ui.clearFields();
-        getPosts();
-      })
-      .catch((err) => console.log(err));
-  } else {
-    ui.clearFields();
-    ui.forState = 'add';
+
+    // Fill form with current post
+    ui.fillForm(data);
   }
+
+  e.preventDefault();
+}
+
+// Cancel Edit State
+function cancelEdit(e) {
+  if (e.target.classList.contains('post-cancel')) {
+    ui.changeFormState('add');
+  }
+
+  e.preventDefault();
 }

@@ -1,90 +1,121 @@
 class UI {
   constructor() {
-    this.posts = document.querySelector('#posts');
-    this.title = document.querySelector('#title');
-    this.body = document.querySelector('#body');
-    this.id = document.querySelector('#id');
+    this.post = document.querySelector('#posts');
+    this.titleInput = document.querySelector('#title');
+    this.bodyInput = document.querySelector('#body');
+    this.idInput = document.querySelector('#id');
     this.postSubmit = document.querySelector('.post-submit');
     this.forState = 'add';
   }
 
-  // Show alert
+  // Show all posts
+  showPosts(posts) {
+    let output = '';
+
+    posts.forEach((post) => {
+      output += `
+          <div class="card mb-3">
+            <div class="card-body">
+              <h4 class="card-title">${post.title}</h4>
+              <p class="card-text">${post.body}</p>
+              <a href="#" class="edit card-link" data-id="${post.id}">
+                <i class="fa fa-pencil"></i>
+              </a>
+  
+              <a href="#" class="delete card-link" data-id="${post.id}">
+              <i class="fa fa-remove"></i>
+            </a>
+            </div>
+          </div>
+        `;
+    });
+
+    this.post.innerHTML = output;
+  }
+
+  // Show alert message
   showAlert(message, className) {
     this.clearAlert();
+
     // Create div
     const div = document.createElement('div');
-    // Add class
-    div.className = `alert alert-${className}`;
+    // Add classes
+    div.className = className;
     // Add text
     div.appendChild(document.createTextNode(message));
     // Get parent
     const container = document.querySelector('.posts-container');
     // Get posts
     const posts = document.querySelector('#posts');
-    // Insert alert
+    // Insert alert div
     container.insertBefore(div, posts);
-    // Timeout after 3 seconds
+
+    // Timeout
     setTimeout(() => {
       this.clearAlert();
     }, 3000);
   }
 
-  // Clear alert
+  // Clear alert message
   clearAlert() {
     const currentAlert = document.querySelector('.alert');
+
     if (currentAlert) {
       currentAlert.remove();
     }
   }
 
-  // Clear fields
+  // Clear all fields
   clearFields() {
-    this.title.value = '';
-    this.body.value = '';
+    this.titleInput.value = '';
+    this.bodyInput.value = '';
   }
 
-  // Add a new post
-  addPost(post) {
-    const div = document.createElement('div');
-    div.className = 'post-item';
-    div.innerHTML = `<h3>${post.title}</h3>
-        <p>${post.body}</p>
-        <a href="#" class="edit-post card-link">Edit</a>
-        <a href="#" class="delete-post card-link">Delete</a>`;
-    this.posts.appendChild(div);
+  // Fill form to edit
+  fillForm(data) {
+    this.titleInput.value = data.title;
+    this.bodyInput.value = data.body;
+    this.idInput.value = data.id;
+
+    this.changeFormState('edit');
   }
 
-  // Show posts
-  showPosts(posts) {
-    let output = '';
-
-    posts.forEach((post) => {
-      output += `
-            <div class="card mb-3">
-                <div class="card-body">
-                <h4 class="card-title">${post.title}</h4>
-                <p class="card-text">${post.body}</p>
-                <a href="#" class="edit-post card-link" data-id="${post.id}">
-                    <i class="fa fa-pencil"></i>
-                </a>
-                <a href="#" class="delete-post card-link" data-id="${post.id}">
-                    <i class="fa fa-remove"></i>
-                </a>
-                </div>
-            </div>
-            `;
-    });
-
-    this.posts.innerHTML = output;
+  // Clear ID hidden value
+  clearIdInput() {
+    this.idInput.value = '';
   }
 
-  // Show edit state
-  showEditState(post) {
-    this.title.value = post.title;
-    this.body.value = post.body;
-    this.id.value = post.id;
-    this.postSubmit.textContent = 'Update Post';
-    this.forState = 'update';
+  // Change the form state
+  changeFormState(type) {
+    if (type === 'edit') {
+      this.postSubmit.textContent = 'Update Post';
+      this.postSubmit.className = 'post-submit btn btn-warning btn-block';
+
+      // Create cancel button
+      const button = document.createElement('button');
+      button.className = 'post-cancel btn btn-light btn-block';
+      button.appendChild(document.createTextNode('Cancel Edit'));
+
+      // Get parent
+      const cardForm = document.querySelector('.card-form');
+      // Get element to insert before
+      const formEnd = document.querySelector('.form-end');
+      console.log('form end');
+      console.log(formEnd);
+      // Insert cancel button
+      cardForm.insertBefore(button, formEnd);
+    } else {
+      this.postSubmit.textContent = 'Post It';
+      this.postSubmit.className = 'post-submit btn btn-primary btn-block';
+      // Remove cancel btn if it is there
+      if (document.querySelector('.post-cancel')) {
+        document.querySelector('.post-cancel').remove();
+      }
+      // Clear ID from hidden field
+      this.clearIdInput();
+      // Clear text
+      this.clearFields();
+    }
   }
 }
 
