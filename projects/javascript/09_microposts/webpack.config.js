@@ -30,6 +30,6 @@ module.exports = {
     static: path.join(__dirname, 'build'),
     compress: true,
     hot: true,
-    port: 3000,
+    port: 5000,
   },
 };
