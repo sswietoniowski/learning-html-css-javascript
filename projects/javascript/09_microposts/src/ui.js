@@ -10,6 +10,7 @@ class UI {
 
   // Show alert
   showAlert(message, className) {
+    this.clearAlert();
     // Create div
     const div = document.createElement('div');
     // Add class
@@ -24,8 +25,16 @@ class UI {
     container.insertBefore(div, posts);
     // Timeout after 3 seconds
     setTimeout(() => {
-      document.querySelector('.alert').remove();
+      this.clearAlert();
     }, 3000);
+  }
+
+  // Clear alert
+  clearAlert() {
+    const currentAlert = document.querySelector('.alert');
+    if (currentAlert) {
+      currentAlert.remove();
+    }
   }
 
   // Clear fields
