@@ -5,7 +5,7 @@ const webpack = require('webpack');
 module.exports = {
   mode: 'development',
   entry: {
-    app: ['./src/app.js'],
+    app: ['regenerator-runtime/runtime.js', './src/app.js'],
   },
   output: {
     path: path.resolve(__dirname, 'build'),
