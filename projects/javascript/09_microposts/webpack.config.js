@@ -4,10 +4,9 @@ const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
-  entry: './src/app.js',
-  // entry: {
-  //   app: ['babel-polyfill', './src/app.js'],
-  // },
+  entry: {
+    app: ['./src/app.js'],
+  },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'main.js',
