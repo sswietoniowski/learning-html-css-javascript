@@ -2,23 +2,24 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: [
-      'babel-polyfill',
-      './src/app.js',
-    ],
+    app: ['babel-polyfill', './src/app.js'],
   },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.bundle.js',
   },
   module: {
-    loaders: [{
+    rules: [
+      {
         test: /\.js?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-           presets: ['env', 'stage-0']
-        }
-    }]
-  }
-}
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env', 'stage-0'],
+          },
+        },
+      },
+    ],
+  },
+};
