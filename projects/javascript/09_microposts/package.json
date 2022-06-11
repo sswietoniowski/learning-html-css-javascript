@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --output-public-path=/build/",
+    "start": "webpack-dev-server",
     "json:server": "json-server --watch api/db.json --port 3000"
   },
   "author": "Brad Traversy",
