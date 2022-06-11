@@ -49,8 +49,8 @@ class UI {
     div.className = 'post-item';
     div.innerHTML = `<h3>${post.title}</h3>
         <p>${post.body}</p>
-        <a href="#" class="edit-post">Edit</a>
-        <a href="#" class="delete-post">Delete</a>`;
+        <a href="#" class="edit-post card-link">Edit</a>
+        <a href="#" class="delete-post card-link">Delete</a>`;
     this.posts.appendChild(div);
   }
 
@@ -64,10 +64,10 @@ class UI {
                 <div class="card-body">
                 <h4 class="card-title">${post.title}</h4>
                 <p class="card-text">${post.body}</p>
-                <a href="#" class="edit card-link" data-id="${post.id}">
+                <a href="#" class="edit-post card-link" data-id="${post.id}">
                     <i class="fa fa-pencil"></i>
                 </a>
-                <a href="#" class="delete card-link" data-id="${post.id}">
+                <a href="#" class="delete-post card-link" data-id="${post.id}">
                     <i class="fa fa-remove"></i>
                 </a>
                 </div>
@@ -76,6 +76,15 @@ class UI {
     });
 
     this.posts.innerHTML = output;
+  }
+
+  // Show edit state
+  showEditState(post) {
+    this.title.value = post.title;
+    this.body.value = post.body;
+    this.id.value = post.id;
+    this.postSubmit.textContent = 'Update Post';
+    this.forState = 'update';
   }
 }
 

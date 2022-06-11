@@ -9,6 +9,12 @@ document.addEventListener('DOMContentLoaded', getPosts);
 // Listen for add post
 document.querySelector('.post-submit').addEventListener('click', addPost);
 
+// Listen for delete post
+document.querySelector('#posts').addEventListener('click', deletePost);
+
+// Listen for edit post
+document.querySelector('#posts').addEventListener('click', editPost);
+
 function getPosts() {
   http
     .get('http://localhost:3000/posts')
@@ -43,7 +49,7 @@ function addPost(e) {
         .catch((err) => console.log(err));
     } else {
       http
-        .put(`http://localhost:3000/posts/${ui.id}`, post)
+        .put(`http://localhost:3000/posts/${ui.id.value}`, post)
         .then((data) => {
           ui.showAlert('Post updated', 'success');
           ui.clearFields();
@@ -51,5 +57,54 @@ function addPost(e) {
         })
         .catch((err) => console.log(err));
     }
+  }
+}
+
+function deletePost(e) {
+  e.preventDefault();
+
+  if (e.target.parentElement.classList.contains('delete-post')) {
+    const id = e.target.parentElement.dataset.id;
+    http
+      .delete(`http://localhost:3000/posts/${id}`)
+      .then(() => {
+        ui.showAlert('Post deleted', 'success');
+        getPosts();
+      })
+      .catch((err) => console.log(err));
+  }
+}
+
+function editPost(e) {
+  e.preventDefault();
+
+  if (e.target.parentElement.classList.contains('edit-post')) {
+    ui.forState = 'edit';
+    const id = e.target.parentElement.dataset.id;
+    http
+      .get(`http://localhost:3000/posts/${id}`)
+      .then((data) => {
+        ui.showEditState(data);
+      })
+      .catch((err) => console.log(err));
+  } else if (e.target.parentElement.classList.contains('update-post')) {
+    const id = e.target.parentElement.dataset.id;
+    const title = document.querySelector('#title').value;
+    const body = document.querySelector('#body').value;
+    const post = {
+      title,
+      body,
+    };
+    http
+      .put(`http://localhost:3000/posts/${id}`, post)
+      .then((data) => {
+        ui.showAlert('Post updated', 'success');
+        ui.clearFields();
+        getPosts();
+      })
+      .catch((err) => console.log(err));
+  } else {
+    ui.clearFields();
+    ui.forState = 'add';
   }
 }
