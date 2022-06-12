@@ -26,7 +26,18 @@ header {
     background: skyblue;
     color: #fff; }
 
-a {
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
+
+.btn-light {
+  background-color: #f4f4f4;
   color: #333; }
-  a:hover {
-    color: coral; }
+
+.btn-dark {
+  background-color: #333;
+  color: #fff; }

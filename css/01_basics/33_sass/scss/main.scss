@@ -42,10 +42,35 @@ header {
   }
 }
 
-a {
-  color: #333;
+// a {
+//   color: #333;
 
-  &:hover {
-    color: coral;
+//   &:hover {
+//     color: coral;
+//   }
+// }
+
+// Inheritance
+%btn-shared {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn {
+  &-light {
+    // Extension
+    @extend %btn-shared;
+    background-color: $light-color;
+    color: #333;
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    background-color: $dark-color;
+    color: #fff;
   }
 }
