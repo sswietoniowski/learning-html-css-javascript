@@ -70,6 +70,7 @@ header {
 
     &:hover {
       @include transform(rotate(20deg));
+      background-color: darken($light-color, 10%);
     }
   }
 
@@ -80,6 +81,7 @@ header {
 
     &:hover {
       @include transform(rotate(-20deg));
+      background-color: lighten($dark-color, 10%);
     }
   }
 }

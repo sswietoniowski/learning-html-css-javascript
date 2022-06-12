@@ -41,7 +41,8 @@ header {
     --webkit-transform: $property;
     --moz-transform: $property;
     --ms-transform: $property;
-    transform: rotate(20deg); }
+    transform: rotate(20deg);
+    background-color: #dbdbdb; }
 
 .btn-dark {
   background-color: #333;
@@ -50,4 +51,5 @@ header {
     --webkit-transform: $property;
     --moz-transform: $property;
     --ms-transform: $property;
-    transform: rotate(-20deg); }
+    transform: rotate(-20deg);
+    background-color: #4d4d4d; }
