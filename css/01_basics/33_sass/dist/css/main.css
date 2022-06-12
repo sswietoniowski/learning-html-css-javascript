@@ -7,3 +7,26 @@ body {
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5; }
+
+header {
+  background: #333;
+  color: #f4f4f4;
+  padding: 1rem; }
+  header h1 {
+    text-align: center; }
+
+.section {
+  padding: 3rem; }
+  .section h3 {
+    font-size: 2rem; }
+  .section-a {
+    background: steelblue;
+    color: #fff; }
+  .section-b {
+    background: skyblue;
+    color: #fff; }
+
+a {
+  color: #333; }
+  a:hover {
+    color: coral; }
