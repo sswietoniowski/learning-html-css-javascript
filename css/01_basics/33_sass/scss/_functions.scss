@@ -6,3 +6,11 @@
     @return #fff;
   }
 }
+
+// Mixin (non return value)
+@mixin transform($property) {
+  --webkit-transform: $property;
+  --moz-transform: $property;
+  --ms-transform: $property;
+  transform: $property;
+}

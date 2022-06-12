@@ -37,7 +37,17 @@ header {
 .btn-light {
   background-color: #f4f4f4;
   color: #000; }
+  .btn-light:hover {
+    --webkit-transform: $property;
+    --moz-transform: $property;
+    --ms-transform: $property;
+    transform: rotate(20deg); }
 
 .btn-dark {
   background-color: #333;
   color: #fff; }
+  .btn-dark:hover {
+    --webkit-transform: $property;
+    --moz-transform: $property;
+    --ms-transform: $property;
+    transform: rotate(-20deg); }
