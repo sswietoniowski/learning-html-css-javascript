@@ -10,7 +10,7 @@ body {
 
 header {
   background: #333;
-  color: #f4f4f4;
+  color: #fff;
   padding: 1rem; }
   header h1 {
     text-align: center; }
@@ -36,7 +36,7 @@ header {
 
 .btn-light {
   background-color: #f4f4f4;
-  color: #333; }
+  color: #000; }
 
 .btn-dark {
   background-color: #333;
