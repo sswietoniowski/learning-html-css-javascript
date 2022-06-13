@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Dosis, sans-serif;
+  line-height: 1.6;
+  background: #ffbc00; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+img {
+  width: 100%; }

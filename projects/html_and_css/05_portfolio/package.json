@@ -1,0 +1,14 @@
+{
+  "name": "05_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "",
+  "scripts": {
+    "sass": "node-sass --watch scss/ --output dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
