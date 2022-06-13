@@ -2,11 +2,9 @@
 
 Based on these courses:
 
-- [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/),
+- [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass),
 - [Modern JavaScript From The Beginning
-  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/).
-
-Original course materials can be found [here [HTML]](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) and [here [JavaScript]](https://github.com/packtpublishing/modern-javascript-from-the-beginning).
+  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning).
 
 This is (sort of) continuation of these project(-s):
 
