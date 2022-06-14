@@ -4,7 +4,7 @@ Based on these courses:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass),
 - [Modern JavaScript From The Beginning
-  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning),
+  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back),
 - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
