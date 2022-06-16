@@ -360,6 +360,43 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
+#contact-a .text-fields {
+  display: grid;
+  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem; }
+
+#contact-a .name-input {
+  grid-area: name; }
+
+#contact-a .subject-input {
+  grid-area: subject; }
+
+#contact-a .email-input {
+  grid-area: email; }
+
+#contact-a .phone-input {
+  grid-area: phone; }
+
+#contact-a .message-input {
+  grid-area: message;
+  height: 100px; }
+
+#contact-a .text-input {
+  padding: 0.5rem 1rem; }
+
+#contact-a button[type='submit'] {
+  width: 50%; }
+
+#contact-b .contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
+
+#contact-c h1 {
+  text-align: center;
+  font-size: 4rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
