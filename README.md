@@ -10,7 +10,9 @@ Based on these courses:
 - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
 - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
-- [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-).
+- [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-),
+- [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
+- [Materialize CSS From Scratch With 5 Projects](https://learning.oreilly.com/videos/materialize-css-from/9781789538724/) [:file_folder:](https://github.com/PacktPublishing/Materialize-CSS-From-Scratch-With-5-Projects).
 
 This is (sort of) continuation of these project(-s):
 
