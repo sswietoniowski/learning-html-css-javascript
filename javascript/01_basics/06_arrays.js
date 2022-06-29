@@ -16,6 +16,7 @@ numbers[0] = 100;
 console.log(numbers);
 console.log(val);
 console.log(numbers.indexOf(4));
+console.log(numbers.includes(1));
 numbers.push(6);
 console.log(numbers);
 numbers.unshift(0);
