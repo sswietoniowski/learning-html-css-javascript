@@ -6,6 +6,10 @@ Based on these courses:
 - [Modern JavaScript From The Beginning
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
+  - [Feedback App](https://github.com/bradtraversy/feedback-app),
+  - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app),
+  - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
+  - [Gist](https://gist.github.com/bradtraversy),
 - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
 - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
