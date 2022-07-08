@@ -1,18 +1,33 @@
 import React from 'react';
 
 function App() {
+  const title = 'Blog Post';
+  const body = 'My blog post body';
+  const comments = [
+    { id: 1, author: 'Bobby', text: 'This is my first comment' },
+    { id: 2, author: 'Sally', text: 'This is my second comment' },
+    { id: 3, author: 'Sue', text: 'This is my third comment' },
+  ];
+
   return (
-    // <> is a fragment, we could use <div> instead, but there must be one parent element
-    // we're using className instead class because class is a reserved word in javascript
-    // we're using htmlFor instead for because it's a reserved word in javascript
+    // using dynamic values in JSX
+    // using lists in JSX
     <div className='container'>
-      <h1>Hello from the app component</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-        voluptatem. Tempore dicta distinctio fuga iure fugit voluptas ipsa
-        accusantium non.
-      </p>
+      <h1>{title}</h1>
+      <p>{body}</p>
       <label htmlFor=''></label>
+      {Math.random() * (5 + 5)}
+      <div className='comments'>
+        <h3>Comments ({comments.length})</h3>
+        <ul>
+          {comments.map((comment, index) => (
+            <li key={comment.id}>
+              <p>{comment.text}</p>
+              <p>{comment.author}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
