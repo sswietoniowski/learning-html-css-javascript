@@ -17,6 +17,20 @@ function App() {
 
   const showComments = true;
 
+  const commentsBlock = (
+    <div className='comments'>
+      <h3>Comments ({comments.length})</h3>
+      <ul>
+        {comments.map((comment, index) => (
+          <li key={comment.id}>
+            <p>{comment.text}</p>
+            <p>{comment.author}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+
   return (
     // using dynamic values in JSX
     // using lists in JSX
@@ -26,32 +40,8 @@ function App() {
       <p>{body}</p>
       <label htmlFor=''></label>
       {Math.random() * (5 + 5)}
-      {showComments ? (
-        <div className='comments'>
-          <h3>Comments ({comments.length})</h3>
-          <ul>
-            {comments.map((comment, index) => (
-              <li key={comment.id}>
-                <p>{comment.text}</p>
-                <p>{comment.author}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
-      {showComments && (
-        <div className='comments'>
-          <h3>Comments ({comments.length})</h3>
-          <ul>
-            {comments.map((comment, index) => (
-              <li key={comment.id}>
-                <p>{comment.text}</p>
-                <p>{comment.author}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      {showComments ? commentsBlock : null}
+      {showComments && commentsBlock}
     </div>
   );
 }
