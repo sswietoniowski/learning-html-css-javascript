@@ -9,6 +9,14 @@ function App() {
     { id: 3, author: 'Sue', text: 'This is my third comment' },
   ];
 
+  const loading = false;
+
+  if (loading) {
+    return <h1>Loading...</h1>;
+  }
+
+  const showComments = true;
+
   return (
     // using dynamic values in JSX
     // using lists in JSX
@@ -18,17 +26,32 @@ function App() {
       <p>{body}</p>
       <label htmlFor=''></label>
       {Math.random() * (5 + 5)}
-      <div className='comments'>
-        <h3>Comments ({comments.length})</h3>
-        <ul>
-          {comments.map((comment, index) => (
-            <li key={comment.id}>
-              <p>{comment.text}</p>
-              <p>{comment.author}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
+      {showComments ? (
+        <div className='comments'>
+          <h3>Comments ({comments.length})</h3>
+          <ul>
+            {comments.map((comment, index) => (
+              <li key={comment.id}>
+                <p>{comment.text}</p>
+                <p>{comment.author}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      {showComments && (
+        <div className='comments'>
+          <h3>Comments ({comments.length})</h3>
+          <ul>
+            {comments.map((comment, index) => (
+              <li key={comment.id}>
+                <p>{comment.text}</p>
+                <p>{comment.author}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
