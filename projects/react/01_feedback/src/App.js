@@ -12,6 +12,7 @@ function App() {
   return (
     // using dynamic values in JSX
     // using lists in JSX
+    // we're using key instead of id
     <div className='container'>
       <h1>{title}</h1>
       <p>{body}</p>
