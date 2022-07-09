@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-function Header({ text }) {
+function Header({ bgColor, text }) {
   const headerStyle = {
-    backgroundColor: 'blue',
+    backgroundColor: { bgColor },
     color: 'red',
   };
 
