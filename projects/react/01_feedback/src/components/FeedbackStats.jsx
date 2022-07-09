@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 
 function FeedbackStats({ feedback }) {
   let average =
@@ -17,5 +17,15 @@ function FeedbackStats({ feedback }) {
     </div>
   ) : null;
 }
+
+FeedbackStats.propTypes = {
+  feedback: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      rating: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default FeedbackStats;
