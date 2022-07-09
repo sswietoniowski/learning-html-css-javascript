@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import FeedbackItem from './FeedbackItem';
 
 function FeedbackList({ feedback }) {
+  const handleDelete = (id) => {
+    console.log(id);
+  };
+  
   if (!feedback || feedback.length === 0) {
     return <p>No Feedback Yet</p>;
   }
@@ -10,7 +14,9 @@ function FeedbackList({ feedback }) {
   return (
     <div className='feedback-list'>
       {feedback.map((item) => {
-        return <FeedbackItem key={item.id} item={item} />;
+        return (
+          <FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
+        );
       })}
     </div>
   );
