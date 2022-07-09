@@ -4,7 +4,7 @@ function App() {
   let text = 'Hello World!';
   return (
     <>
-      <Header bgColor='red' text={text} />
+      <Header text={text} />
       {/* <Header /> */}
       {/* <Header text={1} /> */}
       <div className='container'>
