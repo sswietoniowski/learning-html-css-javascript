@@ -6,6 +6,7 @@ function App() {
     <>
       <Header text={text} />
       {/* <Header /> */}
+      {/* <Header text={1} /> */}
       <div className='container'>
         <h1>My App</h1>
       </div>
