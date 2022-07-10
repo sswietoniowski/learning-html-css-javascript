@@ -16,4 +16,4 @@ const FeedbackData = [
     },
   ];
 
-  export default FeedbackData;
+export default FeedbackData;
