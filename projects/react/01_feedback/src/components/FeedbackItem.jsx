@@ -17,7 +17,7 @@ function FeedbackItem({ item, handleDelete }) {
 
 FeedbackItem.propTypes = {
   item: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     rating: PropTypes.number.isRequired,
     text: PropTypes.string.isRequired,
   }).isRequired,
