@@ -228,9 +228,3 @@ input:focus {
     width: 80%;
   }
 }
-
-/* Only for demo purposes (NavLink use) */
-.active {
-  background: #000;
-  color: red;
-}
