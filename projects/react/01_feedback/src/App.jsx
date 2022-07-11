@@ -8,7 +8,6 @@ import FeedbackList from './components/FeedbackList';
 import FeedbackStats from './components/FeedbackStats';
 import FeedbackForm from './components/FeedbackForm';
 import AboutIconLink from './components/AboutIconLink';
-import Post from './components/Post';
 
 import AboutPage from './pages/AboutPage';
 
@@ -49,7 +48,6 @@ function App() {
             }
           ></Route>
           <Route path='/about' element={<AboutPage />} />
-          <Route path='/post/*' element={<Post />} />
         </Routes>
         <AboutIconLink />
       </div>
