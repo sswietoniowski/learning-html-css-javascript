@@ -14,6 +14,7 @@ function AboutPage() {
             to={{
               pathname: '/',
               search: '?sort=desc',
+              hash: '#about',
             }}
           >
             Back To Home
