@@ -25,7 +25,7 @@ function FeedbackItem({ item }) {
 
 FeedbackItem.propTypes = {
   item: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     rating: PropTypes.number.isRequired,
     text: PropTypes.string.isRequired,
   }).isRequired,
