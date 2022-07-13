@@ -1,17 +1,17 @@
 {
   "feedback": [
     {
-      "id": "1",
+      "id": 1,
       "rating": 10,
       "text": "This is a good product"
     },
     {
-      "id": "2",
+      "id": 2,
       "rating": 5,
       "text": "This is a mediocre product"
     },
     {
-      "id": "3",
+      "id": 3,
       "rating": 1,
       "text": "This is a poor product"
     }
