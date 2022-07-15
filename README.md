@@ -16,7 +16,9 @@ Based on these courses:
 - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
 - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-),
 - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
-- [Materialize CSS From Scratch With 5 Projects](https://learning.oreilly.com/videos/materialize-css-from/9781789538724/) [:file_folder:](https://github.com/PacktPublishing/Materialize-CSS-From-Scratch-With-5-Projects).
+- [Materialize CSS From Scratch With 5 Projects](https://learning.oreilly.com/videos/materialize-css-from/9781789538724/) [:file_folder:](https://github.com/PacktPublishing/Materialize-CSS-From-Scratch-With-5-Projects),
+- [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
+- [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects).
 
 This is (sort of) continuation of these project(-s):
 
