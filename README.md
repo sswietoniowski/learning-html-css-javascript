@@ -1,4 +1,4 @@
-# Learning HTML & CSS & JavaScript - Fullstack Web Development
+# Learning HTML & CSS & JavaScript
 
 This repository contains numerous examples helping to grasp concepts related to: HTML, CSS, JavaScript and other technologies.
 
