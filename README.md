@@ -1,5 +1,9 @@
 # Learning HTML & CSS & JavaScript - Fullstack Web Development
 
+This repository contains numerous examples helping to grasp concepts related to: HTML, CSS, JavaScript and other technologies.
+
+## Learning Resources
+
 Based on these courses:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
