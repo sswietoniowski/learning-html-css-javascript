@@ -6,7 +6,7 @@ Based on these courses:
 - [Modern JavaScript From The Beginning
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
-  - [Feedback App](https://github.com/bradtraversy/feedback-app),
+  - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
   - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app),
   - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
   - [Gist](https://gist.github.com/bradtraversy),
