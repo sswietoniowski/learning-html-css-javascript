@@ -1,4 +1,4 @@
-# Learning HTML & CSS & JavaScript - Modern From The Beginning
+# Learning HTML & CSS & JavaScript - Fullstack Web Development
 
 Based on these courses:
 
