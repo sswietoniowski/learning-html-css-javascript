@@ -2,9 +2,22 @@
 
 This repository contains numerous examples helping to grasp concepts related to: HTML, CSS, JavaScript and other technologies.
 
+## Repository Contents
+
+This repository contains the following sub-directories:
+
+- [css](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/css) - CSS examples,
+- [html](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/html) - HTML examples,
+- [javascript](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/javascript) - JavaScript examples,
+- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) - demo projects created using aftermentioned technologies & more :-).
+
 ## Learning Resources
 
-Based on these courses:
+Based on these (free) courses:
+
+- [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact).
+
+Also used these (paid) courses:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
 - [Modern JavaScript From The Beginning
@@ -14,7 +27,6 @@ Based on these courses:
   - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app),
   - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
   - [Gist](https://gist.github.com/bradtraversy),
-- [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact),
 - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
 - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
@@ -33,3 +45,9 @@ This is (sort of) continuation of these project(-s):
 - [Learning HTML, CSS, JS](https://github.com/sswietoniowski/learning-html-css-js),
 - [Learning Bootstrap](https://github.com/sswietoniowski/learning-bootstrap),
 - [Learning TypeScript](https://github.com/sswietoniowski/learning-typescript).
+
+## Useful Tools & Libraries
+
+Some useful tools & libraries:
+
+- [Node.js](https://nodejs.org/en/).
