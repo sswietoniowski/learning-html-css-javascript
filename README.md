@@ -2,16 +2,29 @@
 
 This repository contains numerous examples helping to grasp concepts related to: HTML, CSS, JavaScript and other technologies.
 
+## Repository Contents
+
+This repository contains the following sub-directories:
+
+- [css](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/css) - CSS examples,
+- [html](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/html) - HTML examples,
+- [javascript](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/javascript) - JavaScript examples,
+- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) - demo projects created using aftermentioned technologies & more :-).
+
 ## Learning Resources
 
-Based on these courses:
+Based on these (free) courses:
+
+- [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact).
+
+Also used these (paid) courses:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
 - [Modern JavaScript From The Beginning
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
   - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
-  - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app),
+  - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
   - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
   - [Gist](https://gist.github.com/bradtraversy),
 - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
@@ -32,3 +45,9 @@ This is (sort of) continuation of these project(-s):
 - [Learning HTML, CSS, JS](https://github.com/sswietoniowski/learning-html-css-js),
 - [Learning Bootstrap](https://github.com/sswietoniowski/learning-bootstrap),
 - [Learning TypeScript](https://github.com/sswietoniowski/learning-typescript).
+
+## Useful Tools & Libraries
+
+Some useful tools & libraries:
+
+- [Node.js](https://nodejs.org/en/).
