@@ -52,4 +52,5 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
-- [Node.js](https://nodejs.org/en/).
+- [Node.js](https://nodejs.org/en/),
+- [jsComplete Playground](https://jscomplete.com/playground).
