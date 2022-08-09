@@ -52,7 +52,7 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
-- [webpack](https://webpack.js.org/),
+- [Webpack](https://webpack.js.org/),
 - [Babel](https://babeljs.io/),
 - [Node.js](https://nodejs.org/en/),
 - [React](https://pl.reactjs.org/),
