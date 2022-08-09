@@ -54,4 +54,4 @@ Some useful tools & libraries:
 
 - [Node.js](https://nodejs.org/en/),
 - [jsComplete Playground](https://jscomplete.com/playground),
-- [React Developer Tools]([https://chrome.google.com/webstore/detail/react-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi).
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi).
