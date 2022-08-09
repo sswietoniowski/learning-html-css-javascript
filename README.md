@@ -52,6 +52,9 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
+- [webpack](https://webpack.js.org/),
+- [Babel](https://babeljs.io/),
 - [Node.js](https://nodejs.org/en/),
+- [React](https://pl.reactjs.org/),
 - [jsComplete Playground](https://jscomplete.com/playground),
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi).
