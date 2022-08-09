@@ -53,4 +53,5 @@ This is (sort of) continuation of these project(-s):
 Some useful tools & libraries:
 
 - [Node.js](https://nodejs.org/en/),
-- [jsComplete Playground](https://jscomplete.com/playground).
+- [jsComplete Playground](https://jscomplete.com/playground),
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools).
