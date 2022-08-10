@@ -1,5 +1,6 @@
 import './App.css';
 import { Component } from 'react';
+import { useState } from 'react';
 
 const testData = [
   {
@@ -49,14 +50,36 @@ class Card extends Component {
   }
 }
 
+class Form extends Component {
+  render() {
+    return (
+      <form action=''>
+        <input type='text' placeholder='GitHub username' />
+        <button>Add card</button>
+      </form>
+    );
+  }
+}
+
 // const App = ({ title }) => <div className='header'>{title}</div>;
 
 class App extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     profiles: testData,
+  //   };
+  // }
+  state = {
+    profiles: testData,
+  };
+
   render() {
     return (
       <div>
         <div className='header'>{this.props.title}</div>
-        <CardList profiles={testData} />
+        <Form />
+        <CardList profiles={this.state.profiles} />
       </div>
     );
   }
