@@ -58,6 +58,7 @@ Some useful tools & libraries:
 - [Babel](https://babeljs.io/),
 - [Node.js](https://nodejs.org/en/),
 - [React](https://pl.reactjs.org/),
+- [create-react-app](https://create-react-app.dev/),
 - [jsComplete Playground](https://jscomplete.com/playground),
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
 - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
