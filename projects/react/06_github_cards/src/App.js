@@ -42,7 +42,7 @@ class Form extends Component {
     const response = await axios.get(
       `https://api.github.com/users/${this.state.userName}`
     );
-    console.log(response.data);
+    // console.log(response.data);
     this.props.onSubmit(response.data);
   };
 
@@ -76,7 +76,7 @@ class App extends Component {
   };
 
   addNewProfile = (profileData) => {
-    console.log(profileData);
+    // console.log(profileData);
     this.setState((prevState) => {
       return {
         profiles: [...prevState.profiles, profileData],
