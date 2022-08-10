@@ -1,19 +1,45 @@
 import './App.css';
 import { Component } from 'react';
 
+const testData = [
+  {
+    name: 'Dan Abramov',
+    avatar_url: 'https://avatars0.githubusercontent.com/u/810438?v=4',
+    company: '@facebook',
+  },
+  {
+    name: 'Sophie Alpert',
+    avatar_url: 'https://avatars2.githubusercontent.com/u/6820?v=4',
+    company: 'Humu',
+  },
+  {
+    name: 'Sebastian Markbåge',
+    avatar_url: 'https://avatars2.githubusercontent.com/u/63648?v=4',
+    company: 'Facebook',
+  },
+];
+
+const CardList = (props) => (
+  <div>
+    {props.profiles.map((profile) => (
+      <Card key={profile.id} {...profile} />
+    ))}
+  </div>
+);
+
 class Card extends Component {
   render() {
     return (
       <div className='github-profile' style={{ margin: '1rem' }}>
-        <img src='https://placehold.it/75' alt='' />
+        <img src={this.props.avatar_url} alt='' />
         <div
           className='info'
           style={{ display: 'inline-block', marginLef: 10 }}
         >
           <div className='name' style={{ fontSize: '125%' }}>
-            Name here
+            {this.props.name}
           </div>
-          <div className='company'>Company here</div>
+          <div className='company'>{this.props.company}</div>
         </div>
       </div>
     );
@@ -27,7 +53,7 @@ class App extends Component {
     return (
       <div>
         <div className='header'>{this.props.title}</div>
-        <Card />
+        <CardList profiles={testData} />
       </div>
     );
   }
