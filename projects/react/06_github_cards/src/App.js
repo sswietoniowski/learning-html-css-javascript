@@ -2,8 +2,6 @@ import './App.css';
 import { Component } from 'react';
 import axios from 'axios';
 
-const testData = [];
-
 const CardList = (props) => (
   <div>
     {props.profiles.map((profile) => (
@@ -72,7 +70,7 @@ class App extends Component {
   //   };
   // }
   state = {
-    profiles: testData,
+    profiles: [],
   };
 
   addNewProfile = (profileData) => {
