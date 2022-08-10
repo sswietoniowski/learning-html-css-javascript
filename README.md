@@ -59,4 +59,6 @@ Some useful tools & libraries:
 - [React](https://pl.reactjs.org/),
 - [jsComplete Playground](https://jscomplete.com/playground),
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
-- [CSS in JS](https://github.com/MicheleBertoli/css-in-js).
+- [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
+- [Axios](https://github.com/axios/axios),
+- [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/).
