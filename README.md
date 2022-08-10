@@ -16,6 +16,7 @@ This repository contains the following sub-directories:
 Based on these (free) courses:
 
 - [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact),
+- [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful),
 - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/).
 
 Also used these (paid) courses:
@@ -53,10 +54,12 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
+- [Prettier](https://prettier.io/),
 - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
+- [Node.js](https://nodejs.org/en/),
+- [Express](https://expressjs.com/),
 - [Webpack](https://webpack.js.org/),
 - [Babel](https://babeljs.io/),
-- [Node.js](https://nodejs.org/en/),
 - [React](https://pl.reactjs.org/),
 - [create-react-app](https://create-react-app.dev/),
 - [jsComplete Playground](https://jscomplete.com/playground),
