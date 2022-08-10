@@ -1,6 +1,5 @@
 import './App.css';
-import { Component } from 'react';
-import { useState } from 'react';
+import { Component, createRef } from 'react';
 
 const testData = [
   {
@@ -51,10 +50,22 @@ class Card extends Component {
 }
 
 class Form extends Component {
+  userNameInput = createRef();
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(`Form submitted: ${this.userNameInput.current.value}`);
+  };
+
   render() {
     return (
-      <form action=''>
-        <input type='text' placeholder='GitHub username' />
+      <form onSubmit={this.handleSubmit}>
+        <input
+          type='text'
+          placeholder='GitHub username'
+          ref={this.userNameInput}
+          required
+        />
         <button>Add card</button>
       </form>
     );
