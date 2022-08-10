@@ -54,6 +54,7 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
+- [Prettier](https://prettier.io/),
 - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
 - [Node.js](https://nodejs.org/en/),
 - [Express](https://expressjs.com/),
