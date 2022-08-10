@@ -16,6 +16,7 @@ This repository contains the following sub-directories:
 Based on these (free) courses:
 
 - [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact),
+- [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful),
 - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/).
 
 Also used these (paid) courses:
