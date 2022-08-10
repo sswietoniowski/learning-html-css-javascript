@@ -55,6 +55,7 @@ This is (sort of) continuation of these project(-s):
 Some useful tools & libraries:
 
 - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
+- [Express](https://expressjs.com/),
 - [Webpack](https://webpack.js.org/),
 - [Babel](https://babeljs.io/),
 - [Node.js](https://nodejs.org/en/),
