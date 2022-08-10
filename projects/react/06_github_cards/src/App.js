@@ -42,6 +42,7 @@ class Form extends Component {
     );
     // console.log(response.data);
     this.props.onSubmit(response.data);
+    this.setState({ userName: '' });
   };
 
   render() {
