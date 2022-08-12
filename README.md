@@ -49,11 +49,11 @@ Also used these (paid) courses & books:
   - [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
-- Electron:
-  - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
+- Electron:
+  - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - TypeScript:
   - [Understanding TypeScript – 2020 Edition](https://learning.oreilly.com/videos/understanding-typescript/9781789951905/) [:file_folder:](https://github.com/PacktPublishing/Understanding-TypeScript-2020-Edition),
   - [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files),
