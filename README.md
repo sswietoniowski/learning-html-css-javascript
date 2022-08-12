@@ -71,6 +71,7 @@ Some useful tools & libraries:
 - [RedwoodJS](https://redwoodjs.com/),
 - [Remix](https://remix.run/),
 - [jsComplete Playground](https://jscomplete.com/playground),
+- [HTML to JSX](https://magic.reactjs.net/htmltojsx),
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
 - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
 - [Axios](https://github.com/axios/axios).
