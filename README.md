@@ -21,11 +21,15 @@ Based on these (free) courses:
 - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
 - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:.
 
-Also used these (paid) courses:
+Also used these (paid) courses & books:
 
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
 - [Modern JavaScript From The Beginning
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
+- [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
+- [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
+- [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
+- [JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/) [:file_folder:](https://github.com/davidflanagan/jstdg7),
 - [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
 - [React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
