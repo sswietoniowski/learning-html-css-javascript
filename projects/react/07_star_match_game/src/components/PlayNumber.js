@@ -6,12 +6,12 @@ const colors = {
   candidate: 'deepskyblue',
 };
 
-const PlayNumber = ({ number, status }) => {
+const PlayNumber = ({ number, status, onClick }) => {
   return (
     <button
       className='number'
       style={{ backgroundColor: colors[status] }}
-      onClick={() => console.log(number)}
+      onClick={() => onClick(number, status)}
     >
       {number}
     </button>
