@@ -40,6 +40,7 @@ Also used these (paid) courses:
 - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
 - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
 - [Understanding TypeScript – 2020 Edition](https://learning.oreilly.com/videos/understanding-typescript/9781789951905/) [:file_folder:](https://github.com/PacktPublishing/Understanding-TypeScript-2020-Edition),
+- [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files),
 - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
 - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-),
 - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
