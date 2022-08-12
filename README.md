@@ -36,6 +36,8 @@ Also used these (paid) courses & books:
   - [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
   - [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
   - [JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/) [:file_folder:](https://github.com/davidflanagan/jstdg7),
+- Node.js:
+  - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - React:  
   - [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - [React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
@@ -47,8 +49,6 @@ Also used these (paid) courses & books:
   - [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
-- Node.js:
-  - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - Electron:
   - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - React Native:
