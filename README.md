@@ -65,6 +65,7 @@ Some useful tools & libraries:
 - [Express](https://expressjs.com/),
 - [Webpack](https://webpack.js.org/),
 - [Babel](https://babeljs.io/),
+- [SWC](https://swc.rs/),
 - [React](https://pl.reactjs.org/),
 - [create-react-app](https://create-react-app.dev/),
 - [Next.js](https://nextjs.org/),
