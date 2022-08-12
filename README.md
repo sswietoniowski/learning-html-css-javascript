@@ -61,7 +61,7 @@ Also used these (paid) courses & books:
 - Next.js:  
   - [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files) :+1:,
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
-- Other:
+- Others:
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files).
 
