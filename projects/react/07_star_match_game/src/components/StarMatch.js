@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import './StarMatch.css';
+import Number from './Number';
 
 // Color Theme
 const colors = {
@@ -41,7 +42,7 @@ const utils = {
 };
 
 const StarMatch = () => {
-  const [stars, setStars] = useState(utils.random(1, 9));
+  const [stars] = useState(utils.random(1, 9));
   return (
     <div className='game'>
       <div className='help'>
@@ -54,10 +55,8 @@ const StarMatch = () => {
           ))}
         </div>
         <div className='right'>
-          {utils.range(1, stars).map((numberId) => (
-            <button key={numberId} className='number'>
-              {numberId}
-            </button>
+          {utils.range(1, stars).map((number) => (
+            <Number key={number} number={number} />
           ))}
         </div>
       </div>
