@@ -70,6 +70,8 @@ Some useful tools & libraries:
 - [Gatsby](https://www.gatsbyjs.com/),
 - [RedwoodJS](https://redwoodjs.com/),
 - [Remix](https://remix.run/),
+- [Flux](https://facebook.github.io/flux/),
+- [Redux](https://redux.js.org/),
 - [jsComplete Playground](https://jscomplete.com/playground),
 - [HTML to JSX](https://magic.reactjs.net/htmltojsx),
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
