@@ -78,28 +78,33 @@ This is (sort of) continuation of these project(-s):
 
 Some useful tools & libraries:
 
-- [Prettier](https://prettier.io/),
-- [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
-- [ESLint](https://eslint.org/),
-- [Node.js](https://nodejs.org/en/),
-- [Express](https://expressjs.com/),
-- [Webpack](https://webpack.js.org/),
-- [Babel](https://babeljs.io/),
-- [SWC](https://swc.rs/),
-- [React](https://pl.reactjs.org/),
-- [create-react-app](https://create-react-app.dev/),
-- [Next.js](https://nextjs.org/),
-- [Blitz](https://blitzjs.com/),
-- [Gatsby](https://www.gatsbyjs.com/),
-- [RedwoodJS](https://redwoodjs.com/),
-- [Remix](https://remix.run/),
-- [Vite](https://vitejs.dev/),
-- [Hydrogen](https://hydrogen.shopify.dev/),
-- [Flux](https://facebook.github.io/flux/),
-- [Redux](https://redux.js.org/),
-- [MobX](https://mobx.js.org/README.html),
-- [jsComplete Playground](https://jscomplete.com/playground),
-- [HTML to JSX](https://magic.reactjs.net/htmltojsx),
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
-- [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
-- [Axios](https://github.com/axios/axios).
+- General:
+  - [Prettier](https://prettier.io/),
+- JavaScript:
+  - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
+  - [ESLint](https://eslint.org/),
+- Node.js:
+  - [Node.js](https://nodejs.org/en/),
+  - [Express](https://expressjs.com/),
+- Others:
+  - [Webpack](https://webpack.js.org/),
+  - [Babel](https://babeljs.io/),
+  - [SWC](https://swc.rs/),
+- React:
+  - [React](https://pl.reactjs.org/),
+  - [create-react-app](https://create-react-app.dev/),
+  - [Next.js](https://nextjs.org/),
+  - [Blitz](https://blitzjs.com/),
+  - [Gatsby](https://www.gatsbyjs.com/),
+  - [RedwoodJS](https://redwoodjs.com/),
+  - [Remix](https://remix.run/),
+  - [Vite](https://vitejs.dev/),
+  - [Hydrogen](https://hydrogen.shopify.dev/),
+  - [Flux](https://facebook.github.io/flux/),
+  - [Redux](https://redux.js.org/),
+  - [MobX](https://mobx.js.org/README.html),
+  - [jsComplete Playground](https://jscomplete.com/playground),
+  - [HTML to JSX](https://magic.reactjs.net/htmltojsx),
+  - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
+  - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
+  - [Axios](https://github.com/axios/axios).
