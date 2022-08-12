@@ -26,7 +26,7 @@ Also used these (paid) courses:
 - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
 - [Modern JavaScript From The Beginning
   ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
-- [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files),
+- [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
 - [React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files),
 - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
   - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
