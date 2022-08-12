@@ -1,8 +1,11 @@
-const PlayAgain = ({ stars, onClick }) => {
+const PlayAgain = ({ gameStatus, onClick }) => {
   return (
     <div className='game-done'>
-      <div className='message' style={{ color: stars > 1 ? 'green' : 'red' }}>
-        {stars > 1 ? 'Nice' : 'Game Over'}
+      <div
+        className='message'
+        style={{ color: gameStatus === 'won' ? 'green' : 'red' }}
+      >
+        {gameStatus === 'won' ? 'Nice' : 'Game Over'}
       </div>
       <button onClick={() => onClick()}>Play Again</button>
     </div>
