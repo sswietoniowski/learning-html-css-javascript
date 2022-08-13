@@ -16,8 +16,7 @@ const Sessions = ({ sessions }) => {
   );
 };
 
-const SpeakerImage = (props) => {
-  const { id, first, last } = props;
+const SpeakerImage = ({ id, first, last }) => {
   return (
     <div className='speaker-img d-flex flex-row justify-content-center align-items-center h-300'>
       <img
@@ -30,8 +29,8 @@ const SpeakerImage = (props) => {
   );
 };
 
-const SpeakerInfo = (props) => {
-  const { first, last, bio, company, twitterHandle, favorite } = props;
+const SpeakerInfo = ({ speaker }) => {
+  const { first, last, bio, company, twitterHandle, favorite } = speaker;
   return (
     <div className='speaker-info'>
       <div className='d-flex justify-content-between mb-3'>
@@ -49,11 +48,12 @@ const SpeakerInfo = (props) => {
 };
 
 const Speaker = ({ speaker }) => {
+  const { id, first, last, bio, company, twitterHandle, favorite } = speaker;
   return (
     <div className='col-xs-12 col-sm-12 col-md-6 col-lg-4 col-sm-12 col-xs-12'>
       <div className='card card-height p-4 mt-4'>
-        <SpeakerImage {...speaker} />
-        <SpeakerInfo {...speaker} />
+        <SpeakerImage id={id} first={first} last={last} />
+        <SpeakerInfo speaker={speaker} />
       </div>
       <Sessions sessions={speaker.sessions} />
     </div>
