@@ -20,7 +20,8 @@ Based on these (free) courses:
   - [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful) :+1:,
   - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
-  - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:.
+  - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:,
+  - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558).
 
 Also used these (paid) courses & books:
 
