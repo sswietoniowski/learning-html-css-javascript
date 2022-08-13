@@ -1,9 +1,11 @@
 import { useState } from 'react';
 
-const SpeakersToolbar = () => {
-  const [showSessions, setShowSessions] = useState(false);
-  const [theme, setTheme] = useState('light');
-
+const SpeakersToolbar = ({
+  showSessions,
+  setShowSessions,
+  theme,
+  setTheme,
+}) => {
   const switchShowSessions = (event) => {
     setShowSessions(event.target.checked);
   };
