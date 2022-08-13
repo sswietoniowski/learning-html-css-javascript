@@ -10,7 +10,11 @@ const Speakers = () => {
   const [theme, setTheme] = useState('light');
 
   return (
-    <div className='container-fluid'>
+    <div
+      className={
+        theme === 'light' ? 'container-fluid light' : 'container-fluid dark'
+      }
+    >
       <Header />
       <SpeakersToolbar
         showSessions={showSessions}
