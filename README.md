@@ -48,7 +48,7 @@ Also used these (paid) courses & books:
     - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
     - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
     - [Gist](https://gist.github.com/bradtraversy),
-  - [Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files),
+  - [Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :arrow_forward:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
   - [Styling React Components](https://app.pluralsight.com/library/courses/react-components-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-styling/exercise-files),
   - [Server Rendering React 16 Components](https://app.pluralsight.com/library/courses/server-rendering-react-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/server-rendering-react-components/exercise-files),
