@@ -1,6 +1,7 @@
 import Speaker from './Speaker';
+import { data } from '../../SpeakerData';
 
-const SpeakersList = ({ data, showSessions }) => {
+const SpeakersList = ({ showSessions }) => {
   return (
     <div className='container speakers-list'>
       <div className='row'>

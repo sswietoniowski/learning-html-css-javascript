@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 const SpeakersToolbar = ({
   showSessions,
   setShowSessions,
