@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = ({ theme }) => {
   return (
     <div className='padT4 padB4'>
       <div className='container mobile-container'>
@@ -9,7 +9,7 @@ const Header = () => {
           <div className='light'>
             <h4 className='header-title'>Silicon Valley Code Camp</h4>
           </div>
-          <div className='text-dark'>
+          <div className={theme === 'light' ? '' : 'text-info'}>
             Hello Mr. Smith &nbsp;&nbsp;
             <span>
               <a href='#'>sign-out</a>

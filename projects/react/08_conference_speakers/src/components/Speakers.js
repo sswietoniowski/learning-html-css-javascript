@@ -15,7 +15,7 @@ const Speakers = () => {
         theme === 'light' ? 'container-fluid light' : 'container-fluid dark'
       }
     >
-      <Header />
+      <Header theme={theme} />
       <SpeakersToolbar
         showSessions={showSessions}
         setShowSessions={setShowSessions}
