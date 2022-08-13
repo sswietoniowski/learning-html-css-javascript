@@ -1,5 +1,5 @@
 import Header from './Header';
-import Toolbar from './Toolbar';
+import SpeakersToolbar from './SpeakersToolbar';
 import SpeakersList from './SpeakersList';
 import { data } from '../../SpeakerData';
 
@@ -7,8 +7,8 @@ const Speakers = () => {
   return (
     <div className='container-fluid'>
       <Header />
-      <Toolbar />
-      <SpeakersList data={data}/>
+      <SpeakersToolbar />
+      <SpeakersList data={data} />
     </div>
   );
 };
