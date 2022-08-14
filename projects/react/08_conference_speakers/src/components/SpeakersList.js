@@ -1,11 +1,12 @@
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
-import useRequestSpeakers, { REQUEST_STATUS } from './hooks/useRequestSpeakers';
+import useRequestDelay, { REQUEST_STATUS } from './hooks/useRequestDelay';
+
+import { data } from '../../SpeakerData';
 
 const SpeakersList = ({ showSessions }) => {
-  const { speakersData, requestStatus, error, onFavoriteToggle } =
-    useRequestSpeakers();
+  const { data, requestStatus, error, updateRecord } = useRequestDelay();
 
   if (requestStatus === REQUEST_STATUS.FAILURE) {
     return (
@@ -26,13 +27,13 @@ const SpeakersList = ({ showSessions }) => {
   return (
     <div className='container speakers-list'>
       <div className='row'>
-        {speakersData.map(function (speaker) {
+        {data.map(function (speaker) {
           return (
             <Speaker
               key={speaker.id}
               speaker={speaker}
               showSessions={showSessions}
-              onFavoriteToggle={() => onFavoriteToggle(speaker.id)}
+              onFavoriteToggle={() => updateRecord(speaker)}
             />
           );
         })}

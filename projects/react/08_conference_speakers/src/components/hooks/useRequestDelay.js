@@ -1,15 +1,13 @@
 import { useState, useEffect } from 'react';
 
-import { data } from '../../../SpeakerData';
-
 export const REQUEST_STATUS = {
   LOADING: 'loading',
   SUCCESS: 'success',
   FAILURE: 'failure',
 };
 
-const useRequestSpeakers = (delayTimeInMs = 1000) => {
-  const [speakersData, setSpeakersData] = useState([]);
+const useRequestDelay = (delayTimeInMs = 1000, initialData = []) => {
+  const [data, setData] = useState([initialData]);
   const [requestStatus, setRequestStatus] = useState(REQUEST_STATUS.LOADING);
   const [error, setError] = useState('');
 
@@ -22,7 +20,7 @@ const useRequestSpeakers = (delayTimeInMs = 1000) => {
       try {
         await delay(ms);
         // throw 'Had error!';
-        setSpeakersData(data);
+        setData(data);
         setRequestStatus(REQUEST_STATUS.SUCCESS);
       } catch (error) {
         setRequestStatus(REQUEST_STATUS.FAILURE);
@@ -33,27 +31,30 @@ const useRequestSpeakers = (delayTimeInMs = 1000) => {
     delayFunc(delayTimeInMs);
   }, []);
 
-  const onFavoriteToggle = (id) => {
-    const speakerRecPrevious = speakersData.find(function (rec) {
-      return rec.id === id;
-    });
-    const speakerRecUpdated = {
-      ...speakerRecPrevious,
-      favorite: !speakerRecPrevious.favorite,
-    };
-    const speakersDataNew = speakersData.map(function (rec) {
-      return rec.id === id ? speakerRecUpdated : rec;
+  const updateRecord = (recordUpdated) => {
+    const dataNew = data.map(function (rec) {
+      return rec.id === recordUpdated.id ? recordUpdated : rec;
     });
 
-    setSpeakersData(speakersDataNew);
+    const delayFunc = async (ms) => {
+      try {
+        await delay(ms);
+        // throw 'Had error!';
+        setData(dataNew);
+      } catch (error) {
+        console.log('error thrown inside delayFunction', error);
+      }
+    };
+
+    delayFunc(delayTimeInMs);
   };
 
   return {
-    speakersData,
+    data,
     requestStatus,
     error,
-    onFavoriteToggle,
+    updateRecord,
   };
 };
 
-export default useRequestSpeakers;
+export default useRequestDelay;
