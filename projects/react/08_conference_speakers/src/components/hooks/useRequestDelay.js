@@ -7,7 +7,7 @@ export const REQUEST_STATUS = {
 };
 
 const useRequestDelay = (delayTimeInMs = 1000, initialData = []) => {
-  const [data, setData] = useState([initialData]);
+  const [data, setData] = useState(initialData);
   const [requestStatus, setRequestStatus] = useState(REQUEST_STATUS.LOADING);
   const [error, setError] = useState('');
 

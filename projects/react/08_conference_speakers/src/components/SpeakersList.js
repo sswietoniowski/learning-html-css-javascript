@@ -6,7 +6,12 @@ import useRequestDelay, { REQUEST_STATUS } from './hooks/useRequestDelay';
 import { data } from '../../SpeakerData';
 
 const SpeakersList = ({ showSessions }) => {
-  const { data, requestStatus, error, updateRecord } = useRequestDelay();
+  const {
+    data: speakersData,
+    requestStatus,
+    error,
+    updateRecord,
+  } = useRequestDelay(1000, data);
 
   if (requestStatus === REQUEST_STATUS.FAILURE) {
     return (
@@ -27,13 +32,15 @@ const SpeakersList = ({ showSessions }) => {
   return (
     <div className='container speakers-list'>
       <div className='row'>
-        {data.map(function (speaker) {
+        {speakersData.map(function (speaker) {
           return (
             <Speaker
               key={speaker.id}
               speaker={speaker}
               showSessions={showSessions}
-              onFavoriteToggle={() => updateRecord(speaker)}
+              onFavoriteToggle={() =>
+                updateRecord({ ...speaker, favorite: !speaker.favorite })
+              }
             />
           );
         })}
