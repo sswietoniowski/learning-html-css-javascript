@@ -1,12 +1,25 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import Speaker from './Speaker';
 import { data } from '../../SpeakerData';
 
 const SpeakersList = ({ showSessions }) => {
-  const [speakersData, setSpeakersData] = useState(data);
+  const [speakersData, setSpeakersData] = useState([]);
 
-  function onFavoriteToggle(id) {
+  const delay = (ms) => {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  };
+
+  useEffect(() => {
+    const delayFunc = async () => {
+      await delay(2000);
+      setSpeakersData(data);
+    };
+
+    delayFunc();
+  }, []);
+
+  const onFavoriteToggle = (id) => {
     const speakerRecPrevious = speakersData.find(function (rec) {
       return rec.id === id;
     });
@@ -19,7 +32,7 @@ const SpeakersList = ({ showSessions }) => {
     });
 
     setSpeakersData(speakersDataNew);
-  }
+  };
 
   return (
     <div className='container speakers-list'>
