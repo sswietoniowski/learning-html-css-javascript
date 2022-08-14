@@ -1,13 +1,13 @@
 import Header from './components/Header';
 import Speakers from './components/Speakers';
-import LayoutNoThemeProvider from './components/Layout';
+import Layout from './components/Layout';
 
 const App = () => {
   return (
-    <LayoutNoThemeProvider startingTheme='light'>
+    <Layout startingTheme='light'>
       <Header />
       <Speakers />
-    </LayoutNoThemeProvider>
+    </Layout>
   );
 };
 
