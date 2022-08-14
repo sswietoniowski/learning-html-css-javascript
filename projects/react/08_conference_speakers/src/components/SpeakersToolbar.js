@@ -1,9 +1,10 @@
-const SpeakersToolbar = ({
-  showSessions,
-  setShowSessions,
-  theme,
-  setTheme,
-}) => {
+import { useContext } from 'react';
+
+import ThemeContext from '../context/ThemeContext';
+
+const SpeakersToolbar = ({ showSessions, setShowSessions }) => {
+  const { theme, setTheme } = useContext(ThemeContext);
+
   const switchShowSessions = (event) => {
     setShowSessions(event.target.checked);
   };
