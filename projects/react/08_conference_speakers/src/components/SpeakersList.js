@@ -4,7 +4,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import Speaker from './Speaker';
 import { data } from '../../SpeakerData';
 
-const SpeakersList = ({ showSessions }) => {
+const useRequestSpeakers = (ms) => {
   const [speakersData, setSpeakersData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [hasErrored, setHasErrored] = useState(false);
@@ -15,9 +15,9 @@ const SpeakersList = ({ showSessions }) => {
   };
 
   useEffect(() => {
-    const delayFunc = async () => {
+    const delayFunc = async (ms) => {
       try {
-        await delay(1000);
+        await delay(ms);
         // throw 'Had error!';
         setSpeakersData(data);
         setIsLoading(false);
@@ -28,7 +28,7 @@ const SpeakersList = ({ showSessions }) => {
       }
     };
 
-    delayFunc();
+    delayFunc(ms);
   }, []);
 
   const onFavoriteToggle = (id) => {
@@ -45,6 +45,19 @@ const SpeakersList = ({ showSessions }) => {
 
     setSpeakersData(speakersDataNew);
   };
+
+  return {
+    speakersData,
+    isLoading,
+    hasErrored,
+    error,
+    onFavoriteToggle,
+  };
+};
+
+const SpeakersList = ({ showSessions }) => {
+  const { speakersData, isLoading, hasErrored, error, onFavoriteToggle } =
+    useRequestSpeakers(1000);
 
   if (hasErrored) {
     return (
