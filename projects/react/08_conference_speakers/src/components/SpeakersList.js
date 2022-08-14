@@ -1,7 +1,7 @@
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
-import useRequestDelay, { REQUEST_STATUS } from './hooks/useRequestDelay';
+import useRequestDelay, { REQUEST_STATUS } from '../hooks/useRequestDelay';
 
 import { data } from '../../SpeakerData';
 
