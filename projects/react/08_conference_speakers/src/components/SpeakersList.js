@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
 import { data } from '../../SpeakerData';
@@ -16,7 +17,7 @@ const SpeakersList = ({ showSessions }) => {
   useEffect(() => {
     const delayFunc = async () => {
       try {
-        await delay(2000);
+        await delay(1000);
         // throw 'Had error!';
         setSpeakersData(data);
         setIsLoading(false);
@@ -54,7 +55,11 @@ const SpeakersList = ({ showSessions }) => {
   }
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return (
+      <div className='d-flex justify-content-center p-2'>
+        <Spinner animation='border' />
+      </div>
+    );
   }
 
   return (
