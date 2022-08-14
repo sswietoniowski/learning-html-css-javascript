@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 const Session = ({ title, room }) => {
   return (
     <span className='session w-100'>
@@ -28,17 +30,20 @@ const SpeakerImage = ({ id, first, last }) => {
 };
 
 function SpeakerFavorite({ favorite, onFavoriteToggle }) {
+  const [inTransition, setInTransition] = useState(false);
+
   const doneCallback = () => {
-    console.log(
-      `In SpeakerFavorite:doneCallback ${new Date().getMilliseconds()}`
-    );
+    setInTransition(false);
   };
 
   return (
     <div className='action padB1'>
       <span
         onClick={() => {
-          return onFavoriteToggle(doneCallback);
+          if (!inTransition) {
+            setInTransition(true);
+            onFavoriteToggle(doneCallback);
+          }
         }}
       >
         <i
@@ -47,6 +52,9 @@ function SpeakerFavorite({ favorite, onFavoriteToggle }) {
           }
         />{' '}
         Favorite{' '}
+        {inTransition === true ? (
+          <span className='fas fa-circle-notch fa-spin' />
+        ) : null}
       </span>
     </div>
   );
