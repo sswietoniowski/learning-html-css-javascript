@@ -1,7 +1,7 @@
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
-import { useRequestSpeakers, REQUEST_STATUS } from './hooks/useRequestSpeakers';
+import useRequestSpeakers, { REQUEST_STATUS } from './hooks/useRequestSpeakers';
 
 const SpeakersList = ({ showSessions }) => {
   const { speakersData, requestStatus, error, onFavoriteToggle } =
