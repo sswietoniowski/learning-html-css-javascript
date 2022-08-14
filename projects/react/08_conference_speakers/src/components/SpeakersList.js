@@ -1,13 +1,13 @@
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
-import useRequestSpeakers from './hooks/useRequestSpeakers';
+import { useRequestSpeakers, REQUEST_STATUS } from './hooks/useRequestSpeakers';
 
 const SpeakersList = ({ showSessions }) => {
-  const { speakersData, isLoading, hasErrored, error, onFavoriteToggle } =
-    useRequestSpeakers(1000);
+  const { speakersData, requestStatus, error, onFavoriteToggle } =
+    useRequestSpeakers();
 
-  if (hasErrored) {
+  if (requestStatus === REQUEST_STATUS.FAILURE) {
     return (
       <div className='text-danger'>
         ERROR: <b>Loading Speakers Data Failed: {error}</b>
@@ -15,7 +15,7 @@ const SpeakersList = ({ showSessions }) => {
     );
   }
 
-  if (isLoading) {
+  if (requestStatus === REQUEST_STATUS.LOADING) {
     return (
       <div className='d-flex justify-content-center p-2'>
         <Spinner animation='border' />
