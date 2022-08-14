@@ -38,8 +38,14 @@ const SpeakersList = ({ showSessions }) => {
               key={speaker.id}
               speaker={speaker}
               showSessions={showSessions}
-              onFavoriteToggle={() =>
-                updateRecord({ ...speaker, favorite: !speaker.favorite })
+              onFavoriteToggle={(doneCallback) =>
+                updateRecord(
+                  {
+                    ...speaker,
+                    favorite: !speaker.favorite,
+                  },
+                  doneCallback
+                )
               }
             />
           );
