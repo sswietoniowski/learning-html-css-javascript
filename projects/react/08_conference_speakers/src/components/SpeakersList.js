@@ -5,7 +5,7 @@ import useRequestDelay, { REQUEST_STATUS } from '../hooks/useRequestDelay';
 
 import { data } from '../../SpeakerData';
 
-const SpeakersList = ({ showSessions }) => {
+const SpeakersList = () => {
   const {
     data: speakersData,
     requestStatus,
@@ -37,7 +37,6 @@ const SpeakersList = ({ showSessions }) => {
             <Speaker
               key={speaker.id}
               speaker={speaker}
-              showSessions={showSessions}
               onFavoriteToggle={(doneCallback) =>
                 updateRecord(
                   {

@@ -1,9 +1,11 @@
 import { useContext } from 'react';
 
 import { ThemeContext } from '../contexts/ThemeContext';
+import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
 
-const SpeakersToolbar = ({ showSessions, setShowSessions }) => {
+const SpeakersToolbar = () => {
   const { theme, setTheme } = useContext(ThemeContext);
+  const { showSessions, setShowSessions } = useContext(SpeakerFilterContext);
 
   const switchShowSessions = (event) => {
     setShowSessions(event.target.checked);
