@@ -1,9 +1,11 @@
+import { useContext } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
 import useRequestDelay, { REQUEST_STATUS } from '../hooks/useRequestDelay';
 
 import { data } from '../../SpeakerData';
+import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
 
 const SpeakersList = () => {
   const {
@@ -12,6 +14,8 @@ const SpeakersList = () => {
     error,
     updateRecord,
   } = useRequestDelay(1000, data);
+
+  const { searchQuery, eventYear } = useContext(SpeakerFilterContext);
 
   if (requestStatus === REQUEST_STATUS.FAILURE) {
     return (
@@ -32,23 +36,39 @@ const SpeakersList = () => {
   return (
     <div className='container speakers-list'>
       <div className='row'>
-        {speakersData.map(function (speaker) {
-          return (
-            <Speaker
-              key={speaker.id}
-              speaker={speaker}
-              onFavoriteToggle={(doneCallback) =>
-                updateRecord(
-                  {
-                    ...speaker,
-                    favorite: !speaker.favorite,
-                  },
-                  doneCallback
-                )
-              }
-            />
-          );
-        })}
+        {speakersData
+          .filter((speaker) => {
+            return (
+              searchQuery === '' ||
+              speaker.first.toLowerCase().includes(searchQuery.toLowerCase()) ||
+              speaker.last.toLowerCase().includes(searchQuery.toLowerCase())
+            );
+          })
+          .filter((speaker) => {
+            return (
+              eventYear === '' ||
+              speaker.sessions.find((session) => {
+                return session.eventYear === eventYear;
+              })
+            );
+          })
+          .map(function (speaker) {
+            return (
+              <Speaker
+                key={speaker.id}
+                speaker={speaker}
+                onFavoriteToggle={(doneCallback) =>
+                  updateRecord(
+                    {
+                      ...speaker,
+                      favorite: !speaker.favorite,
+                    },
+                    doneCallback
+                  )
+                }
+              />
+            );
+          })}
       </div>
     </div>
   );
