@@ -5,19 +5,13 @@ import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
 const Session = ({ title, room }) => {
   return (
     <span className='session w-100'>
-      {title} <strong>Room: {room}</strong>
+      {title} <strong>Room: {room.name}</strong>
     </span>
   );
 };
 
 const Sessions = ({ sessions }) => {
   const { eventYear } = useContext(SpeakerFilterContext);
-
-  console.log(
-    sessions.filter(function (session) {
-      return eventYear === '' || session.eventYear === eventYear;
-    })
-  );
 
   return (
     <div className='sessionBox card h-250'>
