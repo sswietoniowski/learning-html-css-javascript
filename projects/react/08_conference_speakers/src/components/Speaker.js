@@ -125,7 +125,6 @@ const SpeakerDemographics = () => {
 };
 
 const Speaker = ({ speaker, updateRecord }) => {
-  const { id, first, last, bio, company, twitterHandle, favorite } = speaker;
   const { showSessions } = useContext(SpeakerFilterContext);
   return (
     <SpeakerProvider speaker={speaker} updateRecord={updateRecord}>
