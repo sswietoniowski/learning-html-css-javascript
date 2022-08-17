@@ -76,8 +76,6 @@ Also used these (paid) courses & books:
   - [React Native 0.63: Components Playbook](https://app.pluralsight.com/library/courses/react-native-components-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-components-playbook/exercise-files),
   - [Styling React Native Applications](https://app.pluralsight.com/library/courses/react-native-applications-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-applications-styling/exercise-files),
   - [Testing Mobile Apps in React Native](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/exercise-files),
-  - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
-  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
 - Electron:
   - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - TypeScript:
@@ -90,7 +88,9 @@ Also used these (paid) courses & books:
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
-  - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files).
+  - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
+  - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
+  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files).
 
 This is (sort of) continuation of these project(-s):
 
