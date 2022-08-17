@@ -134,7 +134,7 @@ const Speaker = ({ speaker, updateRecord }) => {
           <SpeakerImage />
           <SpeakerDemographics />
         </div>
-        {showSessions && <Sessions sessions={speaker.sessions} />}
+        {showSessions && <Sessions />}
       </div>
     </SpeakerProvider>
   );
