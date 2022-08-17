@@ -66,7 +66,7 @@ Also used these (paid) courses & books:
   - [Managing Large Datasets in React 17](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/exercise-files),
   - [React 17 Security: Best Practices](https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-security-best-practices/exercise-files),
   - [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
-  - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files),
+  - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
