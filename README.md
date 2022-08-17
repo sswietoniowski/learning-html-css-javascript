@@ -113,11 +113,7 @@ Some useful tools & libraries:
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - [Express](https://expressjs.com/),
-- Others:
-  - [Webpack](https://webpack.js.org/),
-  - [Babel](https://babeljs.io/),
-  - [SWC](https://swc.rs/),
-- React:
+ React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
   - [Next.js](https://nextjs.org/),
@@ -134,4 +130,9 @@ Some useful tools & libraries:
   - [HTML to JSX](https://magic.reactjs.net/htmltojsx),
   - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
   - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
-  - [Axios](https://github.com/axios/axios).
+  - [Axios](https://github.com/axios/axios),
+- Others:
+  - [Webpack](https://webpack.js.org/),
+  - [Babel](https://babeljs.io/),
+  - [SWC](https://swc.rs/).
+
