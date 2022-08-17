@@ -22,6 +22,8 @@ Based on these (free) courses:
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
   - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:,
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
+  - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
+- Others:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
 
 Also used these (paid) courses & books:
