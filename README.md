@@ -22,6 +22,8 @@ Based on these (free) courses:
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
   - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:,
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
+  - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
+- Others:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
 
 Also used these (paid) courses & books:
@@ -64,11 +66,18 @@ Also used these (paid) courses & books:
   - [Managing Large Datasets in React 17](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/exercise-files),
   - [React 17 Security: Best Practices](https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-security-best-practices/exercise-files),
   - [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
-  - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files),
+  - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
+  - [React Native: Getting Started](https://app.pluralsight.com/library/courses/react-native-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-get-started/exercise-files),
+  - [Building Mobile Apps with React Native](https://app.pluralsight.com/library/courses/building-mobile-apps-react-native/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/building-mobile-apps-react-native/exercise-files),
+  - [Building React Native Applications Using Expo](https://app.pluralsight.com/library/courses/react-native-applications-using-expo/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-applications-using-expo/exercise-files),
+  - [Building a Chat Application with React Native](https://app.pluralsight.com/library/courses/building-chat-application-react-native/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/building-chat-application-react-native/exercise-files),
+  - [React Native 0.63: Components Playbook](https://app.pluralsight.com/library/courses/react-native-components-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-components-playbook/exercise-files),
+  - [Styling React Native Applications](https://app.pluralsight.com/library/courses/react-native-applications-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-applications-styling/exercise-files),
+  - [Testing Mobile Apps in React Native](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/exercise-files),
 - Electron:
   - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
 - TypeScript:
@@ -81,7 +90,9 @@ Also used these (paid) courses & books:
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
-  - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files).
+  - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
+  - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
+  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files).
 
 This is (sort of) continuation of these project(-s):
 
@@ -102,11 +113,7 @@ Some useful tools & libraries:
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - [Express](https://expressjs.com/),
-- Others:
-  - [Webpack](https://webpack.js.org/),
-  - [Babel](https://babeljs.io/),
-  - [SWC](https://swc.rs/),
-- React:
+ React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
   - [Next.js](https://nextjs.org/),
@@ -123,4 +130,9 @@ Some useful tools & libraries:
   - [HTML to JSX](https://magic.reactjs.net/htmltojsx),
   - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
   - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
-  - [Axios](https://github.com/axios/axios).
+  - [Axios](https://github.com/axios/axios),
+- Others:
+  - [Webpack](https://webpack.js.org/),
+  - [Babel](https://babeljs.io/),
+  - [SWC](https://swc.rs/).
+
