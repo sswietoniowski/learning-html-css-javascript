@@ -135,4 +135,3 @@ Some useful tools & libraries:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
   - [SWC](https://swc.rs/).
-
