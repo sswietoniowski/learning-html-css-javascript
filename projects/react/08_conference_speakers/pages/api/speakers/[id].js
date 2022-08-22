@@ -14,9 +14,9 @@ export default async function handler(req, res) {
   const id = parseInt(req?.query.id);
   const recordFromBody = req?.body;
 
-  const postMethod = async () => {
-    const jsonFile = path.resolve('./', 'db.json');
+  const jsonFile = path.resolve('./', 'db.json');
 
+  const postMethod = async () => {
     try {
       const data = await readFile(jsonFile, 'utf8');
       await delay(1000);
