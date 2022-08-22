@@ -30,14 +30,14 @@ export default async function handler(req, res) {
         await writeFile(jsonFile, JSON.stringify({ speakers }));
         res.setHeader('Content-Type', 'application/json');
         res.status(201).send(JSON.stringify(newSpeaker, null, 2));
-        console.log('POST /api/speakers status: 201');
+        console.log(`POST /api/speakers/${id} status: 201`);
       } else {
         res.status(404).send('Not found');
-        console.log('POST /api/speakers status: 404');
+        console.log(`POST /api/speakers/${id} status: 404`);
       }
     } catch (err) {
       res.status(500).send(err);
-      console.log('POST /api/speakers status: 500');
+      console.log(`POST /api/speakers/${id} status: 500`);
     }
   };
 
@@ -62,18 +62,18 @@ export default async function handler(req, res) {
           );
           res.setHeader('Content-Type', 'application/json');
           res.status(200).send(JSON.stringify(updatedSpeaker, null, 2));
-          console.log('PUT /api/speakers status: 200');
+          console.log(`PUT /api/speakers/${id} status: 200`);
         } else {
           res.status(404).send('Not found');
-          console.log('PUT /api/speakers status: 404');
+          console.log(`PUT /api/speakers/${id} status: 404`);
         }
       } else {
         res.status(404).send('Not found');
-        console.log('PUT /api/speakers status: 404');
+        console.log(`PUT /api/speakers/${id} status: 404`);
       }
     } catch (err) {
       res.status(500).send(err);
-      console.log('PUT /api/speakers status: 500');
+      console.log(`PUT /api/speakers/${id} status: 500`);
     }
   };
 
@@ -92,18 +92,18 @@ export default async function handler(req, res) {
           );
           res.setHeader('Content-Type', 'application/json');
           res.status(200).send(JSON.stringify(speaker, null, 2));
-          console.log('DELETE /api/speakers status: 200');
+          console.log(`DELETE /api/speakers/${id} status: 200`);
         } else {
           res.status(404).send('Not found');
-          console.log('DELETE /api/speakers status: 404');
+          console.log(`DELETE /api/speakers/${id} status: 404`);
         }
       } else {
         res.status(404).send('Not found');
-        console.log('DELETE /api/speakers status: 404');
+        console.log(`DELETE /api/speakers/${id} status: 404`);
       }
     } catch (err) {
       res.status(500).send(err);
-      console.log('DELETE /api/speakers status: 500');
+      console.log(`DELETE /api/speakers/${id} status: 500`);
     }
   };
 
