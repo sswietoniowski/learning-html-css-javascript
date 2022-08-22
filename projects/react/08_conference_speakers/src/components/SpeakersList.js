@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
+import SpeakerAdd from './SpeakerAdd';
 import useRequestDelay, { REQUEST_STATUS } from '../hooks/useRequestDelay';
 
 import { data } from '../../SpeakerData';
@@ -37,6 +38,7 @@ const SpeakersList = () => {
 
   return (
     <div className='container speakers-list'>
+      <SpeakerAdd eventYear={eventYear} insertRecord={insertRecord} />
       <div className='row'>
         {speakersData
           .filter((speaker) => {

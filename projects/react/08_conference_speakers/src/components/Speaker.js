@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 
 import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
 import SpeakerProvider, { SpeakerContext } from '../contexts/SpeakerContext';
+import SpeakerDelete from './SpeakerDelete';
 
 const Session = ({ title, room }) => {
   return (
@@ -92,8 +93,9 @@ function SpeakerFavorite() {
 }
 
 const SpeakerDemographics = () => {
-  const { first, last, bio, company, twitterHandle, favorite } =
-    useContext(SpeakerContext);
+  const {
+    speaker: { first, last, bio, company, twitterHandle, favorite },
+  } = useContext(SpeakerContext);
 
   return (
     <div className='speaker-info'>
@@ -139,6 +141,7 @@ const Speaker = ({ speaker, insertRecord, updateRecord, deleteRecord }) => {
           <SpeakerDemographics />
         </div>
         {showSessions && <Sessions />}
+        <SpeakerDelete />
       </div>
     </SpeakerProvider>
   );

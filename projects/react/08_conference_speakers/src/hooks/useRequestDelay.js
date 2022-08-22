@@ -33,9 +33,7 @@ const useRequestDelay = (delayTimeInMs = 1000, initialData = []) => {
 
   const insertRecord = (record, doneCallback) => {
     const originalRecords = [...data];
-    const newRecords = data.map(function (rec) {
-      return rec.id === record.id ? record : rec;
-    });
+    const newRecords = [record, ...data];
 
     const delayFunc = async (ms) => {
       try {
@@ -59,7 +57,9 @@ const useRequestDelay = (delayTimeInMs = 1000, initialData = []) => {
 
   const updateRecord = (record, doneCallback) => {
     const originalRecords = [...data];
-    const newRecords = [record, ...data];
+    const newRecords = data.map(function (rec) {
+      return rec.id === record.id ? record : rec;
+    });
 
     const delayFunc = async (ms) => {
       try {
