@@ -38,6 +38,7 @@ export default async function handler(req, res) {
     } catch (err) {
       res.status(500).send(err);
       console.log(`POST /api/speakers/${id} status: 500`);
+      console.log(`Error: ${err}`);
     }
   };
 
@@ -74,6 +75,7 @@ export default async function handler(req, res) {
     } catch (err) {
       res.status(500).send(err);
       console.log(`PUT /api/speakers/${id} status: 500`);
+      console.log(`Error: ${err}`);
     }
   };
 
@@ -104,6 +106,7 @@ export default async function handler(req, res) {
     } catch (err) {
       res.status(500).send(err);
       console.log(`DELETE /api/speakers/${id} status: 500`);
+      console.log(`Error: ${err}`);
     }
   };
 
