@@ -99,7 +99,9 @@ This is (sort of) continuation of these project(-s):
 - [Learning JavaScript & ES6 - Accelerated Training](https://github.com/sswietoniowski/learning-javascript-and-es6-accelerated-training),
 - [Learning HTML, CSS, JS](https://github.com/sswietoniowski/learning-html-css-js),
 - [Learning Bootstrap](https://github.com/sswietoniowski/learning-bootstrap),
-- [Learning TypeScript](https://github.com/sswietoniowski/learning-typescript).
+- [Learning TypeScript](https://github.com/sswietoniowski/learning-typescript),
+- [Learning React](https://github.com/sswietoniowski/learning-react),
+- [Learning - React - Summary and Core Feature Walkthrough](https://github.com/sswietoniowski/learning-react-summary-and-core-feature-walkthrough).
 
 ## Useful Tools & Libraries
 
@@ -135,4 +137,3 @@ Some useful tools & libraries:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
   - [SWC](https://swc.rs/).
-
