@@ -19,7 +19,7 @@ const useRequestRest = () => {
   };
 
   useEffect(() => {
-    const delayFunc = async (ms) => {
+    const delayFunc = async () => {
       try {
         const result = await axios.get(restUrl);
         setData(result.data);
@@ -30,14 +30,14 @@ const useRequestRest = () => {
       }
     };
 
-    delayFunc(delayTimeInMs);
+    delayFunc();
   }, []);
 
   const insertRecord = (record, doneCallback) => {
     const originalRecords = [...data];
     const newRecords = [record, ...data];
 
-    const delayFunc = async (ms) => {
+    const delayFunc = async () => {
       try {
         setData(newRecords);
         await axios.post(`${restUrl}/9999`, record);
@@ -53,7 +53,7 @@ const useRequestRest = () => {
       }
     };
 
-    delayFunc(delayTimeInMs);
+    delayFunc();
   };
 
   const updateRecord = (record, doneCallback) => {
@@ -62,7 +62,7 @@ const useRequestRest = () => {
       return rec.id === record.id ? record : rec;
     });
 
-    const delayFunc = async (ms) => {
+    const delayFunc = async () => {
       try {
         setData(newRecords);
         await axios.put(`${restUrl}/${record.id}`, record);
@@ -78,7 +78,7 @@ const useRequestRest = () => {
       }
     };
 
-    delayFunc(delayTimeInMs);
+    delayFunc();
   };
 
   const deleteRecord = (record, doneCallback) => {
@@ -87,7 +87,7 @@ const useRequestRest = () => {
       return rec.id !== record.id;
     });
 
-    const delayFunc = async (ms) => {
+    const delayFunc = async () => {
       try {
         setData(newRecords);
         await axios.delete(`${restUrl}/${record.id}`, record);
@@ -103,7 +103,7 @@ const useRequestRest = () => {
       }
     };
 
-    delayFunc(delayTimeInMs);
+    delayFunc();
   };
 
   return {

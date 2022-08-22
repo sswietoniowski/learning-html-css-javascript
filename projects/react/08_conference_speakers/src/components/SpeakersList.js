@@ -3,7 +3,7 @@ import Spinner from 'react-bootstrap/Spinner';
 
 import Speaker from './Speaker';
 import SpeakerAdd from './SpeakerAdd';
-import useRequestDelay, { REQUEST_STATUS } from '../hooks/useRequestDelay';
+import useRequestRest, { REQUEST_STATUS } from '../hooks/useRequestRest';
 
 import { data } from '../../SpeakerData';
 import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
@@ -16,7 +16,7 @@ const SpeakersList = () => {
     insertRecord,
     updateRecord,
     deleteRecord,
-  } = useRequestDelay(1000, data);
+  } = useRequestRest();
 
   const { searchQuery, eventYear } = useContext(SpeakerFilterContext);
 
