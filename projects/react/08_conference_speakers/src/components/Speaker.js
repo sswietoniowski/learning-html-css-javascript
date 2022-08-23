@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, memo } from 'react';
 
 import { SpeakerFilterContext } from '../contexts/SpeakerFilterContext';
 import SpeakerProvider, { SpeakerContext } from '../contexts/SpeakerContext';
@@ -140,25 +140,32 @@ const SpeakerDemographics = () => {
   );
 };
 
-const Speaker = ({ speaker, insertRecord, updateRecord, deleteRecord }) => {
-  const { showSessions } = useContext(SpeakerFilterContext);
-  return (
-    <SpeakerProvider
-      speaker={speaker}
-      insertRecord={insertRecord}
-      updateRecord={updateRecord}
-      deleteRecord={deleteRecord}
-    >
-      <div className='col-xs-12 col-sm-12 col-md-6 col-lg-4 col-sm-12 col-xs-12'>
-        <div className='card card-height p-4 mt-4'>
-          <SpeakerImage />
-          <SpeakerDemographics />
-        </div>
-        {showSessions && <Sessions />}
-        <SpeakerDelete />
-      </div>
-    </SpeakerProvider>
-  );
+const areEqualSpeaker = (prevProp, nextProp) => {
+  return prevProp.speaker.favorite === nextProp.speaker.favorite;
 };
+
+const Speaker = memo(
+  ({ speaker, insertRecord, updateRecord, deleteRecord }) => {
+    const { showSessions } = useContext(SpeakerFilterContext);
+    return (
+      <SpeakerProvider
+        speaker={speaker}
+        insertRecord={insertRecord}
+        updateRecord={updateRecord}
+        deleteRecord={deleteRecord}
+      >
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-4 col-sm-12 col-xs-12'>
+          <div className='card card-height p-4 mt-4'>
+            <SpeakerImage />
+            <SpeakerDemographics />
+          </div>
+          {showSessions && <Sessions />}
+          <SpeakerDelete />
+        </div>
+      </SpeakerProvider>
+    );
+  },
+  areEqualSpeaker
+);
 
 export default Speaker;
