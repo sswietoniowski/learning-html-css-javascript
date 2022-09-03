@@ -22,8 +22,11 @@ Based on these (free) courses:
   - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
   - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:,
+  - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
+  - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
   - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
+  - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
 - Others:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
 
