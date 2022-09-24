@@ -17,7 +17,7 @@ const Navbar = ({ title }) => {
             <Link className='btn btn-ghost btn-sm rounded-btn' to='/'>
               Home
             </Link>
-            <Link className='btn btn-ghost btn-sm rounded-btn' to='/'>
+            <Link className='btn btn-ghost btn-sm rounded-btn' to='/about'>
               About
             </Link>
           </div>
