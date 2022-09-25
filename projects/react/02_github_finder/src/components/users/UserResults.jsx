@@ -24,10 +24,13 @@ const UserResults = () => {
     setLoading(false);
   };
 
+  if (loading) {
+    return <h1>Loading...</h1>;
+  }
+
   return (
     <div className='grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
-      {loading ? <h1>Loading...</h1> : <h1>{users.length} Users</h1>}
-
+      <h1>{users.length} Users</h1>
       {users.map((user) => (
         <div key={user.id}>
           <h3>{user.login}</h3>
