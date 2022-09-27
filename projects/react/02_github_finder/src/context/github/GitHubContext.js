@@ -10,12 +10,15 @@ const gitHubToken = process.env.REACT_APP_GITHUB_API_PAT;
 export const GitHubContextProvider = ({ children }) => {
   const initialState = {
     users: [],
-    loading: true,
+    loading: false,
   };
 
   const [state, dispatch] = useReducer(GitHubReducer, initialState);
 
+  // Get initial users (testing purposes)
   const fetchUsers = async () => {
+    setLoading();
+
     const response = await fetch(`${gitHubUrl}/users`, {
       headers: {
         Accept: 'application/vnd.github+json',
@@ -29,6 +32,8 @@ export const GitHubContextProvider = ({ children }) => {
       payload: data,
     });
   };
+
+  const setLoading = () => dispatch({ type: 'SET_LOADING' });
 
   return (
     <GitHubContext.Provider
