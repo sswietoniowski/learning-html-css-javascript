@@ -50,14 +50,14 @@ Also used these (paid) courses & books:
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - React:  
-  - [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
-  - [React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
-  - [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
+  - **[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
+  - **[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
+  - **[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)** [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
     - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
     - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
     - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
     - [Gist](https://gist.github.com/bradtraversy),
-  - [Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
+  - **[Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
   - [Styling React Components](https://app.pluralsight.com/library/courses/react-components-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-styling/exercise-files),
   - ~~[Server Rendering React 16 Components](https://app.pluralsight.com/library/courses/server-rendering-react-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/server-rendering-react-components/exercise-files),~~
