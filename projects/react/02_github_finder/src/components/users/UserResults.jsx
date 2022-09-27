@@ -1,31 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useContext } from 'react';
 
 import Spinner from '../layout/Spinner';
 import UserItem from './UserItem';
+import GitHubContext from '../../context/github/GitHubContext';
 
 const UserResults = () => {
-  const [users, setUsers] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const { users, loading, fetchUsers } = useContext(GitHubContext);
 
   useEffect(() => {
     fetchUsers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  const fetchUsers = async () => {
-    const response = await fetch(
-      `${process.env.REACT_APP_GITHUB_API_URL}/users`,
-      {
-        headers: {
-          Accept: 'application/vnd.github+json',
-          Authorization: `Bearer ${process.env.REACT_APP_GITHUB_API_PAT}`,
-        },
-      }
-    );
-    const data = await response.json();
-
-    setUsers(data);
-    setLoading(false);
-  };
 
   if (loading) {
     return <Spinner />;
