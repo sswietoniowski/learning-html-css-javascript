@@ -18,7 +18,10 @@ Based on these (free) courses:
 - React:
   - [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact) :arrow_forward:,
   - [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ),
-  - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward:,
+  - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward:
+    - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
+    - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
+    - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
   - [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful) :+1:,
   - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
