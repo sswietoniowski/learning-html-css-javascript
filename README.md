@@ -22,6 +22,7 @@ Based on these (free) courses:
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
+  - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
   - [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful) :+1:,
   - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
   - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
@@ -56,7 +57,7 @@ Also used these (paid) courses & books:
 - React:  
   - **[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - **[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
-  - **[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)** [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward:,
+  - **[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)** [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward::
     - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
     - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
     - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
