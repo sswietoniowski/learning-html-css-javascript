@@ -18,7 +18,7 @@ Based on these (free) courses:
 - React:
   - [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact) :arrow_forward:,
   - [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ),
-  - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward:
+  - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward::
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
