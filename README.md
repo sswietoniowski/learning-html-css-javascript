@@ -15,6 +15,10 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
+- JavaScript:
+  - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
+- TypeScript:
+  - [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
 - React:
   - [React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8) [:file_folder:](https://scrimba.com/learn/learnreact) :arrow_forward:,
   - [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ),
@@ -22,6 +26,7 @@ Based on these (free) courses:
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
+  - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
   - [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful) :+1:,
   - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
@@ -52,8 +57,6 @@ Also used these (paid) courses & books:
   - [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
   - [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
   - **[JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/)** [:file_folder:](https://github.com/davidflanagan/jstdg7),
-- TypeScript:
-  - [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - React:  
