@@ -31,13 +31,14 @@ export const GitHubContextProvider = ({ children }) => {
     });
     const { items } = await response.json();
 
-    console.log(items);
-
     dispatch({
       type: 'GET_USERS',
       payload: items,
     });
   };
+
+  // Clear search results
+  const clearUsers = () => dispatch({ type: 'CLEAR_USERS' });
 
   const setLoading = () => dispatch({ type: 'SET_LOADING' });
 
@@ -47,6 +48,7 @@ export const GitHubContextProvider = ({ children }) => {
         users: state.users,
         loading: state.loading,
         searchUsers: searchUsers,
+        clearUsers: clearUsers,
       }}
     >
       {children}
