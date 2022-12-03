@@ -28,10 +28,10 @@ Based on these (free) courses:
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
-  - [The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful) :+1:,
-  - [Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92) :+1:,
-  - [Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc) :+1:,
-  - [How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/) :+1:,
+  - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
+  - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
+  - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
+  - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
   - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
   - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
@@ -44,15 +44,15 @@ Based on these (free) courses:
 Also used these (paid) courses & books:
 
 - HTML & CSS:
-  - [Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass) :+1:,
+  - _[Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass)_ :+1:,
   - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-),
   - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
   - [Materialize CSS From Scratch With 5 Projects](https://learning.oreilly.com/videos/materialize-css-from/9781789538724/) [:file_folder:](https://github.com/PacktPublishing/Materialize-CSS-From-Scratch-With-5-Projects),
   - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects),  
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
-  - [Modern JavaScript From The Beginning
-  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning) :+1:,
+  - _[Modern JavaScript From The Beginning
+  ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning)_ :+1:,
   - [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
   - [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
   - [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
@@ -63,7 +63,7 @@ Also used these (paid) courses & books:
   - **[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - **[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)** [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
   - **[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)** [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward::
-    - [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
+    - _[Feedback App](https://github.com/bradtraversy/feedback-app)_ :+1:,
     - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
     - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
     - [Gist](https://gist.github.com/bradtraversy),
@@ -80,7 +80,7 @@ Also used these (paid) courses & books:
   - [Calling APIs with React 17](https://app.pluralsight.com/library/courses/react-calling-apis/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-calling-apis/exercise-files),
   - [Managing Large Datasets in React 17](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/exercise-files),
   - [React 17 Security: Best Practices](https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-security-best-practices/exercise-files),
-  - [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
+  - _[Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files)_ :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
   - [React 18 Fundamentals](https://app.pluralsight.com/library/courses/react-18-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-fundamentals/exercise-files),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
@@ -101,7 +101,7 @@ Also used these (paid) courses & books:
   - [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files),
   - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),
 - Next.js:  
-  - [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files) :+1:,
+  - _[Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files)_ :+1:,
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
