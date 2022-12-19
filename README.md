@@ -38,6 +38,7 @@ Based on these (free) courses:
   - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
   - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
   - [JavaScript Reducer (origin React/Redux)](https://www.robinwieruch.de/javascript-reducer/),
+  - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
 - Others:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
 
