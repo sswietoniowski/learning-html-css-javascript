@@ -132,7 +132,7 @@ Some useful tools & libraries:
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - [Express](https://expressjs.com/),
- React:
+- React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
   - [Next.js](https://nextjs.org/),
@@ -153,5 +153,7 @@ Some useful tools & libraries:
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
-  - [SWC](https://swc.rs/).
+  - [SWC](https://swc.rs/),
+  - [Bun.js](https://bun.sh/),
+  - [autocannon](https://www.npmjs.com/package/autocannon).
 
