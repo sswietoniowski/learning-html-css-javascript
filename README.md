@@ -157,6 +157,6 @@ Some useful tools & libraries:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
   - [SWC](https://swc.rs/),
+  - [SWR](https://swr.vercel.app/),
   - [Bun.js](https://bun.sh/),
   - [autocannon](https://www.npmjs.com/package/autocannon).
-
