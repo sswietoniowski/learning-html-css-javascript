@@ -34,6 +34,7 @@ Based on these (free) courses:
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
   - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
+  - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
   - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
   - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
