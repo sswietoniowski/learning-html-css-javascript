@@ -36,6 +36,7 @@ Based on these (free) courses:
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
+  - [Goodbye, useEffect - David Khourshid](https://youtu.be/bGzanfKVFeU),
   - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
   - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
   - [JavaScript Reducer (origin React/Redux)](https://www.robinwieruch.de/javascript-reducer/),
