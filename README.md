@@ -18,6 +18,7 @@ Based on these (free) courses:
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
 - TypeScript:
+  - [typescriptlang.org](https://www.typescriptlang.org/),
   - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
 - React:
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
