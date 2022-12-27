@@ -19,8 +19,11 @@ Based on these (free) courses:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/),
+  - [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
   - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
 - React:
+  - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
+  - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
   - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward::
@@ -28,6 +31,8 @@ Based on these (free) courses:
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
+  - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
+  - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
