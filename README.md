@@ -167,4 +167,6 @@ Some useful tools & libraries:
   - [SWR](https://swr.vercel.app/),
   - [Bun.js](https://bun.sh/),
   - [autocannon](https://www.npmjs.com/package/autocannon),
-  - [TanStack](https://tanstack.com/).
+  - [TanStack](https://tanstack.com/),
+  - [State of JavaScript](https://stateofjs.com/en-us/).
+  
