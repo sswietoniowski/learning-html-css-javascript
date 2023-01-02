@@ -19,8 +19,11 @@ Based on these (free) courses:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/),
+  - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
   - [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
   - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
+- Node.js:
+  - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
 - React:
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
