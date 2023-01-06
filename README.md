@@ -38,6 +38,10 @@ Based on these (free) courses:
   - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
   - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
+  - [Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI](https://youtu.be/dyFVwXROzZk):
+    - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
+    - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
+    - [Spotify Clone App](https://github.com/adrianhajdin/project_music_player),
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
   - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
