@@ -30,15 +30,15 @@ Based on these (free) courses:
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
   - [React with .NET Web API – Basic App Tutorial](https://youtu.be/4RKuyp_bOhY),
-  - [Modern React Web Development Full Course](https://youtu.be/XxXyfkrP298) :arrow_forward::
+  - [Modern React Web Development Full Course | 4 Real Industry Web Applications](https://youtu.be/XxXyfkrP298) :arrow_forward::
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
   - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
-  - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik),
-  - [Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI](https://youtu.be/dyFVwXROzZk):
+  - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik) :arrow_forward:,
+  - [Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI](https://youtu.be/dyFVwXROzZk) :arrow_forward::
     - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
     - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
     - [Spotify Clone App](https://github.com/adrianhajdin/project_music_player),
