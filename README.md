@@ -18,7 +18,7 @@ Based on these (free) courses:
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
 - TypeScript:
-  - [typescriptlang.org](https://www.typescriptlang.org/),
+  - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
   - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
   - [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
   - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
