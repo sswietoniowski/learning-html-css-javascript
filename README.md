@@ -76,6 +76,7 @@ Also used these (paid) courses & books:
   - **[JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/)** [:file_folder:](https://github.com/davidflanagan/jstdg7),
 - TypeScript:
   - _[TypeScript: The Big Picture](https://app.pluralsight.com/library/courses/typescript-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/typescript-big-picture/exercise-files),
+  - [TypeScript 4: Getting Started](https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-typescript/exercise-files) :arrow_forward:,
   - [Learning TypeScript](https://learning.oreilly.com/library/view/learning-typescript/9781098110321/) [:file_folder:](https://www.learningtypescript.com/) [:file_folder:](https://github.com/LearningTypeScript) :arrow_forward:,
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
