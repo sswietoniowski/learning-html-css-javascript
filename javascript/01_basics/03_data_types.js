@@ -9,6 +9,8 @@ const name = 'string';
 // number
 let age = 5;
 age = 5.5;
+// bigInt (ES2020)
+const bigInt = 1234567890123456789012345678901234567890n; // n at the end
 // boolean
 const hasKids = true;
 // null
