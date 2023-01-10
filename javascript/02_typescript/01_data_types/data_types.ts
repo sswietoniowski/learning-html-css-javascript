@@ -64,6 +64,14 @@ let strLength2: number = (<string>someValue).length;
 let someValue2 = 'this is a string';
 let strLength3 = someValue2.length;
 
+// Inferred type: string
+let bestSong = Math.random() > 0.5 ? 'Chain of Fools' : 'Respect';
+
+// Type Assignability
+let lastName2 = 'King';
+// lastName2 = true;
+// Error: Type 'boolean' is not assignable to type 'string'.
+
 // Type Aliases
 type Name = string;
 type NameResolver = () => string;
@@ -75,6 +83,43 @@ function getName(n: NameOrResolver): Name {
     return n();
   }
 }
+
+// Type Annotations vs Type Inference
+let rocker; // Type: any
+
+rocker = 'Joan Jett'; // Type: string
+rocker.toUpperCase(); // Ok
+
+rocker = 19.58; // Type: number
+rocker.toPrecision(1); // Ok
+
+// rocker.toUpperCase();
+// Error: 'toUpperCase' does not exist on type 'number'.
+
+let rocker2: string;
+rocker2 = 'Joan Jett';
+
+let rocker3: string;
+// rocker3 = 19.58;
+// Error: Type 'number' is not assignable to type 'string'.
+
+// Unnecessary Type Annotations
+let firstName2: string = 'Tina';
+
+// Type Schapes
+let rapper = 'Queen Latifah';
+rapper.length; // ok
+// rapper.push('!');
+// Property 'push' does not exist on type 'string'.
+
+let cher = {
+  firstName: 'Cherilyn',
+  lastName: 'Sarkisian',
+};
+
+// cher.middleName;
+//   Property 'middleName' does not exist on type
+//   '{ firstName: string; lastName: string; }'.
 
 // Interfaces
 interface LabelledValue {
@@ -227,18 +272,18 @@ class TextBox extends Control {
 
 // Type Guards and Differentiating Types
 interface Bird {
-    fly(): void;
-    layEggs(): void;
+  fly(): void;
+  layEggs(): void;
 }
 
 interface Fish {
-    swim(): void;
-    layEggs(): void;
+  swim(): void;
+  layEggs(): void;
 }
 
 function getSmallPet(): Fish | Bird {
-    // ...
-    throw new Error('Not implemented');
+  // ...
+  throw new Error('Not implemented');
 }
 
 let pet = getSmallPet();
@@ -246,64 +291,63 @@ pet.layEggs(); // okay
 // pet.swim();    // errors
 
 if ((<Fish>pet).swim) {
-    (<Fish>pet).swim();
-}
-else {
-    (<Bird>pet).fly();
+  (<Fish>pet).swim();
+} else {
+  (<Bird>pet).fly();
 }
 
 // typeof type guards
 function isNumber(x: any): x is number {
-    return typeof x === 'number';
+  return typeof x === 'number';
 }
 
 function isString(x: any): x is string {
-    return typeof x === 'string';
+  return typeof x === 'string';
 }
 
 function padLeft(value: string, padding: string | number) {
-    if (isNumber(padding)) {
-        return Array(padding + 1).join(' ') + value;
-    }
-    if (isString(padding)) {
-        return padding + value;
-    }
-    throw new Error(`Expected string or number, got '${padding}'.`);
+  if (isNumber(padding)) {
+    return Array(padding + 1).join(' ') + value;
+  }
+  if (isString(padding)) {
+    return padding + value;
+  }
+  throw new Error(`Expected string or number, got '${padding}'.`);
 }
 
 // instanceof type guards
 interface Padder {
-    getPaddingString(): string
+  getPaddingString(): string;
 }
 
 class SpaceRepeatingPadder implements Padder {
-    constructor(private numSpaces: number) { }
-    getPaddingString() {
-        return Array(this.numSpaces + 1).join(" ");
-    }
+  constructor(private numSpaces: number) {}
+  getPaddingString() {
+    return Array(this.numSpaces + 1).join(' ');
+  }
 }
 
 class StringPadder implements Padder {
-    constructor(private value: string) { }
-    getPaddingString() {
-        return this.value;
-    }
+  constructor(private value: string) {}
+  getPaddingString() {
+    return this.value;
+  }
 }
 
 function getRandomPadder() {
-    return Math.random() < 0.5 ?
-        new SpaceRepeatingPadder(4) :
-        new StringPadder("  ");
+  return Math.random() < 0.5
+    ? new SpaceRepeatingPadder(4)
+    : new StringPadder('  ');
 }
 
 // Type is 'SpaceRepeatingPadder | StringPadder'
 let padder: Padder = getRandomPadder();
 
 if (padder instanceof SpaceRepeatingPadder) {
-    padder; // type narrowed to 'SpaceRepeatingPadder'
+  padder; // type narrowed to 'SpaceRepeatingPadder'
 }
 if (padder instanceof StringPadder) {
-    padder; // type narrowed to 'StringPadder'
+  padder; // type narrowed to 'StringPadder'
 }
 
 // Nullable Types
@@ -314,4 +358,3 @@ let sn: string | null = 'bar';
 sn = null; // ok
 
 // sn = undefined; // error, 'undefined' is not assignable to 'string | null'
-
