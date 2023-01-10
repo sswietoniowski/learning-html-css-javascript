@@ -10,6 +10,7 @@ const gitHubToken = process.env.REACT_APP_GITHUB_API_PAT;
 export const GitHubContextProvider = ({ children }) => {
   const initialState = {
     users: [],
+    user: {},
     loading: false,
   };
 
@@ -37,6 +38,29 @@ export const GitHubContextProvider = ({ children }) => {
     });
   };
 
+  // Get single user
+  const getSingleUser = async (login) => {
+    setLoading();
+
+    const response = await fetch(`${gitHubUrl}/users/${login}`, {
+      headers: {
+        Accept: 'application/vnd.github+json',
+        Authorization: `Bearer ${gitHubToken}`,
+      },
+    });
+
+    if (response.status === 404) {
+      window.location = '/notfound';
+    } else {
+      const user = await response.json();
+
+      dispatch({
+        type: 'GET_USER',
+        payload: user,
+      });
+    }
+  };
+
   // Clear search results
   const clearUsers = () => dispatch({ type: 'CLEAR_USERS' });
 
@@ -46,9 +70,11 @@ export const GitHubContextProvider = ({ children }) => {
     <GitHubContext.Provider
       value={{
         users: state.users,
+        user: state.user,
         loading: state.loading,
         searchUsers: searchUsers,
         clearUsers: clearUsers,
+        getSingleUser: getSingleUser,
       }}
     >
       {children}
