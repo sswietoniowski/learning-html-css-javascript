@@ -22,6 +22,7 @@ Based on these (free) courses:
   - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
   - [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
   - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
+  - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
 - React:
