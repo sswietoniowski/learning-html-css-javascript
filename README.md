@@ -78,6 +78,9 @@ Also used these (paid) courses & books:
   - _[TypeScript: The Big Picture](https://app.pluralsight.com/library/courses/typescript-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/typescript-big-picture/exercise-files),
   - [TypeScript 4: Getting Started](https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-typescript/exercise-files) :arrow_forward:,
   - [Learning TypeScript](https://learning.oreilly.com/library/view/learning-typescript/9781098110321/) [:file_folder:](https://www.learningtypescript.com/) [:file_folder:](https://github.com/LearningTypeScript) :arrow_forward:,
+  - [Understanding TypeScript – 2020 Edition](https://learning.oreilly.com/videos/understanding-typescript/9781789951905/) [:file_folder:](https://github.com/PacktPublishing/Understanding-TypeScript-2020-Edition),
+  - [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files) :arrow_forward:,
+  - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),  
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
 - React:  
@@ -117,10 +120,6 @@ Also used these (paid) courses & books:
   - [Testing Mobile Apps in React Native](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/exercise-files),
 - Electron:
   - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
-- TypeScript:
-  - [Understanding TypeScript – 2020 Edition](https://learning.oreilly.com/videos/understanding-typescript/9781789951905/) [:file_folder:](https://github.com/PacktPublishing/Understanding-TypeScript-2020-Edition),
-  - [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files),
-  - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),
 - Next.js:  
   - _[Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files)_ :+1:,
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
