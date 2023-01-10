@@ -20,6 +20,14 @@ npm install typescript --save-dev
 
 Of course, we must install Node.js first. You can download it [here](https://nodejs.org/en/download/).
 
+To create a default configuration file, run the following command:
+
+```bash
+tsc --init
+```
+
+Complete list of all configuration options can be found [here](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+
 ## Taking Advantages of Built-in Types
 
 ## Writing Better Functions with TypeScript
