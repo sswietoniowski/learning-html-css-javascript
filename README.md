@@ -43,6 +43,7 @@ Based on these (free) courses:
     - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
     - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
     - [Spotify Clone App](https://github.com/adrianhajdin/project_music_player),
+  - [Complete MERN Beginner Course [2023] (TypeScript, Authentication, Deployment...)](https://youtu.be/FcxjCPeicvU),
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
   - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
