@@ -176,6 +176,7 @@ Some useful tools & libraries:
   - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
   - [Axios](https://github.com/axios/axios),
   - [Formik](https://formik.org/),
+  - [QuickType](https://quicktype.io/),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
