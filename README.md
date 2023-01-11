@@ -175,6 +175,7 @@ Some useful tools & libraries:
   - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
   - [CSS in JS](https://github.com/MicheleBertoli/css-in-js),
   - [Axios](https://github.com/axios/axios),
+  - [Formik](https://formik.org/),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
