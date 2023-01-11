@@ -57,7 +57,7 @@ Based on these (free) courses:
   - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
   - [JavaScript Reducer (origin React/Redux)](https://www.robinwieruch.de/javascript-reducer/),
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
-  - [How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/),
+  - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
 
@@ -82,7 +82,7 @@ Also used these (paid) courses & books:
   - [TypeScript 4: Getting Started](https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-typescript/exercise-files) [:file_folder:](https://github.com/bricewilson/TypeScript-Getting-Started) :arrow_forward:,
   - [Learning TypeScript](https://learning.oreilly.com/library/view/learning-typescript/9781098110321/) [:file_folder:](https://www.learningtypescript.com/) [:file_folder:](https://github.com/LearningTypeScript) :arrow_forward:,
   - [Understanding TypeScript – 2020 Edition](https://learning.oreilly.com/videos/understanding-typescript/9781789951905/) [:file_folder:](https://github.com/PacktPublishing/Understanding-TypeScript-2020-Edition),
-  - [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files) [:file_folder:](https://github.com/mwarger/globomantics-react-ts) :arrow_forward:,
+  - _[Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files) [:file_folder:](https://github.com/mwarger/globomantics-react-ts) :arrow_forward:,
   - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),  
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
