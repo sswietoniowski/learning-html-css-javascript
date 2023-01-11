@@ -12,6 +12,7 @@ const User = () => {
   useEffect(() => {
     getSingleUser(params.login);
     // getUserRepo(params.login)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const {
