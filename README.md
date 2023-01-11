@@ -162,10 +162,11 @@ Some useful tools & libraries:
   - [RedwoodJS](https://redwoodjs.com/),
   - [Remix](https://remix.run/),
   - [Vite](https://vitejs.dev/),
+  - [Hydrogen](https://hydrogen.shopify.dev/),
   - [Snowpack](https://www.snowpack.dev/),
   - [Nx](https://nx.dev/),
-  - [Hydrogen](https://hydrogen.shopify.dev/),
-  - [Flux](https://facebook.github.io/flux/),
+  - [TSDX](https://tsdx.io/)
+  - ~~[Flux](https://facebook.github.io/flux/)~~,
   - [Redux](https://redux.js.org/),
   - [MobX](https://mobx.js.org/README.html),
   - [jsComplete Playground](https://jscomplete.com/playground),
