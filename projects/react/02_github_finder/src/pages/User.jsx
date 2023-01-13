@@ -7,7 +7,8 @@ import RepoList from '../components/repos/RepoList';
 import GitHubContext from '../context/github/GitHubContext';
 
 const User = () => {
-  const { user, repos, getSingleUser, loading, getUserRepos } = useContext(GitHubContext);
+  const { user, repos, getSingleUser, loading, getUserRepos } =
+    useContext(GitHubContext);
   const params = useParams();
 
   useEffect(() => {
