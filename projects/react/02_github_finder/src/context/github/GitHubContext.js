@@ -11,6 +11,7 @@ export const GitHubContextProvider = ({ children }) => {
   const initialState = {
     users: [],
     user: {},
+    repos: [],
     loading: false,
   };
 
@@ -64,17 +65,39 @@ export const GitHubContextProvider = ({ children }) => {
   // Clear search results
   const clearUsers = () => dispatch({ type: 'CLEAR_USERS' });
 
+  // Set loading
   const setLoading = () => dispatch({ type: 'SET_LOADING' });
+
+  // Get user repos
+  const getUserRepos = async (login) => {
+    setLoading();
+
+    const response = await fetch(`${gitHubUrl}/users/${login}/repos`, {
+      headers: {
+        Accept: 'application/vnd.github+json',
+        Authorization: `Bearer ${gitHubToken}`,
+      },
+    });
+
+    const repos = await response.json();
+
+    dispatch({
+      type: 'GET_REPOS',
+      payload: repos,
+    });
+  };
 
   return (
     <GitHubContext.Provider
       value={{
         users: state.users,
         user: state.user,
+        repos: state.repos,
         loading: state.loading,
         searchUsers: searchUsers,
         clearUsers: clearUsers,
         getSingleUser: getSingleUser,
+        getUserRepos: getUserRepos,
       }}
     >
       {children}
