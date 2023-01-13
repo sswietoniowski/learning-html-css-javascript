@@ -56,7 +56,7 @@ We are not using `var` keyword anymore. We are using `let` or `const` keywords i
 
 ### Type Annotations and Type Inference
 
-Type annotations are used to tell TypeScript what type of value a variable will refer to. Type inference is the ability of TypeScript to figure out what type of value a variable refers to.
+> Type annotations are used to tell TypeScript what type of value a variable will refer to. Type inference is the ability of TypeScript to figure out what type of value a variable refers to.
 
 Example of type annotations:
 
@@ -113,7 +113,7 @@ myTuple = ['Hello World', 42];
 
 ### Union Types and the --strictNullChecks Flag
 
-Union types are used to allow a variable to refer to more than one type of value. The `-strictNullChecks` flag is used to enable strict null checking.
+> Union types are used to allow a variable to refer to more than one type of value. The `-strictNullChecks` flag is used to enable strict null checking.
 
 Example of union types:
 
@@ -133,7 +133,7 @@ myString = null; // Error: Type 'null' is not assignable to type 'string'
 
 ### Type Assertions
 
-Type assertions are used to tell TypeScript that we know better than it what the type of a value is.
+> Type assertions are used to tell TypeScript that we know better than it what the type of a value is.
 
 Example of type assertions:
 
@@ -150,6 +150,44 @@ let strLength: number = (myString as string).length;
 ```
 
 ## Writing Better Functions with TypeScript
+
+### Adding Type Annotations to Functions
+
+> We can add type annotations to functions to tell TypeScript what type of value a function will return.
+
+Example of adding type annotations to functions:
+
+```typescript
+function add(x: number, y: number): number {
+  return x + y;
+}
+```
+
+### Using --noImplicitAny Compiler Option
+
+> The `--noImplicitAny` compiler option is used to tell TypeScript to report an error when it infers the `any` type for a variable.
+
+### Default Initialized Parameters
+
+> Default initialized parameters are used to specify a default value for a parameter.
+
+Example of default initialized parameters:
+
+```typescript
+function add(x: number, y: number = 10): number {
+  return x + y;
+}
+```
+
+### Anatomy of an Arrow Function
+
+> Arrow functions are used to write shorter function expressions.
+
+Example of an arrow function:
+
+```typescript
+let add = (x: number, y: number) => x + y;
+```
 
 ## Creating and Using Custom Types
 
