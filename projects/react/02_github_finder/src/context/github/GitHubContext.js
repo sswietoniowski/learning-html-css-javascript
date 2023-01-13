@@ -72,12 +72,20 @@ export const GitHubContextProvider = ({ children }) => {
   const getUserRepos = async (login) => {
     setLoading();
 
-    const response = await fetch(`${gitHubUrl}/users/${login}/repos`, {
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `Bearer ${gitHubToken}`,
-      },
+    const params = new URLSearchParams({
+      sort: 'created:date-desc',
+      per_page: 10,
     });
+
+    const response = await fetch(
+      `${gitHubUrl}/users/${login}/repos?${params}`,
+      {
+        headers: {
+          Accept: 'application/vnd.github+json',
+          Authorization: `Bearer ${gitHubToken}`,
+        },
+      }
+    );
 
     const repos = await response.json();
 
