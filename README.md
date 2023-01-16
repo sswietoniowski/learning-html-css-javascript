@@ -17,6 +17,7 @@ Based on these (free) courses:
 
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
+  - _[The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI)_,
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
   - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
@@ -25,6 +26,7 @@ Based on these (free) courses:
   - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
+  - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
 - React:
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
@@ -35,6 +37,7 @@ Based on these (free) courses:
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
+  - [React Node.js Booking App Full Tutorial | MERN Stack Reservation App (JWT, Cookies, Context API)](https://youtu.be/k3Vfj-e1Ma4),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
   - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
@@ -47,6 +50,8 @@ Based on these (free) courses:
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
   - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
+  - [Create react app vs Vite](https://dev.to/keefdrive/create-react-app-vs-vite-2amn),
+  - [Use Vite for React Apps instead of CRA](https://dev.to/nilanth/use-vite-for-react-apps-instead-of-cra-3pkg),
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
   - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
