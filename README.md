@@ -29,6 +29,7 @@ Based on these (free) courses:
   - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
 - React:
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
+  - [Awesome React](https://github.com/enaqx/awesome-react),
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
@@ -185,6 +186,7 @@ Some useful tools & libraries:
   - [Axios](https://github.com/axios/axios),
   - [Formik](https://formik.org/),
   - [QuickType](https://quicktype.io/),
+  - [MUI](https://mui.com/),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
