@@ -15,6 +15,11 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
+- HTML:
+  - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
+- CSS:
+  - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
+  - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
   - _[The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI)_,
