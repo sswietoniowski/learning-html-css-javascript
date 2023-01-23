@@ -20,6 +20,7 @@ Based on these (free) courses:
 - CSS:
   - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
+  - [Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
   - _[The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI)_,
