@@ -50,6 +50,7 @@ Based on these (free) courses:
   - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
   - [Learn React Router v6 In 45 Minutes](https://youtu.be/Ul3y1LXxzdU),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik) :arrow_forward:,
+  - [Build and Deploy a GPT-3 App in NextJS in 1 Hour (ChatGPT)](https://youtu.be/5i1Q2GSqidU),
   - [Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI](https://youtu.be/dyFVwXROzZk) :arrow_forward::
     - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
     - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
