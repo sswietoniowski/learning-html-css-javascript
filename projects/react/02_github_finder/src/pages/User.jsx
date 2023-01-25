@@ -23,8 +23,7 @@ const User = () => {
     };
 
     getUserData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [dispatch, params.login]);
 
   const {
     name,
