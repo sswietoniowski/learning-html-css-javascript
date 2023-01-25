@@ -15,8 +15,15 @@ This repository contains the following sub-directories:
 
 Based on these (free) courses:
 
+- HTML:
+  - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
+- CSS:
+  - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
+  - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
+  - [Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
   - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
+  - _[The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI)_,
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
   - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
@@ -25,8 +32,10 @@ Based on these (free) courses:
   - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
+  - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
 - React:
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
+  - [Awesome React](https://github.com/enaqx/awesome-react),
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
@@ -35,10 +44,13 @@ Based on these (free) courses:
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
+  - [React Node.js Booking App Full Tutorial | MERN Stack Reservation App (JWT, Cookies, Context API)](https://youtu.be/k3Vfj-e1Ma4),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
   - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867),
+  - [Learn React Router v6 In 45 Minutes](https://youtu.be/Ul3y1LXxzdU),
   - [Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript](https://youtu.be/CcBHZ0t2Qwc) [:file_folder:](https://github.com/adrianhajdin/project_tiktik) :arrow_forward:,
+  - [Build and Deploy a GPT-3 App in NextJS in 1 Hour (ChatGPT)](https://youtu.be/5i1Q2GSqidU),
   - [Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI](https://youtu.be/dyFVwXROzZk) :arrow_forward::
     - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
     - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
@@ -47,6 +59,8 @@ Based on these (free) courses:
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
   - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
+  - [Create react app vs Vite](https://dev.to/keefdrive/create-react-app-vs-vite-2amn),
+  - [Use Vite for React Apps instead of CRA](https://dev.to/nilanth/use-vite-for-react-apps-instead-of-cra-3pkg),
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
   - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
@@ -59,7 +73,8 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
-  - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/).
+  - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
+  - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA).
 
 Also used these (paid) courses & books:
 
@@ -132,7 +147,8 @@ Also used these (paid) courses & books:
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
   - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
-  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files).
+  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
+  - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc).
 
 This is (sort of) continuation of these project(-s):
 
@@ -178,6 +194,7 @@ Some useful tools & libraries:
   - [Axios](https://github.com/axios/axios),
   - [Formik](https://formik.org/),
   - [QuickType](https://quicktype.io/),
+  - [MUI](https://mui.com/),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
@@ -186,5 +203,6 @@ Some useful tools & libraries:
   - [Bun.js](https://bun.sh/),
   - [autocannon](https://www.npmjs.com/package/autocannon),
   - [TanStack](https://tanstack.com/),
-  - [State of JavaScript](https://stateofjs.com/en-us/).
+  - [State of JavaScript](https://stateofjs.com/en-us/),
+  - [Codux](https://www.codux.com/).
   
