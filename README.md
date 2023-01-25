@@ -62,7 +62,7 @@ Based on these (free) courses:
   - [Create react app vs Vite](https://dev.to/keefdrive/create-react-app-vs-vite-2amn),
   - [Use Vite for React Apps instead of CRA](https://dev.to/nilanth/use-vite-for-react-apps-instead-of-cra-3pkg),
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
-  - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
+  - _[10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q)_,  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
