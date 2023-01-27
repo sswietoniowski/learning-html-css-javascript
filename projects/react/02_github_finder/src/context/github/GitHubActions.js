@@ -1,5 +1,15 @@
-const gitHubUrl = process.env.REACT_APP_GITHUB_API_URL;
-const gitHubToken = process.env.REACT_APP_GITHUB_API_PAT;
+import axios from 'axios';
+
+const GITHUB_URL = process.env.REACT_APP_GITHUB_API_URL;
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_API_PAT;
+
+const github = axios.create({
+  baseURL: GITHUB_URL,
+  headers: {
+    Accept: 'application/vnd.github+json',
+    Authorization: `Bearer ${GITHUB_TOKEN}`,
+  },
+});
 
 // Get search results
 export const searchUsers = async (text) => {
@@ -7,49 +17,18 @@ export const searchUsers = async (text) => {
     q: text,
   });
 
-  const response = await fetch(`${gitHubUrl}/search/users?${params}`, {
-    headers: {
-      Accept: 'application/vnd.github+json',
-      Authorization: `Bearer ${gitHubToken}`,
-    },
-  });
-  const { items } = await response.json();
+  const response = await github.get(`/search/users?${params}`);
+  const users = response.data.items;
 
-  return items;
+  return users;
 };
 
-// Get single user
-export const getSingleUser = async (login) => {
-  const response = await fetch(`${gitHubUrl}/users/${login}`, {
-    headers: {
-      Accept: 'application/vnd.github+json',
-      Authorization: `Bearer ${gitHubToken}`,
-    },
-  });
+// Get user & repos
+export const getUserAndRepos = async (login) => {
+  const [user, repos] = await Promise.all([
+    github.get(`/users/${login}`),
+    github.get(`/users/${login}/repos`),
+  ]);
 
-  if (response.status === 404) {
-    window.location = '/notfound';
-  } else {
-    const user = await response.json();
-
-    return user;
-  }
-};
-
-export const getUserRepos = async (login) => {
-  const params = new URLSearchParams({
-    sort: 'created:date-desc',
-    per_page: 10,
-  });
-
-  const response = await fetch(`${gitHubUrl}/users/${login}/repos?${params}`, {
-    headers: {
-      Accept: 'application/vnd.github+json',
-      Authorization: `Bearer ${gitHubToken}`,
-    },
-  });
-
-  const repos = await response.json();
-
-  return repos;
+  return { user: user.data, repos: repos.data };
 };
