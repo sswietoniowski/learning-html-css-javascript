@@ -9,7 +9,7 @@ This repository contains the following sub-directories:
 - [css](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/css) the CSS examples,
 - [html](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/html) the HTML examples,
 - [javascript](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/javascript) the JavaScript examples,
-- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) demo projects created using aftermentioned technologies & more :-).
+- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) demo projects created using aforementioned technologies & more :-).
 
 ## Learning Resources
 
@@ -62,11 +62,12 @@ Based on these (free) courses:
   - [Create react app vs Vite](https://dev.to/keefdrive/create-react-app-vs-vite-2amn),
   - [Use Vite for React Apps instead of CRA](https://dev.to/nilanth/use-vite-for-react-apps-instead-of-cra-3pkg),
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
-  - [10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q),  
+  - _[10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q)_,  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik),
   - [Goodbye, useEffect - David Khourshid](https://youtu.be/bGzanfKVFeU),
+  - _[The weird things about React](https://youtu.be/-NPUjrjusPA)_,
   - [How to Style your React App (5 Different Methods Compared)](https://youtu.be/DXikBH-LCF4),
   - [10 React Antipatterns to Avoid - Code This, Not That!](https://youtu.be/b0IZo2Aho9Y),
   - [JavaScript Reducer (origin React/Redux)](https://www.robinwieruch.de/javascript-reducer/),
