@@ -150,7 +150,8 @@ Also used these (paid) courses & books:
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
   - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
   - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
-  - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc).
+  - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc)
+  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI).
 
 This is (sort of) continuation of these project(-s):
 
