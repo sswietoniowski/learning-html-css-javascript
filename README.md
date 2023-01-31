@@ -17,6 +17,8 @@ Based on these (free) courses:
 
 - HTML:
   - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
+  - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
+  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
 - CSS:
   - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
@@ -103,13 +105,14 @@ Also used these (paid) courses & books:
   - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),  
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
+  - [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
 - React:  
   - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - _[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
   - _[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)_ [:file_folder:](https://github.com/packtpublishing/react-front-to-back) :arrow_forward::
     - _[Feedback App](https://github.com/bradtraversy/feedback-app)_ :+1:,
-    - [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :arrow_forward:,
-    - [House Marketplace](https://github.com/bradtraversy/house-marketplace),
+    - _[GitHub Finder App](https://github.com/bradtraversy/github-finder-app)_ :+1:,
+    - [House Marketplace](https://github.com/bradtraversy/house-marketplace) ▶️,
     - [Gist](https://gist.github.com/bradtraversy),
   - _[Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
@@ -149,7 +152,8 @@ Also used these (paid) courses & books:
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
   - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
   - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
-  - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc).
+  - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc)
+  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI).
 
 This is (sort of) continuation of these project(-s):
 
