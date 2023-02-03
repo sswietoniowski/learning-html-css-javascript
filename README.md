@@ -200,6 +200,9 @@ Some useful tools & libraries:
   - [Formik](https://formik.org/),
   - [QuickType](https://quicktype.io/),
   - [MUI](https://mui.com/),
+  - [React Hook Form](https://github.com/react-hook-form/react-hook-form),
+  - [Zod](https://github.com/colinhacks/zod),
+  - [useQuery](https://github.com/TanStack/query),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
