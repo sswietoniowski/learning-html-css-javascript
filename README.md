@@ -63,6 +63,7 @@ Based on these (free) courses:
   - _[Creating your React project from scratch without create-react-app: The Complete Guide](https://dev.to/underscorecode/creating-your-react-project-from-scratch-without-create-react-app-the-complete-guide-4kbc)_ :+1:,
   - [Create react app vs Vite](https://dev.to/keefdrive/create-react-app-vs-vite-2amn),
   - [Use Vite for React Apps instead of CRA](https://dev.to/nilanth/use-vite-for-react-apps-instead-of-cra-3pkg),
+  - [7 better ways to create a React app](https://youtu.be/2OTq15A5s0Y),
   - _[How To Use Axios With React: The Definitive Guide (2021)](https://www.freecodecamp.org/news/how-to-use-axios-with-react/)_ :+1:,
   - _[10 React Hooks Explained // Plus Build your own from Scratch](https://youtu.be/TNhaISOUy6Q)_,  
   - [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558),
