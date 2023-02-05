@@ -13,8 +13,8 @@ const UseRefExample2 = () => {
 
   return (
     <div>
-      <h1>Renders: {renders.current}</h1>
-      <h2>Previous name: {previousName.current}</h2>
+      <h2>Renders: {renders.current}</h2>
+      <h3>Previous name: {previousName.current}</h3>
       <input
         type='text'
         className='form-control mb-3'
