@@ -1,4 +1,5 @@
 import './App.css';
+import UseMemoExample from './components/UseMemoExample';
 
 import UseRefExample1 from './components/UseRefExample1';
 import UseRefExample2 from './components/UseRefExample2';
@@ -15,6 +16,8 @@ function App() {
       <hr />
       <h1>Example #3</h1>
       <UseRefExample3 />
+      <hr />
+      <UseMemoExample />
     </div>
   );
 }
