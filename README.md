@@ -46,6 +46,7 @@ Based on these (free) courses:
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
     - [Modern Full Stack ECommerce Application with Stripe & Sanity](https://github.com/adrianhajdin/ecommerce_sanity_stripe),
     - [Micael - The Ultimate Web Development Portfolio](https://github.com/adrianhajdin/project_professional_portfolio),
+  - [React Booking | Reservation App UI Design for Beginners](https://youtu.be/RkWpJ4XUHuw),
   - [React Node.js Booking App Full Tutorial | MERN Stack Reservation App (JWT, Cookies, Context API)](https://youtu.be/k3Vfj-e1Ma4),
   - [React State Management – Intermediate JavaScript Course](https://youtu.be/-bEzt5ISACA),
   - [Redux Tutorials Index](https://redux.js.org/tutorials/index),
