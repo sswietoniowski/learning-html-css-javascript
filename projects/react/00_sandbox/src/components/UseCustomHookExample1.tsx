@@ -15,18 +15,16 @@ const UseCustomHookExample1 = () => {
     return <div>Error: {response.error}</div>;
   }
 
-  if (data) {
-    return (
-      <div>
-        <h1>Users</h1>
-        <ul>
-          {response.data.map((user: any) => (
-            <li key={user.id}>{user.name}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <h1>Users</h1>
+      <ul>
+        {data.map((user: any) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default UseCustomHookExample1;
