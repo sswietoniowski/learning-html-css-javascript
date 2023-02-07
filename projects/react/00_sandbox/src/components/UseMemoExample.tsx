@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 
 const UseMemoExample = () => {
   const [number, setNumber] = useState(1);
-  const [increment, setIncrement] = useState(0);
+  const [_, setIncrement] = useState(0);
 
   const getSqrt = (number: number) => {
     console.log('Executing heavy calculation...');
