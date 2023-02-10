@@ -205,6 +205,7 @@ Some useful tools & libraries:
   - [React Hook Form](https://github.com/react-hook-form/react-hook-form),
   - [Zod](https://github.com/colinhacks/zod),
   - [useQuery](https://github.com/TanStack/query),
+  - [create-t3-app](https://create.t3.gg/),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
