@@ -24,7 +24,7 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "json-server": "^0.17.0",
+    "json-server": "^0.17.1",
     "regenerator-runtime": "^0.13.9"
   }
 }
