@@ -1,7 +1,6 @@
-rules_version = '2';
-
 // FIRESTORE RULES
 
+rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     // Listings
@@ -24,6 +23,7 @@ service cloud.firestore {
 
 // STORAGE RULES
 
+rules_version = '2';
 service firebase.storage {
   match /b/{bucket}/o {
     match /{allPaths=**} {
