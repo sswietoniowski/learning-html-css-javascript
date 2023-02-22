@@ -214,4 +214,6 @@ Some useful tools & libraries:
   - [autocannon](https://www.npmjs.com/package/autocannon),
   - [TanStack](https://tanstack.com/),
   - [State of JavaScript](https://stateofjs.com/en-us/),
-  - [Codux](https://www.codux.com/).
+  - [Codux](https://www.codux.com/),
+  - [SVGR](https://github.com/gregberge/svgr).
+  
