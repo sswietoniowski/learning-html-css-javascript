@@ -1,14 +1,20 @@
-import { useEffect } from 'react';
+import { User } from 'firebase/auth';
+import { useEffect, useState } from 'react';
 import { auth } from '../firebase.config';
 
 const Profile = () => {
+  const [user, setUser] = useState<User | null>(null);
+
   useEffect(() => {
+    setUser(auth.currentUser);
     console.log(auth.currentUser);
   }, []);
-  return (
+  return user ? (
     <div>
-      <h1>Profile</h1>
+      <h1>Profile: {user.displayName}</h1>
     </div>
+  ) : (
+    'Not logged in'
   );
 };
 
