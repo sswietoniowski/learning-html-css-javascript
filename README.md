@@ -205,6 +205,7 @@ Some useful tools & libraries:
   - [Zod](https://github.com/colinhacks/zod),
   - [useQuery](https://github.com/TanStack/query),
   - [create-t3-app](https://create.t3.gg/),
+  - [React Toastify](https://github.com/fkhadra/react-toastify),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
