@@ -78,6 +78,7 @@ const SignUp = () => {
           </div>
         </form>
         {/* Google OAuth */}
+        {/* https://firebase.google.com/docs/auth?authuser=0&hl=en - Firebase Authentication Docs */}
         <Link to='/sign-in' className='registerLink'>
           Sign In Instead
         </Link>
