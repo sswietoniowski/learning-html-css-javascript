@@ -14,7 +14,9 @@ const Profile = () => {
       <h1>Profile: {user.displayName}</h1>
     </div>
   ) : (
-    'Not logged in'
+    <div>
+      <h1>Not logged in</h1>
+    </div>
   );
 };
 
