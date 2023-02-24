@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import visibilityIcon from '../assets/svg/visibilityIcon.svg';
 import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
-
+import { auth, db } from '../firebase.config';
+import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
+import { doc, FieldValue, serverTimestamp, setDoc } from 'firebase/firestore';
 const SignUp = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
@@ -22,13 +24,48 @@ const SignUp = () => {
     }));
   };
 
+  interface UserData {
+    name: string;
+    email: string;
+    password?: string;
+    timestamp?: FieldValue;
+  }
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    try {
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+
+      const user = userCredential.user;
+
+      await updateProfile(auth.currentUser!, {
+        displayName: name,
+      });
+
+      const userData: UserData = { ...formData };
+      delete userData.password;
+      userData.timestamp = serverTimestamp();
+
+      await setDoc(doc(db, 'users', user.uid), userData);
+
+      navigate('/');
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <>
       <div className='pageContainer'>
         <header>
           <p className='pageHeader'>Welcome Back!</p>
         </header>
-        <form>
+        <form onSubmit={onSubmit}>
           <input
             type='text'
             name='name'
