@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import visibilityIcon from '../assets/svg/visibilityIcon.svg';
 import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
 import { auth, db } from '../firebase.config';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { doc, FieldValue, serverTimestamp, setDoc } from 'firebase/firestore';
+
 const SignUp = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
@@ -55,7 +57,7 @@ const SignUp = () => {
 
       navigate('/');
     } catch (error) {
-      console.log(error);
+      toast.error('Something went wrong with registration');
     }
   };
 
