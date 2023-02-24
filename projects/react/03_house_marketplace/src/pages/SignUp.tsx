@@ -43,7 +43,7 @@ const SignUp = () => {
 
       const user = userCredential.user;
 
-      await updateProfile(auth.currentUser!, {
+      await updateProfile(user, {
         displayName: name,
       });
 
