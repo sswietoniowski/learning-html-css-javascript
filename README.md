@@ -107,7 +107,7 @@ Also used these (paid) courses & books:
   - _[Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files) [:file_folder:](https://github.com/mwarger/globomantics-react-ts),
   - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),
 - Node.js:
-  - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb),
+  - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb) ▶️,
   - [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
 - React:
   - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
@@ -132,9 +132,9 @@ Also used these (paid) courses & books:
   - _[Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files)_ :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
   - [React 18 Fundamentals](https://app.pluralsight.com/library/courses/react-18-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-fundamentals/exercise-files),
-  - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch),
+  - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch) ▶️,
 - React Native:
-  - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide),
+  - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide) ▶️,
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
   - [React Native: Getting Started](https://app.pluralsight.com/library/courses/react-native-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-get-started/exercise-files),
   - [Building Mobile Apps with React Native](https://app.pluralsight.com/library/courses/building-mobile-apps-react-native/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/building-mobile-apps-react-native/exercise-files),
@@ -144,10 +144,10 @@ Also used these (paid) courses & books:
   - [Styling React Native Applications](https://app.pluralsight.com/library/courses/react-native-applications-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-applications-styling/exercise-files),
   - [Testing Mobile Apps in React Native](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-testing-mobile-apps/exercise-files),
 - Electron:
-  - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript),
+  - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript) ▶️,
 - Next.js:
   - _[Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files)_ :+1:,
-  - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website),
+  - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
