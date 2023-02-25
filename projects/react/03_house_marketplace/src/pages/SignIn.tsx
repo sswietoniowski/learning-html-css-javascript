@@ -5,6 +5,7 @@ import visibilityIcon from '../assets/svg/visibilityIcon.svg';
 import { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg';
 import { auth } from '../firebase.config';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import OAuth from '../components/OAuth';
 
 const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -40,7 +41,7 @@ const SignIn = () => {
         navigate('/');
       }
     } catch (error) {
-      toast.error('Bad User Credentials')
+      toast.error('Bad User Credentials');
     }
   };
 
@@ -91,6 +92,7 @@ const SignIn = () => {
           </div>
         </form>
         {/* Google OAuth */}
+        <OAuth />
         {/* https://firebase.google.com/docs/auth?authuser=0&hl=en - Firebase Authentication Docs */}
         <Link to='/sign-up' className='registerLink'>
           Sign Up Instead
