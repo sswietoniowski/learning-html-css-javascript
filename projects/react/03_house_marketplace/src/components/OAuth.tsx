@@ -1,9 +1,9 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import googleIcon from '../assets/svg/googleIcon.svg';
 import { auth, db } from '../firebase.config';
 import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
+import googleIcon from '../assets/svg/googleIcon.svg';
 
 const OAuth = () => {
   const navigate = useNavigate();
