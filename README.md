@@ -36,6 +36,7 @@ Based on these (free) courses:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
   - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
 - React:
+  - [React](https://react.dev/),
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
   - [Awesome React](https://github.com/enaqx/awesome-react),
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
@@ -213,7 +214,11 @@ Some useful tools & libraries:
   - [Zod](https://github.com/colinhacks/zod),
   - [useQuery](https://github.com/TanStack/query),
   - [create-t3-app](https://create.t3.gg/),
-  - [React Toastify](https://github.com/fkhadra/react-toastify),
+  - [TailwindCSS](https://tailwindcss.com/),
+  - [React Toastify](https://github.com/fkhadra/react-toastify),  
+  - [Recharts](https://recharts.org/en-US/),
+  - [React Native](https://reactnative.dev/),
+  - [Expo](https://github.com/expo/expo),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
