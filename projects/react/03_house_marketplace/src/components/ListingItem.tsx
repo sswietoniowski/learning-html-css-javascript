@@ -16,7 +16,7 @@ interface ListingItemProps {
     bedrooms: number;
     bathrooms: number;
   };
-  onDelete: (id: string, name: string) => void;
+  onDelete?: (id: string, name: string) => void;
 }
 
 const ListingItem = ({ id, listing, onDelete }: ListingItemProps) => {

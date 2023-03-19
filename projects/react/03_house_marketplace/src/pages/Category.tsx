@@ -53,6 +53,23 @@ const Category = () => {
     fetchListing();
   }, [categoryName]);
 
+  const listingItems =
+    listings && listings.length > 0 ? (
+      <main>
+        <ul className='categoryListings'>
+          {listings.map((listing) => (
+            <ListingItem
+              key={listing.id}
+              id={listing.id}
+              listing={listing.data}
+            />
+          ))}
+        </ul>
+      </main>
+    ) : (
+      <p>No listings for {categoryName}</p>
+    );
+
   return (
     <div className='category'>
       <header>
@@ -60,23 +77,7 @@ const Category = () => {
           {categoryName === 'rent' ? 'Places for rent' : 'Places for sale'}
         </p>
       </header>
-      {loading ? (
-        <Spinner />
-      ) : listings && listings.length > 0 ? (
-        <main>
-          <ul className='categoryListings'>
-            {listings.map((listing) => (
-              <ListingItem
-                key={listing.id}
-                id={listing.id}
-                listing={listing.data}
-              />
-            ))}
-          </ul>
-        </main>
-      ) : (
-        <p>No listings for {categoryName}</p>
-      )}
+      {loading ? <Spinner /> : listingItems}
     </div>
   );
 };
