@@ -7,7 +7,6 @@ import {
   where,
   orderBy,
   limit,
-  startAfter,
   DocumentData,
 } from 'firebase/firestore';
 import { db } from '../firebase.config';
