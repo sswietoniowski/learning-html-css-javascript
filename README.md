@@ -59,6 +59,7 @@ Based on these (free) courses:
     - [YouTube Clone App](https://github.com/adrianhajdin/project_youtube_clone),
     - [Fitness Exercises App](https://github.com/adrianhajdin/project_fitness_app),
     - [Spotify Clone App](https://github.com/adrianhajdin/project_music_player),
+  - [Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners](https://youtu.be/mJ3bGvy0WAY),
   - [Complete MERN Beginner Course [2023] (TypeScript, Authentication, Deployment...)](https://youtu.be/FcxjCPeicvU),
   - [NextJS Full Beginner Course [2023]](https://youtu.be/e1EIwuO-Dlo),
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
