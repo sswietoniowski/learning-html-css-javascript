@@ -128,6 +128,8 @@ const CreateListing = () => {
           (target as HTMLInputElement).files!
         ).map((file) => file.name);
 
+        console.log(images);
+
         if (images.length > 0) {
           setFormData({ ...formData, images });
         }
@@ -137,6 +139,8 @@ const CreateListing = () => {
         if (['parking', 'furnished', 'offer'].indexOf(id) > -1) {
           value = value === 'true' ? true : false;
         }
+
+        console.log(id, value);
 
         setFormData({ ...formData, [id]: value });
       }
