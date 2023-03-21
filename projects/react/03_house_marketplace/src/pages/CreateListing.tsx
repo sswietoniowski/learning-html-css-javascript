@@ -122,16 +122,25 @@ const CreateListing = () => {
       target instanceof HTMLButtonElement
     ) {
       const id = target.id;
-      let value: string | number | boolean = target.value;
 
-      if (['parking', 'furnished', 'offer'].indexOf(id) > -1) {
-        value = value === 'true' ? true : false;
+      if (id === 'images') {
+        const images: string[] = Array.from(
+          (target as HTMLInputElement).files!
+        ).map((file) => file.name);
+
+        if (images.length > 0) {
+          setFormData({ ...formData, images });
+        }
+      } else {
+        let value: string | number | boolean = target.value;
+
+        if (['parking', 'furnished', 'offer'].indexOf(id) > -1) {
+          value = value === 'true' ? true : false;
+        }
+
+        setFormData({ ...formData, [id]: value });
       }
-
-      setFormData({ ...formData, [id]: value });
     }
-
-    console.log(formData);
   };
 
   if (loading) {
