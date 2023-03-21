@@ -93,7 +93,7 @@ const CreateListing = () => {
       longitude,
     } = formData;
 
-    console.log(formData);
+    console.log(JSON.stringify(formData));
   };
 
   const onMutate = <E extends React.SyntheticEvent>(e: E) => {
