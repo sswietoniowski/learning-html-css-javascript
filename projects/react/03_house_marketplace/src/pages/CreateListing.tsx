@@ -97,22 +97,6 @@ const CreateListing = () => {
   };
 
   const onMutate = <E extends React.SyntheticEvent>(e: E) => {
-    const {
-      type,
-      name,
-      bedrooms,
-      bathrooms,
-      parking,
-      furnished,
-      address,
-      offer,
-      regularPrice,
-      discountedPrice,
-      images,
-      latitude,
-      longitude,
-    } = formData;
-
     const target = e.currentTarget;
 
     if (
