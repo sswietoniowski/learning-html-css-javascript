@@ -128,7 +128,7 @@ const CreateListing = () => {
           (target as HTMLInputElement).files!
         ).map((file) => file.name);
 
-        console.log(images);
+        console.log(JSON.stringify({ [id]: images }));
 
         if (images.length > 0) {
           setFormData({ ...formData, images });
@@ -140,7 +140,7 @@ const CreateListing = () => {
           value = value === 'true' ? true : false;
         }
 
-        console.log(id, value);
+        console.log(JSON.stringify({ [id]: value }));
 
         setFormData({ ...formData, [id]: value });
       }
