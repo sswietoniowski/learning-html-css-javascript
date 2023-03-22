@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { auth } from '../firebase.config';
 import { onAuthStateChanged } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import Spinner from '../components/Spinner';
 
 interface FormData {
@@ -74,7 +75,7 @@ const CreateListing = () => {
     };
   }, [isMounted]);
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const {
@@ -93,7 +94,63 @@ const CreateListing = () => {
       longitude,
     } = formData;
 
-    console.log(JSON.stringify(formData));
+    setLoading(true);
+
+    if (discountedPrice != null && discountedPrice >= regularPrice) {
+      setLoading(false);
+      toast.error('Discounted price needs to be less than regular price');
+      return;
+    }
+
+    const MAX_IMAGES = 6;
+
+    if (images!.length > MAX_IMAGES) {
+      setLoading(false);
+      toast.error('Max 6 images');
+      return;
+    }
+
+    if (!geolocationEnabled && (latitude == null || longitude == null)) {
+      setLoading(false);
+      toast.error('Latitude and longitude are required');
+      return;
+    }
+
+    let geolocation = {};
+    let location = '';
+
+    if (geolocationEnabled) {
+      const response = await fetch(
+        `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${
+          import.meta.env.VITE_GOOGLE_MAPS_API_KEY
+        }`
+      );
+
+      const data = await response.json();
+
+      console.log(data);
+
+      if (data.status === 'OK' && data.status !== 'ZERO_RESULTS') {
+        geolocation = {
+          lat: data.results[0].geometry.location.lat,
+          lng: data.results[0].geometry.location.lng,
+        };
+
+        location = data.results[0].formatted_address;
+      } else {
+        setLoading(false);
+        toast.error('Please enter a correct address');
+        return;
+      }
+    } else {
+      geolocation = {
+        lat: latitude,
+        lng: longitude,
+      };
+      location = address;
+    }
+
+    setLoading(false);
   };
 
   const onMutate = <E extends React.SyntheticEvent>(e: E) => {
