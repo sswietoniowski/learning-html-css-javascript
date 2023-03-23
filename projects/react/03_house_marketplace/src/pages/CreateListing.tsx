@@ -168,7 +168,7 @@ const CreateListing = () => {
           lng: data.results[0].geometry.location.lng,
         };
 
-        location = data.results[0].formatted_address;
+        // location = data.results[0].formatted_address;
       } else {
         setLoading(false);
         toast.error('Please enter a correct address');
