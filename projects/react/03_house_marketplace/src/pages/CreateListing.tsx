@@ -7,6 +7,12 @@ import {
   uploadBytesResumable,
   getDownloadURL,
 } from 'firebase/storage';
+import {
+  addDoc,
+  collection,
+  serverTimestamp,
+  Timestamp,
+} from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { v4 as uuidv4 } from 'uuid';
@@ -27,6 +33,26 @@ interface FormData {
   latitude?: number;
   longitude?: number;
   userRef?: string;
+}
+
+interface ListingData {
+  type: string;
+  name: string;
+  bedrooms: number;
+  bathrooms: number;
+  parking: boolean;
+  furnished: boolean;
+  offer: boolean;
+  regularPrice: number;
+  discountedPrice?: number;
+  imageUrls?: string[];
+  location: string;
+  geolocation: {
+    lat: number;
+    lng: number;
+  };
+  timestamp: any;
+  userRef: string;
 }
 
 const CreateListing = () => {
@@ -122,7 +148,7 @@ const CreateListing = () => {
       return;
     }
 
-    let geolocation = {};
+    let geolocation = { lat: 0, lng: 0 };
     let location = '';
 
     if (geolocationEnabled) {
@@ -150,15 +176,15 @@ const CreateListing = () => {
       }
     } else {
       geolocation = {
-        lat: latitude,
-        lng: longitude,
+        lat: latitude!,
+        lng: longitude!,
       };
       location = address;
     }
 
     // Store images in firebase storage
     const storeImage = async (image: File) => {
-      return new Promise((resolve, reject) => {
+      return new Promise<string>((resolve, reject) => {
         const storage = getStorage();
         const fileName = `${auth.currentUser!.uid}-${
           image.name
@@ -195,16 +221,44 @@ const CreateListing = () => {
       });
     };
 
-    const imagesUrls = await Promise.all(
+    let imageUrls = await Promise.all(
       images!.map((image) => storeImage(image))
     ).catch(() => {
       setLoading(false);
       toast.error('Images could not be uploaded');
+      return;
     });
 
-    console.log(imagesUrls);
+    if (imageUrls == null) {
+      imageUrls = [];
+    }
+
+    const newListing: ListingData = {
+      type,
+      name,
+      bedrooms,
+      bathrooms,
+      parking,
+      furnished,
+      location,
+      offer,
+      regularPrice,
+      discountedPrice,
+      imageUrls,
+      geolocation,
+      timestamp: serverTimestamp(),
+      userRef: auth.currentUser!.uid,
+    };
+
+    const docRef = await addDoc(collection(db, 'listings'), newListing);
+
+    console.log('Listing added with ID: ', docRef.id);
 
     setLoading(false);
+
+    toast.success('Listing created successfully');
+
+    navigate(`/category/${type}/${docRef.id}`);
   };
 
   const onMutate = <E extends React.SyntheticEvent>(e: E) => {
