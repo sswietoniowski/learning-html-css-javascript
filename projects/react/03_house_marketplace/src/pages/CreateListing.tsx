@@ -1,8 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
-import { auth } from '../firebase.config';
+import { app, auth, db } from '../firebase.config';
 import { onAuthStateChanged } from 'firebase/auth';
+import {
+  getStorage,
+  ref,
+  uploadBytesResumable,
+  getDownloadURL,
+} from 'firebase/storage';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import { v4 as uuidv4 } from 'uuid';
 import Spinner from '../components/Spinner';
 
 interface FormData {
@@ -16,7 +23,7 @@ interface FormData {
   offer: boolean;
   regularPrice: number;
   discountedPrice?: number;
-  images?: string[];
+  images?: File[];
   latitude?: number;
   longitude?: number;
   userRef?: string;
@@ -52,7 +59,6 @@ const CreateListing = () => {
     offer,
     regularPrice,
     discountedPrice,
-    images,
     latitude,
     longitude,
   } = formData;
@@ -150,6 +156,54 @@ const CreateListing = () => {
       location = address;
     }
 
+    // Store images in firebase storage
+    const storeImage = async (image: File) => {
+      return new Promise((resolve, reject) => {
+        const storage = getStorage();
+        const fileName = `${auth.currentUser!.uid}-${
+          image.name
+        }-${uuidv4()}.jpg`;
+
+        const storageRef = ref(storage, `images/${fileName}`);
+
+        const uploadTask = uploadBytesResumable(storageRef, image);
+
+        uploadTask.on(
+          'state_changed',
+          (snapshot) => {
+            const progress =
+              (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+            console.log('Upload is ' + progress + '% done');
+            switch (snapshot.state) {
+              case 'paused':
+                console.log('Upload is paused');
+                break;
+              case 'running':
+                console.log('Upload is running');
+                break;
+            }
+          },
+          (error) => {
+            reject(error);
+          },
+          () => {
+            getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+              resolve(downloadURL);
+            });
+          }
+        );
+      });
+    };
+
+    const imagesUrls = await Promise.all(
+      images!.map((image) => storeImage(image))
+    ).catch(() => {
+      setLoading(false);
+      toast.error('Images could not be uploaded');
+    });
+
+    console.log(imagesUrls);
+
     setLoading(false);
   };
 
@@ -165,9 +219,9 @@ const CreateListing = () => {
       const id = target.id;
 
       if (id === 'images') {
-        const images: string[] = Array.from(
+        const images: File[] = Array.from(
           (target as HTMLInputElement).files!
-        ).map((file) => file.name);
+        ).map((file) => file);
 
         console.log(JSON.stringify({ [id]: images }));
 
