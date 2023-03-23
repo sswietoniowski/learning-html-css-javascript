@@ -179,8 +179,8 @@ const CreateListing = () => {
         lat: latitude!,
         lng: longitude!,
       };
-      location = address;
     }
+    location = address;
 
     // Store images in firebase storage
     const storeImage = async (image: File) => {
