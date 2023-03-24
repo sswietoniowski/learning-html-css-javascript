@@ -82,6 +82,7 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
+  - [Learn Vite – Frontend Build Tool Course](https://youtu.be/VAeRhmpcWEQ),
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
   - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA).
 
