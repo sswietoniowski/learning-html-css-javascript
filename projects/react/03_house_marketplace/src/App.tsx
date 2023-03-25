@@ -13,6 +13,7 @@ import SignUp from './pages/SignUp';
 import Navbar from './components/Navbar';
 import PrivateRoute from './components/PrivateRoute';
 import Listing from './pages/Listing';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
             path='/category/:categoryName/:listingId'
             element={<Listing />}
           />
+          <Route path='/contact/:landlordId' element={<Contact />} />
         </Routes>
         <Navbar />
       </Router>

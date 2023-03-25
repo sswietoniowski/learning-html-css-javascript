@@ -120,7 +120,7 @@ const Listing = () => {
           <Link
             to={`/contact/${listing!.userRef}?listingName=${
               listing!.name
-            }&listingLocation=${listing!.location}`}
+            }`}
             className='primaryButton'
           >
             Contact Landlord
