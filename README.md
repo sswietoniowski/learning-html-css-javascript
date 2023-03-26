@@ -232,5 +232,6 @@ Some useful tools & libraries:
   - [TanStack](https://tanstack.com/),
   - [State of JavaScript](https://stateofjs.com/en-us/),
   - [Codux](https://www.codux.com/),
-  - [SVGR](https://github.com/gregberge/svgr).
+  - [SVGR](https://github.com/gregberge/svgr),
+  - [Leaflet](https://leafletjs.com/).
   
