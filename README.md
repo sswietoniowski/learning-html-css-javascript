@@ -234,5 +234,6 @@ Some useful tools & libraries:
   - [Codux](https://www.codux.com/),
   - [SVGR](https://github.com/gregberge/svgr),
   - [Leaflet](https://leafletjs.com/),
-  - [React Leaflet](https://react-leaflet.js.org/).
+  - [React Leaflet](https://react-leaflet.js.org/),
+  - [Swiper React Components](https://swiperjs.com/react).
   
