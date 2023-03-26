@@ -233,5 +233,6 @@ Some useful tools & libraries:
   - [State of JavaScript](https://stateofjs.com/en-us/),
   - [Codux](https://www.codux.com/),
   - [SVGR](https://github.com/gregberge/svgr),
-  - [Leaflet](https://leafletjs.com/).
+  - [Leaflet](https://leafletjs.com/),
+  - [React Leaflet](https://react-leaflet.js.org/).
   
