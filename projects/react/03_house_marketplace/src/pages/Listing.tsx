@@ -5,6 +5,10 @@ import { db, auth } from '../firebase.config';
 import Spinner from '../components/Spinner';
 import shareIcon from '../assets/svg/shareIcon.svg';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 interface ListingData {
   type: string;
@@ -55,7 +59,20 @@ const Listing = () => {
 
   return (
     <main>
-      {/* Slider */}
+      <Swiper slidesPerView={1} pagination={{ clickable: true }}>
+        {listing!.imageUrls!.map((url, index) => (
+          <SwiperSlide key={index}>
+            <div
+              style={{
+                background: `url(${url}) center no-repeat`,
+                backgroundSize: 'cover',
+              }}
+              className='swiperSlideDiv'
+            ></div>
+            {/* <img src={url} alt='listing' className='swiperSlideDiv' /> */}
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
       <div
         className='shareIconDiv'
