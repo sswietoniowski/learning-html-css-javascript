@@ -62,14 +62,15 @@ const Listing = () => {
       <Swiper slidesPerView={1} pagination={{ clickable: true }}>
         {listing!.imageUrls!.map((url, index) => (
           <SwiperSlide key={index}>
-            {/* <div
+            <div
               style={{
+                height: '100px',
                 background: `url(${url}) center no-repeat`,
                 backgroundSize: 'cover',
               }}
               className='swiperSlideDiv'
-            ></div> */}
-            <img src={url} alt='listing' className='swiperSlideDiv' />
+            ></div>
+            {/* <img src={url} alt='listing' className='swiperSlideDiv' /> */}
           </SwiperSlide>
         ))}
       </Swiper>

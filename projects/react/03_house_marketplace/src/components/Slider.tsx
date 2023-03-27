@@ -70,6 +70,7 @@ const Slider = () => {
             >
               <div
                 style={{
+                  height: '500px',
                   background: `url(${data.imageUrls[0]}) center no-repeat`,
                   backgroundSize: 'cover',
                 }}
@@ -77,7 +78,10 @@ const Slider = () => {
               >
                 <p className='swiperSlideText'>{data.name}</p>
                 <p className='swiperSlidePrice'>
-                  ${data.discountedPrice ?? data.regularPrice}{' '}
+                  $
+                  {data.discountedPrice !== null && data.discountedPrice! > 0
+                    ? data.discountedPrice
+                    : data.regularPrice}{' '}
                   {data.type === 'rent' && '/ month'}
                 </p>
               </div>
