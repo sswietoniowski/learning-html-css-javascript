@@ -64,7 +64,7 @@ const Listing = () => {
           <SwiperSlide key={index}>
             <div
               style={{
-                height: '100px',
+                height: '500px',
                 background: `url(${url}) center no-repeat`,
                 backgroundSize: 'cover',
               }}
