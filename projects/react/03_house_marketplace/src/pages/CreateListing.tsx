@@ -226,7 +226,6 @@ const CreateListing = () => {
     ).catch(() => {
       setLoading(false);
       toast.error('Images could not be uploaded');
-      return;
     });
 
     if (imageUrls == null) {
