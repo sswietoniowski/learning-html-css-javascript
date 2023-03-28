@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ReactComponent as DeleteIcon } from '../assets/svg/deleteIcon.svg';
+import { ReactComponent as EditIcon } from '../assets/svg/editIcon.svg';
 import bedIcon from '../assets/svg/bedIcon.svg';
 import bathtubIcon from '../assets/svg/bathtubIcon.svg';
 
@@ -16,10 +17,11 @@ interface ListingItemProps {
     bedrooms: number;
     bathrooms: number;
   };
-  onDelete?: (id: string, name: string) => void;
+  onDelete?: (id: string) => void;
+  onEdit?: (id: string) => void;
 }
 
-const ListingItem = ({ id, listing, onDelete }: ListingItemProps) => {
+const ListingItem = ({ id, listing, onDelete, onEdit }: ListingItemProps) => {
   const {
     name,
     type,
@@ -64,8 +66,15 @@ const ListingItem = ({ id, listing, onDelete }: ListingItemProps) => {
 
       {onDelete && (
         <DeleteIcon
-          onClick={() => onDelete(id, name)}
+          onClick={() => onDelete(id)}
           className='removeIcon'
+          fill='rgb(231, 76, 60)'
+        />
+      )}
+      {onEdit && (
+        <EditIcon
+          onClick={() => onEdit(id)}
+          className='editIcon'
           fill='rgb(231, 76, 60)'
         />
       )}
