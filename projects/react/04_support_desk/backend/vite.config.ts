@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { VitePluginNode } from 'vite-plugin-node';
+import Terminal from 'vite-plugin-terminal';
 
 // https://vitejs.dev/config/
 // https://www.npmjs.com/package/vite-plugin-node
@@ -20,6 +21,9 @@ export default defineConfig({
       appPath: './src/app.ts',
       exportName: 'viteNodeApp',
       tsCompiler: 'esbuild',
+    }),
+    Terminal({
+      output: ['terminal', 'console'],
     }),
   ],
   optimizeDeps: {},

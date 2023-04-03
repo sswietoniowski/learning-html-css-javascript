@@ -13,4 +13,6 @@ if (import.meta.env.PROD) {
   });
 }
 
+console.log('Express app created...');
+
 export const viteNodeApp = app;
