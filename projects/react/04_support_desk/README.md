@@ -11,7 +11,7 @@ It was created using the following technologies:
 - TypeScript,
 - MongoDB.
 
-This is a typical MERN stack application.
+This is a typical [MERN](https://www.bocasay.com/how-does-the-mern-stack-work/) fullstack application.
 
 It consists of the following parts:
 
