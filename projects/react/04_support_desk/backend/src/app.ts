@@ -2,12 +2,12 @@ import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 
 import usersRouter from './routes/usersRoutes';
+import errorHandler from './middleware/errorMiddleware';
 
 const app: Express = express();
 
 app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-
 app.use(cors()); // for cross-origin requests
 
 // @ts-ignore
@@ -24,6 +24,7 @@ app.get('/', (_: Request, res: Response) => {
 });
 
 app.use('/api/users', usersRouter);
+app.use(errorHandler);
 
 console.log('Express app created...');
 
