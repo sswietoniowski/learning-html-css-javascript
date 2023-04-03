@@ -1,5 +1,6 @@
 ### Declare base URL
 @base_url = http://localhost:3001
 
-### First request
+### Welcome page
 GET {{base_url}}/ HTTP/1.1
+
