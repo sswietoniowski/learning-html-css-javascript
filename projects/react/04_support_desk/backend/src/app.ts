@@ -5,7 +5,10 @@ import usersRouter from './routes/usersRoutes';
 
 const app: Express = express();
 
-app.use(cors());
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+
+app.use(cors()); // for cross-origin requests
 
 // @ts-ignore
 if (import.meta.env.PROD) {
