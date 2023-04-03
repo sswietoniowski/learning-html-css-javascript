@@ -5,14 +5,14 @@ This is a simple support desk application that allows users to submit support ti
 It was created using the following technologies:
 
 - Vite,
-- React:
+- React (client):
   - Redux [:file_folder:](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) [:file_folder:](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd),
-- Node.js:
+- Node.js (API):
   - Express,
   - Mongoose,
   - Visual Studio Rest Client,
 - TypeScript,
-- MongoDB:
+- MongoDB (database):
   - MongoDB Compass.
 
 This is a typical [MERN](https://www.bocasay.com/how-does-the-mern-stack-work/) fullstack application.
