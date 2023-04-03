@@ -4,10 +4,13 @@ This is a simple support desk application that allows users to submit support ti
 
 It was created using the following technologies:
 
-- React,
-- Node.js,
-- Express,
-- Mongoose,
+- Vite,
+- React:
+  - Redux [:file_folder:](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) [:file_folder:](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd),
+- Node.js:
+  - Express,
+  - Mongoose,
+  - Visual Studio Rest Client,
 - TypeScript,
 - MongoDB.
 
