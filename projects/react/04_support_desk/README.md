@@ -12,7 +12,8 @@ It was created using the following technologies:
   - Mongoose,
   - Visual Studio Rest Client,
 - TypeScript,
-- MongoDB.
+- MongoDB:
+  - MongoDB Compass.
 
 This is a typical [MERN](https://www.bocasay.com/how-does-the-mern-stack-work/) fullstack application.
 
