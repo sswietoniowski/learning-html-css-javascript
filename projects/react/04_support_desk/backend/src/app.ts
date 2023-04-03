@@ -1,7 +1,10 @@
 import express, { Express, Request, Response } from 'express';
 import cors from 'cors';
 
+import usersRouter from './routes/userRoutes';
+
 const app: Express = express();
+
 app.use(cors());
 
 // @ts-ignore
@@ -16,6 +19,8 @@ if (import.meta.env.PROD) {
 app.get('/', (_: Request, res: Response) => {
   res.status(200).json({ message: 'Welcome to the Support Desk API!' });
 });
+
+app.use('/api/users', usersRouter);
 
 console.log('Express app created...');
 
