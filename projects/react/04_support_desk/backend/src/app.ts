@@ -1,8 +1,13 @@
 import express, { Express, Request, Response } from 'express';
+import 'colors';
 import cors from 'cors';
 
 import usersRouter from './routes/usersRoutes';
 import errorHandler from './middleware/errorMiddleware';
+import connectDb from './config/db';
+
+// Connect to database
+const connection = await connectDb(); // only for testing purposes
 
 const app: Express = express();
 
@@ -26,6 +31,6 @@ app.get('/', (_: Request, res: Response) => {
 app.use('/api/users', usersRouter);
 app.use(errorHandler);
 
-console.log('Express app created...');
+console.log('Express app created...'.cyan.underline);
 
 export const viteNodeApp = app;

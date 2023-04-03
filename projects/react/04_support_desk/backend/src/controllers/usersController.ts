@@ -37,7 +37,7 @@ export const registerUser = asyncHandler(
           password: '********',
         },
       });
-    } catch (error) {
+    } catch (error: any) {
       res.status(500).json({
         message: 'Error creating user',
         error,
@@ -66,7 +66,7 @@ export const loginUser = asyncHandler(
           password: '********',
         },
       });
-    } catch (error) {
+    } catch (error: any) {
       res.status(500).json({
         message: 'Error logging in user',
         error,

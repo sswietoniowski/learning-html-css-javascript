@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 
 const errorHandler = (
-  err: Error,
+  err: any,
   // @ts-ignore
   req: Request,
   res: Response,
