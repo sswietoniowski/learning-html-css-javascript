@@ -7,7 +7,7 @@ const errorHandler = (
   res: Response,
   // @ts-ignore
   next: NextFunction
-) => {
+): void => {
   const statusCode = res.statusCode ? res.statusCode : 500;
 
   res.status(statusCode);

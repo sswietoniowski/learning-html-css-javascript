@@ -49,3 +49,17 @@ Content-Type: application/json
     "email": "jdoe@example.com",
     "password": "NOT_REAL_PASSWORD"
 }
+
+@token = PUT_SAMPLE_TOKEN_HERE
+
+### Get user profile
+GET {{base_url}}/api/users/me HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get user profile withouth token
+GET {{base_url}}/api/users/me HTTP/1.1
+
+### Get user profile with invalid token
+GET {{base_url}}/api/users/me HTTP/1.1
+Authorization: Bearer INVALID_TOKEN
+

@@ -134,3 +134,14 @@ export const loginUser = asyncHandler(
     });
   }
 );
+
+// @desc   Get current user profile
+// @route  GET /api/users/me
+// @access Private
+export const aboutMe = asyncHandler(
+  async (req: Request, res: Response): Promise<void> => {
+    res.status(200).json({
+      message: 'This is the about page',
+    });
+  }
+);

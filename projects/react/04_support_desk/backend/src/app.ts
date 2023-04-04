@@ -29,7 +29,8 @@ app.get('/', (_: Request, res: Response) => {
 });
 
 app.use('/api/users', usersRouter);
-app.use(errorHandler);
+
+app.use(errorHandler); // must be last
 
 console.log('Express app created...'.cyan.underline);
 

@@ -12,7 +12,7 @@ const connectDb = async (): Promise<typeof import('mongoose')> => {
 
     return conn;
   } catch (err: any) {
-    console.log(
+    console.error(
       `Error while connecting to MongoDB: ${err.message}`.red.underline.bold
     );
 
