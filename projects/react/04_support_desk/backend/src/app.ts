@@ -24,7 +24,7 @@ if (import.meta.env.PROD) {
   });
 }
 
-app.get('/', (_: Request, res: Response) => {
+app.get(['/', '/api'], (_: Request, res: Response) => {
   res.status(200).json({ message: 'Welcome to the Support Desk API!' });
 });
 

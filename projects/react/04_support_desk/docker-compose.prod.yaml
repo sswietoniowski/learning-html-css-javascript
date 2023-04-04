@@ -12,7 +12,7 @@ services:
       - support-desk
   client:
     build:
-      context: ./Client
+      context: ./frontend
       dockerfile: Dockerfile.prod
     # container_name: support-desk-client
     restart: on-failure
