@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    # container_name: support-desk-api
+    restart: on-failure
+    ports:
+      - '3001:3001'
+    networks:
+      - support-desk
+  client:
+    build:
+      context: ./Client
+      dockerfile: Dockerfile.prod
+    # container_name: support-desk-client
+    restart: on-failure
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    networks:
+      - support-desk
+    depends_on:
+      - api
+  proxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    restart: on-failure
+    ports:
+      - 8080:80
+    networks:
+      - support-desk
+    depends_on:
+      - client
+      - api
+networks:
+  support-desk:
+    driver: bridge

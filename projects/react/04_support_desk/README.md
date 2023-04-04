@@ -21,3 +21,29 @@ It consists of the following parts:
 
 - [frontend](./frontend),
 - [backend](./backend).
+
+To start the application, run the following command:
+
+```cmd
+npm install
+cd ./backend
+npm install
+cd ../frontend
+npm install
+cd ..
+npm run dev
+```
+
+Alternatively, you can use [Docker](https://www.docker.com/) to run the application.
+
+To start debug configuration, run the following command:
+
+```cmd
+docker-compose --file docker-compose.yaml up -d --build
+```
+
+To start production configuration, run the following command:
+
+```cmd
+docker-compose --file docker-compose.prod.yaml up -d --build
+```
