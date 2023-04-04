@@ -77,18 +77,20 @@ To start debug configuration, run the following command:
 docker-compose --file docker-compose.yaml up -d --build
 ```
 
-You can access the application in your browser:
-
-- frontend (client): [http://localhost:3000](http://localhost:3000),
-- backend (api): [http://localhost:3001](http://localhost:3001).
-
 To start production configuration, run the following command:
 
 ```cmd
 docker-compose --file docker-compose.prod.yaml up -d --build
 ```
 
-You can access the application in your browser:
+You can access the application in your browser.
+
+Directly:
+
+- frontend (client): [http://localhost:3000](http://localhost:3000),
+- backend (api): [http://localhost:3001](http://localhost:3001).
+
+Using proxy container:
 
 - frontend (client): [http://localhost:8080](http://localhost:8080),
 - backend (api): [http://localhost:8080/api](http://localhost:8080/api).
