@@ -7,7 +7,7 @@ import errorHandler from './middleware/errorMiddleware';
 import connectDb from './config/db';
 
 // Connect to database
-const connection = await connectDb(); // only for testing purposes
+await connectDb();
 
 const app: Express = express();
 
