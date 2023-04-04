@@ -1,0 +1,15 @@
+{
+  "name": "support-desk",
+  "version": "1.0.0",
+  "description": "This is a simple support desk application that allows users to submit support tickets and view their status.",
+  "scripts": {
+    "api": "npm run --prefix ./backend dev",
+    "client": "npm run --prefix ./frontend dev",
+    "dev": "concurrently \"npm run api\" \"npm run client\""
+  },
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

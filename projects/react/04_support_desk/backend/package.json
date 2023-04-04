@@ -26,5 +26,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "vite-plugin-terminal": "^1.1.0"
-  }
+  },
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT"
 }
