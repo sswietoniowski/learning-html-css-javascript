@@ -90,7 +90,7 @@ export const registerUser = asyncHandler(
     res.status(201).json({
       message: 'User created successfully!',
       user: {
-        _id: user._id,
+        id: user._id,
         name: user.name,
         email: user.email,
         password: '********',
@@ -125,7 +125,7 @@ export const loginUser = asyncHandler(
     res.status(200).json({
       message: 'User logged in successfully!',
       user: {
-        _id: user._id,
+        id: user._id,
         name: user.name,
         email: user.email,
         password: '********',
@@ -149,7 +149,7 @@ export const aboutMe = asyncHandler(
     res.status(200).json({
       message: 'This is the about page',
       user: {
-        _id: req.user._id,
+        id: req.user._id,
         name: req.user.name,
         email: req.user.email,
         isAdmin: req.user.isAdmin,
