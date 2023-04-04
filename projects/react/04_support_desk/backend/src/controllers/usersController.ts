@@ -3,7 +3,7 @@ import asyncHandler from 'express-async-handler';
 import bcryptjs from 'bcryptjs';
 import UserModel, { User } from '../models/UserModel';
 
-export interface RegisterUserRequest extends Request {
+interface RegisterUserRequest extends Request {
   body: {
     name: string;
     email: string;
@@ -11,7 +11,7 @@ export interface RegisterUserRequest extends Request {
   };
 }
 
-export interface LoginUserRequest extends Request {
+interface LoginUserRequest extends Request {
   body: {
     email: string;
     password: string;
@@ -100,12 +100,7 @@ export const loginUser = asyncHandler(
     // Find user
     const user = await UserModel.findOne({ email: email });
 
-    if (!user) {
-      res.status(401);
-      throw new Error('Invalid credentials');
-    }
-
-    if (!(await verifyPassword(password, user.password))) {
+    if (!user || !(await verifyPassword(password, user.password))) {
       res.status(401);
       throw new Error('Invalid credentials');
     }
