@@ -56,30 +56,26 @@ export const registerUser = asyncHandler(
     const hashedPassword = await hashPassword(password);
 
     // Create user
-    const userDoc = await UserModel.create({
+    const user = await UserModel.create({
       name: name,
       email: email,
       password: hashedPassword,
     });
 
     // Check if user was created
-    if (!userDoc) {
+    if (!user) {
       res.status(400);
       throw new Error('Invalid user data');
     }
 
-    const user: User = {
-      _id: userDoc._id,
-      name: userDoc.name,
-      email: userDoc.email,
-      password: '********',
-      isAdmin: userDoc.isAdmin,
-    };
-
     res.status(201).json({
       message: 'User created successfully!',
       user: {
-        ...user,
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        password: '********',
+        isAdmin: user.isAdmin,
       },
     });
   }
@@ -100,6 +96,7 @@ export const loginUser = asyncHandler(
     // Find user
     const user = await UserModel.findOne({ email: email });
 
+    // Check if user exists and password is correct
     if (!user || !(await verifyPassword(password, user.password))) {
       res.status(401);
       throw new Error('Invalid credentials');
@@ -108,8 +105,11 @@ export const loginUser = asyncHandler(
     res.status(200).json({
       message: 'User logged in successfully!',
       user: {
-        email,
+        _id: user._id,
+        name: user.name,
+        email: user.email,
         password: '********',
+        isAdmin: user.isAdmin,
       },
     });
   }
