@@ -95,7 +95,7 @@ export const registerUser = asyncHandler(
         password: '********',
         isAdmin: user.isAdmin,
       },
-      token: generateJwtToken(user),
+      token: generateJwtToken(user), // you can check generated token here: https://jwt.io/
     });
   }
 );
