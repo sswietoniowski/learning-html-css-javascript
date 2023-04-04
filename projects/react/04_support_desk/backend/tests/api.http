@@ -1,5 +1,6 @@
 ### Declare base URL
 @base_url = http://localhost:3001
+@token = NOT_REAL_TOKEN # This will be replaced by the token returned by the login request
 
 ### Welcome page
 GET {{base_url}}/ HTTP/1.1
@@ -49,8 +50,6 @@ Content-Type: application/json
     "email": "jdoe@example.com",
     "password": "NOT_REAL_PASSWORD"
 }
-
-@token = NOT_REAL_TOKEN
 
 ### Get user profile
 GET {{base_url}}/api/users/me HTTP/1.1

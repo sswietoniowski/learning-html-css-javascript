@@ -1,5 +1,21 @@
 version: '3.8'
 services:
+  mongodb:
+    image: mongo:6.0.5
+    # container_name: mongodb
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: P@ssw0rd
+      MONGO_INITDB_DATABASE: supportdesk
+    volumes:
+      # Uncomment the following line if you want to persist the data in the db folder
+      # - ./db:/data/db
+      - ./db/initdb:/docker-entrypoint-initdb.d
+    networks:
+      - support-desk
   api:
     build:
       context: ./backend
@@ -8,10 +24,15 @@ services:
     restart: on-failure
     ports:
       - '3001:3001'
+    environment:
+      # We are redefining the whole connection string
+      VITE_MONGODB_URI: mongodb://supportdesk:Password@mongodb:27017/supportdesk?retryWrites=true&w=majority
     volumes:
       - ./backend/src:/app/src
     networks:
       - support-desk
+    depends_on:
+      - mongodb
   client:
     build:
       context: ./frontend
