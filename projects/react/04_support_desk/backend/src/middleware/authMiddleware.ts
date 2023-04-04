@@ -5,7 +5,7 @@ import asyncHandler from 'express-async-handler';
 
 import UserModel, { User } from '../models/UserModel';
 
-interface UserRequest extends Request {
+export interface UserRequest extends Request {
   user?: User;
 }
 

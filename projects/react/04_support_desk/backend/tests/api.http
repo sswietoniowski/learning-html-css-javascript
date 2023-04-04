@@ -50,7 +50,7 @@ Content-Type: application/json
     "password": "NOT_REAL_PASSWORD"
 }
 
-@token = PUT_SAMPLE_TOKEN_HERE
+@token = NOT_REAL_TOKEN
 
 ### Get user profile
 GET {{base_url}}/api/users/me HTTP/1.1

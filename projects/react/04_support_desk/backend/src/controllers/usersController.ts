@@ -4,6 +4,7 @@ import bcryptjs from 'bcryptjs';
 import jsonwebtoken from 'jsonwebtoken';
 
 import UserModel, { User } from '../models/UserModel';
+import { UserRequest } from '../middleware/authMiddleware';
 
 interface RegisterUserRequest extends Request {
   body: {
@@ -139,9 +140,20 @@ export const loginUser = asyncHandler(
 // @route  GET /api/users/me
 // @access Private
 export const aboutMe = asyncHandler(
-  async (req: Request, res: Response): Promise<void> => {
+  async (req: UserRequest, res: Response): Promise<void> => {
+    if (!req.user) {
+      res.status(401);
+      throw new Error('Unauthorized');
+    }
+
     res.status(200).json({
       message: 'This is the about page',
+      user: {
+        _id: req.user._id,
+        name: req.user.name,
+        email: req.user.email,
+        isAdmin: req.user.isAdmin,
+      },
     });
   }
 );
