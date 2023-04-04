@@ -152,6 +152,7 @@ export const aboutMe = asyncHandler(
         id: req.user._id,
         name: req.user.name,
         email: req.user.email,
+        password: '********',
         isAdmin: req.user.isAdmin,
       },
     });
