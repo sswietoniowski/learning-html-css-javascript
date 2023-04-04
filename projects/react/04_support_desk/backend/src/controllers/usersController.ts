@@ -1,8 +1,7 @@
 import { Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
 import bcryptjs from 'bcryptjs';
-
-import UserModel, { User } from '../models/userModel';
+import UserModel, { User } from '../models/UserModel';
 
 export interface RegisterUserRequest extends Request {
   body: {
