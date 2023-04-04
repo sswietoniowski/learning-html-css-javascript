@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
 import bcryptjs from 'bcryptjs';
+import jsonwebtoken from 'jsonwebtoken';
+
 import UserModel, { User } from '../models/UserModel';
 
 interface RegisterUserRequest extends Request {
@@ -31,6 +33,22 @@ const verifyPassword = async (
 ): Promise<boolean> => {
   const isMatch = await bcryptjs.compare(password, hashedPassword);
   return isMatch;
+};
+
+const generateJwtToken = (user: User): string => {
+  // @ts-ignore
+  const jwtSecret: string = import.meta.env.VITE_JWT_SECRET as string;
+
+  return jsonwebtoken.sign(
+    {
+      sub: user._id,
+      name: user.name,
+      email: user.email,
+      admin: user.isAdmin,
+    },
+    jwtSecret,
+    { expiresIn: '1h' }
+  );
 };
 
 // @desc   Register a user
@@ -77,6 +95,7 @@ export const registerUser = asyncHandler(
         password: '********',
         isAdmin: user.isAdmin,
       },
+      token: generateJwtToken(user),
     });
   }
 );
@@ -111,6 +130,7 @@ export const loginUser = asyncHandler(
         password: '********',
         isAdmin: user.isAdmin,
       },
+      token: generateJwtToken(user),
     });
   }
 );
