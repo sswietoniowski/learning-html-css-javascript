@@ -9,8 +9,6 @@ export const loginUser = createAsyncThunk<
   { state: RootState; rejectValue: FetchUserError }
 >('auth/login', async (user: LoginUserRequest, { rejectWithValue }) => {
   try {
-    console.log(`[REDUX] Login: ${JSON.stringify(user)}`);
-
     const response = await fetch(`${apiUrl}/users/login`, {
       method: 'POST',
       headers: {

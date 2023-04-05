@@ -13,8 +13,6 @@ export const registerUser = createAsyncThunk<
   { state: RootState; rejectValue: FetchUserError }
 >('auth/register', async (user: RegisterUserRequest, { rejectWithValue }) => {
   try {
-    console.log(`[REDUX] Register: ${JSON.stringify(user)}`);
-
     const response = await fetch(`${apiUrl}/users`, {
       method: 'POST',
       headers: {
