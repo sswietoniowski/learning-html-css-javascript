@@ -51,7 +51,7 @@ VITE_MONGODB_DATABASE=supportdesk
 VITE_MONGODB_URI=mongodb+srv://$VITE_MONGODB_USERNAME:$VITE_MONGODB_PASSWORD@$VITE_MONGODB_CLUSTER/$VITE_MONGODB_DATABASE?retryWrites=true&w=majority
 
 # JWT configuration
-VITE_JWT_SECRET=NOT_REAL_SECRET # You can genearate a random UUID here: https://www.uuidgenerator.net/version4
+VITE_JWT_SECRET=NOT_REAL_SECRET # You can generate a random UUID here: https://www.uuidgenerator.net/version4
 ```
 
 Now you can start the application in development mode by running:
