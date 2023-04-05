@@ -30,7 +30,6 @@ export const authSlice = createSlice({
   extraReducers: () => {},
 });
 
-export const registerStatus = (state: RootState) => state.auth.isLoading;
-export const loginStatus = (state: RootState) => state.auth.isLoading;
+export const authStatus = (state: RootState) => state.auth.isLoading;
 
 export default authSlice.reducer;
