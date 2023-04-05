@@ -55,7 +55,7 @@ export const register = createAsyncThunk<
     body: JSON.stringify(user),
   });
 
-  if (response.status !== 200) {
+  if (response.status !== 201) {
     return thunkApi.rejectWithValue({ message: 'Could not register user!' });
   }
 
