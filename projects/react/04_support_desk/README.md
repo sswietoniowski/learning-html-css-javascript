@@ -8,7 +8,7 @@ This application was created using the following technologies:
 
 - Vite,
 - React (client):
-  - Redux [:file_folder:](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) [:file_folder:](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd),
+  - Redux + Redux DevTools Extension: [:file_folder:](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/) [:file_folder:](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd),
 - Node.js (API):
   - Express,
   - Mongoose,
