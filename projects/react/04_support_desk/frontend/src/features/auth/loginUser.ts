@@ -1,26 +1,32 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { FetchUserError, LoginUserRequest, LoginUserResponse } from './types';
 import apiUrl from '../../config/api';
+import { RootState } from '../../app/store';
 
 export const loginUser = createAsyncThunk<
   LoginUserResponse,
   LoginUserRequest,
-  { rejectValue: FetchUserError }
->('auth/login', async (user: LoginUserRequest, thunkApi) => {
-  console.log(`Login: ${JSON.stringify(user)}`);
+  { state: RootState; rejectValue: FetchUserError }
+>('auth/login', async (user: LoginUserRequest, { rejectWithValue }) => {
+  try {
+    console.log(`Login: ${JSON.stringify(user)}`);
 
-  const response = await fetch(`${apiUrl}/users/login`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(user),
-  });
+    const response = await fetch(`${apiUrl}/users/login`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(user),
+    });
 
-  if (response.status !== 200) {
-    return thunkApi.rejectWithValue({ message: 'Could not login user!' });
+    if (response.status !== 200) {
+      throw new Error('Could not login user!');
+    }
+
+    const data: LoginUserResponse =
+      (await response.json()) as LoginUserResponse;
+    return data;
+  } catch (err: any) {
+    return rejectWithValue({ message: err.message });
   }
-
-  const data: LoginUserResponse = (await response.json()) as LoginUserResponse;
-  return data;
 });
