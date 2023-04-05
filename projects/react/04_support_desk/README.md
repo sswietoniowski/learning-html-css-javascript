@@ -15,7 +15,8 @@ This application was created using the following technologies:
   - Visual Studio Rest Client,
 - TypeScript,
 - MongoDB (database):
-  - MongoDB Compass.
+  - MongoDB Compass,
+- Docker + Docker Compose.
 
 This is a typical [MERN](https://www.bocasay.com/how-does-the-mern-stack-work/) fullstack application.
 
