@@ -1,11 +1,15 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { FetchError, RegisterUserRequest, RegisterUserResponse } from './types';
+import {
+  FetchUserError,
+  RegisterUserRequest,
+  RegisterUserResponse,
+} from './types';
 import apiUrl from '../../config/api';
 
 export const registerUser = createAsyncThunk<
   RegisterUserResponse,
   RegisterUserRequest,
-  { rejectValue: FetchError }
+  { rejectValue: FetchUserError }
 >('auth/register', async (user: RegisterUserRequest, thunkApi) => {
   console.log(`[REDUX] Register: ${JSON.stringify(user)}`);
 
@@ -21,6 +25,7 @@ export const registerUser = createAsyncThunk<
     return thunkApi.rejectWithValue({ message: 'Could not register user!' });
   }
 
-  const data = (await response.json()) as RegisterUserResponse;
+  const data: RegisterUserResponse =
+    (await response.json()) as RegisterUserResponse;
   return data;
 });

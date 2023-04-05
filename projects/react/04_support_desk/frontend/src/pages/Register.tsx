@@ -22,8 +22,6 @@ const Register = () => {
 
   const { name, email, password, confirmed_password } = formData;
 
-  const dispatch = useDispatch();
-
   const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
     (state) => state.auth
   );
@@ -42,7 +40,8 @@ const Register = () => {
       password,
     };
 
-    dispatch<any>(registerUser(user)); // TODO: fix this by using the correct type
+    const dispatch = useDispatch();
+    dispatch(registerUser(user));
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

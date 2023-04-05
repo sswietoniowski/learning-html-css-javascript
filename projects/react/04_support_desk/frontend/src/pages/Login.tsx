@@ -3,7 +3,7 @@ import { FaSignInAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { useTypedSelector } from '../app/store';
 import { LoginUserRequest } from '../features/auth/types';
-import { login } from '../features/auth/loginUser';
+import { loginUser } from '../features/auth/loginUser';
 
 interface LoginFormData {
   email: string;
@@ -32,7 +32,10 @@ const Login = () => {
       password,
     };
 
-    dispatch<any>(login(user)); // TODO: fix this by using the correct type
+    const dispatch = useDispatch();
+    () => dis
+
+    dispatch<any>(loginUser(user)); // TODO: fix this by using the correct type
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

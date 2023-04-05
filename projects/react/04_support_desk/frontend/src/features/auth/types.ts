@@ -1,12 +1,4 @@
-export interface AuthState {
-  user: string | null;
-  isError: boolean;
-  isSuccess: boolean;
-  isLoading: boolean;
-  message: string;
-}
-
-export interface FetchError {
+export interface FetchUserError {
   message: string;
 }
 
