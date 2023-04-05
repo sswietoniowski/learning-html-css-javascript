@@ -41,6 +41,8 @@ services:
     restart: on-failure
     ports:
       - '3000:3000'
+    environment:
+      VITE_API_URL: http://api:3001/api
     stdin_open: true
     volumes:
       - ./frontend/src:/app/src
