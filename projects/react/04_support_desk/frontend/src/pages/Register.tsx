@@ -3,8 +3,8 @@ import { FaUser } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
 import { useTypedSelector } from '../app/store';
-import { RegisterUserRequest, register } from '../features/auth/authSlice';
-
+import { RegisterUserRequest } from '../features/auth/types';
+import { registerUser } from '../features/auth/registerUser';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -42,7 +42,7 @@ const Register = () => {
       password,
     };
 
-    dispatch<any>(register(user)); // TODO: fix this by using the correct type
+    dispatch<any>(registerUser(user)); // TODO: fix this by using the correct type
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

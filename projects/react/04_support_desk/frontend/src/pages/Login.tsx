@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { FaSignInAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { useTypedSelector } from '../app/store';
-import { LoginUserRequest, login } from '../features/auth/authSlice';
+import { LoginUserRequest } from '../features/auth/types';
+import { login } from '../features/auth/loginUser';
 
 interface LoginFormData {
   email: string;
