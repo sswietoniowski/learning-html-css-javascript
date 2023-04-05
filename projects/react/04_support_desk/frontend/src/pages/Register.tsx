@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
-import { useTypedSelector } from '../app/store';
+import { AppDispatch, useTypedSelector } from '../app/store';
 import { RegisterUserRequest } from '../features/auth/types';
 import { registerUser } from '../features/auth/registerUser';
 interface RegisterFormData {
@@ -22,6 +22,8 @@ const Register = () => {
 
   const { name, email, password, confirmed_password } = formData;
 
+  const dispatch = useDispatch<AppDispatch>();
+
   const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
     (state) => state.auth
   );
@@ -40,7 +42,6 @@ const Register = () => {
       password,
     };
 
-    const dispatch = useDispatch();
     dispatch(registerUser(user));
   };
 

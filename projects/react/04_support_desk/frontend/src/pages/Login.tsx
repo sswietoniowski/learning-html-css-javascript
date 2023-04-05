@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaSignInAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
-import { useTypedSelector } from '../app/store';
+import { AppDispatch, useTypedSelector } from '../app/store';
 import { LoginUserRequest } from '../features/auth/types';
 import { loginUser } from '../features/auth/loginUser';
 
@@ -18,7 +18,7 @@ const Login = () => {
 
   const { email, password } = formData;
 
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
 
   const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
     (state) => state.auth
@@ -32,8 +32,7 @@ const Login = () => {
       password,
     };
 
-    const dispatch = useDispatch();
-    () => dis
+    dispatch(loginUser(user));
 
     dispatch<any>(loginUser(user)); // TODO: fix this by using the correct type
   };

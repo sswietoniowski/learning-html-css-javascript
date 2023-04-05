@@ -65,7 +65,7 @@ export const registerUser = asyncHandler(
     }
 
     // Find if user already exists
-    const userExists = await UserModel.findOne({ email: email });
+    const userExists = await UserModel.findOne({ email: email }).exec();
 
     if (userExists) {
       res.status(400);
@@ -93,7 +93,6 @@ export const registerUser = asyncHandler(
         id: user._id,
         name: user.name,
         email: user.email,
-        password: '********',
         isAdmin: user.isAdmin,
       },
       token: generateJwtToken(user), // you can check generated token here: https://jwt.io/
@@ -114,7 +113,7 @@ export const loginUser = asyncHandler(
     }
 
     // Find user
-    const user = await UserModel.findOne({ email: email });
+    const user = await UserModel.findOne({ email: email }).exec();
 
     // Check if user exists and password is correct
     if (!user || !(await verifyPassword(password, user.password))) {
@@ -128,7 +127,6 @@ export const loginUser = asyncHandler(
         id: user._id,
         name: user.name,
         email: user.email,
-        password: '********',
         isAdmin: user.isAdmin,
       },
       token: generateJwtToken(user),
@@ -152,7 +150,6 @@ export const aboutMe = asyncHandler(
         id: req.user._id,
         name: req.user.name,
         email: req.user.email,
-        password: '********',
         isAdmin: req.user.isAdmin,
       },
     });

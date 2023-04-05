@@ -33,7 +33,9 @@ const authHandler = asyncHandler(
 
         const user: User | null = await UserModel.findOne({
           _id: userId,
-        }).select('-password');
+        })
+          .select('-password')
+          .exec();
 
         if (!user) {
           res.status(401);

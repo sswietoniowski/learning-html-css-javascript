@@ -3,9 +3,11 @@
 
 import { createSlice } from '@reduxjs/toolkit';
 import { User } from './types';
+import { RootState } from '../../app/store';
 
 export interface AuthState {
   user: User | null;
+  token: string | null;
   isError: boolean;
   isSuccess: boolean;
   isLoading: boolean;
@@ -14,6 +16,7 @@ export interface AuthState {
 
 const initialState: AuthState = {
   user: null as User | null,
+  token: null as string | null,
   isError: false,
   isSuccess: false,
   isLoading: false,
@@ -26,5 +29,8 @@ export const authSlice = createSlice({
   reducers: {},
   extraReducers: () => {},
 });
+
+export const registerStatus = (state: RootState) => state.auth.isLoading;
+export const loginStatus = (state: RootState) => state.auth.isLoading;
 
 export default authSlice.reducer;
