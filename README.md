@@ -42,6 +42,7 @@ Based on these (free) courses:
   - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
+  - [MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours](https://youtu.be/CvCiNeLnZ00) :arrow_forward:,
   - [React with .NET Web API – Basic App Tutorial](https://youtu.be/4RKuyp_bOhY),
   - [Modern React Web Development Full Course | 4 Real Industry Web Applications](https://youtu.be/XxXyfkrP298) :arrow_forward::
     - [ShareMe Social Media Application](https://github.com/adrianhajdin/project_shareme_social_media),
