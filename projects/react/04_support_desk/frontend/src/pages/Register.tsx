@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { toast } from 'react-toastify';
+import { useDispatch } from 'react-redux';
+import { useTypedSelector } from '../app/store';
+import { RegisterUserRequest, register } from '../features/auth/authSlice';
 
 interface RegisterFormData {
   name: string;
@@ -19,6 +22,12 @@ const Register = () => {
 
   const { name, email, password, confirmed_password } = formData;
 
+  const dispatch = useDispatch();
+
+  const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
+    (state) => state.auth
+  );
+
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -27,7 +36,13 @@ const Register = () => {
       return;
     }
 
-    console.log('Form submitted...');
+    const user: RegisterUserRequest = {
+      name,
+      email,
+      password,
+    };
+
+    dispatch<any>(register(user)); // TODO: fix this by using the correct type
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

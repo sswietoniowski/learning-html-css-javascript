@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { FaSignInAlt } from 'react-icons/fa';
+import { useDispatch } from 'react-redux';
+import { useTypedSelector } from '../app/store';
+import { LoginUserRequest, login } from '../features/auth/authSlice';
 
 interface LoginFormData {
   email: string;
@@ -14,10 +17,21 @@ const Login = () => {
 
   const { email, password } = formData;
 
+  const dispatch = useDispatch();
+
+  const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
+    (state) => state.auth
+  );
+
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    console.log('Form submitted...');
+    const user: LoginUserRequest = {
+      email,
+      password,
+    };
+
+    dispatch<any>(login(user)); // TODO: fix this by using the correct type
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
