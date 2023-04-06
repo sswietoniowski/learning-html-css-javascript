@@ -17,7 +17,7 @@ export interface AuthState {
   message: string;
 }
 
-// Get the user from local storage if it exists
+// Get the user & token from local storage if it exists
 let user: User | null = null;
 if (localStorage.getItem('user')) {
   user = JSON.parse(localStorage.getItem('user')!);
