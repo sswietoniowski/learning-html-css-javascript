@@ -29,3 +29,7 @@ export interface LoginUserResponse {
   user: User;
   token: string;
 }
+
+export interface AuthError {
+  message: string;
+}

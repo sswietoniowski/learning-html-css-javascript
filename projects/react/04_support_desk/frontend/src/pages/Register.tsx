@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { RegisterUserRequest } from '../features/auth/types';
-import { registerUser } from '../features/auth/registerUser';
+import { register } from '../features/auth/register';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -42,7 +42,7 @@ const Register = () => {
       password,
     };
 
-    dispatch(registerUser(user));
+    dispatch(register(user));
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
