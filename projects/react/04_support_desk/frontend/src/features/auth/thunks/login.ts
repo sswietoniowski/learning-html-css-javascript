@@ -1,8 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { AuthError, LoginUserRequest, LoginUserResponse } from './types';
-import { RootState } from '../../app/store';
-import getErrorMessage from '../../util/getErrorMessage';
-import authService from './authService';
+import { AuthError, LoginUserRequest, LoginUserResponse } from '../types';
+import { RootState } from '../../../app/store';
+import getErrorMessage from '../../../util/getErrorMessage';
+import authService from '../authService';
 
 export const login = createAsyncThunk<
   LoginUserResponse,

@@ -4,9 +4,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { User } from './types';
 import { RootState } from '../../app/store';
-import { register } from './register';
-import { login } from './login';
-import { logout } from './logout';
+import { register } from './thunks/register';
+import { login } from './thunks/login';
+import { logout } from './thunks/logout';
 
 export interface AuthState {
   user: User | null;

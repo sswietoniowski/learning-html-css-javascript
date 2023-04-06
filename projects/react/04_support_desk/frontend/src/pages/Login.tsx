@@ -3,7 +3,7 @@ import { FaSignInAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { LoginUserRequest } from '../features/auth/types';
-import { login } from '../features/auth/login';
+import { login } from '../features/auth/thunks/login';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { reset } from '../features/auth/authSlice';
@@ -22,11 +22,11 @@ const Login = () => {
 
   const { email, password } = formData;
 
-  const dispatch = useDispatch<AppDispatch>();
-
   const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
     (state) => state.auth
   );
+
+  const dispatch = useDispatch<AppDispatch>();
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

@@ -4,10 +4,10 @@ import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { RegisterUserRequest } from '../features/auth/types';
-import { register } from '../features/auth/register';
 import { useNavigate } from 'react-router-dom';
 import { reset } from '../features/auth/authSlice';
 import Spinner from '../components/Spinner';
+import { register } from '../features/auth/thunks/register';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -25,11 +25,11 @@ const Register = () => {
 
   const { name, email, password, confirmed_password } = formData;
 
-  const dispatch = useDispatch<AppDispatch>();
-
   const { user, isLoading, isSuccess, isError, message } = useTypedSelector(
     (state) => state.auth
   );
+
+  const dispatch = useDispatch<AppDispatch>();
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

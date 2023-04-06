@@ -8,10 +8,6 @@ import {
   configureStore,
 } from '@reduxjs/toolkit';
 import authReducer from '../features/auth/authSlice';
-import {
-  LoginUserResponse,
-  RegisterUserResponse,
-} from '../features/auth/types';
 
 // Information about Redux configuration with TypeScript can be found here:
 // https://redux.js.org/usage/usage-with-typescript
