@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 import { useDispatch } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { RegisterUserRequest } from '../features/auth/types';
 import { register } from '../features/auth/register';
+import { useNavigate } from 'react-router-dom';
+import { reset } from '../features/auth/authSlice';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -44,6 +46,23 @@ const Register = () => {
 
     dispatch(register(user));
   };
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isError) {
+      toast.error(message);
+      return;
+    }
+
+    // Redirect when user is registered
+    if (isSuccess && user) {
+      toast.success('User registered successfully');
+      navigate('/');
+    }
+
+    dispatch(reset());
+  }, [isError, isSuccess, user, message, navigate, dispatch]);
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

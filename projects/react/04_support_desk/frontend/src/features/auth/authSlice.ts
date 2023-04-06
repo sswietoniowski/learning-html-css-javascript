@@ -28,7 +28,14 @@ const initialState: AuthState = {
 export const authSlice = createSlice({
   name: 'auth',
   initialState,
-  reducers: {},
+  reducers: {
+    reset: (state: AuthState) => {
+      state.isError = false;
+      state.isSuccess = false;
+      state.isLoading = false;
+      state.message = '';
+    },
+  },
   extraReducers: (builder) => {
     builder.addCase(register.pending, (state) => {
       state.isLoading = true;
@@ -77,4 +84,5 @@ export const authSlice = createSlice({
 
 export const authStatus = (state: RootState) => state.auth.isLoading;
 
+export const { reset } = authSlice.actions;
 export default authSlice.reducer;
