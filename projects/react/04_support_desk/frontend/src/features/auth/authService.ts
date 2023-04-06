@@ -7,6 +7,12 @@ import {
 } from './types';
 import apiUrl from '../../config/api';
 
+// Interesting article about using Axios with TypeScript and React can be found here:
+// https://bobbyhadz.com/blog/typescript-http-request-axios
+
+// I would also like this gist to be used as a reference:
+// https://gist.github.com/JaysonChiang/fa704307bacffe0f17d51acf6b1292fc
+
 const registerUser = async (
   user: RegisterUserRequest
 ): Promise<RegisterUserResponse> => {
