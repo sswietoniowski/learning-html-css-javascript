@@ -1,16 +1,12 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import {
-  FetchUserError,
-  RegisterUserRequest,
-  RegisterUserResponse,
-} from './types';
+import { RegisterUserRequest, RegisterUserResponse } from './types';
 import apiUrl from '../../config/api';
 import { RootState } from '../../app/store';
 
 export const registerUser = createAsyncThunk<
   RegisterUserResponse,
   RegisterUserRequest,
-  { state: RootState; rejectValue: FetchUserError }
+  { state: RootState }
 >('auth/register', async (user: RegisterUserRequest, { rejectWithValue }) => {
   try {
     const response = await fetch(`${apiUrl}/users`, {
@@ -25,8 +21,7 @@ export const registerUser = createAsyncThunk<
       throw new Error('Could not register user!');
     }
 
-    const data: RegisterUserResponse =
-      (await response.json()) as RegisterUserResponse;
+    const data = (await response.json()) as RegisterUserResponse;
     return data;
   } catch (err: any) {
     return rejectWithValue({ message: err.message });

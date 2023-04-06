@@ -33,8 +33,6 @@ const Login = () => {
     };
 
     dispatch(loginUser(user));
-
-    dispatch<any>(loginUser(user)); // TODO: fix this by using the correct type
   };
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {

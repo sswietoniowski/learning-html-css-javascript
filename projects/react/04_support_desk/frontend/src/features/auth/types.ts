@@ -1,7 +1,3 @@
-export interface FetchUserError {
-  message: string;
-}
-
 export interface RegisterUserRequest {
   name: string;
   email: string;
