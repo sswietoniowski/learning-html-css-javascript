@@ -6,6 +6,7 @@ import { User } from './types';
 import { RootState } from '../../app/store';
 import { register } from './register';
 import { login } from './login';
+import { logout } from './logout';
 
 export interface AuthState {
   user: User | null;
@@ -88,6 +89,23 @@ export const authSlice = createSlice({
       if (action.payload?.message) {
         state.message = action.payload?.message;
       }
+    });
+    builder.addCase(logout.pending, (state) => {
+      state.isLoading = true;
+    });
+    builder.addCase(logout.fulfilled, (state, action) => {
+      state.user = null;
+      state.token = null;
+      state.isSuccess = true;
+      state.isLoading = false;
+      state.message = '';
+    });
+    builder.addCase(logout.rejected, (state, action) => {
+      state.user = null;
+      state.token = null;
+      state.isError = true;
+      state.isLoading = false;
+      state.message = '';
     });
   },
 });

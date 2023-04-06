@@ -57,9 +57,15 @@ const loginUser = async (
   return data;
 };
 
+const logoutUser = async (): Promise<void> => {
+  localStorage.removeItem('user');
+  localStorage.removeItem('token');
+};
+
 const authService = {
   registerUser,
   loginUser,
+  logoutUser,
 };
 
 export default authService;

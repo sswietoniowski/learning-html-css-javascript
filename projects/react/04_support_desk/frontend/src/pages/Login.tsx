@@ -7,6 +7,7 @@ import { login } from '../features/auth/login';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { reset } from '../features/auth/authSlice';
+import Spinner from '../components/Spinner';
 
 interface LoginFormData {
   email: string;
@@ -48,7 +49,6 @@ const Login = () => {
 
     // Redirect when user is registered
     if (isSuccess || user) {
-      toast.success('User logged in successfully');
       navigate('/');
     }
 
@@ -58,6 +58,10 @@ const Login = () => {
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  if (isLoading) {
+    return <Spinner />;
+  }
 
   return (
     <>

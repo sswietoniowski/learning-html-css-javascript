@@ -7,6 +7,7 @@ import { RegisterUserRequest } from '../features/auth/types';
 import { register } from '../features/auth/register';
 import { useNavigate } from 'react-router-dom';
 import { reset } from '../features/auth/authSlice';
+import Spinner from '../components/Spinner';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -57,7 +58,6 @@ const Register = () => {
 
     // Redirect when user is registered
     if (isSuccess || user) {
-      toast.success('User registered successfully');
       navigate('/');
     }
 
@@ -67,6 +67,10 @@ const Register = () => {
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  if (isLoading) {
+    return <Spinner />;
+  }
 
   return (
     <>
