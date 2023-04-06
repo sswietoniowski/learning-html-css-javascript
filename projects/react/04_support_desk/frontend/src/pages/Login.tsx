@@ -47,7 +47,7 @@ const Login = () => {
     }
 
     // Redirect when user is registered
-    if (isSuccess && user) {
+    if (isSuccess || user) {
       toast.success('User logged in successfully');
       navigate('/');
     }

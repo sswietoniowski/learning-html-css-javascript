@@ -56,7 +56,7 @@ const Register = () => {
     }
 
     // Redirect when user is registered
-    if (isSuccess && user) {
+    if (isSuccess || user) {
       toast.success('User registered successfully');
       navigate('/');
     }
