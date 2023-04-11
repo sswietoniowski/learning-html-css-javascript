@@ -12,3 +12,5 @@ db.createUser({
 });
 
 db.createCollection('users');
+
+db.createCollection('tickets');

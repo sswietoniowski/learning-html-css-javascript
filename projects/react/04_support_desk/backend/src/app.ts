@@ -5,6 +5,7 @@ import cors from 'cors';
 import usersRouter from './routes/usersRoutes';
 import errorHandler from './middleware/errorMiddleware';
 import connectDb from './config/db';
+import ticketsRouter from './routes/ticketsRoutes';
 
 // Connect to database
 await connectDb();
@@ -29,8 +30,9 @@ app.get(['/', '/api'], (_: Request, res: Response) => {
 });
 
 app.use('/api/users', usersRouter);
+app.use('/api/tickets', ticketsRouter);
 
-app.use(errorHandler); // must be last
+app.use(errorHandler); // must be last!
 
 console.log('Express app created...'.cyan.underline);
 
