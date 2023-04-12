@@ -1,6 +1,6 @@
 ### Declare base URL
 @base_url = http://localhost:3001
-@token = NOT_REAL_TOKEN # This will be replaced by the token returned by the login request
+@token = NOT_REAL_TOKEN # Replace with the token you get from login
 
 ### Welcome page
 GET {{base_url}}/ HTTP/1.1

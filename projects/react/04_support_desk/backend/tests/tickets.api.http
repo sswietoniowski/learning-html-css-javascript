@@ -1,4 +1,37 @@
 ### Declare base URL
 @base_url = http://localhost:3001
-@token = NOT_REAL_TOKEN # This will be replaced by the token returned by the login request
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDJiZDk0ZTQxNWFiYmUzMWJiYzlkMjciLCJuYW1lIjoiSm9obiBEb2UiLCJlbWFpbCI6Impkb2VAZXhhbXBsZS5jb20iLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY4MTMxMjkzMywiZXhwIjoxNjgxMzE2NTMzfQ.RYPy5DlqWaKpoUJxBSLXaleRAu8zu8s4aiZcFTpaedc
+@ticket_id = NOT_REAL_TICKET_ID # Replace with a real ticket ID
 
+### Get all tickets (must be authenticated)
+GET {{base_url}}/api/tickets HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get a specific ticket (must be authenticated)
+GET {{base_url}}/api/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Create a ticket (must be authenticated)
+POST {{base_url}}/api/tickets HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "product": "AMD Ryzen 9 5950X",
+    "description": "This is a test ticket"
+}
+
+### Update a ticket (must be authenticated)
+PUT {{base_url}}/api/tickets/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "product": "AMD Ryzen 9 5950X",
+    "description": "This is a test ticket",
+    "status": "closed"
+}
+
+### Delete a ticket (must be authenticated)
+DELETE {{base_url}}/api/tickets/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}
