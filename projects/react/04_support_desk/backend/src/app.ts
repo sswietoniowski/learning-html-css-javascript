@@ -29,17 +29,6 @@ app.use('/api/tickets', ticketsRouter);
 
 app.use(errorHandler); // must be last!
 
-const endpoints = listEndpoints(app);
-const routes = endpoints.map((endpoint) => ({
-  path: endpoint.path,
-  methods: endpoint.methods.join(', '),
-}));
-
-console.log('Available endpoints:');
-routes.forEach((route) => {
-  console.log(`${route.path} [${route.methods}]`);
-});
-
 // @ts-ignore
 if (import.meta.env.PROD) {
   const port: number = 3001;
@@ -48,5 +37,18 @@ if (import.meta.env.PROD) {
     console.log(`Server started on port ${port}`);
   });
 }
+
+console.log('Express server listening...');
+
+const endpoints = listEndpoints(app);
+const routes = endpoints.map((endpoint) => ({
+  path: endpoint.path,
+  methods: endpoint.methods.join(', '),
+}));
+
+console.log('Available endpoints (route - methods):');
+routes.forEach((route) => {
+  console.log(`${route.path} - [${route.methods}]`);
+});
 
 export const viteNodeApp = app;
