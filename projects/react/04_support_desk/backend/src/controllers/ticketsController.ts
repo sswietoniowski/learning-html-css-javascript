@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
 
 import TicketModel, { Ticket } from '../models/TicketModel';
+import NoteModel from '../models/NoteModel';
 
 // @desc   Get all tickets
 // @route  GET /api/tickets
@@ -124,6 +125,9 @@ export const deleteTicket = asyncHandler(
       res.status(403);
       throw new Error('Forbidden');
     }
+
+    // Delete all notes associated with the ticket, otherwise they will be orphaned
+    await NoteModel.deleteMany({ ticket: ticketId }).exec();
 
     await TicketModel.findByIdAndDelete<Ticket>(ticketId).exec();
 

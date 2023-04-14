@@ -1,7 +1,7 @@
 ### Declare base URL
 @base_url = http://localhost:3001
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDJiZDk0ZTQxNWFiYmUzMWJiYzlkMjciLCJuYW1lIjoiSm9obiBEb2UiLCJlbWFpbCI6Impkb2VAZXhhbXBsZS5jb20iLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY4MTQ1NzM5MiwiZXhwIjoxNjgxNDYwOTkyfQ.LIIG5qhjU5uVHc6K-QRA5Un-xFVLgRlcZJ9u69ZO2ao
-@ticket_id = 64390aa083a042914e4b0791
+@token = NOT_REAL_TOKEN # Replace with the token you get from login
+@ticket_id = NOT_REAL_TICKET_ID # Replace with the ticket id you get from creating a ticket
 
 ### Create a ticket (must be authenticated)
 POST {{base_url}}/api/tickets HTTP/1.1
