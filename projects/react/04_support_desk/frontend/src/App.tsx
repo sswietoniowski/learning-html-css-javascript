@@ -11,12 +11,9 @@ import NewTicket from './pages/NewTicket';
 import Tickets from './pages/Tickets';
 import PrivateRoute from './components/PrivateRoute';
 import Ticket from './pages/Ticket';
-import axios from 'axios';
-import apiUrl from './config/api';
+import initializeAxiosDefaults from './config/api';
 
-axios.defaults.baseURL = apiUrl;
-axios.defaults.headers.post['Content-Type'] = 'application/json';
-axios.defaults.headers.put['Content-Type'] = 'application/json';
+initializeAxiosDefaults();
 
 const App = () => {
   return (
