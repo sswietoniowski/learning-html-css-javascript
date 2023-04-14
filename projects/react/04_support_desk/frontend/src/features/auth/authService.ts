@@ -17,13 +17,8 @@ const registerUser = async (
   user: RegisterUserRequest
 ): Promise<RegisterUserResponse> => {
   const { data, status } = await axios.post<RegisterUserResponse>(
-    `${apiUrl}/users`,
-    user,
-    {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    }
+    '/users',
+    user
   );
 
   if (status !== 201) {
@@ -42,13 +37,8 @@ const loginUser = async (
   user: LoginUserRequest
 ): Promise<LoginUserResponse> => {
   const { data, status } = await axios.post<LoginUserResponse>(
-    `${apiUrl}/users/login`,
-    user,
-    {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    }
+    '/users/login',
+    user
   );
 
   if (status !== 200) {
