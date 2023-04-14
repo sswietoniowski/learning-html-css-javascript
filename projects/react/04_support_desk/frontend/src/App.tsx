@@ -11,9 +11,7 @@ import NewTicket from './pages/NewTicket';
 import Tickets from './pages/Tickets';
 import PrivateRoute from './components/PrivateRoute';
 import Ticket from './pages/Ticket';
-import initializeAxiosDefaults from './config/api';
-
-initializeAxiosDefaults();
+import './config/api'; // initialize axios
 
 const App = () => {
   return (

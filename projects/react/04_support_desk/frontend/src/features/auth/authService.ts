@@ -5,7 +5,6 @@ import {
   RegisterUserRequest,
   RegisterUserResponse,
 } from './types';
-import apiUrl from '../../config/api';
 
 // Interesting article about using Axios with TypeScript and React can be found here:
 // https://bobbyhadz.com/blog/typescript-http-request-axios
