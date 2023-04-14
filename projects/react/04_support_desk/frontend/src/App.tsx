@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import NewTicket from './pages/NewTicket';
 import Tickets from './pages/Tickets';
 import PrivateRoute from './components/PrivateRoute';
+import Ticket from './pages/Ticket';
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
             </Route>
             <Route path='/tickets' element={<PrivateRoute />}>
               <Route path='/tickets' element={<Tickets />} />
+            </Route>
+            <Route path='/ticket/:id' element={<PrivateRoute />}>
+              <Route path='/ticket/:id' element={<Ticket />} />
             </Route>
           </Routes>
         </div>
