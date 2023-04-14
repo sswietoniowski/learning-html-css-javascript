@@ -15,7 +15,8 @@ import axios from 'axios';
 import apiUrl from './config/api';
 
 axios.defaults.baseURL = apiUrl;
-axios.defaults.headers.common['Content-Type'] = 'application/json';
+axios.defaults.headers.post['Content-Type'] = 'application/json';
+axios.defaults.headers.put['Content-Type'] = 'application/json';
 
 const App = () => {
   return (
