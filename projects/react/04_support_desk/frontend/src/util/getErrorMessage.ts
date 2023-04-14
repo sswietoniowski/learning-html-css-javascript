@@ -1,4 +1,4 @@
-const getErrorMessage = (error: any): string => {
+export const getErrorMessage = (error: any): string => {
   const message =
     (error.response && error.response.data && error.response.data.message) ||
     error.message ||
@@ -7,4 +7,10 @@ const getErrorMessage = (error: any): string => {
   return message;
 };
 
-export default getErrorMessage;
+export const getAuthorizationHeader = (token: string) => {
+  return {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+};

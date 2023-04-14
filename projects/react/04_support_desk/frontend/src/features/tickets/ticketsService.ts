@@ -8,14 +8,7 @@ import {
   UpdateTicketRequest,
   UpdateTicketResponse,
 } from './types';
-
-const getAuthorizationHeader = (token: string) => {
-  return {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  };
-};
+import { getAuthorizationHeader } from '../../util/getErrorMessage';
 
 const createTicket = async (
   ticket: CreateTicketRequest,

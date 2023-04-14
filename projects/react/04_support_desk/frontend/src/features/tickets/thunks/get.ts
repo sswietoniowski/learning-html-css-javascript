@@ -1,8 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../../app/store';
-import getErrorMessage from '../../../util/getErrorMessage';
 import { GetTicketByIdResponse, TicketError } from '../types';
 import ticketsService from '../ticketsService';
+import { getErrorMessage } from '../../../util/getErrorMessage';
 
 export const getAll = createAsyncThunk<
   GetTicketByIdResponse,

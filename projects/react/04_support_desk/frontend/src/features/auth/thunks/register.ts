@@ -1,8 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { AuthError, RegisterUserRequest, RegisterUserResponse } from '../types';
 import { RootState } from '../../../app/store';
-import getErrorMessage from '../../../util/getErrorMessage';
 import authService from '../authService';
+import { getErrorMessage } from '../../../util/getErrorMessage';
 
 export const register = createAsyncThunk<
   RegisterUserResponse,

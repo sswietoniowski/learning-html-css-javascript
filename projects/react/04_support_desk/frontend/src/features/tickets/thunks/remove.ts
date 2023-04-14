@@ -1,8 +1,8 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../../app/store';
-import getErrorMessage from '../../../util/getErrorMessage';
 import { DeleteTicketResponse, TicketError } from '../types';
 import ticketsService from '../ticketsService';
+import { getErrorMessage } from '../../../util/getErrorMessage';
 
 export const remove = createAsyncThunk<
   DeleteTicketResponse,
