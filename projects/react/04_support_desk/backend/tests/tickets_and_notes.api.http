@@ -1,0 +1,50 @@
+### Declare base URL
+@base_url = http://localhost:3001
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDJiZDk0ZTQxNWFiYmUzMWJiYzlkMjciLCJuYW1lIjoiSm9obiBEb2UiLCJlbWFpbCI6Impkb2VAZXhhbXBsZS5jb20iLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY4MTQ1NzM5MiwiZXhwIjoxNjgxNDYwOTkyfQ.LIIG5qhjU5uVHc6K-QRA5Un-xFVLgRlcZJ9u69ZO2ao
+@ticket_id = 64390aa083a042914e4b0791
+
+### Create a ticket (must be authenticated)
+POST {{base_url}}/api/tickets HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "product": "AMD Ryzen 9 5950X",
+    "description": "This is 1st ticket"
+}
+
+### Get all tickets (must be authenticated)
+GET {{base_url}}/api/tickets HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Get a specific ticket (must be authenticated)
+GET {{base_url}}/api/tickets/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Update a ticket (must be authenticated)
+PUT {{base_url}}/api/tickets/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "product": "AMD Ryzen 9 5950X",
+    "description": "This is 1st ticket",
+    "status": "open"
+}
+
+### Create a note for a ticket (must be authenticated)
+POST {{base_url}}/api/tickets/{{ticket_id}}/notes HTTP/1.1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "text": "This is 1st note"
+}
+
+### Get all notes for a ticket (must be authenticated)
+GET {{base_url}}/api/tickets/{{ticket_id}}/notes HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Delete a ticket (must be authenticated)
+DELETE {{base_url}}/api/tickets/{{ticket_id}} HTTP/1.1
+Authorization: Bearer {{token}}

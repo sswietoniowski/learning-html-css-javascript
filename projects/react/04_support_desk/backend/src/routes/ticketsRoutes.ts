@@ -7,6 +7,7 @@ import {
   updateTicket,
 } from '../controllers/ticketsController';
 import protect from '../middleware/authMiddleware';
+import notesRouter from './notesRoutes';
 
 const ticketsRouter: Router = express.Router();
 
@@ -17,5 +18,7 @@ ticketsRouter
   .get(protect, getTicketById)
   .put(protect, updateTicket)
   .delete(protect, deleteTicket);
+
+ticketsRouter.use('/:ticketId/notes', notesRouter);
 
 export default ticketsRouter;

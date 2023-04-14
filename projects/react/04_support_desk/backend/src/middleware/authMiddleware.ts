@@ -43,7 +43,6 @@ const authHandler = asyncHandler(
         }
 
         req.user = user;
-        next();
       } catch (error) {
         console.error(`${error}`.red.underline.bold);
 

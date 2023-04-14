@@ -2,12 +2,14 @@ import { Request, Response } from 'express';
 import asyncHandler from 'express-async-handler';
 
 import TicketModel, { Ticket } from '../models/TicketModel';
-import { User } from '../models/UserModel';
 
+// @desc   Get all tickets
+// @route  GET /api/tickets
+// @access Private
 export const getTickets = asyncHandler(
-  async (req: Request, res: Response<Ticket[]>): Promise<void> => {
+  async (req: Request, res: Response): Promise<void> => {
     // @ts-ignore
-    const userId = req.user._id;
+    const userId = req.user._id as string;
 
     const tickets = await TicketModel.find<Ticket>({
       user: userId,
@@ -17,15 +19,16 @@ export const getTickets = asyncHandler(
   }
 );
 
+// @desc   Get ticket by ID
+// @route  GET /api/tickets/:id
+// @access Private
 export const getTicketById = asyncHandler(
-  async (
-    req: Request & { params: { id: string } },
-    res: Response<Ticket>
-  ): Promise<void> => {
+  async (req: Request, res: Response): Promise<void> => {
     // @ts-ignore
-    const userId: string = req.user._id;
+    const userId: string = req.user._id as string;
+    const ticketId: string = req.params.id;
 
-    const ticket = await TicketModel.findById(req.params.id).exec();
+    const ticket = await TicketModel.findById(ticketId).exec();
 
     if (!ticket) {
       res.status(404);
@@ -41,14 +44,15 @@ export const getTicketById = asyncHandler(
   }
 );
 
+// @desc   Create a ticket
+// @route  POST /api/tickets
+// @access Private
 export const createTicket = asyncHandler(
-  async (req: Request, res: Response<Ticket>): Promise<void> => {
+  async (req: Request, res: Response): Promise<void> => {
     // @ts-ignore
-    const userId: string = req.user._id;
-    // @ts-ignore
-    const product: string = req.body.product;
-    // @ts-ignore
-    const description: string = req.body.description;
+    const userId: string = req.user._id as string;
+    const product: string = req.body.product as string;
+    const description: string = req.body.description as string;
 
     if (!product || !description) {
       res.status(400);
@@ -62,20 +66,18 @@ export const createTicket = asyncHandler(
       status: 'new',
     });
 
-    console.log(JSON.stringify(ticket));
-
     res.status(201).json(ticket);
   }
 );
 
+// @desc   Update a ticket
+// @route  PUT /api/tickets/:id
+// @access Private
 export const updateTicket = asyncHandler(
-  async (
-    req: Request<Ticket> & { params: { id: string } },
-    res: Response<Ticket>
-  ): Promise<void> => {
+  async (req: Request, res: Response): Promise<void> => {
     // @ts-ignore
-    const userId: string = req.user._id;
-    const ticket = req.body;
+    const userId: string = req.user._id as string;
+    const ticket = req.body as Ticket;
     const ticketId = req.params.id;
 
     const existingTicket = await TicketModel.findById<Ticket>(ticketId).exec();
@@ -102,13 +104,13 @@ export const updateTicket = asyncHandler(
   }
 );
 
+// @desc   Delete a ticket
+// @route  DELETE /api/tickets/:id
+// @access Private
 export const deleteTicket = asyncHandler(
-  async (
-    req: Request<Ticket> & { params: { id: string } },
-    res: Response<Ticket>
-  ): Promise<void> => {
+  async (req: Request, res: Response): Promise<void> => {
     // @ts-ignore
-    const userId: string = req.user._id;
+    const userId: string = req.user._id as string;
     const ticketId = req.params.id;
 
     const ticket = await TicketModel.findById<Ticket>(ticketId).exec();
@@ -123,10 +125,8 @@ export const deleteTicket = asyncHandler(
       throw new Error('Forbidden');
     }
 
-    const deletedTicket = await TicketModel.findByIdAndDelete<Ticket>(
-      ticketId
-    ).exec();
+    await TicketModel.findByIdAndDelete<Ticket>(ticketId).exec();
 
-    res.status(200).json(deletedTicket!);
+    res.status(200).json({ success: true });
   }
 );
