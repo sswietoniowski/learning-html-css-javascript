@@ -1,6 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { Ticket } from './types';
 import { createThunk } from './thunks/createThunk';
+import { getAllThunk } from './thunks/getAllThunk';
+import { getThunk } from './thunks/getThunk';
 
 export interface TicketsState {
   tickets: Ticket[];
@@ -44,6 +46,36 @@ export const ticketSlice = createSlice({
       .addCase(createThunk.rejected, (state: TicketsState, action) => {
         state.isLoading = false;
         state.isError = true;
+        state.message = action.payload?.message || 'Something went wrong!';
+      })
+      .addCase(getAllThunk.pending, (state: TicketsState) => {
+        state.isLoading = true;
+      })
+      .addCase(getAllThunk.fulfilled, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.tickets = action.payload.tickets;
+        state.ticket = action.payload.tickets[0];
+      })
+      .addCase(getAllThunk.rejected, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.tickets = [];
+        state.ticket = null;
+        state.message = action.payload?.message || 'Something went wrong!';
+      })
+      .addCase(getThunk.pending, (state: TicketsState) => {
+        state.isLoading = true;
+      })
+      .addCase(getThunk.fulfilled, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.ticket = action.payload.ticket || null;
+      })
+      .addCase(getThunk.rejected, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.ticket = null;
         state.message = action.payload?.message || 'Something went wrong!';
       });
   },
