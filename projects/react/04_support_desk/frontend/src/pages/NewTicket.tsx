@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 import { createThunk } from '../features/tickets/thunks/createThunk';
 import { TicketsState, reset } from '../features/tickets/ticketsSlice';
 import Spinner from '../components/Spinner';
+import BackButton from '../components/BackButton';
 
 const NewTicket = () => {
   const [product, setProduct] = useState('AMD Ryzen 9 5950X');
@@ -57,6 +58,7 @@ const NewTicket = () => {
 
   return (
     <>
+      <BackButton url='/' />
       <section className='heading'>
         <h1>Create New Ticket</h1>
         <p>Please fill out the form below</p>
