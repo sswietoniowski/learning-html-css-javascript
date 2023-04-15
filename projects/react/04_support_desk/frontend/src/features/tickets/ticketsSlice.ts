@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { Ticket } from './types';
+import { createThunk } from './thunks/createThunk';
 
 export interface TicketsState {
   tickets: Ticket[];
@@ -30,7 +31,22 @@ export const ticketSlice = createSlice({
       state.message = '';
     },
   },
-  extraReducers: (builder) => {},
+  extraReducers: (builder) => {
+    builder
+      .addCase(createThunk.pending, (state: TicketsState) => {
+        state.isLoading = true;
+      })
+      .addCase(createThunk.fulfilled, (state: TicketsState) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.message = 'Created successfully!';
+      })
+      .addCase(createThunk.rejected, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload?.message || 'Something went wrong!';
+      });
+  },
 });
 
 export const { reset } = ticketSlice.actions;
