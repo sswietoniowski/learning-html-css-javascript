@@ -3,7 +3,7 @@ import { FaSignInAlt } from 'react-icons/fa';
 import { useDispatch } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { LoginUserRequest } from '../features/auth/types';
-import { login } from '../features/auth/thunks/login';
+import { loginThunk } from '../features/auth/thunks/loginThunk';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { reset } from '../features/auth/authSlice';
@@ -36,7 +36,7 @@ const Login = () => {
       password,
     };
 
-    dispatch(login(user));
+    dispatch(loginThunk(user));
   };
 
   const navigate = useNavigate();

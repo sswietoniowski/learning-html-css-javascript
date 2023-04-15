@@ -4,7 +4,7 @@ import { RootState } from '../../../app/store';
 import authService from '../authService';
 import { getErrorMessage } from '../../../util/getErrorMessage';
 
-export const login = createAsyncThunk<
+export const loginThunk = createAsyncThunk<
   LoginUserResponse,
   LoginUserRequest,
   { state: RootState; rejectValue: AuthError }

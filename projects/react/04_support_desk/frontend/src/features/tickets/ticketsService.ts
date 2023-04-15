@@ -2,11 +2,9 @@ import axios from 'axios';
 import {
   CreateTicketRequest,
   CreateTicketResponse,
-  DeleteTicketResponse,
-  GetTicketByIdResponse,
-  GetTicketsResponse,
-  UpdateTicketRequest,
-  UpdateTicketResponse,
+  GetTicketResponse,
+  GetAllTicketsResponse,
+  CloseTicketResponse as CloseTicketResponse,
 } from './types';
 import { getAuthorizationHeader } from '../../util/getErrorMessage';
 
@@ -27,8 +25,8 @@ const createTicket = async (
   return data;
 };
 
-const getTickets = async (token: string): Promise<GetTicketsResponse> => {
-  const { data, status } = await axios.get<GetTicketsResponse>(
+const getAllTickets = async (token: string): Promise<GetAllTicketsResponse> => {
+  const { data, status } = await axios.get<GetAllTicketsResponse>(
     '/tickets',
     getAuthorizationHeader(token)
   );
@@ -40,11 +38,11 @@ const getTickets = async (token: string): Promise<GetTicketsResponse> => {
   return data;
 };
 
-const getTicketById = async (
+const getTicket = async (
   ticketId: string,
   token: string
-): Promise<GetTicketByIdResponse> => {
-  const { data, status } = await axios.get<GetTicketByIdResponse>(
+): Promise<GetTicketResponse> => {
+  const { data, status } = await axios.get<GetTicketResponse>(
     `/tickets/${ticketId}`,
     getAuthorizationHeader(token)
   );
@@ -56,14 +54,13 @@ const getTicketById = async (
   return data;
 };
 
-const updateTicket = async (
+const closeTicket = async (
   ticketId: string,
-  ticket: UpdateTicketRequest,
   token: string
-): Promise<UpdateTicketResponse> => {
-  const { data, status } = await axios.put<UpdateTicketResponse>(
+): Promise<CloseTicketResponse> => {
+  const { data, status } = await axios.put<CloseTicketResponse>(
     `/tickets/${ticketId}`,
-    ticket,
+    { status: 'closed' },
     getAuthorizationHeader(token)
   );
 
@@ -74,28 +71,11 @@ const updateTicket = async (
   return data;
 };
 
-const deleteTicket = async (
-  ticketId: string,
-  token: string
-): Promise<DeleteTicketResponse> => {
-  const { data, status } = await axios.delete<DeleteTicketResponse>(
-    `/tickets/${ticketId}`,
-    getAuthorizationHeader(token)
-  );
-
-  if (status !== 200) {
-    throw new Error('Could not delete ticket!');
-  }
-
-  return data;
-};
-
 const ticketsService = {
   createTicket,
-  getTickets,
-  getTicketById,
-  updateTicket,
-  deleteTicket,
+  getAllTickets,
+  getTicket,
+  closeTicket,
 };
 
 export default ticketsService;

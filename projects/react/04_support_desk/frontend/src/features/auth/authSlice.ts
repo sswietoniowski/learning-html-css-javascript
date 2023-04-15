@@ -4,9 +4,9 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { User } from './types';
 import { RootState } from '../../app/store';
-import { register } from './thunks/register';
-import { login } from './thunks/login';
-import { logout } from './thunks/logout';
+import { registerThunk } from './thunks/registerThunk';
+import { loginThunk } from './thunks/loginThunk';
+import { logoutThunk } from './thunks/logoutThunk';
 
 export interface AuthState {
   user: User | null;
@@ -48,10 +48,10 @@ export const authSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(register.pending, (state) => {
+    builder.addCase(registerThunk.pending, (state) => {
       state.isLoading = true;
     });
-    builder.addCase(register.fulfilled, (state, action) => {
+    builder.addCase(registerThunk.fulfilled, (state, action) => {
       state.user = action.payload.user;
       state.token = action.payload.token;
       state.isSuccess = true;
@@ -60,7 +60,7 @@ export const authSlice = createSlice({
         state.message = action.payload?.message;
       }
     });
-    builder.addCase(register.rejected, (state, action) => {
+    builder.addCase(registerThunk.rejected, (state, action) => {
       state.user = null;
       state.token = null;
       state.isError = true;
@@ -69,10 +69,10 @@ export const authSlice = createSlice({
         state.message = action.payload?.message;
       }
     });
-    builder.addCase(login.pending, (state) => {
+    builder.addCase(loginThunk.pending, (state) => {
       state.isLoading = true;
     });
-    builder.addCase(login.fulfilled, (state, action) => {
+    builder.addCase(loginThunk.fulfilled, (state, action) => {
       state.user = action.payload.user;
       state.token = action.payload.token;
       state.isSuccess = true;
@@ -81,7 +81,7 @@ export const authSlice = createSlice({
         state.message = action.payload?.message;
       }
     });
-    builder.addCase(login.rejected, (state, action) => {
+    builder.addCase(loginThunk.rejected, (state, action) => {
       state.user = null;
       state.token = null;
       state.isError = true;
@@ -90,17 +90,17 @@ export const authSlice = createSlice({
         state.message = action.payload?.message;
       }
     });
-    builder.addCase(logout.pending, (state) => {
+    builder.addCase(logoutThunk.pending, (state) => {
       state.isLoading = true;
     });
-    builder.addCase(logout.fulfilled, (state, action) => {
+    builder.addCase(logoutThunk.fulfilled, (state, action) => {
       state.user = null;
       state.token = null;
       state.isSuccess = true;
       state.isLoading = false;
       state.message = '';
     });
-    builder.addCase(logout.rejected, (state, action) => {
+    builder.addCase(logoutThunk.rejected, (state, action) => {
       state.user = null;
       state.token = null;
       state.isError = true;

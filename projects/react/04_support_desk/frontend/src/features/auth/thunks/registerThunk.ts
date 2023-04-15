@@ -4,7 +4,7 @@ import { RootState } from '../../../app/store';
 import authService from '../authService';
 import { getErrorMessage } from '../../../util/getErrorMessage';
 
-export const register = createAsyncThunk<
+export const registerThunk = createAsyncThunk<
   RegisterUserResponse,
   RegisterUserRequest,
   { state: RootState; rejectValue: AuthError }

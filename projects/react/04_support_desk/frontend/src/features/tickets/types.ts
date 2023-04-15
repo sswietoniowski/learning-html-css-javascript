@@ -19,27 +19,16 @@ export interface CreateTicketResponse {
   ticket: Ticket;
 }
 
-export interface GetTicketsResponse {
+export interface GetAllTicketsResponse {
   tickets: Ticket[];
 }
 
-export interface GetTicketByIdResponse {
+export interface GetTicketResponse {
   ticket?: Ticket;
 }
 
-export interface UpdateTicketRequest {
-  id: string;
-  title: string;
-  description: string;
-  status: string;
-}
-
-export interface UpdateTicketResponse {
-  ticket?: Ticket;
-}
-
-export interface DeleteTicketResponse {
-  success: boolean;
+export interface CloseTicketResponse {
+  ticket: Ticket;
 }
 
 export interface TicketError {

@@ -1,14 +1,14 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../../app/store';
-import { DeleteTicketResponse, TicketError } from '../types';
+import { TicketError, CloseTicketResponse } from '../types';
 import ticketsService from '../ticketsService';
 import { getErrorMessage } from '../../../util/getErrorMessage';
 
-export const remove = createAsyncThunk<
-  DeleteTicketResponse,
+export const updateThunk = createAsyncThunk<
+  CloseTicketResponse,
   string,
   { state: RootState; rejectValue: TicketError }
->('tickets/delete', async (ticketId: string, { getState, rejectWithValue }) => {
+>('tickets/update', async (ticketId: string, { getState, rejectWithValue }) => {
   try {
     const token = getState().auth.token;
 
@@ -16,7 +16,7 @@ export const remove = createAsyncThunk<
       throw new Error('No token found!');
     }
 
-    return await ticketsService.deleteTicket(ticketId, token);
+    return await ticketsService.closeTicket(ticketId, token);
   } catch (error: any) {
     return rejectWithValue({ message: getErrorMessage(error) });
   }

@@ -20,7 +20,7 @@ export const ticketSlice = createSlice({
       state.ticket = null;
     },
   },
-  extraReducers: (_) => {},
+  extraReducers: (builder) => {},
 });
 
 export default ticketSlice.reducer;

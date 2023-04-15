@@ -9,6 +9,7 @@ import {
 } from '@reduxjs/toolkit';
 import authReducer from '../features/auth/authSlice';
 import ticketsReducer from '../features/tickets/ticketsSlice';
+import notesReducer from '../features/notes/notesSlice';
 
 // Information about Redux configuration with TypeScript can be found here:
 // https://redux.js.org/usage/usage-with-typescript
@@ -17,6 +18,7 @@ export const store = configureStore({
   reducer: {
     auth: authReducer,
     tickets: ticketsReducer,
+    notes: notesReducer,
   },
 });
 

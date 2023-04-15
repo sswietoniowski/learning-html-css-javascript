@@ -7,7 +7,7 @@ import { RegisterUserRequest } from '../features/auth/types';
 import { useNavigate } from 'react-router-dom';
 import { reset } from '../features/auth/authSlice';
 import Spinner from '../components/Spinner';
-import { register } from '../features/auth/thunks/register';
+import { registerThunk } from '../features/auth/thunks/registerThunk';
 interface RegisterFormData {
   name: string;
   email: string;
@@ -45,7 +45,7 @@ const Register = () => {
       password,
     };
 
-    dispatch(register(user));
+    dispatch(registerThunk(user));
   };
 
   const navigate = useNavigate();
