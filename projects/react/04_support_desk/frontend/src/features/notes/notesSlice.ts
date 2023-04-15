@@ -35,9 +35,10 @@ export const notesSlice = createSlice({
       .addCase(createThunk.pending, (state: NotesState) => {
         state.isLoading = true;
       })
-      .addCase(createThunk.fulfilled, (state: NotesState) => {
+      .addCase(createThunk.fulfilled, (state: NotesState, action) => {
         state.isLoading = false;
         state.isSuccess = true;
+        state.notes.push(action.payload as unknown as Note);
         state.message = 'Created successfully!';
       })
       .addCase(createThunk.rejected, (state: NotesState, action) => {
