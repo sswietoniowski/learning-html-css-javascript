@@ -124,7 +124,7 @@ Also used these (paid) courses & books:
     - _[Feedback App](https://github.com/bradtraversy/feedback-app)_ :+1:,
     - _[GitHub Finder App](https://github.com/bradtraversy/github-finder-app)_ :+1:,
     - _[House Marketplace](https://github.com/bradtraversy/house-marketplace)_ [Gist](https://gist.github.com/bradtraversy/caab8ebd8ff4b6e947632887e0183761) :+1:,
-    - [Support Desk](https://github.com/bradtraversy/support-desk) :arrow_forward:,
+    - _[Support Desk](https://github.com/bradtraversy/support-desk)_ :+1:,
   - _[Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
   - [Styling React Components](https://app.pluralsight.com/library/courses/react-components-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-styling/exercise-files),
