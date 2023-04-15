@@ -55,7 +55,6 @@ export const ticketSlice = createSlice({
         state.isLoading = false;
         state.isSuccess = true;
         state.tickets = action.payload.tickets;
-        state.ticket = action.payload.tickets[0];
       })
       .addCase(getAllThunk.rejected, (state: TicketsState, action) => {
         state.isLoading = false;
