@@ -30,6 +30,7 @@ const NewTicket = () => {
     }
 
     if (isSuccess) {
+      dispatch(reset());
       navigate('/tickets');
     }
 
