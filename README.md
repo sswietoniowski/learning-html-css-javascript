@@ -120,7 +120,7 @@ Also used these (paid) courses & books:
 - React:
   - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - _[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
-  - _[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)_ [:file_folder:](https://github.com/packtpublishing/react-front-to-back) [Gist](https://gist.github.com/bradtraversy) :arrow_forward::
+  - _[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)_ [:file_folder:](https://github.com/packtpublishing/react-front-to-back) [Gist](https://gist.github.com/bradtraversy):
     - _[Feedback App](https://github.com/bradtraversy/feedback-app)_ :+1:,
     - _[GitHub Finder App](https://github.com/bradtraversy/github-finder-app)_ :+1:,
     - _[House Marketplace](https://github.com/bradtraversy/house-marketplace)_ [Gist](https://gist.github.com/bradtraversy/caab8ebd8ff4b6e947632887e0183761) :+1:,
