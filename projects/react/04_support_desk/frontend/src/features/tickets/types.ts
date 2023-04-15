@@ -3,16 +3,13 @@ export interface CreateTicketRequest {
   description: string;
 }
 
-export interface TicketId {
-  id: string;
-}
-
 export interface Ticket {
-  id: TicketId;
+  _id: string;
   user: string;
   product: string;
   description: string;
   status: string;
+  createdAt: string;
 }
 
 export interface CreateTicketResponse {
