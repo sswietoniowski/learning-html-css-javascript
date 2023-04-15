@@ -2,7 +2,7 @@ import { FaSignInAlt, FaSignOutAlt, FaUser } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, useTypedSelector } from '../app/store';
-import { logoutThunk } from '../features/auth/thunks/logout';
+import { logoutThunk } from '../features/auth/thunks/logoutThunk';
 import { reset } from '../features/auth/authSlice';
 
 const Header = () => {
