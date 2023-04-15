@@ -4,7 +4,7 @@ import { getErrorMessage } from '../../../util/getErrorMessage';
 import { GetAllNotesResponse, NoteError } from '../types';
 import notesService from '../notesService';
 
-export const getAllNotes = createAsyncThunk<
+export const getAllThunk = createAsyncThunk<
   GetAllNotesResponse,
   string,
   { state: RootState; rejectValue: NoteError }

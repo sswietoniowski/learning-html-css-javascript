@@ -4,7 +4,7 @@ import { TicketError, CloseTicketResponse } from '../types';
 import ticketsService from '../ticketsService';
 import { getErrorMessage } from '../../../util/getErrorMessage';
 
-export const updateThunk = createAsyncThunk<
+export const closeThunk = createAsyncThunk<
   CloseTicketResponse,
   string,
   { state: RootState; rejectValue: TicketError }

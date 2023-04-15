@@ -58,7 +58,7 @@ const NewTicket = () => {
 
   return (
     <>
-      <BackButton url='/' />
+      <BackButton />
       <section className='heading'>
         <h1>Create New Ticket</h1>
         <p>Please fill out the form below</p>

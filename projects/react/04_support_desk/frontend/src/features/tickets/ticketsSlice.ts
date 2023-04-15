@@ -1,8 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { Ticket } from './types';
+import { CloseTicketResponse, Ticket } from './types';
 import { createThunk } from './thunks/createThunk';
 import { getAllThunk } from './thunks/getAllThunk';
 import { getThunk } from './thunks/getThunk';
+import { closeThunk } from './thunks/closeThunk';
 
 export interface TicketsState {
   tickets: Ticket[];
@@ -54,7 +55,6 @@ export const ticketSlice = createSlice({
       .addCase(getAllThunk.fulfilled, (state: TicketsState, action) => {
         state.isLoading = false;
         state.isSuccess = true;
-        console.log(action.payload);
         state.tickets = action.payload as unknown as Ticket[];
       })
       .addCase(getAllThunk.rejected, (state: TicketsState, action) => {
@@ -77,6 +77,15 @@ export const ticketSlice = createSlice({
         state.isError = true;
         state.ticket = null;
         state.message = action.payload?.message || 'Something went wrong!';
+      })
+      .addCase(closeThunk.fulfilled, (state: TicketsState, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.tickets = state.tickets.map((ticket) =>
+          ticket._id === (action.payload as unknown as Ticket)._id
+            ? (action.payload as unknown as Ticket)
+            : ticket
+        );
       });
   },
 });

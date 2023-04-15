@@ -29,8 +29,8 @@ const App = () => {
             <Route path='/tickets' element={<PrivateRoute />}>
               <Route path='/tickets' element={<Tickets />} />
             </Route>
-            <Route path='/ticket/:id' element={<PrivateRoute />}>
-              <Route path='/ticket/:id' element={<Ticket />} />
+            <Route path='/ticket/:ticketId' element={<PrivateRoute />}>
+              <Route path='/ticket/:ticketId' element={<Ticket />} />
             </Route>
           </Routes>
         </div>

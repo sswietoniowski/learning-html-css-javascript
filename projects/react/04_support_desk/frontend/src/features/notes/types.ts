@@ -3,12 +3,13 @@ export interface CreateNoteRequest {
 }
 
 export interface Note {
-  id: string;
+  _id: string;
   user: string;
   ticket: string;
   text: string;
   isStaff: boolean;
   staffId: string;
+  createdAt: string;
 }
 
 export interface CreateNoteRequest {

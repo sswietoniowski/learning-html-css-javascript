@@ -1,12 +1,12 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../../app/store';
 import { getErrorMessage } from '../../../util/getErrorMessage';
-import { CreateNoteRequest, CreateNoteResponse, NoteError } from '../types';
+import { CreateNoteResponse, NoteError } from '../types';
 import notesService from '../notesService';
 
 export const createThunk = createAsyncThunk<
   CreateNoteResponse,
-  { ticketId: string; note: CreateNoteRequest },
+  { ticketId: string; note: string },
   { state: RootState; rejectValue: NoteError }
 >('notes/create', async (request, { getState, rejectWithValue }) => {
   try {
@@ -16,7 +16,11 @@ export const createThunk = createAsyncThunk<
       throw new Error('No token found!');
     }
 
-    return await notesService.createNote(request.ticketId, request.note, token);
+    return await notesService.createNote(
+      request.ticketId,
+      { text: request.note },
+      token
+    );
   } catch (error: any) {
     return rejectWithValue({ message: getErrorMessage(error) });
   }

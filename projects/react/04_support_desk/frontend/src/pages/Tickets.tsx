@@ -22,7 +22,7 @@ const Tickets = () => {
 
   return (
     <>
-      <BackButton url='/' />
+      <BackButton />
       <h1>Tickets</h1>
       <div className='tickets'>
         <div className='ticket-headings'>
@@ -31,10 +31,9 @@ const Tickets = () => {
           <div>Status</div>
           <div></div>
         </div>
-        {tickets &&
-          tickets.map((ticket) => (
-            <TicketItem key={ticket._id} ticket={ticket} />
-          ))}
+        {tickets.map((ticket) => (
+          <TicketItem key={ticket._id} ticket={ticket} />
+        ))}
       </div>
     </>
   );
