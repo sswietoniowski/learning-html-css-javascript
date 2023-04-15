@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AppDispatch, useTypedSelector } from '../app/store';
 import { AuthState } from '../features/auth/authSlice';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 import { createThunk } from '../features/tickets/thunks/createThunk';
+import { TicketsState, reset } from '../features/tickets/ticketsSlice';
+import Spinner from '../components/Spinner';
 
 const NewTicket = () => {
   const [product, setProduct] = useState('AMD Ryzen 9 5950X');
@@ -12,11 +14,27 @@ const NewTicket = () => {
 
   const { user } = useTypedSelector<AuthState>((state) => state.auth);
 
+  const { isLoading, isError, isSuccess, message } =
+    useTypedSelector<TicketsState>((state) => state.tickets);
+
   const name = user!.name;
   const email = user!.email;
 
   const dispatch = useDispatch<AppDispatch>();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isError) {
+      toast.error(message);
+      return;
+    }
+
+    if (isSuccess) {
+      navigate('/tickets');
+    }
+
+    dispatch(reset());
+  }, [isError, isSuccess, message, navigate, dispatch]);
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -31,6 +49,10 @@ const NewTicket = () => {
         toast.error(err.message);
       });
   };
+
+  if (isLoading) {
+    return <Spinner />;
+  }
 
   return (
     <>
