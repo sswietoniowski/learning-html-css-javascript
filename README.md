@@ -17,8 +17,6 @@ Based on these (free) courses:
 
 - HTML:
   - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
-  - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
-  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
 - CSS:
   - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
@@ -90,7 +88,9 @@ Based on these (free) courses:
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
   - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA),
   - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc),
-  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI).
+  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI),
+  - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
+  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing).
 
 Also used these (paid) courses & books:
 
