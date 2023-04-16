@@ -36,6 +36,7 @@ Based on these (free) courses:
 - Node.js:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
   - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
+  - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8),
 - React:
   - [React](https://react.dev/),
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
@@ -84,6 +85,7 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
+  - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
   - [Learn Vite – Frontend Build Tool Course](https://youtu.be/VAeRhmpcWEQ),
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
   - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA),
