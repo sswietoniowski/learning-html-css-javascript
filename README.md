@@ -17,8 +17,6 @@ Based on these (free) courses:
 
 - HTML:
   - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
-  - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
-  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
 - CSS:
   - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
@@ -36,6 +34,7 @@ Based on these (free) courses:
 - Node.js:
   - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
   - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
+  - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8),
 - React:
   - [React](https://react.dev/),
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
@@ -84,11 +83,14 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
+  - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
   - [Learn Vite – Frontend Build Tool Course](https://youtu.be/VAeRhmpcWEQ),
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
   - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA),
   - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc),
-  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI).
+  - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI),
+  - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
+  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing).
 
 Also used these (paid) courses & books:
 
@@ -97,7 +99,7 @@ Also used these (paid) courses & books:
   - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-),
   - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
   - [Materialize CSS From Scratch With 5 Projects](https://learning.oreilly.com/videos/materialize-css-from/9781789538724/) [:file_folder:](https://github.com/PacktPublishing/Materialize-CSS-From-Scratch-With-5-Projects),
-  - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) :arrow_forward:,
+  - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) :arrow_forward:,
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
   - _[Modern JavaScript From The Beginning
