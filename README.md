@@ -240,5 +240,6 @@ Some useful tools & libraries:
   - [SVGR](https://github.com/gregberge/svgr),
   - [Leaflet](https://leafletjs.com/),
   - [React Leaflet](https://react-leaflet.js.org/),
-  - [Swiper React Components](https://swiperjs.com/react).
+  - [Swiper React Components](https://swiperjs.com/react),
+  - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors).
   
