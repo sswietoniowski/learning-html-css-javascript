@@ -1,0 +1,11 @@
+{
+  "name": "array_slicing",
+  "version": "1.0.0",
+  "description": "JavaScript Array Slicing: A Comprehensive Guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT"
+}
