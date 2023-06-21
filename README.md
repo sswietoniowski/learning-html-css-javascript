@@ -151,7 +151,7 @@ Also used these (paid) courses & books:
   - [React 18 with Next.js Playbook](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/exercise-files),
   - [React 18 with Create-React-App Playbook](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/exercise-files),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch) ▶️,
-  - [React Application Architecture for Production](https://learning.oreilly.com/library/view/react-application-architecture/9781801070539/) [:file_folder:](https://github.com/PacktPublishing/React-Application-Architecture-for-Production),
+  - [React Application Architecture for Production](https://learning.oreilly.com/library/view/react-application-architecture/9781801070539/) [:file_folder:](https://github.com/PacktPublishing/React-Application-Architecture-for-Production) ▶️,
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide) ▶️,
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
