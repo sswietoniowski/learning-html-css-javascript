@@ -67,7 +67,7 @@ console.log(arr1);
 console.log(arr2);
 
 const re1 = /\w+/;
-const re2 = new RegExp('\\w+');
+const re2 = new RegExp('\\w+'); // not recommended
 
 console.log(re1);
 console.log(re2);
