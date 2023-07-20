@@ -90,7 +90,8 @@ Based on these (free) courses:
   - [Free Hosting Providers in 2023](https://youtu.be/JQPs_V8fZxc),
   - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI),
   - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
-  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing).
+  - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
+  - _[FIGMA for DEVS? New VS Code Plugin?!?](https://youtu.be/MiwSUfyHgRE)_.
 
 Also used these (paid) courses & books:
 
@@ -151,6 +152,7 @@ Also used these (paid) courses & books:
   - [React 18 with Next.js Playbook](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/exercise-files),
   - [React 18 with Create-React-App Playbook](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/exercise-files),
   - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch) ▶️,
+  - [React Application Architecture for Production](https://learning.oreilly.com/library/view/react-application-architecture/9781801070539/) [:file_folder:](https://github.com/PacktPublishing/React-Application-Architecture-for-Production) ▶️,
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide) ▶️,
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
@@ -241,5 +243,6 @@ Some useful tools & libraries:
   - [Leaflet](https://leafletjs.com/),
   - [React Leaflet](https://react-leaflet.js.org/),
   - [Swiper React Components](https://swiperjs.com/react),
-  - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors).
+  - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors),
+  - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension).
   
