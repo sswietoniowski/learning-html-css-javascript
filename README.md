@@ -244,5 +244,6 @@ Some useful tools & libraries:
   - [React Leaflet](https://react-leaflet.js.org/),
   - [Swiper React Components](https://swiperjs.com/react),
   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors),
-  - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension).
+  - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension),
+  - [Ngrok](https://ngrok.com/).
   
