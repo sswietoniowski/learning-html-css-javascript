@@ -39,7 +39,6 @@ Based on these (free) courses:
   - [React](https://react.dev/),
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
   - [Awesome React](https://github.com/enaqx/awesome-react),
-  - ~~[React Class Component Fundamentals (Legacy)](https://egghead.io/courses/react-with-class-components-fundamentals-4351f8bb)~~,
   - _[React Course - Beginner's Tutorial for React JavaScript Library [2022]](https://youtu.be/bMknfKXIFA8)_ [:file_folder:](https://scrimba.com/learn/learnreact),
   - _[React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)_,
   - [MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours](https://youtu.be/CvCiNeLnZ00) :arrow_forward:,
@@ -83,6 +82,7 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
 - Others:
+  - [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer?action=enroll&irclickid=x5l0X4xG%3AxyPU-e1nL0Kt3wLUkFwdOzxFTn3Xk0&irgwc=1&utm_campaign=3552395&utm_content=b2c&utm_medium=partners&utm_source=impact),
   - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
   - [Learn Vite – Frontend Build Tool Course](https://youtu.be/VAeRhmpcWEQ),
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
@@ -103,8 +103,7 @@ Also used these (paid) courses & books:
   - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) :arrow_forward:,
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
-  - _[Modern JavaScript From The Beginning
-    ](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning)_ :+1:,
+  - _[Modern JavaScript From The Beginning](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning)_ :+1:,
   - [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
   - [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
   - [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
@@ -131,16 +130,7 @@ Also used these (paid) courses & books:
   - _[Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
   - [Styling React Components](https://app.pluralsight.com/library/courses/react-components-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-styling/exercise-files),
-  - ~~[Server Rendering React 16 Components](https://app.pluralsight.com/library/courses/server-rendering-react-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/server-rendering-react-components/exercise-files),~~
-  - [Testing React 16 Components](https://app.pluralsight.com/library/courses/testing-react-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/testing-react-components/exercise-files),
-  - [Implementing Forms in React 17](https://app.pluralsight.com/library/courses/react-implementing-forms/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-implementing-forms/exercise-files),
   - [Optimize Performance for React](https://app.pluralsight.com/library/courses/optimize-performance-react/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/optimize-performance-react/exercise-files),
-  - [Building Applications with React 16 and Flux 3](https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-flux-building-applications/exercise-files),
-  - [Building Applications with React 16 and Redux](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-redux-react-router-es6/exercise-files),
-  - [Using React 17 Hooks](https://app.pluralsight.com/library/courses/using-react-hooks/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/using-react-hooks/exercise-files),
-  - [Calling APIs with React 17](https://app.pluralsight.com/library/courses/react-calling-apis/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-calling-apis/exercise-files),
-  - [Managing Large Datasets in React 17](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-managing-large-data-sets/exercise-files),
-  - [React 17 Security: Best Practices](https://app.pluralsight.com/library/courses/react-security-best-practices/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-security-best-practices/exercise-files),
   - _[Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files)_ :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
   - _[React 18: The Big Picture](https://app.pluralsight.com/library/courses/react-18-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-18-big-picture/exercise-files),
