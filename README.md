@@ -103,10 +103,10 @@ Also used these (paid) courses & books:
   - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) :arrow_forward:,
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
-  - _[Modern JavaScript From The Beginning](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/) [:file_folder:](https://github.com/packtpublishing/modern-javascript-from-the-beginning)_ :+1:,
+  - _[Modern JavaScript from the Beginning - Second Edition](https://learning.oreilly.com/videos/modern-javascript-from/9781805127826/) [:file_folder:](https://github.com/PacktPublishing/Modern-JavaScript-from-the-Beginning---Second-Edition)_ :+1:,
   - [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
   - [JavaScript from Beginner to Professional](https://learning.oreilly.com/library/view/javascript-from-beginner/9781800562523/) [:file_folder:](https://github.com/PacktPublishing/JavaScript-from-Beginner-to-Professional),
-  - [JavaScript Complete Grandmaster 2022](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
+  - [JavaScript Complete Grandmaster 2023](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
   - **[JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/)** [:file_folder:](https://github.com/davidflanagan/jstdg7),
 - TypeScript:
   - _[TypeScript: The Big Picture](https://app.pluralsight.com/library/courses/typescript-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/typescript-big-picture/exercise-files),
@@ -141,7 +141,7 @@ Also used these (paid) courses & books:
   - [Testing in React 18](https://app.pluralsight.com/library/courses/react-18-testing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-testing/exercise-files),
   - [React 18 with Next.js Playbook](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-nextjs-playbook/exercise-files),
   - [React 18 with Create-React-App Playbook](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-create-react-app-playbook/exercise-files),
-  - [MERN E-commerce from Scratch](https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-e-Commerce-From-Scratch) ▶️,
+  - [MERN eCommerce from Scratch](https://learning.oreilly.com/videos/mern-ecommerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-eCommerce-from-Scratch) ▶️,
   - [React Application Architecture for Production](https://learning.oreilly.com/library/view/react-application-architecture/9781801070539/) [:file_folder:](https://github.com/PacktPublishing/React-Application-Architecture-for-Production) ▶️,
 - React Native:
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide) ▶️,
@@ -215,7 +215,7 @@ Some useful tools & libraries:
   - [useQuery](https://github.com/TanStack/query),
   - [create-t3-app](https://create.t3.gg/),
   - [TailwindCSS](https://tailwindcss.com/),
-  - [React Toastify](https://github.com/fkhadra/react-toastify),  
+  - [React Toastify](https://github.com/fkhadra/react-toastify),
   - [Recharts](https://recharts.org/en-US/),
   - [React Native](https://reactnative.dev/),
   - [Expo](https://github.com/expo/expo),
@@ -236,4 +236,3 @@ Some useful tools & libraries:
   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors),
   - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension),
   - [Ngrok](https://ngrok.com/) [📖](https://camerondwyer.com/2019/09/23/using-ngrok-to-get-a-public-https-address-for-a-local-server-already-serving-https-for-free/).
-  
