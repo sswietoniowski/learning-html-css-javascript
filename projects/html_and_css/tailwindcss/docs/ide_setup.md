@@ -2,10 +2,10 @@
 
 I've been using Visual Studio Code as my editor of choice while working with Tailwind CSS.
 
-## Table of Contents
+## Table Of Contents
 
 - [IDE Setup 2023-08-02](#ide-setup-2023-08-02)
-  - [Table of Contents](#table-of-contents)
+  - [Table Of Contents](#table-of-contents)
   - [What is Tailwind CSS?](#what-is-tailwind-css)
     - [What are Utility Classes \& Their Advantages?](#what-are-utility-classes--their-advantages)
     - [How is Tailwind Different From Bootstrap](#how-is-tailwind-different-from-bootstrap)
