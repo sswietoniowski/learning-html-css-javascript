@@ -26,6 +26,7 @@ For Windows just download installer and install it. If you like to be able to pe
   - [Install Extensions](#install-extensions)
   - [More Customization](#more-customization)
     - [Basic Environment Setup](#basic-environment-setup)
+    - [Obsolete Extensions](#obsolete-extensions)
 
 ## What is Tailwind CSS?
 
@@ -103,6 +104,14 @@ So here is my list:
 ```
 
 - _[Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)_,
+- ~~[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)~~ - was nice, but now you can achieve the same with VSCode, so instead you should edit your `settings.json` like so:
+
+```json
+{
+  "editor.linkedEditing": true
+}
+```
+
 - **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**.
 
 ## More Customization
@@ -112,3 +121,7 @@ Here I'll show you any customization that I've made while working with Tailwind 
 ### Basic Environment Setup
 
 To use Tailwind CSS in your environment you can use one of the provided [starter](./starters) projects.
+
+### Obsolete Extensions
+
+If you don't want to install an extension for something that is already in VSCode you might read [this](https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html) article (is a bit old but you can still find some useful information there).
