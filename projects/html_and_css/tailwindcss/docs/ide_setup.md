@@ -19,7 +19,7 @@ For completeness I've also added a few that are not worth the effort of installi
 So here is my list:
 
 - **[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)**,
-- **[Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)**,
+- _[Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)_,
 - ~~[Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)~~ - don't install, this extension is no longer developed and it might not work for Tailwind CSS 3.0,
 - _[IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)_ - consider using it, but it wasn't updated for a long time,
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) - might be helpful for debugging, but it is not a must have,
@@ -33,7 +33,7 @@ So here is my list:
 }
 ```
 
-- **[Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)**,
+- _[Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)_,
 - **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)**.
 
 ## More customization
