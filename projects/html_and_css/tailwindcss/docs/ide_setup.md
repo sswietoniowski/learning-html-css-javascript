@@ -26,6 +26,8 @@ For Windows just download installer and install it. If you like to be able to pe
   - [Install Extensions](#install-extensions)
   - [More Customization](#more-customization)
     - [Basic Environment Setup](#basic-environment-setup)
+    - [VSCode Shortcuts](#vscode-shortcuts)
+    - [Emmet Documentation](#emmet-documentation)
     - [Obsolete Extensions](#obsolete-extensions)
 
 ## What is Tailwind CSS?
@@ -121,6 +123,14 @@ Here I'll show you any customization that I've made while working with Tailwind 
 ### Basic Environment Setup
 
 To use Tailwind CSS in your environment you can use one of the provided [starter](./starters) projects.
+
+### VSCode Shortcuts
+
+You can find a list of [VSCode shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) here. Probably you know that already, but if not, provided that you want to be a productive developer you should definitely learn them.
+
+### Emmet Documentation
+
+To speed up development you might want to learn more about [Emmet](https://github.com/emmetio/emmet) [syntax](https://docs.emmet.io/cheat-sheet/) as it is built into VSCode.
 
 ### Obsolete Extensions
 
