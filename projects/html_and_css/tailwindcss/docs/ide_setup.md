@@ -1,6 +1,19 @@
 # IDE Setup 2023-08-02
 
-I've been using Visual Studio Code as my editor of choice while working with Tailwind CSS.
+I've been using [Visual Studio Code](https://code.visualstudio.com/) as my editor of choice while working with Tailwind CSS.
+
+I've also installed [Node.js](https://nodejs.org/en) to work with Tailwind CSS. If you've got an older version of Node.js already installed you might want to [upgrade](https://blog.hubspot.com/website/update-node-js) it.
+
+Linux/MacOS:
+
+```bash
+node --version
+npm install -g n
+n lts # could be "lts" or "latest"
+node --version
+```
+
+For Windows just download installer and install it.
 
 ## Table Of Contents
 
