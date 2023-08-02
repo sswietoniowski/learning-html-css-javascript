@@ -10,7 +10,9 @@ I've been using Visual Studio Code as my editor of choice.
 
 To work with Tailwind CSS effectively you will need to install some extensions.
 
-Couple interesting ones can be found below. I've bolded (must have) and italicized (nice hot have) those I've got installed.
+Couple interesting ones can be found below.
+
+I've bolded (must have) and italicized (nice hot have) those I've got installed.
 
 For completeness I've also added a few that are not worth the effort of installing but you can find recommendations to do so online.
 
