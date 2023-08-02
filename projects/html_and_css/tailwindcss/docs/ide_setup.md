@@ -94,7 +94,7 @@ So here is my list:
 - _[IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)_ - consider using it, but it wasn't updated for a long time,
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) - might be helpful for debugging, but it is not a must have,
 - **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**,
-- ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)~~ - this extension was quite useful, but now its functionality is built-in into VSCode, so instead you should edit your `settings.json` like so:
+- ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)~~ - this extension was quite useful, but now it is deprecated and its functionality is built-in into VSCode, so instead you should edit your `settings.json` like so:
 
 ```json
 {
@@ -104,7 +104,7 @@ So here is my list:
 ```
 
 - _[Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)_,
-- ~~[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)~~ - was nice, but now you can achieve the same with VSCode, so instead you should edit your `settings.json` like so:
+- _[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)_ - was nice (and to some extent still is), but now you can achieve similar effect with VSCode, so instead you might edit your `settings.json` like so (personally I'm preferring how this extension handles tags renaming - and that is the reason why I'm still using it):
 
 ```json
 {
