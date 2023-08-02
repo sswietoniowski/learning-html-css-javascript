@@ -13,7 +13,7 @@ n lts # could be "lts" or "latest"
 node --version
 ```
 
-For Windows just download installer and install it.
+For Windows just download installer and install it. If you like to be able to perform an update from a command line check out [nvm-windows](https://github.com/coreybutler/nvm-windows) project.
 
 ## Table Of Contents
 
