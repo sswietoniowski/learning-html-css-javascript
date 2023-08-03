@@ -4,6 +4,7 @@ const Singleton = (function () {
   let instance;
 
   function createInstance() {
+    // file deepcode ignore ObjectConstructor: this is just a demo code
     const object = new Object('I am the instance');
     return object;
   }

@@ -16,6 +16,7 @@ searchUser.addEventListener('keyup', (e) => {
     console.log(`Searching ${userName}`);
 
     // Make http call
+    // file deepcode ignore PromiseNotCaughtGeneral: this is just a demo code
     github.getUser(userName).then((data) => {
       console.log(data);
 

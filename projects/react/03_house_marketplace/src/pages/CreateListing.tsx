@@ -213,6 +213,7 @@ const CreateListing = () => {
             reject(error);
           },
           () => {
+            // file deepcode ignore PromiseNotCaughtGeneral: this is just a demo code
             getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
               resolve(downloadURL);
             });

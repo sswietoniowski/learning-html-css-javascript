@@ -32,6 +32,7 @@ let admiral: number | string;
 
 admiral = 'Grace Hopper';
 
+// file deepcode ignore PureMethodReturnValueIgnored: this is just a demo code
 admiral.toUpperCase(); // Ok: string
 
 // admiral.toFixed();
@@ -51,6 +52,7 @@ let scientist = Math.random() > 0.5 ? 'Rosalind Franklin' : 51;
 
 if (scientist === 'Rosalind Franklin') {
   // Type of scientist: string
+  // file deepcode ignore StringMethodOnNonString: this is just a demo code
   scientist.toUpperCase(); // Ok
 }
 
@@ -125,6 +127,7 @@ let biologist = Math.random() > 0.5 && 'Rachel Carson';
 
 if (biologist) {
   biologist; // Type: string
+  // file deepcode ignore DuplicateIfBody: this is just a demo code
 } else {
   biologist; // Type: false | string
 }

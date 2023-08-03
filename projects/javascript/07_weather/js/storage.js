@@ -1,6 +1,7 @@
 class Storage {
   constructor() {
     this.city;
+    // file deepcode ignore NoEffectExpression: this is just a demo code
     this.state;
 
     this.defaultCity = 'Wrocław';

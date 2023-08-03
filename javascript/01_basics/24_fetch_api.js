@@ -6,6 +6,7 @@ function getText() {
       return res.text();
     })
     .then(function (data) {
+      // deepcode ignore DOMXSS: this is just a demo code
       document.getElementById('output').innerHTML = `<h1>${data}</h1>`;
     })
     .catch(function (err) {
@@ -21,6 +22,7 @@ function getJSON() {
       return res.json();
     })
     .then(function (data) {
+      // deepcode ignore DOMXSS: this is just a demo code
       document.getElementById('output').innerHTML = `<h1>${data.name}</h1>`;
     })
     .catch(function (err) {
@@ -38,6 +40,7 @@ function getExternal() {
     .then(function (data) {
       document.getElementById(
         'output'
+        // deepcode ignore DOMXSS: this is just a demo code
       ).innerHTML = `<h1>${data.value.joke}</h1>`;
     })
     .catch(function (err) {

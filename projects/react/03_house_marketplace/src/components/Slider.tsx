@@ -35,6 +35,7 @@ const Slider = () => {
 
       let listings: ListingData[] = [];
 
+      // file deepcode ignore ForEachReturns: this is just a demo code
       querySnap.forEach((doc) => {
         return listings.push({
           id: doc.id,

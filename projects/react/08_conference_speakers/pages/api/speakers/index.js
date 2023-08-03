@@ -18,6 +18,7 @@ export default async function handler(req, res) {
     await delay(1000);
     const speakers = JSON.parse(data).speakers;
     if (speakers) {
+      // file deepcode ignore ContentTypeNoCharset: this is just a demo code
       res.setHeader('Content-Type', 'application/json');
       res.status(200).send(JSON.stringify(speakers, null, 2));
       console.log('GET /api/speakers status: 200');
@@ -26,6 +27,7 @@ export default async function handler(req, res) {
       console.log('GET /api/speakers status: 404');
     }
   } catch (err) {
+    // file deepcode ignore ServerLeak: this is just a demo code
     res.status(500).send(err);
     console.log('GET /api/speakers status: 500');
   }

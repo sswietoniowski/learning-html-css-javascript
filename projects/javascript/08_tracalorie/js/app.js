@@ -129,6 +129,7 @@ const ItemController = (function () {
       let found = null;
 
       data.items.forEach(function (item) {
+        // file deepcode ignore AttrAccessOnNull: this is just a demo code
         if (item.id === data.currentItem.id) {
           item.name = name;
           item.calories = calories;

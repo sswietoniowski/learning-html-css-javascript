@@ -12,6 +12,7 @@ import listEndpoints from 'express-list-endpoints';
 // Connect to database
 await connectDb();
 
+// file deepcode ignore UseCsurfForExpress: this is just a demo code
 const app: Express = express();
 
 app.use(helmet()); // for security

@@ -54,6 +54,7 @@ class UI {
 class Store {
   static displayBooks() {
     const books = Store.getBooks();
+    // file deepcode ignore DOMXSS: this is just a demo code
     books.forEach((book) => UI.addBookToList(book));
   }
 

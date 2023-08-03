@@ -4,4 +4,5 @@ async function myFunc() {
   return 'Hello';
 }
 
+// file deepcode ignore PromiseNotCaughtGeneral: this is just a demo code
 myFunc().then((data) => console.log(data));

@@ -24,6 +24,7 @@ easyHttpWithXhrAndCallbacks.prototype.get = function (url, callback) {
 // Make an HTTP POST request
 easyHttpWithXhrAndCallbacks.prototype.post = function (url, data, callback) {
   this.http.open('POST', url, true);
+  // file deepcode ignore ContentTypeNoCharset: this is just a demo code
   this.http.setRequestHeader('Content-type', 'application/json');
 
   let self = this;

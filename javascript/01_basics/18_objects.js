@@ -41,6 +41,7 @@ const num1 = 5;
 const num2 = new Number(5); // not recommended
 
 const bool1 = true;
+// deepcode ignore BooleanObjectCreation: this is just a demo code
 const bool2 = new Boolean(true); // not recommended
 
 const getSum1 = function (x, y) {
@@ -55,6 +56,7 @@ const getSum2 = new Function('x', 'y', 'return x + y');
 console.log(getSum2(5, 10));
 
 const john1 = { name: 'John', age: 32 };
+// deepcode ignore ObjectConstructor: this is just a demo code
 const john2 = new Object({ name: 'John', age: 32 });
 
 console.log(john1);

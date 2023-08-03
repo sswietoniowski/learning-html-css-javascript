@@ -69,6 +69,7 @@ export default async function handler(req, res) {
           jsonFile,
           JSON.stringify({ speakers: newSpeakersArray }, null, 2)
         );
+        // file deepcode ignore ContentTypeNoCharset: this is just a demo code
         res.setHeader('Content-Type', 'application/json');
         res.status(200).send(
           JSON.stringify(

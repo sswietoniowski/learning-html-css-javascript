@@ -4,6 +4,7 @@ function getText() {
   fetch('25_arrow_functions.txt')
     .then((res) => res.text())
     .then((data) => {
+      // deepcode ignore DOMXSS: this is just a demo code
       document.getElementById('output').innerHTML = `<h1>${data}</h1>`;
     })
     .catch((err) => {
@@ -17,6 +18,7 @@ function getJSON() {
   fetch('25_arrow_functions.json')
     .then((res) => res.json())
     .then((data) => {
+      // file deepcode ignore DOMXSS: this is just a demo code
       document.getElementById('output').innerHTML = `<h1>${data.name}</h1>`;
     })
     .catch((err) => {
@@ -32,6 +34,7 @@ function getExternal() {
     .then((data) => {
       document.getElementById(
         'output'
+        // deepcode ignore DOMXSS: this is just a demo code
       ).innerHTML = `<h1>${data.value.joke}</h1>`;
     })
     .catch((err) => {

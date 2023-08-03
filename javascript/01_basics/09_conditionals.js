@@ -1,9 +1,11 @@
 // If statement
 let id = 100;
 id = '100';
+// file deepcode ignore IncompatibleTypesInComparison: this is just a demo code
 if (id == 100) {
   // != means not equal to
   console.log('id == 100');
+  // deepcode ignore IncompatibleTypesInComparison: this is just a demo code
 } else if (id > 100) {
   console.log('id > 100');
 } else {
@@ -21,6 +23,7 @@ if (id === 100) {
   console.log('Not equal');
 }
 
+// deepcode ignore CompareTypeofToString: this is just a demo code
 if (typeof id !== undefined) {
   // test if something is undefined
   console.log(`ID is ${id}`);

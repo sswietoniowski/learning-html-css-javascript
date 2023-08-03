@@ -5,6 +5,7 @@ let morePrimes = [...primes, 13, 17, 19, 23, 29]; // An array with 10 numeric el
 let anything = [1.1, 'one', true]; // An array with 3 elements of different types
 let threeElements = [1, , 3]; // An array with 3 elements, 2nd element is undefined
 // Array Constructor
+// file deepcode ignore ArrayConstructor: this is just a demo code
 let array1 = new Array(); // An empty array, equivalent to []
 let array2 = new Array(10); // An array with 10 undefined elements
 // Array.of and Array.from

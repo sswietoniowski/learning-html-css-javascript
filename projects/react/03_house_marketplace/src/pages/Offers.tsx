@@ -43,6 +43,7 @@ const Offers = () => {
 
         let listings: DocumentData[] = [];
 
+        // file deepcode ignore ForEachReturns: this is just a demo code
         querySnapshot.forEach((doc) => {
           return listings.push({ id: doc.id, data: doc.data() });
         });

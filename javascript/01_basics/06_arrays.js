@@ -25,6 +25,7 @@ console.log(numbers.pop());
 console.log(numbers.shift());
 console.log(numbers);
 console.log(numbers.splice(1, 3));
+// deepcode ignore PureMethodReturnValueIgnored: this is just a demo code
 numbers.slice(2, 4);
 console.log(numbers);
 val = numbers.concat([1, 2, 3]);

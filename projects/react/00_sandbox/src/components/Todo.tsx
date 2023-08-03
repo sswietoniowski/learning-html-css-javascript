@@ -7,6 +7,7 @@ const Todo = () => {
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos/1')
+      // file deepcode ignore PromiseNotCaughtGeneral: this is just a demo code
       .then((response) => response.json())
       .then((data) => {
         setTimeout(() => {

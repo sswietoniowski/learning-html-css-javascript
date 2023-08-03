@@ -18,6 +18,7 @@ console.log(firstName.charAt(2));
 console.log(firstName.substring(0, 3));
 console.log(firstName.slice(0, 3));
 console.log(val.split(' '));
+// deepcode ignore GlobalReplacementRegex: this is just a demo code
 console.log(val.replace(' ', '|'));
 console.log(val.includes('John')); // tests whether a string contains another string
 
