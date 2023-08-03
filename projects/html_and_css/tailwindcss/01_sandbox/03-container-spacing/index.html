@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Container -->
-    <div>
+    <div class="container mx-auto">
       <article>
         <h3>Article One</h3>
         <p>
@@ -21,17 +21,33 @@
       </article>
 
       <!-- Margin -->
+      <div class="bg-slate-100 m-2">Hello World!</div>
+      <div class="bg-slate-100 ml-20 mb-15">Hello World!</div>
+      <div class="bg-slate-100 mt-[20px] border border-black">Hello World!</div>
 
       <!-- Padding -->
+      <div class="bg-pink-100 p-10 border border-black">Hello World!</div>
 
       <!-- Space Between X -->
+      <div class="flex mt-20 space-x-2">
+        <div class="bg-slate-100 w-1/2 border border-black">Hello World!</div>
+        <div class="bg-slate-100 w-1/2 border border-black">Hello World!</div>
+        <div class="bg-slate-100 w-1/4 border border-black">Hello World!</div>
+        <div class="bg-slate-100 w-1/4 border border-black">Hello World!</div>
+      </div>
 
       <!-- Space Between Y -->
+      <div class="flex flex-col mt-20 space-y-2 h-64">
+        <div class="bg-slate-100 h-1/2 border border-black">Hello World!</div>
+        <div class="bg-slate-100 h-1/2 border border-black">Hello World!</div>
+        <div class="bg-slate-100 h-1/4 border border-black">Hello World!</div>
+        <div class="bg-slate-100 h-1/4 border border-black">Hello World!</div>
+      </div>
     </div>
   </body>
 </html>
 
-<!-- Breakpoinsts for Container 
+<!-- Breakpoints for Container 
     container	None	width: 100%;
     sm (640px)	    max-width: 640px;
     md (768px)	    max-width: 768px;
