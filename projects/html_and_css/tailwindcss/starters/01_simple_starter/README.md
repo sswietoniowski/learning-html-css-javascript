@@ -36,15 +36,15 @@ npx tailwindcss init
 
 Then I've created `tailwind.config.js` file:
 
-```json
+```javascript
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ['./*.{html,js}'],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+};
 ```
 
 As of now we don't have any build tool, so wee need to start build process manually:
