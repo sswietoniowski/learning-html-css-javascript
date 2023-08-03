@@ -1,0 +1,17 @@
+{
+  "name": "01_simple_starter",
+  "version": "1.0.0",
+  "description": "This is a simple starter project for TailwindCSS",
+  "main": "index.html",
+  "directories": {
+    "src": "src",
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {},
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
