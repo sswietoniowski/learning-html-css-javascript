@@ -72,7 +72,7 @@ And then we can use this CSS file in our document:
 
 Which we can view with the Live Server `ALT-L O`.
 
-Because we don't want to run build command manually we can add scripts to the `package.json` like so:
+Because we don't want to run build command manually we can add scripts to the `package.json`:
 
 ```json
   "scripts": {
