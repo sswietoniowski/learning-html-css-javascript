@@ -81,7 +81,7 @@ Because we don't want to run build command manually we can add scripts to the `p
   },
 ```
 
-And the use it like so:
+And then use them like so:
 
 ```cmd
 npm run build
