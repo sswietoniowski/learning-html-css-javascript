@@ -94,7 +94,7 @@ So here is my list:
 - _[Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)_ - thanks to this extensions our CSS classes are now folded by default (you must decide whether you like it or not),
 - ~~[Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)~~ - don't install, this extension is no longer developed and it might not work for Tailwind CSS 3.0,
 - _[IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)_ - consider using it, but it wasn't updated for a long time,
-- _[PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)_ - It's a bit outdated but we need to remove warnings about unknown rules in our CSS files,
+- _[PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)_ - It's a bit outdated but we need it to remove warnings about unknown rules in our CSS files,
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log) - might be helpful for debugging, but it is not a must have,
 - **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**,
 - ~~[Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)~~ - this extension was quite useful, but now it is deprecated and its functionality is built-in into VSCode, so instead you should edit your `settings.json` like so:
