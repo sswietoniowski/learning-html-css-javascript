@@ -2,7 +2,7 @@
 
 This is a simple starter project for Tailwind CSS.
 
-To use it, just copy this directory and then.
+To use it, just copy this directory and then do the following.
 
 First install required dependencies:
 
