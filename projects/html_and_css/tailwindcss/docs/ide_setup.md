@@ -60,7 +60,7 @@ Example:
 
 | Tailwind CSS                               | Bootstrap                                          |
 | ------------------------------------------ | -------------------------------------------------- |
-| Newer framework that is gaining popularity | Popular framework that has been around while       |
+| Never framework that is gaining popularity | Popular framework that has been around while       |
 | Low-level classes for fast UI development  | High-level pre-designed components                 |
 | More flexibility & uniqueness              | Some Bootstrap sites look very similar             |
 | Customizable with directives & functions   | Customizable through SASS                          |
@@ -86,7 +86,7 @@ Couple interesting ones can be found below.
 
 I've bolded (must have) and italicized (nice hot have) those I've got installed.
 
-For completeness I've also added a few that are not worth the effort of installing but you can find recommendations to do so online.
+For completeness I've also added a few that are not worth the effort of installing but you can find online recommendations to do so.
 
 So here is my list:
 
