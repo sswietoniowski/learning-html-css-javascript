@@ -72,15 +72,13 @@ And then we can use this CSS file in our document:
 
 Which we can view with the Live Server `ALT-L O`.
 
-Because we don't want to run build command manually we can add script to the `package.json` like so:
+Because we don't want to run build command manually we can add scripts to the `package.json` like so:
 
 ```json
-// ...
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/style.css",
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
   },
-// ...
 ```
 
 And the use it like so:
