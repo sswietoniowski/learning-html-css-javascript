@@ -5,26 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto:wght@100&family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['us-sans-serif', 'system-ui'],
+            serif: ['Tapestry', 'ui-serif', 'Georgia'],
+            mono: ['ui-monospace', 'SFMono-Regular'],
+          },
+        },
+      };
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-mono">Tailwind is awesome</div>
 
     <!-- Font Size -->
+    <div class="text-xs">Tailwind is awesome</div>
+    <div class="text-sm">Tailwind is awesome</div>
+    <div class="text-base text-slate-500">Tailwind is awesome</div>
+    <div class="text-lg">Tailwind is awesome</div>
+    <div class="text-xl">Tailwind is awesome</div>
+    <div class="text-2xl">Tailwind is awesome</div>
+    <div class="text-3xl">Tailwind is awesome</div>
 
     <!-- Font Weight -->
+    <div class="text-3xl font-light">Tailwind is awesome</div>
+    <div class="text-3xl font-extrabold">Tailwind is awesome</div>
 
     <!-- Letter Spacing -->
+    <div class="text-base tracking-tighter">Tailwind is awesome</div>
+    <div class="text-base tracking-widest">Tailwind is awesome</div>
 
     <!-- Text Alignment -->
+    <div class="text-center">Tailwind is awesome</div>
+    <div class="text-right">Tailwind is awesome</div>
+    <div class="text-justify">Tailwind is awesome</div>
 
     <!-- Text Decoration -->
-
     <!-- Decoration Style -->
-
     <!-- Decoration Offset -->
+    <div class="text-3xl underline decoration-8 decoration-blue-400">
+      Tailwind is awesome
+    </div>
+
+    <div class="text-3xl underline decoration-wavy decoration-blue-400">
+      Tailwind is awesome
+    </div>
+
+    <div
+      class="text-3xl underline decoration-8 decoration-blue-400 underline-offset-8"
+    >
+      Tailwind is awesome
+    </div>
 
     <!-- Text Transform -->
+    <div class="text-3xl uppercase">Tailwind is awesome</div>
+    <div class="text-3xl lowercase">Tailwind is awesome</div>
+    <div class="text-3xl capitalize">Tailwind is awesome</div>
   </body>
 </html>
 
