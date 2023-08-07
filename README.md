@@ -138,6 +138,9 @@ Also used these (paid) courses & books:
     - [Securing a JavaScript REST API with JSON Web Tokens](https://app.pluralsight.com/library/courses/securing-javascript-rest-api-json-web-tokens/table-of-contents) [📁](https://app.pluralsight.com/library/courses/securing-javascript-rest-api-json-web-tokens/exercise-files),
     - [Caching JavaScript REST API Data with Local Storage](https://app.pluralsight.com/library/courses/caching-javascript-rest-api-data-local-storage/table-of-contents) [📁](https://app.pluralsight.com/library/courses/caching-javascript-rest-api-data-local-storage/exercise-files),
   - [Developing Node.js Apps with Docker](https://app.pluralsight.com/library/courses/nodejs-docker-developing-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-docker-developing-apps/exercise-files),
+  - [Express Framework Mastery: From Beginner to Advanced with Node.js](https://learning.oreilly.com/videos/express-framework-mastery/9781805124436/) [:file_folder:](https://github.com/PacktPublishing/Express-Framework-Mastery-From-Beginner-to-Advanced-with-Node.js),
+  - [Web Development with Node and Express, 2nd Edition](https://learning.oreilly.com/library/view/web-development-with/9781492053507/) [📁](https://github.com/EthanRBrown/web-development-with-node-and-express-2e),
+  - [Distributed Systems with Node.js](https://learning.oreilly.com/library/view/distributed-systems-with/9781492077282/) [:file_folder:](https://github.com/tlhunter/distributed-node),
 - React:
   - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - _[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
