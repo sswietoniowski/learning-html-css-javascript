@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,25 +9,80 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-blue-500"
+    >
+      Submit
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-blue-500"
+    >
+      Submit
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-red-500 active:text-blue-500"
+    >
+      Submit
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href="#jump-here"
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500">Item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500">Item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500">Item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500">Item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500">Item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500">Item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select name="language" id="language" class="appearance-none">
+      <option value="javascript">JavaScript</option>
+      <option value="php">PHP</option>
+      <option value="ruby">Ruby</option>
+      <option value="python">Python</option>
+    </select>
 
     <!-- Cursor -->
-
-    <!-- Resize -->
+    <div class="cursor-auto">Auto</div>
+    <div class="cursor-default">Default</div>
+    <div class="cursor-pointer">Pointer</div>
+    <div class="cursor-wait">Wait</div>
+    <div class="cursor-not-allowed">Not Allowed</div>
 
     <!-- User Select -->
+    <div class="select-none">Select None</div>
+    <div class="select-text">Select Text</div>
+    <div class="select-all">Select All</div>
+    <div class="select-auto">Select Auto</div>
 
     <!-- Smooth Scroll Example -->
+    <div class="h-screen overflow-y-scroll">
+      <div class="h-64 bg-red-500"></div>
+      <div class="h-64 bg-green-500"></div>
+      <div class="h-64 bg-blue-500"></div>
+      <div class="h-64 bg-yellow-500"></div>
+      <div class="h-64 bg-purple-500"></div>
+      <div class="h-64 bg-pink-500"></div>
+      <div class="h-64 bg-orange-500"></div>
+      <div class="h-64 bg-indigo-500"></div>
+      <div class="h-64 bg-teal-500"></div>
+      <div id="jump-here" class="h-64 bg-gray-500"></div>
+    </div>
   </body>
 </html>
 
