@@ -137,6 +137,7 @@ Also used these (paid) courses & books:
     - [Uploading Files with a JavaScript REST API](https://app.pluralsight.com/library/courses/uploading-files-javascript-rest-api/table-of-contents) [📁](https://app.pluralsight.com/library/courses/uploading-files-javascript-rest-api/exercise-files),
     - [Securing a JavaScript REST API with JSON Web Tokens](https://app.pluralsight.com/library/courses/securing-javascript-rest-api-json-web-tokens/table-of-contents) [📁](https://app.pluralsight.com/library/courses/securing-javascript-rest-api-json-web-tokens/exercise-files),
     - [Caching JavaScript REST API Data with Local Storage](https://app.pluralsight.com/library/courses/caching-javascript-rest-api-data-local-storage/table-of-contents) [📁](https://app.pluralsight.com/library/courses/caching-javascript-rest-api-data-local-storage/exercise-files),
+  - [Developing Node.js Apps with Docker](https://app.pluralsight.com/library/courses/nodejs-docker-developing-apps/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-docker-developing-apps/exercise-files),
 - React:
   - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
   - _[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
