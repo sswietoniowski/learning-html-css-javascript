@@ -98,7 +98,9 @@ Also used these (paid) courses & books:
 - HTML & CSS:
   - _[Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass)_ :+1:,
   - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-) :arrow_forward:,
+  - [Bootstrap 5 Fundamentals](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/exercise-files),
   - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
+  - [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
   - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
@@ -167,6 +169,7 @@ Also used these (paid) courses & books:
   - [MERN eCommerce from Scratch](https://learning.oreilly.com/videos/mern-ecommerce-from/9781801077545/) [:file_folder:](https://github.com/PacktPublishing/MERN-eCommerce-from-Scratch) ▶️,
   - [React Application Architecture for Production](https://learning.oreilly.com/library/view/react-application-architecture/9781801070539/) [:file_folder:](https://github.com/PacktPublishing/React-Application-Architecture-for-Production) ▶️,
 - React Native:
+  - [React Native Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-react-native/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/fundamentals-react-native/exercise-files),
   - [React Native - The Practical Guide](https://learning.oreilly.com/videos/react-native/9781789139747/) [:file_folder:](https://github.com/packtpublishing/react-native---the-practical-guide) ▶️,
   - [React Native Projects](https://learning.oreilly.com/videos/react-native-projects/9781839210112/) [:file_folder:](https://github.com/PacktPublishing/React-Native-Projects-2nd-Edition),
   - [React Native: Getting Started](https://app.pluralsight.com/library/courses/react-native-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-native-get-started/exercise-files),
