@@ -1,0 +1,18 @@
+{
+  "name": "02_vite_postcss_starter",
+  "version": "1.0.0",
+  "description": "This is a starter project for Tailwind CSS using Vite & PostCSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
