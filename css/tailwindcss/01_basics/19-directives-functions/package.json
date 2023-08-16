@@ -1,0 +1,20 @@
+{
+  "name": "01_simple_starter",
+  "version": "1.0.0",
+  "description": "This is a simple starter project for TailwindCSS",
+  "main": "index.html",
+  "directories": {
+    "src": "src",
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
