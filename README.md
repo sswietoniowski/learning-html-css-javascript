@@ -182,7 +182,8 @@ Also used these (paid) courses & books:
 - Electron:
   - [Electron from Scratch: Build Desktop Applications with JavaScript](https://learning.oreilly.com/videos/electron-from-scratch/9781800562516/) [:file_folder:](https://github.com/PacktPublishing/Electron-from-Scratch-Build-Desktop-Applications-with-JavaScript) ▶️,
 - Next.js:
-  - _[Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files)_ :+1:,
+  - ✅ [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files) :+1:,
+  - [Next.js 13 Fundamentals](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/exercise-files),
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
