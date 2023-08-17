@@ -96,13 +96,13 @@ Based on these (free) courses:
 Also used these (paid) courses & books:
 
 - HTML & CSS:
-  - _[Modern HTML and CSS from the Beginning (Including Sass)](https://learning.oreilly.com/videos/modern-html-and/9781838822828/) [:file_folder:](https://github.com/PacktPublishing/Modern-HTML-and-CSS-from-the-Beginning-Including-Sass)_ :+1:,
+  - [The Ultimate HTML Developer 2020](https://learning.oreilly.com/videos/the-ultimate-html/9781800565197/) [:file_folder:](https://github.com/PacktPublishing/The-Ultimate-HTML-Developer-2020-Edition)
   - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-) :arrow_forward:,
+  - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
   - [Bootstrap 5 Fundamentals](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/exercise-files),
   - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
   - [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
   - [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
-  - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
 - JavaScript:
   - _[Modern JavaScript from the Beginning - Second Edition](https://learning.oreilly.com/videos/modern-javascript-from/9781805127826/) [:file_folder:](https://github.com/PacktPublishing/Modern-JavaScript-from-the-Beginning---Second-Edition)_ :+1:,
   - [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
