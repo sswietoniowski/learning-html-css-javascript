@@ -98,6 +98,7 @@ Also used these (paid) courses & books:
 - HTML & CSS:
   - [The Ultimate HTML Developer 2020](https://learning.oreilly.com/videos/the-ultimate-html/9781800565197/) [:file_folder:](https://github.com/PacktPublishing/The-Ultimate-HTML-Developer-2020-Edition)
   - [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-) :arrow_forward:,
+  - [Learn Enough HTML, CSS and Layout to Be Dangerous: An Introduction to Modern Website Creation and Templating Systems](https://learning.oreilly.com/library/view/learn-enough-html/9780137843183/),
   - **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
   - [Bootstrap 5 Fundamentals](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/exercise-files),
   - [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
