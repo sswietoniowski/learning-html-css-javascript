@@ -1,4 +1,4 @@
-# IDE Setup 2023-08-02
+# IDE Setup 2023-08-18
 
 I've been using [Visual Studio Code](https://code.visualstudio.com/) as my editor of choice while working with Tailwind CSS.
 
@@ -17,7 +17,7 @@ For Windows just download installer and install it. If you like to be able to pe
 
 ## Table Of Contents
 
-- [IDE Setup 2023-08-02](#ide-setup-2023-08-02)
+- [IDE Setup 2023-08-18](#ide-setup-2023-08-18)
   - [Table Of Contents](#table-of-contents)
   - [What is Tailwind CSS?](#what-is-tailwind-css)
     - [What are Utility Classes \& Their Advantages?](#what-are-utility-classes--their-advantages)
@@ -29,6 +29,7 @@ For Windows just download installer and install it. If you like to be able to pe
     - [VSCode Shortcuts](#vscode-shortcuts)
     - [Emmet Documentation](#emmet-documentation)
     - [Obsolete Extensions](#obsolete-extensions)
+    - [JetBrains Rider Extensions](#jetbrains-rider-extensions)
 
 ## What is Tailwind CSS?
 
@@ -136,3 +137,10 @@ To speed up development you might want to learn more about [Emmet](https://githu
 ### Obsolete Extensions
 
 If you don't want to install an extension for something that is already in VSCode you might read [this](https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html) article (it is a bit old but you can still find some useful information there).
+
+### JetBrains Rider Extensions
+
+If you are using [JetBrains Rider](https://www.jetbrains.com/rider/) you might want to install these plugins:
+
+- **[Tailwind CSS](https://plugins.jetbrains.com/plugin/15321-tailwind-css)** - should be already installed by default,
+- _[Tailwind CSS Smart Completions](https://plugins.jetbrains.com/plugin/15234-tailwind-css-smart-completions)_.
