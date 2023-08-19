@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "run-p dev-*",
     "dev-js": "rollup --config -w",
-    "dev-css": "sass -w ./src/site.scss ./public/css/site.css",
+    "dev-css": "npx tailwindcss -i ./src/app.src.css -o ./public/css/app.css --watch",
     "build": "run-p build-*",
     "build-js": "rollup --config rollup.config.prod.js",
-    "build-css": "sass --style=compressed ./src/site.scss ./public/css/site.css"
+    "build-css": "npx tailwindcss -i ./src/site.scss -o ./public/css/app.css --minify"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "rollup": "^2.75.7",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-sass": "^1.12.20",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^3.3.3"
   }
 }
