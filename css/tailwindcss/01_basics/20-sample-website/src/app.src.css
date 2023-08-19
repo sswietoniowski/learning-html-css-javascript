@@ -4,22 +4,18 @@
 
 @layer base {
   h1 {
-    font-weight: bold;
-    font-size: 2rem;
+    @apply text-4xl font-bold;
   }
 
   h2 {
-    font-weight: bold;
-    font-size: 1.5rem;
+    @apply text-3xl font-bold;
   }
 
   h3 {
-    font-weight: bold;
-    font-size: 1.2rem;
+    @apply text-xl font-bold;
   }
 
   h4 {
-    font-weight: bold;
-    font-size: 1.1rem;
+    @apply text-lg;
   }
 }
