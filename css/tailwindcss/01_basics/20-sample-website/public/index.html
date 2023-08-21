@@ -59,132 +59,133 @@
 
   <body class="bg-gray-700">
     <div id="container" class="container bg-gray-500 mx-auto">
-      <header>
-        <h1>Testing</h1>
-        <div
-          id="site-name"
-          class="text-5xl font-bold text-amber-800 p-2 whitespace-nowrap"
-        >
-          <a href="/"><i class="fas fa-film"></i> The Bechdel Test</a>
-        </div>
-        <section id="menu">
-          <div><select id="year-select"></select></div>
-          <div>
-            <button id="menu-all" class="button selected">
-              <i class="fas fa-book-open"></i> All Films
+      <div class="flex gap-1">
+        <header>
+          <div
+            id="site-name"
+            class="text-xl font-bold text-amber-800 p-2 whitespace-nowrap"
+          >
+            <a href="/"><i class="fas fa-film"></i> The Bechdel Test</a>
+          </div>
+          <section id="menu">
+            <div><select id="year-select"></select></div>
+            <div>
+              <button id="menu-all" class="button selected">
+                <i class="fas fa-book-open"></i> All Films
+              </button>
+            </div>
+            <div>
+              <button id="menu-pass" class="button">
+                <i class="fas fa-check"></i> Passing Films
+              </button>
+            </div>
+            <div>
+              <button id="menu-fail" class="button">
+                <i class="fas fa-xmark"></i> Failing Films
+              </button>
+            </div>
+            <div>
+              <button id="send-message" class="button">
+                <i class="fas fa-envelope"></i> Contact Us
+              </button>
+            </div>
+            <div>
+              <button
+                id="toggle-dark"
+                class="button w-full"
+                style="display: none"
+              >
+                <i class="fas fa-eye"></i> Toggle Dark Mode
+              </button>
+            </div>
+          </section>
+        </header>
+
+        <section id="main">
+          <div id="pager">
+            <button class="button" id="prev-page">
+              <i class="fas fa-chevron-left"></i> Prev
+            </button>
+            <button class="button" id="next-page">
+              Next <i class="fas fa-chevron-right"></i>
             </button>
           </div>
-          <div>
-            <button id="menu-pass" class="button">
-              <i class="fas fa-check"></i> Passing Films
-            </button>
-          </div>
-          <div>
-            <button id="menu-fail" class="button">
-              <i class="fas fa-xmark"></i> Failing Films
-            </button>
-          </div>
-          <div>
-            <button id="send-message" class="button">
-              <i class="fas fa-envelope"></i> Contact Us
-            </button>
-          </div>
-          <div>
-            <button
-              id="toggle-dark"
-              class="button w-full"
-              style="display: none"
-            >
-              <i class="fas fa-eye"></i> Toggle Dark Mode
-            </button>
+          <div id="results" class="grid grid-cols-3 gap-2">
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="film">
+              <div class="ph-item">
+                <div class="ph-col-12">
+                  <div class="ph-picture"></div>
+                  <div class="ph-row">
+                    <div class="ph-col-4"></div>
+                    <div class="ph-col-8 empty"></div>
+                    <div class="ph-col-12"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-      </header>
-
-      <section id="main">
-        <div id="pager">
-          <button class="button" id="prev-page">
-            <i class="fas fa-chevron-left"></i> Prev
-          </button>
-          <button class="button" id="next-page">
-            Next <i class="fas fa-chevron-right"></i>
-          </button>
-        </div>
-        <div id="results">
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="film">
-            <div class="ph-item">
-              <div class="ph-col-12">
-                <div class="ph-picture"></div>
-                <div class="ph-row">
-                  <div class="ph-col-4"></div>
-                  <div class="ph-col-8 empty"></div>
-                  <div class="ph-col-12"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
     <footer>
       <div>
