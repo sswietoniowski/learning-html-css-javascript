@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/leaflet": "^1.9.3",
-    "@types/uuid": "^9.0.1",
+    "@types/uuid": "^9.0.3",
     "firebase": "^10.3.0",
     "leaflet": "^1.9.3",
     "react": "^18.2.0",
