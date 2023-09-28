@@ -7,7 +7,11 @@ We will be building an application that allows organizations to manage their job
 This application was created using the following technologies:
 
 - Next.js 13,
-- TypeScript.
+- TypeScript,
+- EsLint,
+- Prettier,
+- Husky,
+- lint-staged.
 
 ## How to run
 
