@@ -8,7 +8,7 @@ This application was created using the following technologies:
 
 - Next.js 13,
 - TypeScript,
-- EsLint,
+- ESLint,
 - Prettier,
 - Husky,
 - lint-staged.
