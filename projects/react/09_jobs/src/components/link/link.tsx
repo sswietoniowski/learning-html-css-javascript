@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { ReactNode } from 'react';
@@ -39,7 +40,11 @@ export const Link = ({
 }: LinkProps) => {
   return (
     <NextLink shallow={shallow} href={href} passHref>
-      <Button leftIcon={icon} as='a' {...variants[variant]}>
+      <Button
+        leftIcon={icon}
+        // as='a'
+        {...variants[variant]}
+      >
         {children}
       </Button>
     </NextLink>
