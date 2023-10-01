@@ -188,6 +188,8 @@ Also used these (paid) courses & books:
   - ✅ [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files) :+1:,
   - [Next.js 13 Fundamentals](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/exercise-files),
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
+  - [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
+  - [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
 - Others:
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
