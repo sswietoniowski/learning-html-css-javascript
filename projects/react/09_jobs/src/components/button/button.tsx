@@ -1,5 +1,5 @@
-import { Button as ChakraButton } from '@chakra-ui/react'
-import { MouseEventHandler, ReactNode } from 'react'
+import { Button as ChakraButton } from '@chakra-ui/react';
+import { MouseEventHandler, ReactNode } from 'react';
 
 const variants = {
   solid: {
@@ -15,17 +15,17 @@ const variants = {
     bg: 'white',
     color: 'primary',
   },
-}
+};
 
 export type ButtonProps = {
-  children: ReactNode
-  type?: 'button' | 'submit' | 'reset'
-  variant?: keyof typeof variants
-  isLoading?: boolean
-  isDisabled?: boolean
-  onClick?: MouseEventHandler<HTMLButtonElement>
-  icon?: JSX.Element
-}
+  children: ReactNode;
+  type?: 'button' | 'submit' | 'reset';
+  variant?: keyof typeof variants;
+  isLoading?: boolean;
+  isDisabled?: boolean;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+  icon?: JSX.Element;
+};
 
 export const Button = ({
   variant = 'solid',
@@ -35,13 +35,8 @@ export const Button = ({
   ...props
 }: ButtonProps) => {
   return (
-    <ChakraButton
-      {...props}
-      {...variants[variant]}
-      type={type}
-      leftIcon={icon}
-    >
+    <ChakraButton {...props} {...variants[variant]} type={type} leftIcon={icon}>
       {children}
     </ChakraButton>
-  )
-}
+  );
+};

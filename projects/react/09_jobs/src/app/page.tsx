@@ -1,17 +1,17 @@
-import { Button } from '@/components/button/button'
-import { InputField } from '@/components/form/input-field'
-import { Link } from '@/components/link/link'
+import { Button } from '@/components/button/button';
+import { InputField } from '@/components/form/input-field';
+import { Link } from '@/components/link/link';
 
 export default function Home() {
   return (
     <>
-      <Button variant="solid" type="button">
+      <Button variant='solid' type='button'>
         Click Me
       </Button>
       <br />
-      <InputField label="Name" />
+      <InputField label='Name' />
       <br />
-      <Link href="/">Home</Link>
+      <Link href='/'>Home</Link>
     </>
-  )
+  );
 }
