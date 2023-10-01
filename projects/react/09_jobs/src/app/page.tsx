@@ -1,9 +1,17 @@
+import { Button } from '@/components/button/button'
+import { InputField } from '@/components/form/input-field'
+import { Link } from '@/components/link/link'
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        Hello Jobs!
-      </div>
-    </main>
+    <>
+      <Button variant="solid" type="button">
+        Click Me
+      </Button>
+      <br />
+      <InputField label="Name" />
+      <br />
+      <Link href="/">Home</Link>
+    </>
   )
 }

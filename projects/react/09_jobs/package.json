@@ -25,7 +25,8 @@
     "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-hook-form": "^7.46.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.5",
@@ -39,15 +40,17 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "autoprefixer": "latest",
+    "autoprefixer": "^10.4.16",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-storybook": "^0.6.14",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
-    "postcss": "latest",
+    "postcss": "^8.4.31",
+    "prettier-plugin-tailwindcss": "^0.5.4",
     "storybook": "^7.4.5",
-    "tailwindcss": "latest",
+    "tailwindcss": "^3.3.3",
     "typescript": "latest"
   }
 }
