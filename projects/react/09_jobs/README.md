@@ -8,10 +8,13 @@ This application was created using the following technologies:
 
 - Next.js 13,
 - TypeScript,
+- TailwindCSS,
 - ESLint,
 - Prettier,
 - Husky,
-- lint-staged.
+- lint-staged,
+- Chakra UI,
+- Storybook.
 
 ## How to run
 
