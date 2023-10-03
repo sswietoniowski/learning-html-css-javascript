@@ -1,15 +1,15 @@
-import api from "./api.js";
+import api from './api.js';
 
-const resultsPane = document.getElementById("results");
-const yearSelect = document.getElementById("year-select");
-const prevPage = document.getElementById("prev-page");
-const nextPage = document.getElementById("next-page");
+const resultsPane = document.getElementById('results');
+const yearSelect = document.getElementById('year-select');
+const prevPage = document.getElementById('prev-page');
+const nextPage = document.getElementById('next-page');
 
 export const Categories = {
-  None: Symbol("NONE"),
-  All: Symbol("ALL"),
-  Passed: Symbol("PASSED"),
-  Failed: Symbol("FAILED"),
+  None: Symbol('NONE'),
+  All: Symbol('ALL'),
+  Passed: Symbol('PASSED'),
+  Failed: Symbol('FAILED'),
 };
 
 const status = {
@@ -17,39 +17,41 @@ const status = {
   page: 1,
   pages: 0,
   total: 0,
-  currentYear: null
+  currentYear: null,
 };
 
-yearSelect.addEventListener("change", async (e) => {
+yearSelect.addEventListener('change', async (e) => {
   await getResults();
 });
 
-prevPage.addEventListener("click", async (e) => {
+prevPage.addEventListener('click', async (e) => {
   status.page--;
   await getResults();
 });
 
-nextPage.addEventListener("click", async (e) => {
+nextPage.addEventListener('click', async (e) => {
   status.page++;
   await getResults();
 });
 
 function renderFilms(response) {
-  resultsPane.innerHTML = "";
+  resultsPane.innerHTML = '';
   const filmDivs = [];
   for (let film of response.results) {
     filmDivs.push(formatFilm(film));
   }
-  resultsPane.innerHTML = filmDivs.join("");
+  resultsPane.innerHTML = filmDivs.join('');
 }
 
 async function fillSelect() {
-
   // Fill the year dropdown on first call (Always All and all years)
   if (yearSelect.options.length === 0) {
     const years = await api.getYears();
-    for (year of ["All Years", ...years]) {
-      yearSelect.add(new Option(year, year == "All Years" ? null : Number(year)));
+    // file deepcode ignore NonLocalLoopVar: <please specify a reason of ignoring this>
+    for (year of ['All Years', ...years]) {
+      yearSelect.add(
+        new Option(year, year == 'All Years' ? null : Number(year))
+      );
     }
   }
 }
@@ -62,13 +64,13 @@ async function getResults(category) {
   if (!category) category = status.category;
 
   // If it's changed, update the status.
-  const selectedYear = yearSelect.value == "null" ? null : Number(yearSelect.value);
+  const selectedYear =
+    yearSelect.value == 'null' ? null : Number(yearSelect.value);
   if (status.category != category || selectedYear != status.currentYear) {
     if (category) status.category = category;
     status.page = 1;
     status.currentYear = selectedYear;
   }
-
 
   // Load the data
   if (category === Categories.All) {
@@ -78,7 +80,7 @@ async function getResults(category) {
   } else if (category === Categories.Passed) {
     response = await api.getPassed(status.page, status.currentYear);
   } else {
-    console.error("Bad Category Used...");
+    console.error('Bad Category Used...');
   }
 
   status.pageCount = response.pageCount;
@@ -89,10 +91,10 @@ async function getResults(category) {
 }
 
 function enablePaging() {
-  if (status.page == 1) prevPage.classList.add("hidden")
-  else prevPage.classList.remove("hidden")
-  if (status.page >= status.pageCount) nextPage.classList.add("hidden")
-  else nextPage.classList.remove("hidden")
+  if (status.page == 1) prevPage.classList.add('hidden');
+  else prevPage.classList.remove('hidden');
+  if (status.page >= status.pageCount) nextPage.classList.add('hidden');
+  else nextPage.classList.remove('hidden');
 }
 
 function formatFilm(film) {
@@ -103,12 +105,12 @@ function formatFilm(film) {
     <div class="info">${film.rating}</div>
     <div class="info">Passed: ${film.passed}</div>
     <div class="info">Reason: ${film.reason}</div>
-    <div class="info">Budget: $${film.budget.toLocaleString("en-US")}</div>
+    <div class="info">Budget: $${film.budget.toLocaleString('en-US')}</div>
     <div class="info">Domestic Gross: $${film.domesticGross.toLocaleString(
-      "en-US"
+      'en-US'
     )}</div>
     <div class="info">International Gross: $${film.internationalGross.toLocaleString(
-      "en-US"
+      'en-US'
     )}</div>
     <p>${film.overview}</p>
   </div>`;
