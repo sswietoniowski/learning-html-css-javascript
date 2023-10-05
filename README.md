@@ -16,19 +16,19 @@ This repository contains the following sub-directories:
 Based on these (free) courses:
 
 - HTML:
-  - [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
+  - ✅ 🎥 [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
 - CSS:
-  - [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
-  - [Learn Tailwind CSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
-  - [Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
+  - ✅ 🎥 [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
+  - TailwindCSS:
+    - ✅ 🎥 [Learn TailwindCSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
+    - ✅ 🎥 [Ultimate TailwindCSS Tutorial - Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
-  - [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
-  - _[The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI)_,
+  - ✅ 🎥 [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
+  - ✅ 🎥 [The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI),
 - TypeScript:
-  - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
-  - [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
-  - [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
-  - _[Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50)_,
+  - ✅ 🎥 [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
+  - ✅ 🎥 [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
+  - ✅ 🎥 [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
   - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) :+1:,
   - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
@@ -100,12 +100,14 @@ Also used these (paid) courses & books:
   - 🎥 [CSS Bootcamp: Master CSS (Including CSS Grid/Flexbox)](https://learning.oreilly.com/videos/css-bootcamp-master/9781800202801/) [:file_folder:](https://github.com/PacktPublishing/CSS-Bootcamp-Master-CSS-Including-CSS-Grid-Flexbox-) :arrow_forward:,
   - 📖 [Learn Enough HTML, CSS and Layout to Be Dangerous: An Introduction to Modern Website Creation and Templating Systems](https://learning.oreilly.com/library/view/learn-enough-html/9780137843183/),
   - 📖 **[CSS: The Definitive Guide, 5th Edition](https://learning.oreilly.com/library/view/css-the-definitive/9781098117603/)**,
-  - 🎥 [Bootstrap 5 Fundamentals](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/exercise-files),
-  - 🎥 [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
-  - 📖 [Practical Bootstrap: Learn to Develop Responsively with One of the Most Popular CSS Frameworks](https://learning.oreilly.com/library/view/practical-bootstrap-learn/9781484260715/) [:file_folder:](https://github.com/Apress/practical-bootstrap),
-  - 🎥 [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
-  - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
-  - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
+  - Bootstrap:
+    - 🎥 [Bootstrap 5 Fundamentals](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/bootstrap-5-fundamentals/exercise-files),
+    - 🎥 [Bootstrap 4 From Scratch With 5 Projects](https://learning.oreilly.com/videos/bootstrap-4-from/9781789535457/) [:file_folder:](https://github.com/PacktPublishing/Bootstrap-4-From-Scratch-With-5-Projects),
+    - 📖 [Practical Bootstrap: Learn to Develop Responsively with One of the Most Popular CSS Frameworks](https://learning.oreilly.com/library/view/practical-bootstrap-learn/9781484260715/) [:file_folder:](https://github.com/Apress/practical-bootstrap),
+  - TailwindCSS:
+    - 🎥 [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
+    - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
+    - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
 - JavaScript:
   - _[Modern JavaScript from the Beginning - Second Edition](https://learning.oreilly.com/videos/modern-javascript-from/9781805127826/) [:file_folder:](https://github.com/PacktPublishing/Modern-JavaScript-from-the-Beginning---Second-Edition)_ :+1:,
   - [The Joy of JavaScript](https://learning.oreilly.com/library/view/the-joy-of/9781617295867/) [:file_folder:](https://www.manning.com/downloads/1975),
@@ -215,6 +217,8 @@ Some useful tools & libraries:
 - JavaScript:
   - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
   - [ESLint](https://eslint.org/),
+- TypeScript:
+  - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - [Express](https://expressjs.com/),
