@@ -23,6 +23,10 @@ Global var are attached to the window object, while global let are not.
 
 In modern JS we should use let and const instead of var.
 
+More on that here:
+
+https://bulldogjob.pl/readme/var-let-i-const-hoisting-i-zasieg-w-javascript?gad=1
+
 */
 
 // Initialize a variable
