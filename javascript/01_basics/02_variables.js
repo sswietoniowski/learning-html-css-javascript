@@ -4,6 +4,27 @@ console.log(name);
 name = 'Steve Smith';
 console.log(name);
 
+/*
+
+Main difference between variables declared with var and the ones declared with let is that variables declared with var are function scoped, while the ones declared with let are block scoped.
+
+Example:
+
+if (true) {
+  var a = 1;
+  let b = 2;
+}
+
+console.log(a); // 1
+
+console.log(b); // ReferenceError: b is not defined
+
+Global var are attached to the window object, while global let are not.
+
+In modern JS we should use let and const instead of var.
+
+*/
+
 // Initialize a variable
 var greeting;
 console.log(greeting); // undefined
