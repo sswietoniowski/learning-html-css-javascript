@@ -245,8 +245,10 @@ Some useful tools & libraries:
 - General:
   - [Prettier](https://prettier.io/),
 - JavaScript:
+  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
   - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
   - [ESLint](https://eslint.org/),
+  - [Can I Use?](https://caniuse.com/),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
 - Node.js:
