@@ -20,7 +20,7 @@ console.error('This is some error');
 console.warn('This is a warning');
 console.time('Hello');
 {
-  console.log('Hello World!');
+  console.log('Hello World!'); // eslint-disable-line no-console <- special comment to disable eslint rule
   console.log('Hello World!');
   console.log('Hello World!');
   console.log('Hello World!');
