@@ -1,6 +1,12 @@
+/*
+
+Short message about the JS syntax & coding style - don't spend too much time on it just use Prettier plugin for VSCode and you will be fine :-).
+
+*/
+
 // alert('Hello world!');
 
-// Log to console
+// Log to console <- single line comment
 console.clear();
 console.log('Hello world!');
 console.log(123);
