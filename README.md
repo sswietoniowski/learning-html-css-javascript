@@ -109,7 +109,7 @@ Also used these (paid) courses & books:
     - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
     - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
 - JavaScript:
-  - Pluralsight - JavaScript 2022:
+  - Pluralsight - JavaScript 2022 Path:
     - ✅ 🎥 [Javascript: The Big Picture](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-big-picture/exercise-files),
     - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-javascript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/fundamentals-javascript/exercise-files) [:file_folder:](https://davidtucker.net/blog/javascript-fundamentals-resources/#1),
     - [Arrays and Objects in JavaScript](https://app.pluralsight.com/library/courses/javascript-arrays-objects/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-arrays-objects/exercise-files),
@@ -136,7 +136,7 @@ Also used these (paid) courses & books:
   - [JavaScript Complete Grandmaster 2023](https://learning.oreilly.com/videos/javascript-complete-grandmaster/9781804611685/) [:file_folder:](https://github.com/PacktPublishing/Complete-JavaScript-Course),
   - **[JavaScript: The Definitive Guide, 7th Edition](https://learning.oreilly.com/library/view/javascript-the-definitive/9781491952016/)** [:file_folder:](https://github.com/davidflanagan/jstdg7),
 - TypeScript:
-  - Pluralsight - Typescript Core Language:
+  - Pluralsight - Typescript Core Language Path:
     - ✅ 🎥 [TypeScript: The Big Picture](https://app.pluralsight.com/library/courses/typescript-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/typescript-big-picture/exercise-files),
     - [TypeScript 4: Getting Started](https://app.pluralsight.com/library/courses/getting-started-typescript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/getting-started-typescript/exercise-files) [:file_folder:](https://github.com/bricewilson/TypeScript-Getting-Started) :arrow_forward:,
     - [Creating Object-oriented TypeScript Code](https://app.pluralsight.com/library/courses/typescript-creating-object-oriented-code/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/typescript-creating-object-oriented-code/exercise-files),
@@ -156,7 +156,7 @@ Also used these (paid) courses & books:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb) ▶️,
   - [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
   - [Pluralsight - Working with Node.js Path](https://app.pluralsight.com/paths/skills/working-with-nodejs):
-    - [Node.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nodejs-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-big-picture/exercise-files),
+    - ✅ 🎥 [Node.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nodejs-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-big-picture/exercise-files),
     - [Node.js 12: Getting Started](https://app.pluralsight.com/library/courses/nodejs-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-getting-started/exercise-files),
     - [Getting Started with NPM 4](https://app.pluralsight.com/library/courses/npm-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/npm-getting-started/exercise-files),
     - [Automating Node.js 6 with NPM Scripts](https://app.pluralsight.com/library/courses/automating-nodejs-npm-scripts/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/automating-nodejs-npm-scripts/exercise-files),
@@ -167,7 +167,7 @@ Also used these (paid) courses & books:
     - [Managing Files with Node.js 12](https://app.pluralsight.com/library/courses/managing-files-node-js/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/managing-files-node-js/exercise-files),
     - [Async Patterns in Node.js 12](https://app.pluralsight.com/library/courses/nodejs-async-patterns/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-async-patterns/exercise-files),
     - [Mocking Node.js with Sinon 8](https://app.pluralsight.com/library/courses/mocking-nodejs-sinon/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/mocking-nodejs-sinon/exercise-files),
-  - [Pluralsight - Working with REST APIs in JavaScript](https://app.pluralsight.com/paths/skill/working-with-rest-apis-in-javascript):
+  - [Pluralsight - Working with REST APIs in JavaScript Path](https://app.pluralsight.com/paths/skill/working-with-rest-apis-in-javascript):
     - [JavaScript REST APIs: The Big Picture](https://app.pluralsight.com/library/courses/javascript-rest-apis-big-picture/table-of-contents) [📁](https://app.pluralsight.com/library/courses/javascript-rest-apis-big-picture/exercise-files),
     - [JavaScript REST APIs: Getting Started](https://app.pluralsight.com/library/courses/javascript-rest-apis-getting-started/table-of-contents) [📁](https://app.pluralsight.com/library/courses/javascript-rest-apis-getting-started/exercise-files),
     - [Building CRUD Actions in a JavaScript REST API](https://app.pluralsight.com/library/courses/crud-actions-javascript-rest-api/table-of-contents) [📁](https://app.pluralsight.com/library/courses/crud-actions-javascript-rest-api/exercise-files),
