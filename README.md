@@ -111,7 +111,7 @@ Also used these (paid) courses & books:
 - JavaScript:
   - Pluralsight - JavaScript 2022:
     - ✅ 🎥 [Javascript: The Big Picture](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-big-picture/exercise-files),
-    - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-javascript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/fundamentals-javascript/exercise-files),
+    - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-javascript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/fundamentals-javascript/exercise-files) [:file_folder:](https://davidtucker.net/blog/javascript-fundamentals-resources/#1),
     - [Arrays and Objects in JavaScript](https://app.pluralsight.com/library/courses/javascript-arrays-objects/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-arrays-objects/exercise-files),
     - [Strings and Regular Expressions in JavaScript](https://app.pluralsight.com/library/courses/javascript-strings-regular-expressions/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-strings-regular-expressions/exercise-files),
     - [Functions in JavaScript](https://app.pluralsight.com/library/courses/functions-javascript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/functions-javascript/exercise-files),
@@ -245,11 +245,10 @@ Some useful tools & libraries:
 - General:
   - [Prettier](https://prettier.io/),
 - JavaScript:
-  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
+  - [MDN Web Docs for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
   - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
-  - [ESLint](https://eslint.org/),
   - [Can I Use?](https://caniuse.com/),
-  - [David Tucker: JavaScript Fundamentals Links](https://davidtucker.net/blog/javascript-fundamentals-resources/#1),
+  - [ESLint](https://eslint.org/),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
 - Node.js:
