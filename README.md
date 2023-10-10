@@ -249,6 +249,7 @@ Some useful tools & libraries:
   - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
   - [ESLint](https://eslint.org/),
   - [Can I Use?](https://caniuse.com/),
+  - [David Tucker: JavaScript Fundamentals Links](https://davidtucker.net/blog/javascript-fundamentals-resources/#1),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
 - Node.js:
