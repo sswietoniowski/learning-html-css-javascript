@@ -34,3 +34,14 @@ console.timeEnd('Hello');
 Multiline comment
 
 */
+
+/**
+ * Documentation &configuration comment: This is a function that greets a person.
+ *
+ * @param {string} name - The name of the person
+ * @return {string} The hello message
+ */
+function greet(name) {
+  console.log('Hello ' + name);
+  return 'Hello ' + name;
+}
