@@ -35,11 +35,12 @@ console.log(greeting); // undefined
 greeting = 'Hello';
 console.log(greeting); // Hello
 
-// Variable naming rules
+// Variable naming rules:
 // letters, numbers, _, $
 // Can not start with a number
 //var 1name = 'test'; // SyntaxError
 //var name-one = 'test'; // SyntaxError
+// Names are case sensitive
 // Camel Case
 var firstName = 'John';
 // Pascal Case used for class names
