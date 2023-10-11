@@ -7,17 +7,27 @@
 
 // string
 const name = 'string';
-// number
+// number -> 64 bit floating point, IEEE 754 standard, like double in Java/C#
 let age = 5;
 age = 5.5;
 // bigInt (ES2020)
 const bigInt = 1234567890123456789012345678901234567890n; // n at the end
+bigInt.add(1n);
+console.log(bigInt);
 // boolean
 const hasKids = true;
 // null
 const car = null; // typeof null is object (wrong!)
 // undefined
 let sex = undefined; // no value assigned
+/*
+
+In JavaScript undefined and null both represent something without
+a value but for different use cases. If you define a variable but don't
+assign a value, the value is undefined. If you want something to not
+have a value, you can assign it to null.
+
+*/
 // symbol (ES6)
 let id = Symbol('symbol'); // unique
 
@@ -41,16 +51,50 @@ const myFunction = () => {
 let birthDate = new Date();
 // class instances
 class Person {
+  // constructor
   constructor(name) {
     this.name = name;
   }
 
+  // public method
   sayHello() {
     console.log(`Hello ${this.name}`);
+  }
+
+  // static initialization block
+  static {
+    console.log('static init');
+  }
+
+  // static method
+  static sayHelloStatic() {
+    console.log('Hello static');
+  }
+
+  // private field
+  #privateField = 'private field'; // by convention starts with #
+
+  // private method
+  #privateMethod() {
+    console.log(this.#privateField);
   }
 }
 let person1 = new Person('John');
 person1.sayHello();
+// inheritance
+class Employee extends Person {
+  constructor(name, salary) {
+    super(name);
+    this.salary = salary;
+  }
+
+  // this method overrides the parent method (is "virtual" in C#)
+  sayHello() {
+    console.log(`Hello ${this.name} with salary ${this.salary}`);
+  }
+}
+let employee = new Employee('Bob', 1000);
+employee.sayHello();
 // collection types: arrays, maps, sets, weakMaps, weakSets
 let numbers = [1, 2, 3];
 let array = new Array();
