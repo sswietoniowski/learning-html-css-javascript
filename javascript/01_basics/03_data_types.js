@@ -16,8 +16,7 @@ console.log(Number.MAX_VALUE);
 console.log(Number.MIN_VALUE);
 // bigInt (ES2020)
 const bigInt = 1_234_567_890_123_456_789_012_345_678_901_234_567_890n; // n at the end, we can use _ for better readability
-bigInt.add(1n);
-console.log(bigInt);
+console.log(bigInt + 1n);
 // boolean
 const hasKids = true; // or false
 // null
@@ -138,7 +137,7 @@ async function myAsyncFunction() {
   const result = await promise;
   console.log(result);
 }
-await myAsyncFunction();
+// await myAsyncFunction();
 // Print different types
 console.log(typeof name);
 console.log(typeof age);
@@ -187,6 +186,13 @@ console.log((3.141592654).toFixed(2)); // works only with numbers
 val = Number(true); // 1 (true), 0 (false), null (0), 'hello' (NaN), [1, 2, 3] (NaN), {name: 'John'} (NaN)
 val = parseInt('100'); // parseFloat()
 console.log(val);
+// Locale
+// working with locales and i18n
+val = parseFloat('100.30');
+console.log(Intl.NumberFormat('pl-PL').format(val));
+console.log(
+  Intl.NumberFormat('en-US', { style: 'currency', currency: 'PLN' }).format(val)
+);
 
 // Type Coersion
 const val1 = 5;
@@ -194,3 +200,33 @@ const val2 = '6';
 const sum = val1 + val2; // string + number => string, number + string => string
 console.log(sum);
 console.log(typeof sum);
+
+/*
+JSON (JavaScript Object Notation)
+Data format used for asynchronous browser/server communication
+Lightweight text-based format
+Easy to read
+Used for serialization and transmission of data between the network the network connection
+Independent programming language and platform
+Is a subset of JavaScript object literal notation
+Is language independent
+Is "self-describing" and easy to understand
+Uses JavaScript syntax, but the JSON format is text only
+*/
+
+let p = {
+  name: 'John',
+  age: 30,
+  favoriteColors: ['red', 'blue', 'green'],
+};
+
+let pAsJSON =
+  '{"name": "John", "age": 30, "favoriteColors": ["red", "blue", "green"]}';
+
+// convert to JSON
+let personJSON = JSON.stringify(p);
+console.log(personJSON);
+
+// convert back to object
+let personObject = JSON.parse(p);
+console.log(personObject);
