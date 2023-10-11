@@ -10,12 +10,16 @@ const name = 'string';
 // number -> 64 bit floating point, IEEE 754 standard, like double in Java/C#
 let age = 5;
 age = 5.5;
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
 // bigInt (ES2020)
-const bigInt = 1234567890123456789012345678901234567890n; // n at the end
+const bigInt = 1_234_567_890_123_456_789_012_345_678_901_234_567_890n; // n at the end, we can use _ for better readability
 bigInt.add(1n);
 console.log(bigInt);
 // boolean
-const hasKids = true;
+const hasKids = true; // or false
 // null
 const car = null; // typeof null is object (wrong!)
 // undefined
@@ -43,12 +47,25 @@ let person = {
 };
 console.log(person);
 person.name = 'Bob';
+// alternative syntax
+person['name'] = 'Bob';
+// add property
+person.address = 'Warsaw';
+// delete property
+delete person.name;
+console.log(person);
+// we can create an object differently
+let person2 = new Object();
+person2.name = 'John';
+console.log(person2);
 // functions
 const myFunction = () => {
   console.log('function');
 };
 // dates
 let birthDate = new Date();
+console.log(birthDate);
+console.log(birthDate.getFullYear());
 // class instances
 class Person {
   // constructor
