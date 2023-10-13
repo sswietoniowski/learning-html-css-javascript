@@ -12,7 +12,9 @@ if (id == 100) {
   console.log('id < 100');
 }
 
+// standard comparison operator:
 // == compares the value, but not the types
+// strict comparison operator (recommended):
 // === compares the value and the type (preferable)
 
 id = '100';

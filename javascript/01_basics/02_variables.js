@@ -74,6 +74,8 @@ console.log(numbers);
 // Global Scope
 var a = 1;
 let b = 2;
+b++;
+++b;
 const c = 3;
 
 console.log('Global scope: ', a, b, c);
