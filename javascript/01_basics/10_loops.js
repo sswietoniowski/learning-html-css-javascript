@@ -15,7 +15,8 @@ while (i < 10) {
 }
 
 console.log('Basic do while loop');
-do {
+// we can label loops, but it is not recommended
+outer: do {
   i++;
 
   console.log(i);
@@ -25,6 +26,12 @@ do {
 
   if (i % 9 === 0) {
     break;
+  }
+
+  for (j = 0; j < 30; j++) {
+    if (j % 10 === 0) {
+      continue outer; // continue the outer loop
+    }
   }
 } while (i < 20);
 
