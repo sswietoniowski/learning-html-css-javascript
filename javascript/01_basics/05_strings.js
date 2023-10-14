@@ -1,5 +1,5 @@
 const firstName = 'John';
-const lastName = 'Smith';
+const lastName = 'Smith'; // we can use ' or " for strings
 
 let val;
 // Concatenation
@@ -22,8 +22,19 @@ console.log(val.split(' '));
 console.log(val.replace(' ', '|'));
 console.log(val.includes('John')); // tests whether a string contains another string
 
-// String interpolation
+// String interpolation with template literals
 console.log(`${firstName} ${lastName}`); // ES6, but compatible with all modern browsers
+
+// Multi-line strings
+let bio = 'Line1\nLine2\nLine3'; // \n is a new line character, example of escape characters: \', \", \\, \n, \t
+console.log(bio);
+// Template literals can be used for multi-line strings
+bio = `
+  Line1
+  Line2
+  Line3
+`;
+console.log(bio);
 
 /* 
 Have the function SymmetricTree(strArr) take the array of strings stored in strArr, which 

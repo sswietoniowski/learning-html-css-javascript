@@ -22,7 +22,7 @@ console.log(bigInt + 1n);
 // boolean
 const hasKids = true; // or false
 // null
-const car = null; // typeof null is object (wrong!)
+const car = null; // typeof null is object (wrong!): https://2ality.com/2013/10/typeof-null.html
 // undefined
 let sex = undefined; // no value assigned
 /*
@@ -35,6 +35,26 @@ have a value, you can assign it to null.
 */
 // symbol (ES6)
 let id = Symbol('symbol'); // unique
+
+/*
+
+All primitive types except null and undefined have object wrappers:
+
+String
+Number
+BigInt
+Boolean
+
+These wrappers provide additional functionality to primitive types.
+
+Example (methods):
+
+let s = 'test';
+console.log(s.length); // 4
+let s = new String('test');
+console.log(s.length); // 4
+
+*/
 
 // Reference data types
 // stored on heap
@@ -64,9 +84,15 @@ const myFunction = () => {
   console.log('function');
 };
 // dates
-let birthDate = new Date();
-console.log(birthDate);
+let birthDate = new Date(); // current date and time in UTC (Universal Time Coordinated)
 console.log(birthDate.getFullYear());
+// normally dates are created with a specific timezones, to create a date in UTC:
+let utcDate = new Date(Date.UTC(2020, 0, 1, 0, 0, 0));
+console.log(utcDate);
+// to convert local date to UTC:
+console.log(birthDate.toUTCString());
+// to convert UTC date to local:
+console.log(utcDate.toLocaleString());
 // class instances
 class Person {
   // constructor
@@ -111,6 +137,15 @@ class Employee extends Person {
     console.log(`Hello ${this.name} with salary ${this.salary}`);
   }
 }
+/*
+
+Even though current class syntax looks like classical inheritance, it is not. It is still prototypal inheritance.
+Which means that classes are just syntactic sugar over prototypes.
+
+Prototype is an object that is associated with every functions and objects by default in JavaScript, where function's
+prototype property is accessible and modifiable and object's prototype property (aka attribute) is not visible.
+
+*/
 let employee = new Employee('Bob', 1000);
 employee.sayHello();
 // collection types: arrays, maps, sets, weakMaps, weakSets
