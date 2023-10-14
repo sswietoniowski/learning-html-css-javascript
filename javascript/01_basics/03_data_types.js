@@ -203,7 +203,6 @@ console.log(val.length);
 
 // Boolean to string
 val = String(true);
-// val = val.toString();
 console.log(val);
 console.log(typeof val);
 console.log(val.length);
@@ -219,6 +218,9 @@ console.log(val);
 console.log(typeof val);
 console.log(val.length);
 console.log((3.141592654).toFixed(2)); // works only with numbers
+const nonNumber = Number('forty-three'); // NaN (Not a Number) because it is not a number
+let isInvalid = Number.isNaN(nonNumber); // check if value is NaN
+console.log(isInvalid);
 // some other examples
 val = Number(true); // 1 (true), 0 (false), null (0), 'hello' (NaN), [1, 2, 3] (NaN), {name: 'John'} (NaN)
 val = parseInt('100'); // parseFloat()
@@ -263,7 +265,18 @@ let pAsJSON =
 // convert to JSON
 let personJSON = JSON.stringify(p);
 console.log(personJSON);
+// convert to JSON with indentation
+let personJSONIndent = JSON.stringify(p, null, 2);
+console.log(personJSONIndent);
 
 // convert back to object
 let personObject = JSON.parse(pAsJSON);
 console.log(personObject);
+// convert back to object with reviver function
+let personObjectReviver = JSON.parse(pAsJSON, (key, value) => {
+  if (key === 'age') {
+    return value + 10;
+  }
+  return value;
+});
+console.log(personObjectReviver);
