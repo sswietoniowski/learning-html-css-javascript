@@ -54,7 +54,7 @@ const grade = 'A';
 switch (grade) {
   case 'A':
     console.log('Excellent');
-    break;
+    break; // break is important & required, otherwise it will continue to the next case
   case 'B':
     console.log('Good');
     break;
