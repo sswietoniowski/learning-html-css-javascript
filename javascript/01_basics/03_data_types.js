@@ -4,6 +4,7 @@
 // Primitive data types
 // stored on stack
 // passed by value
+// JS uses Garbage Collector to free memory automatically (that is the memory allocated on the heap)
 
 // string
 const name = 'string';
