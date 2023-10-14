@@ -68,3 +68,8 @@ switch (grade) {
     console.log('Invalid');
     break;
 }
+
+// falsy values:
+// false, 0, '', null, undefined, NaN
+// truthy values:
+// everything else
