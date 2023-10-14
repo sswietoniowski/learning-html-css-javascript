@@ -12,6 +12,25 @@ const name = 'string';
 // number -> 64 bit floating point, IEEE 754 standard, like double in Java/C#
 let age = 5;
 age = 5.5;
+// for numbers we've got some mathematical operators:
+let x = 5;
+let y = 2;
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y); // integer division
+console.log(x % y); // modulo
+console.log(x ** y); // power
+x++; // increment
+x--; // decrement
+// we can also use assignment operators:
+x += 5;
+x -= 5;
+x *= 5;
+x /= 5;
+x %= 5;
+x **= 5;
+// there are also some predefined constants:
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MIN_SAFE_INTEGER);
 console.log(Number.MAX_VALUE);
