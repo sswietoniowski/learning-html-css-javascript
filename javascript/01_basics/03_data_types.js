@@ -232,6 +232,7 @@ console.log(Intl.NumberFormat('pl-PL').format(val));
 console.log(
   Intl.NumberFormat('en-US', { style: 'currency', currency: 'PLN' }).format(val)
 );
+console.log(Number(5).toLocaleString('pl-PL')); // 5,00
 
 // Type Coersion
 const val1 = 5;
@@ -257,6 +258,7 @@ let p = {
   name: 'John',
   age: 30,
   favoriteColors: ['red', 'blue', 'green'],
+  birthDate: new Date('1990-01-01'),
 };
 
 let pAsJSON =
@@ -273,9 +275,12 @@ console.log(personJSONIndent);
 let personObject = JSON.parse(pAsJSON);
 console.log(personObject);
 // convert back to object with reviver function
-let personObjectReviver = JSON.parse(pAsJSON, (key, value) => {
+let personObjectReviver = JSON.parse(personJSON, (key, value) => {
   if (key === 'age') {
     return value + 10;
+  } else if (key === 'birthDate') {
+    // this way we can restore Date object
+    return new Date(value);
   }
   return value;
 });
