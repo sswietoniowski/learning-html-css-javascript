@@ -265,5 +265,5 @@ let personJSON = JSON.stringify(p);
 console.log(personJSON);
 
 // convert back to object
-let personObject = JSON.parse(p);
+let personObject = JSON.parse(pAsJSON);
 console.log(personObject);
