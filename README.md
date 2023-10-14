@@ -16,19 +16,20 @@ This repository contains the following sub-directories:
 Based on these (free) courses:
 
 - HTML:
-  - ✅ 🎥 [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
+  - 🎥 [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
 - CSS:
-  - ✅ 🎥 [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
+  - 🎥 [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - TailwindCSS:
-    - ✅ 🎥 [Learn TailwindCSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
+    - 🎥 [Learn TailwindCSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
     - ✅ 🎥 [Ultimate TailwindCSS Tutorial - Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
-  - ✅ 🎥 [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
+  - 🎥 [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
   - ✅ 🎥 [The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI),
+  - 🎥 [Bun Tutorial – JavaScript Runtime (Node.js Alternative) - Full Course](https://youtu.be/eTB0UCDnMQo?si=IxMy-rCn3jlGMkLJ),
 - TypeScript:
-  - ✅ 🎥 [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
-  - ✅ 🎥 [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
-  - ✅ 🎥 [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
+  - 🎥 [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
+  - 🎥 [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
+  - 🎥 [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
   - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) :+1:,
   - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
