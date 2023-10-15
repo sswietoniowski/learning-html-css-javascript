@@ -1,7 +1,12 @@
+import dotenv from 'dotenv';
+
+dotenv.config({ path: `.env.local`, override: true });
+
 // Currency data ---------------------------------------------------------
 
 export const getCurrencyConversionData = async () => {
   const headers = new Headers();
+
   headers.append('apikey', process.env.API_KEY);
   const options = {
     method: 'GET',
