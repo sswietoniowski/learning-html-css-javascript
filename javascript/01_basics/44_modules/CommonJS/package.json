@@ -7,5 +7,10 @@
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+    "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
 }
