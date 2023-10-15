@@ -48,3 +48,11 @@ const promise4 = fetch('https://jsonplaceholder.typicode.com/users').then(
 Promise.all([promise1, promise2, promise3, promise4]).then((values) =>
   console.log(values)
 );
+
+Promise.any([promise1, promise2, promise3, promise4]).then((values) =>
+  console.log(values)
+);
+
+Promise.race([promise1, promise2, promise3, promise4]).then((values) =>
+  console.log(values)
+);
