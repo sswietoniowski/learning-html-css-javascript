@@ -56,3 +56,15 @@ Promise.any([promise1, promise2, promise3, promise4]).then((values) =>
 Promise.race([promise1, promise2, promise3, promise4]).then((values) =>
   console.log(values)
 );
+
+// Event Emitter
+
+// import { EventEmitter } from 'events';
+
+// const myEmitter = new EventEmitter();
+
+// myEmitter.on('event', () => {
+//   console.log('Event fired');
+// });
+
+// myEmitter.emit('event');
