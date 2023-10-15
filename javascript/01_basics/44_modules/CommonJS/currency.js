@@ -1,6 +1,8 @@
+require('dotenv').config({ path: `.env.local`, override: true });
+
 // Currency data ---------------------------------------------------------
 
-export const getCurrencyConversionData = async () => {
+const getCurrencyConversionData = async () => {
   const headers = new Headers();
   headers.append('apikey', process.env.API_KEY);
   const options = {
@@ -18,7 +20,7 @@ export const getCurrencyConversionData = async () => {
   return await response.json();
 };
 
-export const getSalary = (amountUSD, currency, currencyData) => {
+const getSalary = (amountUSD, currency, currencyData) => {
   const amount =
     currency === 'USD' ? amountUSD : amountUSD * currencyData.rates[currency];
   const formatter = Intl.NumberFormat('en-US', {
@@ -27,3 +29,8 @@ export const getSalary = (amountUSD, currency, currencyData) => {
   });
   return formatter.format(amount);
 };
+
+// Exported functions ----------------------------------------------------
+
+module.exports.getCurrencyConversionData = getCurrencyConversionData;
+module.exports.getSalary = getSalary;

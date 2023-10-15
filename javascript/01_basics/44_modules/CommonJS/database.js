@@ -1,5 +1,5 @@
-import sqlite3 from 'sqlite3';
-import { open } from 'sqlite';
+const sqlite3 = require('sqlite3');
+const { open } = require('sqlite');
 
 const createTable = async (db) => {
   let query = `CREATE TABLE IF NOT EXISTS employees (
@@ -32,7 +32,7 @@ const closeConnection = async (db) => {
   }
 };
 
-export const getAllEmployees = async () => {
+const getAllEmployees = async () => {
   const db = await getConnection();
   const rows = await db.all(`SELECT * FROM employees`);
   const employees = rows.map((r) => {
@@ -43,7 +43,7 @@ export const getAllEmployees = async () => {
   return employees;
 };
 
-export const insertEmployee = async (employee) => {
+const insertEmployee = async (employee) => {
   const insertQuery = `INSERT INTO employees (
     id,
     email,
@@ -71,3 +71,8 @@ export const insertEmployee = async (employee) => {
   await closeConnection();
   return;
 };
+
+// Exported functions ----------------------------------------------------
+
+module.exports.getAllEmployees = getAllEmployees;
+module.exports.insertEmployee = insertEmployee;
