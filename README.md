@@ -255,6 +255,9 @@ Some useful tools & libraries:
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - [Express](https://expressjs.com/),
+  - [NPM](https://www.npmjs.com/),
+  - [YARN](https://v3.yarnpkg.com/),
+  - [PNPM](https://pnpm.io/),
 - React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
