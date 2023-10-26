@@ -30,12 +30,13 @@ Based on these (free) courses:
   - 🎥 [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
   - 🎥 [TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://youtu.be/BwuLxPH8IDs),
   - 🎥 [Learn TypeScript – Full Tutorial](https://youtu.be/30LWjhZzg50),
-  - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) :+1:,
-  - [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
+  - 📖 [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) :+1:,
+  - 📖 [Setting up Webpack for any Typescript project from Scratch](https://gist.github.com/rupeshtiwari/e7235addd5f52dc3e449672c4d8b88d5),
 - Node.js:
-  - [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
-  - [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
-  - [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8),
+  - 🎥 [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
+  - 📖 [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
+  - 🎥 [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8),
+  - 📖 [NVM for Windows – How to Download and Install Node Version Manager in Windows 10](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/),
 - React:
   - [React](https://react.dev/),
   - [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html),
