@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@types/leaflet": "^1.9.6",
+    "@types/leaflet": "^1.9.8",
     "@types/uuid": "^9.0.7",
     "firebase": "^10.7.1",
     "leaflet": "^1.9.4",
