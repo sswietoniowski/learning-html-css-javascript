@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 16px;
+    float: left;
+    width: 100%;
+}
+
+#textarea {
+    font-size: 16px;
+    padding: 16px;
+    border: 1px solid black;
+    width: 100%; max-width: 100%;
+    height: 100px;
+}
+
+button {
+    margin-top: 16px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 2px solid lightcoral;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: lightcoral;
+    color: white;
+}

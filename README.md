@@ -9,7 +9,8 @@ This repository contains the following sub-directories:
 - [css](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/css) the CSS examples,
 - [html](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/html) the HTML examples,
 - [javascript](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/javascript) the JavaScript examples,
-- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) demo projects created using aforementioned technologies & more :-).
+- [projects](https://github.com/sswietoniowski/learning-html-and-css-and-javascript/tree/master/projects) demo projects created using aforementioned technologies & more :-),
+- [hyperskill] my solutions to [Hyperskill](https://hyperskill.org) projects from the [Frontend Developer](https://hyperskill.org/tracks/5) track.
 
 ## Learning Resources
 
