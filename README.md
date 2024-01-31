@@ -1,6 +1,6 @@
 # Learning HTML & CSS & JavaScript
 
-This repository contains numerous examples helping to grasp concepts related to: HTML, CSS, JavaScript and other technologies.
+This repository contains numerous examples that help to grasp concepts related to HTML, CSS, JavaScript, and other web technologies.
 
 ## Repository Contents
 
@@ -184,20 +184,20 @@ Also used these (paid) courses & books:
   - [Web Development with Node and Express, 2nd Edition](https://learning.oreilly.com/library/view/web-development-with/9781492053507/) [📁](https://github.com/EthanRBrown/web-development-with-node-and-express-2e),
   - [Distributed Systems with Node.js](https://learning.oreilly.com/library/view/distributed-systems-with/9781492077282/) [:file_folder:](https://github.com/tlhunter/distributed-node),
 - React:
-  - _[React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
-  - _[React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
-  - _[React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/)_ [:file_folder:](https://github.com/packtpublishing/react-front-to-back) [Gist](https://gist.github.com/bradtraversy):
-    - _[Feedback App](https://github.com/bradtraversy/feedback-app)_ :+1:,
-    - _[GitHub Finder App](https://github.com/bradtraversy/github-finder-app)_ :+1:,
-    - _[House Marketplace](https://github.com/bradtraversy/house-marketplace)_ [Gist](https://gist.github.com/bradtraversy/caab8ebd8ff4b6e947632887e0183761) :+1:,
-    - _[Support Desk](https://github.com/bradtraversy/support-desk)_ :+1:,
-  - _[Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
+  - ✅ 🎥 [React: The Big Picture](https://app.pluralsight.com/library/courses/react-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-big-picture/exercise-files) :+1:,
+  - ✅ 🎥 [React 17: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-js-getting-started/exercise-files) :+1:,
+  - ✅ 🎥 [React Front to Back 2022](https://learning.oreilly.com/videos/react-front-to/9781838645274/) [:file_folder:](https://github.com/packtpublishing/react-front-to-back) [Gist](https://gist.github.com/bradtraversy):
+    - ✅ [Feedback App](https://github.com/bradtraversy/feedback-app) :+1:,
+    - ✅ [GitHub Finder App](https://github.com/bradtraversy/github-finder-app) :+1:,
+    - ✅ [House Marketplace](https://github.com/bradtraversy/house-marketplace) [Gist](https://gist.github.com/bradtraversy/caab8ebd8ff4b6e947632887e0183761) :+1:,
+    - ✅ [Support Desk](https://github.com/bradtraversy/support-desk) :+1:,
+  - ✅ 🎥 [Designing React 17 Components](https://app.pluralsight.com/library/courses/react-components-designing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-designing/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-designing-react-components-course-code) :+1:,
   - [Managing React State](https://app.pluralsight.com/library/courses/react-state-managing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-state-managing/exercise-files),
   - [Styling React Components](https://app.pluralsight.com/library/courses/react-components-styling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-components-styling/exercise-files),
   - [Optimize Performance for React](https://app.pluralsight.com/library/courses/optimize-performance-react/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/optimize-performance-react/exercise-files),
-  - _[Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files)_ :+1:,
+  - ✅ 🎥 [Choosing a React Framework](https://app.pluralsight.com/library/courses/react-framework-choosing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-framework-choosing/exercise-files) :+1:,
   - [What’s New in React 18](https://app.pluralsight.com/library/courses/react-18-whats-new/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-whats-new/exercise-files) [:file_folder:](https://github.com/pkellner/pluralsight-whats-new-in-react18),
-  - _[React 18: The Big Picture](https://app.pluralsight.com/library/courses/react-18-big-picture/table-of-contents)_ [:file_folder:](https://app.pluralsight.com/library/courses/react-18-big-picture/exercise-files),
+  - ✅ 🎥 [React 18: The Big Picture](https://app.pluralsight.com/library/courses/react-18-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-big-picture/exercise-files),
   - [React 18 Fundamentals](https://app.pluralsight.com/library/courses/react-18-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-fundamentals/exercise-files),
   - [Working with Components in React 18](https://app.pluralsight.com/library/courses/react-18-working-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-working-components/exercise-files),
   - [Using Hooks in React 18](https://app.pluralsight.com/library/courses/react-18-using-hooks/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-18-using-hooks/exercise-files),
