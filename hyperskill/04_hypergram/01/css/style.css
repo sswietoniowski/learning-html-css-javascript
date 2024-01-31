@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #fff;
+    --canvas-color: #fff;
+    --menu-color: steelblue;
+    --button-light-color: tan;
+    --button-dark-color: slateblue;
+}
+
+body {
+    font-family: Dosis, sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#hidden-file-input {
+    display: none;
+}
