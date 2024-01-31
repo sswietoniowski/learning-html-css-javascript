@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .quizArea {
+        }
+
+        .title {
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            color: darkgray;
+            background: lightgray;
+            padding: 10px 20px;
+            font-size: 30px;
+            border-radius: 30px;
+            display: block;
+            width: fit-content;
+            margin: auto;
+            font-family: Arial, serif;
+        }
+
+        .cards {
+            margin: auto;
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 30%;
+            height: 30%;
+            margin: 10px;
+            position: relative;
+        }
+
+        .card-front, .card-back {
+            border-radius: 10px;
+            padding: 10px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, serif;
+            font-size: 20px;
+            position: absolute;
+        }
+
+        .card-front {
+            color: sandybrown;
+            background: lightgoldenrodyellow;
+            z-index: 2;
+            backface-visibility: hidden;
+        }
+
+        .card-back {
+            color: lightgoldenrodyellow;
+            background: sandybrown;
+            z-index: 1;
+            transform: rotateY(180deg);
+        }
+
+        .card:hover {
+            transform: rotateY(180deg);
+            transition: all 1s linear;
+            transform-style: preserve-3d;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quizArea">
+        <h1 class="title">What is the capital of...</h1>
+        <div class="cards">
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Poland</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Warsaw</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Czech Republic</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Prague</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Germany</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Berlin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Slovakia</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Bratislava</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Ukraine</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Kiev</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Belarus</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Minsk</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Lithuania</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Vilnius</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Russia</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Moscow</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="card-front">
+                        <p class="question">Sweden</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="question">Stockholm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
