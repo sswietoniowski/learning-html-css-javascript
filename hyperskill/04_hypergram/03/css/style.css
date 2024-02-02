@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: black;
+    --container-color: #36151E;
+    --text-color: #A5C4D4;
+    --menu-color: #593F62;
+    --canvas-color: #8499B1;
+    --button-color: #7B6D8D;
+}
+
+body {
+    font-family: Dosis, sans-serif;
+    line-height: 1.4;
+    color: var(--text-color);
+    background-color: var(--container-color);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    background-color: var(--container-color);
+    display: flex;
+}
+
+.canvas {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--canvas-color);
+    padding: 10px;
+}
+
+.menu {
+    background-color: var(--menu-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.btn {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.canvas img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+input, button, label {
+    display: block;
+}
