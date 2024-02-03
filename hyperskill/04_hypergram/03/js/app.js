@@ -32,41 +32,54 @@ window.onload = function() {
         reader.readAsDataURL(file);
     });
 
-    brightnessSlider.addEventListener('input', function() {
+    brightnessSlider.addEventListener('change', function() {
         applyFilters();
     });
 
-    contrastSlider.addEventListener('input', function() {
+    contrastSlider.addEventListener('change', function() {
         applyFilters();
     });
 
-    transparentSlider.addEventListener('input', function() {
+    transparentSlider.addEventListener('change', function() {
         applyFilters();
     });
 
-    function applyFilters() {
+    function applyFilters(){
         if (!imgData) return;
 
-        const brightness = brightnessSlider.value;
-        const contrast = contrastSlider.value;
-        const transparency = transparentSlider.value;
+        const brightness = parseInt(brightnessSlider.value);
+        const contrast = parseInt(contrastSlider.value);
+        const transparency = parseFloat(transparentSlider.value);
+
         const contrastFactor = (259 * (contrast + 255)) / (255 * (259 - contrast));
 
         const newData = new ImageData(new Uint8ClampedArray(imgData.data), imgData.width, imgData.height);
 
         for (let i = 0; i < newData.data.length; i += 4) {
+            let r = newData.data[i];
+            let g = newData.data[i + 1];
+            let b = newData.data[i + 2];
+            let a = newData.data[i + 3];
+
             // Apply contrast
-            newData.data[i] = truncate(contrastFactor * (newData.data[i] - 128) + 128);
-            newData.data[i + 1] = truncate(contrastFactor * (newData.data[i + 1] - 128) + 128);
-            newData.data[i + 2] = truncate(contrastFactor * (newData.data[i + 2] - 128) + 128);
+            r = contrastFactor * (r - 128) + 128;
+            g = contrastFactor * (g - 128) + 128;
+            b = contrastFactor * (b - 128) + 128;
 
             // Apply brightness
-            newData.data[i] = truncate(newData.data[i] + brightness);
-            newData.data[i + 1] = truncate(newData.data[i + 1] + brightness);
-            newData.data[i + 2] = truncate(newData.data[i + 2] + brightness);
+            r = truncate(r + brightness);
+            g = truncate(g + brightness);
+            b = truncate(b + brightness);
 
             // Apply transparency
-            newData.data[i + 3] = newData.data[i + 3] * transparency;
+            if (transparency !== 1) {
+                a = truncate(a * transparency);
+            }
+
+            newData.data[i] = r;
+            newData.data[i + 1] = g;
+            newData.data[i + 2] = b;
+            newData.data[i + 3] = a;
         }
 
         ctx.putImageData(newData, 0, 0);
