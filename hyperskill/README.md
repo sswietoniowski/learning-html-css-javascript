@@ -10,4 +10,4 @@
 | [Hypergram](./04_hypergram)                  | Medium      | Completed[^1] |
 | [Minesweeper (JavaScript)](./05_minesweeper) | Challenging | In Progress   |
 
-[^1]: The project is completed (as per the requirements) but there is no way to pass the tests on the Hyperskill platform due to the error in the tests themselves, at the same time you can run the project locally and see that it works as expected.
+[^1]: The project is completed (as per the requirements) but there is no way to pass the tests for the last stage on the Hyperskill platform due to the error in the tests themselves, at the same time you can run the project locally and see that it works as expected.
