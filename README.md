@@ -93,7 +93,8 @@ Based on these (free) courses:
   - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI),
   - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
   - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
-  - _[FIGMA for DEVS? New VS Code Plugin?!?](https://youtu.be/MiwSUfyHgRE)_.
+  - _[FIGMA for DEVS? New VS Code Plugin?!?](https://youtu.be/MiwSUfyHgRE)_,
+  - 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course).
 
 Also used these (paid) courses & books:
 
