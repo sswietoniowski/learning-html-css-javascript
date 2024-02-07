@@ -87,6 +87,7 @@ Based on these (free) courses:
 - Others:
   - [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer?action=enroll&irclickid=x5l0X4xG%3AxyPU-e1nL0Kt3wLUkFwdOzxFTn3Xk0&irgwc=1&utm_campaign=3552395&utm_content=b2c&utm_medium=partners&utm_source=impact),
   - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
+  - [Web Development In 2024 - A Practical Guide](https://youtu.be/8sXRyHI3bLw?si=GIClkpP19lBkHvNv),
   - [Learn Vite – Frontend Build Tool Course](https://youtu.be/VAeRhmpcWEQ),
   - [How to use Prettier in VS Code](https://www.robinwieruch.de/how-to-use-prettier-vscode/),
   - [A Visual IDE for React?!? The Future of Web Development](https://youtu.be/cKfevf-iIHA),
