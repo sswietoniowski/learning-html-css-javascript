@@ -64,6 +64,7 @@ Based on these (free) courses:
   - [Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners](https://youtu.be/mJ3bGvy0WAY),
   - [Complete MERN Beginner Course [2023] (TypeScript, Authentication, Deployment...)](https://youtu.be/FcxjCPeicvU),
   - [NextJS Full Beginner Course [2023]](https://youtu.be/e1EIwuO-Dlo),
+  - [The Most Efficient Next.JS 14 Beginner Tutorial (TypeScript, App Router, React Server Components)](https://youtu.be/fqfer6xMp2A?si=FLLj1Hfc9js9kmmm),
   - [T3 Stack Tutorial - FROM 0 TO PROD (Next.js, tRPC, TypeScript, Tailwind, Prisma & More)](https://youtu.be/YkOSUVzOAA4),
   - _[The always-recent guide to creating a development environment for Node and React (with Babel and Webpack)](https://jscomplete.com/learn/1rd-reactful)_ :+1:,
   - _[Create React App without Create React App](https://blog.bitsrc.io/create-react-app-without-create-react-app-b0a5806a92)_ :+1:,
