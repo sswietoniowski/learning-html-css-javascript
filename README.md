@@ -115,6 +115,7 @@ Also used these (paid) courses & books:
     - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
     - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
 - JavaScript:
+  - ✅ 📖 [Hyperskill: JavaScript Core](https://hyperskill.org/tracks/65) 👍,
   - Pluralsight - JavaScript 2022 Path:
     - ✅ 🎥 [Javascript: The Big Picture](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/javascript-big-picture/exercise-files),
     - ✅ [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-javascript/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/fundamentals-javascript/exercise-files) [:file_folder:](https://davidtucker.net/blog/javascript-fundamentals-resources/#1),
