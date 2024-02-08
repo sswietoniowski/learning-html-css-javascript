@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hypergram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="canvas">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="menu">
+        <button id="upload-button" class="btn btn-dark">Upload File</button>
+        <input type="file" name="file-input" id="file-input">
+        <input type="range" name="brightness" id="brightness">
+        <input type="range" name="contrast" id="contrast">
+        <input type="range" name="transparent" id="transparent">
+        <button id="save-button" class="btn btn-dark">Save Image</button>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

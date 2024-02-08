@@ -1,0 +1,111 @@
+.space {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("https://stepik.org/media/attachments/lesson/452681/space.png") repeat center center;
+    z-index: 1;
+}
+
+.planet-area {
+    position: absolute;
+    height: 30vmin;
+    width: 30vmin;
+    bottom: 0;
+    left: 0;
+}
+
+.planet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.rocket {
+    position: absolute;
+    bottom: 110%;
+    left: 110%;
+    transform: rotate(35deg) scale(0.3);
+    z-index: 2;
+}
+
+.control-panel {
+    position: absolute;
+    top: 50vh;
+    right: 20vw;
+    padding: 20px;
+    background: repeating-linear-gradient(
+            45deg,
+            yellow,
+            yellow 10px,
+            black 10px,
+            black 20px
+    );
+}
+
+.control-panel__inner {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: black;
+}
+
+.password-button {
+    color: white;
+    background: black;
+    border: yellow 2px solid;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+
+.ok-button {
+    color: black;
+    background: yellow;
+    border-radius: 5px;
+}
+
+.check-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.levers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+input[type=range][orient=vertical] {
+    appearance: slider-vertical;
+    width: 8px;
+    height: 64px;
+    padding: 0 5px;
+}
+
+.launch-button {
+    color: white;
+    background: red;
+    border: white 2px solid;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.launch-button:enabled:hover {
+    border: yellow 2px solid;
+}
+
+.launch-button:enabled:active {
+    color: black;
+    background: yellow;
+}

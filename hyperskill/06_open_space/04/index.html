@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+<div class="space">
+    <div class="planet-area">
+        <img class="planet" alt="" src="https://stepik.org/media/attachments/lesson/452681/mars.png"/>
+        <img class="rocket" alt="" src="https://stepik.org/media/attachments/lesson/452681/rocket.png"/>
+    </div>
+    <div class="control-panel">
+        <div class="control-panel__inner">
+            <input type="password" class="password-button" placeholder="Enter password to unlock" id="password">
+            <input type="button" value="ok" class="ok-button" id="ok-button">
+            <div class="check-buttons">
+                <input type="button" value=" " class="check-button">
+                <input type="button" value=" " class="check-button">
+                <input type="button" value=" " class="check-button">
+                <input type="button" value=" " class="check-button">
+                <input type="button" value=" " class="check-button">
+                <input type="button" value=" " class="check-button">
+            </div>
+            <div class="levers">
+                <input type="range" orient="vertical" class="lever" min="0" max="100" value="50">
+                <input type="range" orient="vertical" class="lever" min="0" max="100" value="50">
+                <input type="range" orient="vertical" class="lever" min="0" max="100" value="50">
+                <input type="range" orient="vertical" class="lever" min="0" max="100" value="50">
+                <input type="range" orient="vertical" class="lever" min="0" max="100" value="50">
+            </div>
+            <input type="button" class="launch-button" value="Launch" id="launch-button">
+        </div>
+    </div>
+</div>
+</body>
+</html>

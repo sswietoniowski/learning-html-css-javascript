@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Converter</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="title">Case Converter</div>
+    <div class="text">
+        <label for="textarea"></label>
+        <textarea id="textarea" onkeyup="adjustHeight(this)"></textarea>
+    </div>
+    <div class="buttons">
+        <button id="upper-case" onclick="upperCase()">Upper Case</button>
+        <button id="lower-case" onclick="lowerCase()">Lower Case</button>
+        <button id="proper-case" onclick="properCase()">Proper Case</button>
+        <button id="sentence-case" onclick="sentenceCase()">Sentence Case</button>
+        <button id="save-text-file" onclick="saveTextFile()">Save Text File</button>
+    </div>
+    <script>
+        const element = document.getElementById("textarea");
+
+        const upperCase = () => {
+            element.value = element.value.toUpperCase();
+        }
+        const lowerCase = () => {
+            element.value = element.value.toLowerCase();
+        }
+
+        String.prototype.toProperCase = function() {
+            return this.replace(
+                /\w\S*/g,
+                word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()
+            );
+        }
+
+        const properCase = () => {
+            element.value = element.value.toProperCase();
+        }
+
+        String.prototype.toSentenceCase = function() {
+            return this.toLowerCase().replace(
+                /(^\w|\.\s*\w)/gi,
+                firstLetterOfASentence => firstLetterOfASentence.toUpperCase()
+            );
+        }
+
+        const sentenceCase = () => {
+            element.value = element.value.toSentenceCase();
+        }
+
+        const download = (filename, text) => {
+            let element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        const saveTextFile = () => {
+            const textFileName = "text.txt";
+            download(textFileName, element.value);
+        }
+
+        const adjustHeight = (element) => {
+            element.style.height = "25px";
+            element.style.height = (element.scrollHeight) + "px";
+        }
+    </script>
+</body>
+</html>
