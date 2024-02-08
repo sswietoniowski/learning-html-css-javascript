@@ -10,7 +10,7 @@ This repository contains the following sub-directories:
 - [html](./html) the HTML examples,
 - [javascript](./javascript) the JavaScript examples,
 - [projects](./projects) demo projects created using aforementioned technologies & more :-),
-- [hyperskill](./hyperskill/) my solutions to [Hyperskill](https://hyperskill.org) projects from the [Frontend Developer](https://hyperskill.org/tracks/5) track.
+- [hyperskill](./hyperskill/) my solutions to [Hyperskill](https://hyperskill.org) projects from different tracks.
 
 ## Learning Resources
 
