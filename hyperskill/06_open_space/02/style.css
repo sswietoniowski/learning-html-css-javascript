@@ -1,0 +1,78 @@
+.space {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("https://stepik.org/media/attachments/lesson/452681/space.png") repeat center center;
+    z-index: 1;
+}
+
+.planet-area {
+    position: absolute;
+    height: 30vmin;
+    width: 30vmin;
+    bottom: 0;
+    left: 0;
+}
+
+.planet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.rocket {
+    position: absolute;
+    bottom: 110%;
+    left: 110%;
+    transform: rotate(35deg) scale(0.3);
+    z-index: 2;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60vh;
+    right: 20vw;
+    background: black;
+    padding: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.check-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.levers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+input[type=range][orient=vertical] {
+    appearance: slider-vertical;
+    width: 8px;
+    height: 64px;
+    padding: 0 5px;
+}
+
+.launch-button {
+    background: red;
+}
