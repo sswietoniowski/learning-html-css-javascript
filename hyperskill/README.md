@@ -25,3 +25,5 @@ My [certificate](https://hyperskill.org/certificates/062a6479-a287-4220-9f0a-312
 | Project                           | Level       | Status      |
 | --------------------------------- | ----------- | ----------- |
 | [Dog Glossary](./07_dog_glossary) | Challenging | In Progress |
+
+There are no certificates for this track yet.
