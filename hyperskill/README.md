@@ -32,6 +32,6 @@ There are no certificates for this track yet.
 
 [My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [JavaScript Core](https://hyperskill.org/tracks/32) track.
 
-| Project                                       | Level  | Status      |
-| --------------------------------------------- | ------ | ----------- |
-| [Chalkboard Printer](./08_chalkboard_printer) | Medium | In Progress |
+| Project                                       | Level  | Status    |
+| --------------------------------------------- | ------ | --------- |
+| [Chalkboard Printer](./08_chalkboard_printer) | Medium | Completed |
