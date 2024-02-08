@@ -32,7 +32,9 @@ There are no certificates for this track yet.
 
 [My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [JavaScript Core](https://hyperskill.org/tracks/32) track.
 
-| Project                                       | Level  | Status      |
-| --------------------------------------------- | ------ | ----------- |
-| [Chalkboard Printer](./08_chalkboard_printer) | Medium | Completed   |
-| [Hangman (JavaScript)](./09_hangman)          | Hard   | In Progress |
+| Project                                       | Level  | Status    |
+| --------------------------------------------- | ------ | --------- |
+| [Chalkboard Printer](./08_chalkboard_printer) | Medium | Completed |
+| [Hangman (JavaScript)](./09_hangman)          | Hard   | Completed |
+
+My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1cb141ca51.pdf) of completion the track.
