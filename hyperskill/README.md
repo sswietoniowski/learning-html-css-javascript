@@ -43,9 +43,10 @@ My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1
 
 [My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [Introduction to HTML and CSS](https://hyperskill.org/tracks/34) track.
 
-| Project                                  | Level | Status    |
-| ---------------------------------------- | ----- | --------- |
-| [Flashcards (Frontend)](./02_flashcards) | Hard  | Completed |
-| [Hyperblog HTML](./10_hyperblog_html)    | Easy  | Completed |
+| Project                                  | Level       | Status      |
+| ---------------------------------------- | ----------- | ----------- |
+| [Flashcards (Frontend)](./02_flashcards) | Hard        | Completed   |
+| [Hyperblog HTML](./10_hyperblog_html)    | Easy        | Completed   |
+| [Petbook](./11_petbook)                  | Challenging | In Progress |
 
 There are no certificates for this track yet.
