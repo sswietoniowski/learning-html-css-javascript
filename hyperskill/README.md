@@ -27,3 +27,25 @@ My [certificate](https://hyperskill.org/certificates/062a6479-a287-4220-9f0a-312
 | [Dog Glossary](./07_dog_glossary) | Challenging | Completed |
 
 There are no certificates for this track yet.
+
+## Introduction to JavaScript Track
+
+[My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [JavaScript Core](https://hyperskill.org/tracks/32) track.
+
+| Project                                       | Level  | Status    |
+| --------------------------------------------- | ------ | --------- |
+| [Chalkboard Printer](./08_chalkboard_printer) | Medium | Completed |
+| [Hangman (JavaScript)](./09_hangman)          | Hard   | Completed |
+
+My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1cb141ca51.pdf) of completion the track.
+
+## Introduction to HTML and CSS Track
+
+[My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [Introduction to HTML and CSS](https://hyperskill.org/tracks/34) track.
+
+| Project                                  | Level | Status      |
+| ---------------------------------------- | ----- | ----------- |
+| [Flashcards (Frontend)](./02_flashcards) | Hard  | Completed   |
+| [Hyperblog HTML](./10_hyperblog_html)    | Easy  | In Progress |
+
+There are no certificates for this track yet.
