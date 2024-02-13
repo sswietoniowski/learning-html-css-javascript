@@ -48,5 +48,6 @@ My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1
 | [Flashcards (Frontend)](./02_flashcards) | Hard        | Completed   |
 | [Hyperblog HTML](./10_hyperblog_html)    | Easy        | Completed   |
 | [Petbook](./11_petbook)                  | Challenging | In Progress |
+| [Amazing Prices](./12_amazing_prices)    | Challenging | In Progress |
 
 There are no certificates for this track yet.
