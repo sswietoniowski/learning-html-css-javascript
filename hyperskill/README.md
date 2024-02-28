@@ -14,9 +14,9 @@
 | [Open Space](./06_open_space)                | Hard        | Completed            |
 
 [^1]: The project is completed (as per the requirements) but there is no way to pass the tests for the last stage on the Hyperskill platform due to the error in the tests themselves, at the same time you can run the project locally and see that it works as expected.
-[^2]: The project is partially solved (first two stages), the game works as expected but there is no way to pass the tests for the 3rd stage on the Hyperskill platform due to the error (?) in the tests themselves. I decided to move on to the next project - time is to precious to waste it, but at the same time I've added functionality to the game that was not required by the project description, so I consider it as partially solved.
+[^2]: The project is partially solved (first two stages), the game works as expected but there is no way to pass the tests for the 3rd stage on the Hyperskill platform due to the error (?) in the tests themselves. I decided to move on to the next project - time is too precious to waste, but at the same time I've added functionality to the game that was not required by the project description, so I consider it as partially solved.
 
-My [certificate](https://hyperskill.org/certificates/062a6479-a287-4220-9f0a-312d10233c68.pdf) of completion the track.
+My [certificate](https://hyperskill.org/certificates/062a6479-a287-4220-9f0a-312d10233c68.pdf) of completion of the track.
 
 ## JavaScript Core Track
 
@@ -37,7 +37,7 @@ There are no certificates for this track yet.
 | [Chalkboard Printer](./08_chalkboard_printer) | Medium | Completed |
 | [Hangman (JavaScript)](./09_hangman)          | Hard   | Completed |
 
-My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1cb141ca51.pdf) of completion the track.
+My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1cb141ca51.pdf) of completion of the track.
 
 ## Introduction to HTML and CSS Track
 
@@ -51,3 +51,15 @@ My [certificate](https://hyperskill.org/certificates/e4756834-a763-4bf1-9cf4-3e1
 | [Amazing Prices](./12_amazing_prices)    | Challenging | In Progress |
 
 There are no certificates for this track yet.
+
+## Essential Skills for Backend Developers
+
+[My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [Essential Skills for Backend Developers](https://hyperskill.org/tracks/50) track.
+
+| Project               | Level       | Status    |
+| --------------------- | ----------- | --------- |
+| [Gitman](./13_gitman) | Easy        | Completed |
+| [Remo](./14_remo)     | Easy        | Completed |
+| [Dolly](./15_dolly)   | Challenging | Completed |
+
+My [certificate](https://hyperskill.org/certificates/2d7f557a-0541-4721-92a5-d1d35c1c2033.pdf) of completion of the track.
