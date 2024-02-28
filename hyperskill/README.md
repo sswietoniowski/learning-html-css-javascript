@@ -64,12 +64,3 @@ There are no certificates for this track yet.
 
 My [certificate](https://hyperskill.org/certificates/2d7f557a-0541-4721-92a5-d1d35c1c2033.pdf) of completion of the track.
 
-## SQL for Backend Developers Track
-
-[My](https://hyperskill.org/profile/7889902) solutions to [Hyperskill](https://hyperskill.org) projects from the [SQL for Backend Developers](https://hyperskill.org/tracks/40) track.
-
-| Project                                                       | Level | Status      |
-| ------------------------------------------------------------- | ----- | ----------- |
-| [Electronics Store Customer](./16_electronics_store_customer) | Easy  | In Progress |
-
-My [certificate](TODO:) of completion of the track.
