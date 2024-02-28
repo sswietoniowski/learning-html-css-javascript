@@ -25,7 +25,7 @@ Based on these (free) courses:
     - ✅ 🎥 [Ultimate TailwindCSS Tutorial - Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
   - 🎥 [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
-  - ✅ 🎥 [The Official JavaScript Tier List is Here](https://youtu.be/vdiYtiKD8eI),
+  - ✅ 🎥 [JavaScript Framework Tier List](https://youtu.be/WJRf7dh5Zws?si=_s7eytqI0Yyhiv8l),
   - 🎥 [Bun Tutorial – JavaScript Runtime (Node.js Alternative) - Full Course](https://youtu.be/eTB0UCDnMQo?si=IxMy-rCn3jlGMkLJ),
 - TypeScript:
   - 🎥 [TypeScript - The Basics](https://youtu.be/ahCwqrYpIuM),
