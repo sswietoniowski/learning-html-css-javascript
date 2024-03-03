@@ -241,7 +241,7 @@ Also used these (paid) courses & books:
   - 📖 [Blazor WebAssembly By Example - Second Edition](https://learning.oreilly.com/library/view/blazor-webassembly-by/9781803241852/) [:file_folder:](https://github.com/PacktPublishing/Blazor-WebAssembly-by-Example-Second-Edition),
   - 📖 [Mastering Blazor WebAssembly](https://learning.oreilly.com/library/view/mastering-blazor-webassembly/9781803235103/) [:file_folder:](https://github.com/PacktPublishing/Mastering-Blazor-WebAssembly),
   - 📖 [Architecting ASP.NET Core Applications - Third Edition](https://learning.oreilly.com/library/view/architecting-asp-net-core/9781805123385/) [:file_folder:](https://github.com/PacktPublishing/An-Atypical-ASP.NET-Core-6-Design-Patterns-Guide),
-  - 🎥 [Pluralsight - ASP.NET Core 6 Blazor](https://app.pluralsight.com/paths/skills/aspnet-core-6-blazor):
+  - 🎥 [Pluralsight - ASP.NET Core 6 Blazor Path](https://app.pluralsight.com/paths/skills/aspnet-core-6-blazor):
     - ✅ 🎥 [ASP.NET Core: Big Picture](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-big-picture/exercise-files),
     - 🎥 [ASP.NET Core 6 Blazor Fundamentals](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-fundamentals/exercise-files),
     - 🎥 [Debugging in ASP.NET Core 6 Blazor](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-debugging/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-debugging/exercise-files),
