@@ -233,13 +233,30 @@ Also used these (paid) courses & books:
   - [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
   - [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
   - [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
+- Vue:
+  - [Pluralsight - Vue Path](https://app.pluralsight.com/paths/skill/vue-3):
+    - [Vue 3: The Big Picture](https://app.pluralsight.com/library/courses/vue-3-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-big-picture/exercise-files),
+    - [Vue 3 Fundamentals](https://app.pluralsight.com/library/courses/vue-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-fundamentals/exercise-files),
+    - [Vue 3 Tooling](https://app.pluralsight.com/library/courses/vue-3-tooling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-tooling/exercise-files),
+    - [Vue 3 Router](https://app.pluralsight.com/library/courses/vue-3-router/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-router/exercise-files),
+    - [Vue 3 Forms](https://app.pluralsight.com/library/courses/vue-3-forms/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-forms/exercise-files),
+    - [Vue 3 Authentication and Authorization](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/exercise-files),
+    - [Secure Coding in Vue 3](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/exercise-files),
+    - [Vue 3 Animations](https://app.pluralsight.com/library/courses/vue-3-animations/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-animations/exercise-files),
+    - [Vue 3 Internationalization](https://app.pluralsight.com/library/courses/vue-3-internationalization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-internationalization/exercise-files),
+    - [Vue 3 State Management with Pinia](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/exercise-files),
+    - [Vue 3 Testing with Vitest](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/exercise-files),
+    - [Vue 3 End-to-end Testing with Cypress](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/exercise-files),
+    - [Deploying Static Applications with Vue 3](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/exercise-files),
+    - [Vue 3 Playbook](https://app.pluralsight.com/library/courses/vue-3-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-playbook/exercise-files),
 - Others:
   - ✅ 📖 [Hyperskill: Frontend Developer](https://hyperskill.org/tracks/5) 👍,
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
   - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
-  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files).
+  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
+  - [Svelte: Getting Started](https://app.pluralsight.com/library/courses/svelte-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/svelte-getting-started/exercise-files).
 
 This is (sort of) continuation of these project(-s):
 
