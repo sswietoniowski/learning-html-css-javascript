@@ -85,6 +85,7 @@ Based on these (free) courses:
   - [JavaScript Reducer (origin React/Redux)](https://www.robinwieruch.de/javascript-reducer/),
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
+  - [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=qYEApzJRGOT6no2r) [📁](https://github.com/bradtraversy/react-19-playground),
 - Others:
   - [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer?action=enroll&irclickid=x5l0X4xG%3AxyPU-e1nL0Kt3wLUkFwdOzxFTn3Xk0&irgwc=1&utm_campaign=3552395&utm_content=b2c&utm_medium=partners&utm_source=impact),
   - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
