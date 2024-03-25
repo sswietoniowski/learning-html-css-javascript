@@ -97,8 +97,6 @@ Based on these (free) courses:
   - 🎥 [FULL Introduction To HTMX Using Golang](https://youtu.be/x7v6SNIgJpE?si=JQ7Eex0ZZccCXYMJ),
   - ✅ 🎥 [HTMX - What they don't want you to know!](https://youtu.be/nNtELewCaD4?si=O4OV9zZjEgV72hv2),
   - ✅ 🎥 [The Most Important Lesson From HTMX](https://youtu.be/f2wYvIVWR6M?si=ApkFILHmajlMOTus),
-  - ✅ 🎥 [HTMX IS INSECURE (XSS) | Prime News](https://youtu.be/j5LPDuFRDP0?si=E4QS2F_JKm0W6SPn),
-  - ✅ 🎥 [The case against htmx](https://youtu.be/1xKa4vxon_8?si=YAem9ZZbuVKRpuHY),
 - Others:
   - [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer?action=enroll&irclickid=x5l0X4xG%3AxyPU-e1nL0Kt3wLUkFwdOzxFTn3Xk0&irgwc=1&utm_campaign=3552395&utm_content=b2c&utm_medium=partners&utm_source=impact),
   - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
