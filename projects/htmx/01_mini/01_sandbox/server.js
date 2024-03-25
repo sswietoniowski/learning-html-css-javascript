@@ -2,11 +2,13 @@ import express from 'express';
 import xss from 'xss';
 import dotenv from 'dotenv';
 import csurf from 'csurf';
+import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 
 const app = express();
 
-app.use(csurf());
+app.use(csurf({ cookie: true }));
+app.use(cookieParser());
 app.use(helmet({ hidePoweredBy: true }));
 
 app.use(express.static('public'));

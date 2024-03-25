@@ -11,6 +11,7 @@
   "author": "Sławomir Świętoniowski",
   "license": "MIT",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "csurf": "^1.11.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
