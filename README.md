@@ -232,24 +232,23 @@ Also used these (paid) courses & books:
   - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
   - [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
   - [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
-- Blazor:
-  - 📖 [Web Development with Blazor - Second Edition](https://learning.oreilly.com/library/view/web-development-with/9781803241494/) [:file_folder:](https://github.com/PacktPublishing/Web-Development-with-Blazor-Second-Edition),
-  - 📖 [Blazor WebAssembly By Example - Second Edition](https://learning.oreilly.com/library/view/blazor-webassembly-by/9781803241852/) [:file_folder:](https://github.com/PacktPublishing/Blazor-WebAssembly-by-Example-Second-Edition),
-  - 📖 [Mastering Blazor WebAssembly](https://learning.oreilly.com/library/view/mastering-blazor-webassembly/9781803235103/) [:file_folder:](https://github.com/PacktPublishing/Mastering-Blazor-WebAssembly),
-  - 📖 [Architecting ASP.NET Core Applications - Third Edition](https://learning.oreilly.com/library/view/architecting-asp-net-core/9781805123385/) [:file_folder:](https://github.com/PacktPublishing/An-Atypical-ASP.NET-Core-6-Design-Patterns-Guide),
-  - 🎥 [Pluralsight - ASP.NET Core 6 Blazor Path](https://app.pluralsight.com/paths/skills/aspnet-core-6-blazor):
-    - ✅ 🎥 [ASP.NET Core: Big Picture](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-big-picture/exercise-files),
-    - 🎥 [ASP.NET Core 6 Blazor Fundamentals](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-fundamentals/exercise-files),
-    - 🎥 [Debugging in ASP.NET Core 6 Blazor](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-debugging/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-debugging/exercise-files),
-    - 🎥 [Creating Components in ASP.NET Core Blazor](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-creating-components/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-creating-components/exercise-files),
-    - 🎥 [JavaScript Interop in ASP.NET Core Blazor](https://app.pluralsight.com/library/courses/asp-dot-net-core-blazor-javascript-interop/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-blazor-javascript-interop/exercise-files),
-    - 🎥 [Building a Data-driven ASP.NET Core 6 Blazor Server Application with EF Core](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-ef-core-server-application-data-driven/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-ef-core-server-application-data-driven/exercise-files),
-    - 🎥 [Unit Testing in ASP.NET Core 6 Blazor](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-unit-testing/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-unit-testing/exercise-files),
-    - 🎥 [Building a PWA with ASP.NET Core 6 Blazor](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-building-pwa/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/aspdotnet-core-6-blazor-building-pwa/exercise-files),
-    - 🎥 [Deploying ASP.NET Core 6 Blazor Applications to Azure](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-deploying-blazor-applications-azure/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-deploying-blazor-applications-azure/exercise-files),
-    - 🎥 [Building Blazor Hybrid Apps](https://app.pluralsight.com/library/courses/blazor-hybrid-apps-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/blazor-hybrid-apps-building/exercise-files),
-    - 🎥 [Building Enterprise ASP.NET Core 6 Blazor Applications](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-applications-building-enterprise/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/asp-dot-net-core-6-blazor-applications-building-enterprise/exercise-files),
   - [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
+- Vue:
+  - [Pluralsight - Vue Path](https://app.pluralsight.com/paths/skill/vue-3):
+    - [Vue 3: The Big Picture](https://app.pluralsight.com/library/courses/vue-3-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-big-picture/exercise-files),
+    - [Vue 3 Fundamentals](https://app.pluralsight.com/library/courses/vue-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-fundamentals/exercise-files),
+    - [Vue 3 Tooling](https://app.pluralsight.com/library/courses/vue-3-tooling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-tooling/exercise-files),
+    - [Vue 3 Router](https://app.pluralsight.com/library/courses/vue-3-router/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-router/exercise-files),
+    - [Vue 3 Forms](https://app.pluralsight.com/library/courses/vue-3-forms/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-forms/exercise-files),
+    - [Vue 3 Authentication and Authorization](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/exercise-files),
+    - [Secure Coding in Vue 3](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/exercise-files),
+    - [Vue 3 Animations](https://app.pluralsight.com/library/courses/vue-3-animations/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-animations/exercise-files),
+    - [Vue 3 Internationalization](https://app.pluralsight.com/library/courses/vue-3-internationalization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-internationalization/exercise-files),
+    - [Vue 3 State Management with Pinia](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/exercise-files),
+    - [Vue 3 Testing with Vitest](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/exercise-files),
+    - [Vue 3 End-to-end Testing with Cypress](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/exercise-files),
+    - [Deploying Static Applications with Vue 3](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/exercise-files),
+    - [Vue 3 Playbook](https://app.pluralsight.com/library/courses/vue-3-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-playbook/exercise-files),
 - Blazor:
   - 📖 [Web Development with Blazor - Second Edition](https://learning.oreilly.com/library/view/web-development-with/9781803241494/) [:file_folder:](https://github.com/PacktPublishing/Web-Development-with-Blazor-Second-Edition),
   - 📖 [Blazor WebAssembly By Example - Second Edition](https://learning.oreilly.com/library/view/blazor-webassembly-by/9781803241852/) [:file_folder:](https://github.com/PacktPublishing/Blazor-WebAssembly-by-Example-Second-Edition),
@@ -273,7 +272,8 @@ Also used these (paid) courses & books:
   - [Babel: Get Started](https://app.pluralsight.com/library/courses/babel-get-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/babel-get-started/exercise-files),
   - [Webpack 5 Fundamentals](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/webpack-5-fundamentals/exercise-files),
   - [User Experience: The Big Picture](https://app.pluralsight.com/library/courses/ux-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/ux-big-picture/exercise-files),
-  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files).
+  - [Figma: Getting Started](https://app.pluralsight.com/library/courses/figma-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/figma-getting-started/exercise-files),
+  - [Svelte: Getting Started](https://app.pluralsight.com/library/courses/svelte-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/svelte-getting-started/exercise-files).
 
 This is (sort of) continuation of these project(-s):
 
