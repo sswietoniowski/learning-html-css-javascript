@@ -87,11 +87,10 @@ Based on these (free) courses:
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
   - [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=qYEApzJRGOT6no2r) [📁](https://github.com/bradtraversy/react-19-playground),
 - HTMX:
-  - ✅ 📖 **[</> htmx](https://htmx.org/)** [:file_folder:](https://github.com/bigskysoftware/htmx),
   - 📖 [Hypermedia Systems](https://hypermedia.systems/book/contents/),
   - 📖 [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/),
-  - 📖 [What is HTMX? Why it Matters? and How to use it](https://dev.to/alexmercedcoder/what-is-htmx-why-it-matters-and-how-to-use-it-10h3),
-  - 📖 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react),
+  - ✅ 📖 [What is HTMX? Why it Matters? and How to use it](https://dev.to/alexmercedcoder/what-is-htmx-why-it-matters-and-how-to-use-it-10h3),
+  - ✅ 📖 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react),
   - ✅ 🎥 [HTMX For React Developers in 10 Minutes](https://youtu.be/r0XBULqzsT0?si=cE1iqMG_6iqeuWA6),
   - 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course),
   - 🎥 [FULL Introduction To HTMX Using Golang](https://youtu.be/x7v6SNIgJpE?si=JQ7Eex0ZZccCXYMJ),
@@ -312,6 +311,9 @@ Some useful tools & libraries:
   - [Recharts](https://recharts.org/en-US/),
   - [React Native](https://reactnative.dev/),
   - [Expo](https://github.com/expo/expo),
+- HTMX:
+  - [</> htmx](https://htmx.org/) [:file_folder:](https://github.com/bigskysoftware/htmx),
+  - [mustache.js](https://github.com/janl/mustache.js),
 - Others:
   - [Webpack](https://webpack.js.org/),
   - [Babel](https://babeljs.io/),
