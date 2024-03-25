@@ -1,0 +1,21 @@
+{
+  "name": "01_sandbox",
+  "version": "1.0.0",
+  "description": "This is a simple demo of the basic features of the HTMX",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Sławomir Świętoniowski",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
