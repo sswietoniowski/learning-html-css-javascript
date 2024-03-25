@@ -249,6 +249,22 @@ Also used these (paid) courses & books:
     - [Vue 3 End-to-end Testing with Cypress](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/exercise-files),
     - [Deploying Static Applications with Vue 3](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/exercise-files),
     - [Vue 3 Playbook](https://app.pluralsight.com/library/courses/vue-3-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-playbook/exercise-files),
+- Vue:
+  - [Pluralsight - Vue Path](https://app.pluralsight.com/paths/skill/vue-3):
+    - [Vue 3: The Big Picture](https://app.pluralsight.com/library/courses/vue-3-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-big-picture/exercise-files),
+    - [Vue 3 Fundamentals](https://app.pluralsight.com/library/courses/vue-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-fundamentals/exercise-files),
+    - [Vue 3 Tooling](https://app.pluralsight.com/library/courses/vue-3-tooling/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-tooling/exercise-files),
+    - [Vue 3 Router](https://app.pluralsight.com/library/courses/vue-3-router/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-router/exercise-files),
+    - [Vue 3 Forms](https://app.pluralsight.com/library/courses/vue-3-forms/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-forms/exercise-files),
+    - [Vue 3 Authentication and Authorization](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-authentication-authorization/exercise-files),
+    - [Secure Coding in Vue 3](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/exercise-files),
+    - [Vue 3 Animations](https://app.pluralsight.com/library/courses/vue-3-animations/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-animations/exercise-files),
+    - [Vue 3 Internationalization](https://app.pluralsight.com/library/courses/vue-3-internationalization/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-internationalization/exercise-files),
+    - [Vue 3 State Management with Pinia](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/exercise-files),
+    - [Vue 3 Testing with Vitest](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-testing-vitest/exercise-files),
+    - [Vue 3 End-to-end Testing with Cypress](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-end-to-end-testing-cypress/exercise-files),
+    - [Deploying Static Applications with Vue 3](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-deploying-static-applications/exercise-files),
+    - [Vue 3 Playbook](https://app.pluralsight.com/library/courses/vue-3-playbook/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-playbook/exercise-files),
 - Others:
   - ✅ 📖 [Hyperskill: Frontend Developer](https://hyperskill.org/tracks/5) 👍,
   - [ANF: Architektura Na Froncie](https://edu.devstyle.pl/products/anf-architektura-na-froncie),
