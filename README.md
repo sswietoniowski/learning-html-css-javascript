@@ -86,6 +86,17 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
   - [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=qYEApzJRGOT6no2r) [📁](https://github.com/bradtraversy/react-19-playground),
+- HTMX:
+  - 📖 **[htmx](https://htmx.org/)**,
+  - 📖 [What is HTMX? Why it Matters? and How to use it](https://dev.to/alexmercedcoder/what-is-htmx-why-it-matters-and-how-to-use-it-10h3),
+  - 📖 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react),
+  - 🎥 [HTMX For React Developers in 10 Minutes](https://youtu.be/r0XBULqzsT0?si=cE1iqMG_6iqeuWA6),
+  - 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course),
+  - 🎥 [FULL Introduction To HTMX Using Golang](https://youtu.be/x7v6SNIgJpE?si=JQ7Eex0ZZccCXYMJ),
+  - 🎥 [HTMX - What they don't want you to know!](https://youtu.be/nNtELewCaD4?si=O4OV9zZjEgV72hv2),
+  - 🎥 [The Most Important Lesson From HTMX](https://youtu.be/f2wYvIVWR6M?si=ApkFILHmajlMOTus),
+  - 🎥 [HTMX IS INSECURE (XSS) | Prime News](https://youtu.be/j5LPDuFRDP0?si=E4QS2F_JKm0W6SPn),
+  - 🎥 [The case against htmx](https://youtu.be/1xKa4vxon_8?si=YAem9ZZbuVKRpuHY),
 - Others:
   - [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer?action=enroll&irclickid=x5l0X4xG%3AxyPU-e1nL0Kt3wLUkFwdOzxFTn3Xk0&irgwc=1&utm_campaign=3552395&utm_content=b2c&utm_medium=partners&utm_source=impact),
   - _[Web Development In 2023 - A Practical Guide](https://youtu.be/u72H_zZzkcw)_,
@@ -97,8 +108,7 @@ Based on these (free) courses:
   - [Coding Shorts: Using Vite in ASP.NET Core Projects](https://youtu.be/NG3KAng2mAI),
   - [How to Use HTML to Open a Link in a New Tab](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
   - [Reverse Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing),
-  - _[FIGMA for DEVS? New VS Code Plugin?!?](https://youtu.be/MiwSUfyHgRE)_,
-  - 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course).
+  - _[FIGMA for DEVS? New VS Code Plugin?!?](https://youtu.be/MiwSUfyHgRE)_.
 
 Also used these (paid) courses & books:
 
