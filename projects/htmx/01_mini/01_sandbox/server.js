@@ -5,17 +5,21 @@ import csurf from 'csurf';
 import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 
+dotenv.config();
+
 const app = express();
 
-app.use(csurf({ cookie: true }));
-app.use(cookieParser());
+app.use(urlencoded({ extended: false }));
+app.use(cookieParser('cookie-parser-secret'));
+sessionSecret = process.env.SESSION_SECRET || 'keyboard cat';
+app.use(session({ secret: sessionSecret }));
+csrfSecret = process.env.CSRF_SECRET || '123456789iamasecret987654321look';
+app.use(csurf(csrfSecret['POST']));
+
 app.use(helmet({ hidePoweredBy: true }));
 
 app.use(express.static('public'));
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-dotenv.config();
 
 const port = process.env.PORT || 3000;
 
