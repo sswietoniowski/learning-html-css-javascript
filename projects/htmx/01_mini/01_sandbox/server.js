@@ -11,9 +11,9 @@ const app = express();
 
 app.use(urlencoded({ extended: false }));
 app.use(cookieParser('cookie-parser-secret'));
-sessionSecret = process.env.SESSION_SECRET || 'keyboard cat';
+sessionSecret = process.env.SESSION_SECRET;
 app.use(session({ secret: sessionSecret }));
-csrfSecret = process.env.CSRF_SECRET || '123456789iamasecret987654321look';
+csrfSecret = process.env.CSRF_SECRET;
 app.use(csurf(csrfSecret['POST']));
 
 app.use(helmet({ hidePoweredBy: true }));
