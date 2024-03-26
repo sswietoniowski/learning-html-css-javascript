@@ -24,7 +24,7 @@ app.use(
   })
 );
 const csrfSecret = process.env.CSRF_SECRET;
-app.use(csurf(csrfSecret, ['POST'], ['/convert']));
+app.use(csurf(csrfSecret, ['POST'], ['/convert', '/search/api']));
 
 app.use(
   helmet({
@@ -101,6 +101,78 @@ let currentTemperature = 20;
 app.get('/get-temperature', (req, res) => {
   currentTemperature += Math.random() * 2 - 1; // Random temp change
   res.send(currentTemperature.toFixed(1) + '°C');
+});
+
+const contacts = [
+  { name: 'John Doe', email: 'john@example.com' },
+  { name: 'Jane Doe', email: 'jane@example.com' },
+  { name: 'Alice Smith', email: 'alice@example.com' },
+  { name: 'Bob Williams', email: 'bob@example.com' },
+  { name: 'Mary Harris', email: 'mary@example.com' },
+  { name: 'David Mitchell', email: 'david@example.com' },
+];
+
+app.post('/search', (req, res) => {
+  const searchTerm = req.body.search.toLowerCase();
+
+  if (!searchTerm) {
+    return res.send('<tr></tr>');
+  }
+
+  const searchResults = contacts.filter((contact) => {
+    const name = contact.name.toLowerCase();
+    const email = contact.email.toLowerCase();
+
+    return name.includes(searchTerm) || email.includes(searchTerm);
+  });
+
+  setTimeout(() => {
+    const searchResultHtml = searchResults
+      .map(
+        (contact) => `
+      <tr>
+        <td><div class="my-4 p-2">${contact.name}</div></td>
+        <td><div class="my-4 p-2">${contact.email}</div></td>
+      </tr>
+    `
+      )
+      .join('');
+
+    res.send(searchResultHtml);
+  }, 1000);
+});
+
+app.post('/search/api', async (req, res) => {
+  const searchTerm = req.body.search.toLowerCase();
+
+  if (!searchTerm) {
+    return res.send('<tr></tr>');
+  }
+
+  const response = await fetch(`https://jsonplaceholder.typicode.com/users`);
+  const contacts = await response.json();
+
+  const searchResults = contacts.filter((contact) => {
+    const name = contact.name.toLowerCase();
+    const email = contact.email.toLowerCase();
+
+    return name.includes(searchTerm) || email.includes(searchTerm);
+  });
+
+  setTimeout(() => {
+    const searchResultHtml = searchResults
+      .map(
+        (contact) => `
+      <tr>
+        <td><div class="my-4 p-2">${contact.name}</div></td>
+        <td><div class="my-4 p-2">${contact.email}</div></td>
+      </tr>
+    `
+      )
+      .join('');
+
+    res.send(searchResultHtml);
+  }, 1000);
 });
 
 const port = process.env.PORT || 3000;
