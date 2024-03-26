@@ -1,6 +1,6 @@
 # Sandbox
 
-This is a simple demo of the basic features of the **[HTMX](https://htmx.org/)**.
+This is a simple demo of the basic features of the **[HTMX](https://htmx.org/)** based on [this](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) tutorial.
 
 - [Sandbox](#sandbox)
   - [Features](#features)

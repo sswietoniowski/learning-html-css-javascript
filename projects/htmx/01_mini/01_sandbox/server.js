@@ -8,12 +8,13 @@ import helmet from 'helmet';
 
 dotenv.config();
 
+// deepcode ignore UseCsurfForExpress: protection configured in csurf
 const app = express();
 
 app.use(urlencoded({ extended: false }));
 app.use(cookieParser('cookie-parser-secret'));
 const sessionSecret = process.env.SESSION_SECRET;
-app.set('trust proxy', 1); // trust first proxy
+app.set('trust proxy', 1);
 app.use(
   session({
     secret: sessionSecret,
