@@ -88,6 +88,21 @@ app.post('/convert', (req, res) => {
   }, 2000);
 });
 
+app.get('/poll', (req, res) => {
+  counter++;
+
+  const data = { value: counter };
+
+  res.json(data);
+});
+
+let currentTemperature = 20;
+
+app.get('/get-temperature', (req, res) => {
+  currentTemperature += Math.random() * 2 - 1; // Random temp change
+  res.send(currentTemperature.toFixed(1) + '°C');
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
