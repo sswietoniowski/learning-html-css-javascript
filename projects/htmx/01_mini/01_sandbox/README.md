@@ -2,6 +2,21 @@
 
 This is a simple demo of the basic features of the **[HTMX](https://htmx.org/)**.
 
+- [Sandbox](#sandbox)
+  - [Features](#features)
+  - [Setup](#setup)
+
+## Features
+
+This application has the following features:
+
+- `request.html`: Simple example of how to trigger events, make requests, set targets, etc,
+- `temperature.html`: Simple temperature converter,
+- `polling.html`: Example of polling (making a request every x seconds) using a mock weather api,
+- `search.html`: A contact search widget,
+- `validation.html`: Inline validation example,
+- `profile.html`: Simple profile click-to-edit.
+
 ## Setup
 
 Install the dependencies:
