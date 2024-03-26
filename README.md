@@ -92,7 +92,7 @@ Based on these (free) courses:
   - ✅ 📖 [What is HTMX? Why it Matters? and How to use it](https://dev.to/alexmercedcoder/what-is-htmx-why-it-matters-and-how-to-use-it-10h3),
   - ✅ 📖 [A First Look at HTMX and How it Compares to React](https://www.builder.io/blog/htmx-vs-react),
   - ✅ 🎥 [HTMX For React Developers in 10 Minutes](https://youtu.be/r0XBULqzsT0?si=cE1iqMG_6iqeuWA6),
-  - 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course),
+  - ✅ 🎥 [HTMX Crash Course | Dynamic Pages Without Writing Any JavaScript](https://youtu.be/0UvA7zvwsmg?si=TNgKATP4pR-NufVH) [:file_folder:](https://github.com/bradtraversy/htmx-crash-course) :+1:,
   - 🎥 [FULL Introduction To HTMX Using Golang](https://youtu.be/x7v6SNIgJpE?si=JQ7Eex0ZZccCXYMJ),
   - ✅ 🎥 [HTMX - What they don't want you to know!](https://youtu.be/nNtELewCaD4?si=O4OV9zZjEgV72hv2),
   - ✅ 🎥 [The Most Important Lesson From HTMX](https://youtu.be/f2wYvIVWR6M?si=ApkFILHmajlMOTus),
