@@ -119,7 +119,7 @@ const contacts = [
 ];
 
 app.post('/search', (req, res) => {
-  const searchTerm = req.body.search.toLowerCase();
+  const searchTerm = xss(req.body.search.toLowerCase());
 
   if (!searchTerm) {
     return res.send('<tr></tr>');
@@ -149,7 +149,7 @@ app.post('/search', (req, res) => {
 });
 
 app.post('/search/api', async (req, res) => {
-  const searchTerm = req.body.search.toLowerCase();
+  const searchTerm = xss(req.body.search.toLowerCase());
 
   if (!searchTerm) {
     return res.send('<tr></tr>');
@@ -182,7 +182,7 @@ app.post('/search/api', async (req, res) => {
 });
 
 app.post('/contact/email', (req, res) => {
-  const submittedEmail = req.body.email;
+  const submittedEmail = xss(req.body.email);
   const emailRegex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
 
   const isValid = {
@@ -242,7 +242,7 @@ app.get('/profile/:id/edit', (req, res) => {
   const csrfToken = req.csrfToken();
 
   res.send(`
-  <div
+<div
   class="container mx-auto py-8 max-w-lg"
   hx-target="this"
   hx-swap="outerHTML"
@@ -268,14 +268,12 @@ app.get('/profile/:id/edit', (req, res) => {
   `);
 });
 
-// Handle PUT request for editing
 app.put('/profile/:id', (req, res) => {
   const name = xss(req.body.name);
   const bio = xss(req.body.bio);
 
-  // Send the updated profile back
   res.send(`
-  <div
+<div
   class="container mx-auto py-8 max-w-lg"
   hx-target="this"
   hx-swap="outerHTML"
