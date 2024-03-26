@@ -1,7 +1,8 @@
-import express from 'express';
+import express, { urlencoded } from 'express';
+import session from 'express-session';
 import xss from 'xss';
 import dotenv from 'dotenv';
-import csurf from 'csurf';
+import csurf from 'tiny-csrf';
 import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 
@@ -11,10 +12,18 @@ const app = express();
 
 app.use(urlencoded({ extended: false }));
 app.use(cookieParser('cookie-parser-secret'));
-sessionSecret = process.env.SESSION_SECRET;
-app.use(session({ secret: sessionSecret }));
-csrfSecret = process.env.CSRF_SECRET;
-app.use(csurf(csrfSecret['POST']));
+const sessionSecret = process.env.SESSION_SECRET;
+app.set('trust proxy', 1); // trust first proxy
+app.use(
+  session({
+    secret: sessionSecret,
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: true },
+  })
+);
+const csrfSecret = process.env.CSRF_SECRET;
+app.use(csurf(csrfSecret, ['POST']));
 
 app.use(helmet({ hidePoweredBy: true }));
 

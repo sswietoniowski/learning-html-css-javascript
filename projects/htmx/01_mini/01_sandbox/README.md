@@ -25,6 +25,14 @@ Install the dependencies:
 npm install
 ```
 
+Define the environment variables in a `.env` file:
+
+```bash
+PORT = 3000
+SESSION_SECRET = "keyboard cat"
+CSRF_SECRET = "123456789iamasecret987654321look"
+```
+
 Run the server:
 
 ```bash
