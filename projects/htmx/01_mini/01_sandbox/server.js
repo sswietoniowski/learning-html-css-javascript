@@ -24,7 +24,7 @@ app.use(
   })
 );
 const csrfSecret = process.env.CSRF_SECRET;
-app.use(csurf(csrfSecret, ['POST']));
+app.use(csurf(csrfSecret, ['POST'], ['/convert']));
 
 app.use(
   helmet({
@@ -72,6 +72,19 @@ app.get('/users', async (req, res) => {
       ${users.map((user) => `<li>${user.name}</li>`).join('')}
     </ul>
   `);
+  }, 2000);
+});
+
+app.post('/convert', (req, res) => {
+  setTimeout(() => {
+    const fahrenheit = parseFloat(req.body.fahrenheit);
+    const celsius = (fahrenheit - 32) * (5 / 9);
+
+    res.send(`
+      <p>
+        ${fahrenheit} degrees Farenheit is equal to ${celsius} degrees Celsius
+      </p>
+    `);
   }, 2000);
 });
 
