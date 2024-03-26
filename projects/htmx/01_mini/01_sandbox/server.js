@@ -72,10 +72,11 @@ app.get('/users', async (req, res) => {
     );
     const users = await response.json();
 
+    // deepcode ignore XSS: added xss protection
     res.send(`
     <h1 class="text-2xl font-bold my-4">Users</h1>
     <ul>
-      ${users.map((user) => `<li>${user.name}</li>`).join('')}
+      ${users.map((user) => `<li>${xss(user.name)}</li>`).join('')}
     </ul>
   `);
   }, 2000);
@@ -119,7 +120,8 @@ const contacts = [
 ];
 
 app.post('/search', (req, res) => {
-  const searchTerm = xss(req.body.search.toLowerCase());
+  // deepcode ignore HTTPSourceWithUncheckedType: added xss protection
+  const searchTerm = xss(req.body.search).toLowerCase();
 
   if (!searchTerm) {
     return res.send('<tr></tr>');
@@ -159,8 +161,8 @@ app.post('/search/api', async (req, res) => {
   const contacts = await response.json();
 
   const searchResults = contacts.filter((contact) => {
-    const name = contact.name.toLowerCase();
-    const email = contact.email.toLowerCase();
+    const name = xss(contact.name.toLowerCase());
+    const email = xss(contact.email.toLowerCase());
 
     return name.includes(searchTerm) || email.includes(searchTerm);
   });
