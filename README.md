@@ -172,6 +172,7 @@ Also used these (paid) courses & books:
 - Node.js:
   - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb) ▶️,
   - [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
+  - 📖 [Node.js Design Patterns - Third Edition](https://learning.oreilly.com/library/view/node-js-design-patterns/9781839214110/) [:file_folder:](https://github.com/PacktPublishing/Node.js-Design-Patterns-Third-Edition/),
   - [Pluralsight - Working with Node.js Path](https://app.pluralsight.com/paths/skills/working-with-nodejs):
     - ✅ 🎥 [Node.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nodejs-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-big-picture/exercise-files),
     - 🎥 [Node.js 12: Getting Started](https://app.pluralsight.com/library/courses/nodejs-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-getting-started/exercise-files),
