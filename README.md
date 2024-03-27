@@ -22,6 +22,7 @@ Based on these (free) courses:
   - 🎥 [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
   - TailwindCSS:
     - 🎥 [Learn TailwindCSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
+    - 🎥 [Coding Shorts: DaisyUI](https://youtu.be/TW9MQLjL1uw?si=3Qy2qMwHmWjUEUyL),
     - ✅ 🎥 [Ultimate TailwindCSS Tutorial - Build a Discord-inspired Animated Navbar](https://youtu.be/pfaSUYaSgRo),
 - JavaScript:
   - 🎥 [Learn JavaScript - Full Course for Beginners](https://youtu.be/PkZNo7MFNFg),
