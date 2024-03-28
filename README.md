@@ -311,6 +311,7 @@ Some useful tools & libraries:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
+  - 📖 [Node.js - Previous Releases](https://nodejs.org/en/about/previous-releases),
   - [Express](https://expressjs.com/),
   - [NPM](https://www.npmjs.com/),
   - [YARN](https://v3.yarnpkg.com/),
