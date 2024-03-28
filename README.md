@@ -371,4 +371,5 @@ Some useful tools & libraries:
   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors),
   - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension),
   - [Ngrok](https://ngrok.com/) [📖](https://camerondwyer.com/2019/09/23/using-ngrok-to-get-a-public-https-address-for-a-local-server-already-serving-https-for-free/),
-  - [XSS-Scanner.com](https://www.xss-scanner.com/).
+  - [XSS-Scanner.com](https://www.xss-scanner.com/),
+  - [CodeSandbox](https://codesandbox.io/).
