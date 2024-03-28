@@ -351,6 +351,9 @@ Some useful tools & libraries:
   - [Recharts](https://recharts.org/en-US/),
   - [React Native](https://reactnative.dev/),
   - [Expo](https://github.com/expo/expo),
+- Next.js:
+  - [Next.js](https://github.com/vercel/next.js/tree/canary),
+  - [Next.js - Examples](https://github.com/vercel/next.js/tree/canary/examples),
 - HTMX:
   - [</> htmx](https://htmx.org/) [:file_folder:](https://github.com/bigskysoftware/htmx),
   - [mustache.js](https://github.com/janl/mustache.js),
