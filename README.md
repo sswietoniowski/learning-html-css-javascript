@@ -38,6 +38,7 @@ Based on these (free) courses:
   - 🎥 [Node.js Ultimate Beginner’s Guide in 7 Easy Steps](https://youtu.be/ENrzD9HAZK4),
   - 📖 [Building a REST API with Node and Express](https://stackabuse.com/building-a-rest-api-with-node-and-express/),
   - 🎥 [Node.js Full Course for Beginners](https://youtu.be/f2EqECiTBL8),
+  - 📖 [5 Ways to install Node.js](https://www.nodejsdesignpatterns.com/blog/5-ways-to-install-node-js/) :+1:,
   - 📖 [NVM for Windows – How to Download and Install Node Version Manager in Windows 10](https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/),
 - React:
   - [React](https://react.dev/),
@@ -314,6 +315,8 @@ Some useful tools & libraries:
   - [NPM](https://www.npmjs.com/),
   - [YARN](https://v3.yarnpkg.com/),
   - [PNPM](https://pnpm.io/),
+  - [nvm](https://github.com/nvm-sh/nvm),
+  - [n](https://github.com/tj/n),
 - React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
