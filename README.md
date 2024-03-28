@@ -88,6 +88,8 @@ Based on these (free) courses:
   - [GraphQL Crash Course With Full Stack MERN Project](https://youtu.be/BcLNfwF04Kw),
   - _[How to Migrate a React App to TypeScript](https://www.sitepoint.com/how-to-migrate-a-react-app-to-typescript/)_,
   - [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=qYEApzJRGOT6no2r) [📁](https://github.com/bradtraversy/react-19-playground),
+- Next.js:
+  - 📖 [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
 - HTMX:
   - 📖 [Hypermedia Systems](https://hypermedia.systems/book/contents/),
   - 📖 [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/),
@@ -172,13 +174,11 @@ Also used these (paid) courses & books:
   - ✅ 🎥 [Building React Apps with TypeScript](https://app.pluralsight.com/library/courses/react-apps-typescript-building/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/react-apps-typescript-building/exercise-files) [:file_folder:](https://github.com/mwarger/globomantics-react-ts),
   - [Effective TypeScript](https://learning.oreilly.com/library/view/effective-typescript/9781492053736/),
 - Node.js:
-  - [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb) ▶️,
-  - [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
+  - 🎥 [Node.js API Masterclass with Express and MongoDB](https://learning.oreilly.com/videos/node-js-api-masterclass/9781800569638/) [:file_folder:](https://github.com/packtpublishing/node.js-api-masterclass-with-express-and-mongodb) ▶️,
+  - 🎥 [Modern Frontend Development with Node.js](https://learning.oreilly.com/library/view/modern-frontend-development/9781804618295/) [:file_folder:](https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js),
   - 📖 [Node.js Design Patterns - Third Edition](https://learning.oreilly.com/library/view/node-js-design-patterns/9781839214110/) [:file_folder:](https://github.com/PacktPublishing/Node.js-Design-Patterns-Third-Edition/),
-  - [Pluralsight - Working with Node.js Path](https://app.pluralsight.com/paths/skills/working-with-nodejs):
+  - 🎥 [Pluralsight - Working with Node.js Path](https://app.pluralsight.com/paths/skills/working-with-nodejs):
     - ✅ 🎥 [Node.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nodejs-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-big-picture/exercise-files),
-    - 🎥 [Node.js 12: Getting Started](https://app.pluralsight.com/library/courses/nodejs-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-getting-started/exercise-files),
-    - 🎥 [Node.js 12: Getting Started](https://app.pluralsight.com/library/courses/nodejs-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-getting-started/exercise-files),
     - 🎥 [Node.js 12: Getting Started](https://app.pluralsight.com/library/courses/nodejs-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nodejs-getting-started/exercise-files),
     - 🎥 [Getting Started with NPM 4](https://app.pluralsight.com/library/courses/npm-getting-started/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/npm-getting-started/exercise-files),
     - 🎥 [Automating Node.js 6 with NPM Scripts](https://app.pluralsight.com/library/courses/automating-nodejs-npm-scripts/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/automating-nodejs-npm-scripts/exercise-files),
@@ -241,10 +241,9 @@ Also used these (paid) courses & books:
 - Next.js:
   - ✅ 🎥 [Next.js 12: The Big Picture](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-12-big-picture/exercise-files) :+1:,
   - ✅ 🎥 [Next.js 13 Fundamentals](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/nextjs-13-fundamentals/exercise-files) :+1:,
-  - [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
-  - [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
-  - [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
-  - [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
+  - 🎥 [Next.js from Development to Deployment: Build a Music Event Website](https://learning.oreilly.com/videos/next-js-from-development/9781801814706/) [:file_folder:](https://github.com/PacktPublishing/Next.js-from-Development-to-Deployment-Build-a-Music-Event-Website) ▶️,
+  - 📖 [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
+  - 📖 [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
 - Vue:
   - [Pluralsight - Vue Path](https://app.pluralsight.com/paths/skill/vue-3):
     - [Vue 3: The Big Picture](https://app.pluralsight.com/library/courses/vue-3-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-big-picture/exercise-files),
