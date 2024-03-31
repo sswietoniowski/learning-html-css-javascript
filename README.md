@@ -309,6 +309,7 @@ Some useful tools & libraries:
   - [ESLint](https://eslint.org/),
 - TypeScript:
   - [typescriptlang.org](https://www.typescriptlang.org/) [:file_folder:](https://github.com/microsoft/typescript),
+  - [jsr.io](https://jsr.io/),
 - Node.js:
   - [Node.js](https://nodejs.org/en/),
   - 📖 [Node.js - Previous Releases](https://nodejs.org/en/about/previous-releases),
