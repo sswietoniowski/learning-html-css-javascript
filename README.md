@@ -302,6 +302,10 @@ Some useful tools & libraries:
 
 - General:
   - [Prettier](https://prettier.io/),
+- CSS:
+  - [Bootstrap](https://getbootstrap.com/),
+  - [Tailwind CSS](https://tailwindcss.com/),
+  - [daisyUI](https://daisyui.com/),
 - JavaScript:
   - [MDN Web Docs for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
   - [Ecma T39](https://github.com/tc39) [:file_folder:](https://tc39.es/ecma262/),
@@ -352,6 +356,8 @@ Some useful tools & libraries:
   - [Recharts](https://recharts.org/en-US/),
   - [React Native](https://reactnative.dev/),
   - [Expo](https://github.com/expo/expo),
+  - [Chakra UI](https://chakra-ui.com/),
+  - [Clerk](https://clerk.com/),
 - Next.js:
   - [Next.js](https://github.com/vercel/next.js/tree/canary),
   - [Next.js - Examples](https://github.com/vercel/next.js/tree/canary/examples),
