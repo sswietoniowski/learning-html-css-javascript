@@ -323,6 +323,8 @@ Some useful tools & libraries:
   - [PNPM](https://pnpm.io/),
   - [nvm](https://github.com/nvm-sh/nvm),
   - [n](https://github.com/tj/n),
+  - [Bun](https://bun.sh/) [:file_folder:](https://github.com/oven-sh/bun),
+  - [hono](https://github.com/honojs/hono),
 - React:
   - [React](https://pl.reactjs.org/),
   - [create-react-app](https://create-react-app.dev/),
