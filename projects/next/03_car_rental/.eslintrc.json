@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "plugin:storybook/recommended",
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:storybook/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "globals": {
+    "React": "readonly"
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
+    }
+  ],
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-console": "warn"
+  }
+}
