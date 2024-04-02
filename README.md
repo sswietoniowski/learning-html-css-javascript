@@ -90,6 +90,7 @@ Based on these (free) courses:
   - [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=qYEApzJRGOT6no2r) [📁](https://github.com/bradtraversy/react-19-playground),
 - Next.js:
   - 📖 [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
+  - 🎥 [Car Rental app with Nextjs](https://youtu.be/TacQVnbA83U?si=OXIy1h9zTndgg7Rt) [:file_folder:](https://github.com/CodeScrapper1/car-rental-app),
 - HTMX:
   - 📖 [Hypermedia Systems](https://hypermedia.systems/book/contents/),
   - 📖 [Hypermedia-Driven Applications](https://htmx.org/essays/hypermedia-driven-applications/),
