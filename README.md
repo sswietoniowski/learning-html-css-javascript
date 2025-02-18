@@ -20,6 +20,9 @@ Based on these (free) courses:
   - 🎥 [Learn HTML – Full Tutorial for Beginners (2022)](https://youtu.be/kUMe1FH4CHE),
 - CSS:
   - 🎥 [CSS Tutorial – Full Course for Beginners](https://youtu.be/OXGznpKZ_sA),
+  - CSS Games / Tutorials:
+    - 📖 [Flexbox Froggy](https://flexboxfroggy.com/),
+    - 📖 [Grid Garden](https://cssgridgarden.com/),
   - TailwindCSS:
     - 🎥 [Learn TailwindCSS – Course for Beginners](https://youtu.be/ft30zcMlFao),
     - 🎥 [Coding Shorts: DaisyUI](https://youtu.be/TW9MQLjL1uw?si=3Qy2qMwHmWjUEUyL),
