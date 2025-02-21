@@ -389,4 +389,6 @@ Some useful tools & libraries:
   - [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension),
   - [Ngrok](https://ngrok.com/) [📖](https://camerondwyer.com/2019/09/23/using-ngrok-to-get-a-public-https-address-for-a-local-server-already-serving-https-for-free/),
   - [XSS-Scanner.com](https://www.xss-scanner.com/),
-  - [CodeSandbox](https://codesandbox.io/).
+  - [CodeSandbox](https://codesandbox.io/),
+  - [query-string](https://github.com/sindresorhus/query-string) - parse and stringify URL query strings.
+
