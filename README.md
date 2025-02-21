@@ -345,6 +345,7 @@ Some useful tools & libraries:
   - ~~[Flux](https://facebook.github.io/flux/)~~,
   - [Redux](https://redux.js.org/),
   - [MobX](https://mobx.js.org/README.html),
+  - [zustand](https://github.com/pmndrs/zustand) - Bear necessities for state management in React,
   - [jsComplete Playground](https://jscomplete.com/playground),
   - [HTML to JSX](https://magic.reactjs.net/htmltojsx),
   - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi),
