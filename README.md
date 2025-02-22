@@ -365,6 +365,8 @@ Some useful tools & libraries:
   - [Expo](https://github.com/expo/expo),
   - [Chakra UI](https://chakra-ui.com/),
   - [Clerk](https://clerk.com/),
+  - [Auth.js](https://github.com/nextauthjs) - authentication for the Web,
+  - [next-auth](https://github.com/nextauthjs/next-auth) - authentication for the Web,
 - Next.js:
   - [Next.js](https://github.com/vercel/next.js/tree/canary),
   - [Next.js - Examples](https://github.com/vercel/next.js/tree/canary/examples),
