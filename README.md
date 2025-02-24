@@ -392,5 +392,7 @@ Some useful tools & libraries:
   - [Ngrok](https://ngrok.com/) [📖](https://camerondwyer.com/2019/09/23/using-ngrok-to-get-a-public-https-address-for-a-local-server-already-serving-https-for-free/),
   - [XSS-Scanner.com](https://www.xss-scanner.com/),
   - [CodeSandbox](https://codesandbox.io/),
-  - [query-string](https://github.com/sindresorhus/query-string) - parse and stringify URL query strings.
+  - [query-string](https://github.com/sindresorhus/query-string) - parse and stringify URL query strings,
+  - [react-hook-form](https://react-hook-form.com/) - performant, flexible and extensible forms with easy-to-use validation,
+  - [react-datepicker](https://reactdatepicker.com/) - a simple and reusable datepicker component for React.
 
