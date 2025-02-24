@@ -395,4 +395,5 @@ Some useful tools & libraries:
   - [query-string](https://github.com/sindresorhus/query-string) - parse and stringify URL query strings,
   - [react-hook-form](https://react-hook-form.com/) - performant, flexible and extensible forms with easy-to-use validation,
   - [react-datepicker](https://reactdatepicker.com/) - a simple and reusable datepicker component for React,
-  - [react-hot-toast](https://react-hot-toast.com/) - smoking hot React notifications.
+  - [react-hot-toast](https://react-hot-toast.com/) - smoking hot React notifications,
+  - [Cloudinary](https://cloudinary.com/).
