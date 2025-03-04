@@ -129,7 +129,7 @@ Also used these (paid) courses & books:
     - 🎥 [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
     - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
     - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
-    - 🎥 [Tailwind CSS v4 - Beginner to Pro](https://www.udemy.com/course/tailwind-css-zero-to-hero),
+    - 🎥 [Tailwind CSS v4 - Beginner to Pro](https://www.udemy.com/course/tailwind-css-zero-to-hero) [:file_folder:](https://github.com/tomphill/twcss-course/tree/v4),
 - JavaScript:
   - ✅ 📖 [Hyperskill: JavaScript Core](https://hyperskill.org/tracks/65) 👍,
   - Pluralsight - JavaScript 2022 Path:
