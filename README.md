@@ -129,6 +129,7 @@ Also used these (paid) courses & books:
     - 🎥 [TailwindCSS 3 Fundamentals](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/tailwind-css-3-fundamentals/exercise-files),
     - 🎥 [Tailwind CSS From Scratch - Learn by Building Projects](https://learning.oreilly.com/videos/tailwind-css-from/9781804611630/) [:file_folder:](https://tailwindfromscratch.com/) [:file_folder:](https://github.com/PacktPublishing/Tailwind-CSS-From-Scratch---Learn-by-Building-Projects) [:file_folder:](https://github.com/bradtraversy/tailwind-course-projects) [:file_folder:](https://tailwindfromscratch.com/) :arrow_forward:,
     - 📖 [Tailwind CSS](https://learning.oreilly.com/library/view/tailwind-css/9781098140984/) [:file_folder:](https://github.com/spbooks/tailwind),
+    - 🎥 [Tailwind CSS v4 - Beginner to Pro](https://www.udemy.com/course/tailwind-css-zero-to-hero),
 - JavaScript:
   - ✅ 📖 [Hyperskill: JavaScript Core](https://hyperskill.org/tracks/65) 👍,
   - Pluralsight - JavaScript 2022 Path:
@@ -248,6 +249,8 @@ Also used these (paid) courses & books:
   - [Practical Next.js for E-Commerce: Create E-Commerce Sites with the Next.js Framework](https://learning.oreilly.com/library/view/practical-next-js-for/9781484296127/) [:file_folder:](https://github.com/Apress/Practical-Next.js-for-E-Commerce),
   - [Real-World Next.js](https://learning.oreilly.com/library/view/real-world-next-js/9781801073493/) [:file_folder:](https://github.com/PacktPublishing/Real-World-Next.js),
   - [Node.js Website](https://github.com/nodejs/nodejs.org) - built using Next.js with TypeScript, SCSS and MDXv2,
+  - 🎥 [Build a Microservices app with .Net and NextJS from scratch](https://www.udemy.com/course/build-a-microservices-app-with-dotnet-and-nextjs-from-scratch/) [📁](https://github.com/trycatchlearn/carsties) [:file_folder:](https://github.com/TryCatchLearn/carsties-2024),
+  - 🎥 [Next.js Ecommerce 2025 - Shopping Platform From Scratch](https://www.udemy.com/course/nextjs-ecommerce-course/) [:file_folder:](https://github.com/bradtraversy/prostore),
 - Vue:
   - [Pluralsight - Vue Path](https://app.pluralsight.com/paths/skill/vue-3):
     - [Vue 3: The Big Picture](https://app.pluralsight.com/library/courses/vue-3-big-picture/table-of-contents) [:file_folder:](https://app.pluralsight.com/library/courses/vue-3-big-picture/exercise-files),
