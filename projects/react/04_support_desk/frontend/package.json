@@ -26,9 +26,9 @@
     "@types/react-modal": "^3.13.1",
     "@types/react-redux": "^7.1.25",
     "@types/react-router-dom": "^5.3.3",
-    "@vitejs/plugin-react": "^3.1.0",
+    "@vitejs/plugin-react": "^5.0.2",
     "typescript": "^4.9.3",
-    "vite": "^4.5.14"
+    "vite": "^7.1.5"
   },
   "author": "Sławomir Świętoniowski",
   "license": "MIT"
